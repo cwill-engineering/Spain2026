@@ -27,6 +27,40 @@
 
 ---
 
+## 📍 Travel Phases Overview
+
+This trip is organized by travel phases in chronological order:
+
+### Phase 1: Arrival & Getting to Valencia (May 27)
+- **Main Group (Williams Family):** Arrive Madrid 11:30 AM → High-speed train to Valencia
+- **Thomas Family:** Arrive Barcelona 8:45 AM → High-speed train to Valencia
+- **All meet in Valencia** at VRBO by 4:00 PM check-in
+
+### Phase 2: Valencia (May 27-29)
+- **Accommodation:** Grandmother's house next to the beach (all 9 people together!)
+- **Activities:** Food experiences, beach, markets, paella cooking, coastal walks
+- **Train to Barcelona:** May 29 morning/afternoon (high-speed AVE or Euromed)
+
+### Phase 3: Barcelona (May 29 - June 1)
+- **Accommodation:** Two places (main group + Thomas family + Grandma)
+- **Wedding Events:** May 29, 30, 31 (main wedding May 31)
+- **Activities:** Gothic Quarter, Gaudí sites, Montserrat day trip, food scene
+- **Train to Madrid:** June 1 midday/afternoon (high-speed AVE)
+
+### Phase 4: Madrid Area (June 1-3)
+- **Accommodation:** Need to book (2 places, similar to Barcelona setup)
+- **Activities:** Madrid city, Toledo day trip, Segovia day trip, or Ávila
+- **Thomas Family:** Departs June 3
+- **Main Group:** Departs June 4
+
+### Phase 5: Departure (June 3-4)
+- **Thomas Family:** June 3 from Madrid
+- **Main Group:** June 4 from Madrid
+
+**📋 Detailed information for each phase is organized below in chronological order.**
+
+---
+
 ## Flight Itinerary
 
 ### Outbound Flights
@@ -91,11 +125,16 @@ Thomas family arrives Barcelona (BCN) at 8:45 AM on May 27 and will travel to Va
 - **Departure platform:** Look for "R2 Nord" direction "Maçanet-Massanes" or "Barcelona Sants"
 
 **Step 2: Barcelona Sants → Valencia Joaquín Sorolla**
-- **Train:** AVE (high-speed) or Euromed
+- **Train:** AVE (high-speed) or Euromed ⭐ **RECOMMENDED**
 - **Duration:** ~2 hours 40 minutes (AVE) or ~3 hours (Euromed)
 - **Frequency:** Multiple daily departures
+- **Train Quality:** 
+  - **AVE:** Premium high-speed, panoramic windows, WiFi, power outlets, very comfortable
+  - **Euromed:** Good quality, comfortable seats, decent windows, slightly older but still nice
+- **Scenic Views:** Coastal route - passes through beautiful Mediterranean coastline, beaches, and coastal towns (one of Spain's most scenic train routes!)
 - **Cost:** ~€30-60 per person (book in advance for best prices)
 - **Booking:** Renfe app or Renfe.com
+- **Seat Selection:** Choose window seats (especially right side for best coastal views)
 
 ### Recommended Schedule (May 27)
 
@@ -402,92 +441,115 @@ Based on your Italy trip experience:
 
 ### High-Speed Train Routes & Schedule
 
-#### 1. Madrid → Valencia (May 27, 2026)
+#### 1. Madrid → Valencia (May 27, 2026) - Main Group (Williams Family)
 
 **Route Details:**
 - **Operator:** Renfe
-- **Train Type:** AVE (high-speed)
+- **Train Type:** AVE (high-speed) ⭐ **RECOMMENDED** - Modern, clean, large windows, comfortable seats
 - **Duration:** ~1 hour 40 minutes
 - **Stations:** 
-  - **Departure:** Madrid Atocha (main station)
+  - **Departure:** Madrid Atocha (main station) - allow 1 hour from airport to station
   - **Arrival:** Valencia Joaquín Sorolla
 - **Frequency:** Multiple daily departures (every 1-2 hours)
-- **Best Times:** Afternoon departures (arrive Madrid 11:30 AM, need time to get to station)
+- **Train Quality:** AVE trains are Spain's premium high-speed service - spacious, clean, large panoramic windows, WiFi, power outlets, comfortable reclining seats
+- **Scenic Views:** Passes through La Mancha region (windmills, vineyards, countryside views)
 
 **Recommended Departure Times:**
-- **Option 1:** ~2:00-3:00 PM (gives time after 11:30 AM arrival, check-in at 4:00 PM)
+- **Option 1:** ~2:00-3:00 PM (gives time after 11:30 AM arrival, check-in at 4:00 PM) ⭐ **BEST**
 - **Option 2:** ~4:00-5:00 PM (if want to explore Madrid briefly first)
 
 **Booking:**
-- **App:** Renfe app
-- **Fare Type:** Promo (cheapest) or Promo+ (some flexibility)
-- **Advance Booking:** Book 60-90 days in advance for best prices
+- **App:** Renfe app (download before trip)
+- **Fare Types:** 
+  - **Promo:** Cheapest, no changes (€25-35 per person) - Book early!
+  - **Promo+:** Slightly more, allows changes (€35-45 per person)
+  - **Flexible:** Most expensive, full flexibility
+- **Advance Booking:** Book 60-90 days in advance for best prices (Promo fares sell out fast)
 - **Cost Estimate:** €25-50 per person = €150-300 total (for 6 people)
+- **Seat Selection:** Choose window seats for best views (available in app)
 
 **Action Items:**
-- [ ] Book Madrid → Valencia train for May 27
+- [ ] Book Madrid → Valencia train for May 27 (Williams family - 6 people)
 - [ ] Coordinate with flight arrival (11:30 AM) and check-in time (4:00 PM)
-- [ ] Book in advance for best prices
+- [ ] Book in advance (60-90 days) for best Promo prices
+- [ ] Select window seats for scenic views
 
 ---
 
-#### 2. Valencia → Barcelona (May 29, 2026)
+#### 2. Valencia → Barcelona (May 29, 2026) - All 9 People Together
 
 **Route Details:**
 - **Operator:** Renfe
 - **Train Types Available:**
-  - **AVE (high-speed):** ~2 hours 40 minutes ⭐ **RECOMMENDED**
-  - **Euromed:** ~3 hours, slightly slower but often cheaper
+  - **AVE (high-speed):** ~2 hours 40 minutes ⭐ **RECOMMENDED** - Modern, clean, large windows, scenic coastal views
+  - **Euromed:** ~3 hours, slightly slower but often cheaper (€10-20 less), still comfortable with good windows
 - **Stations:**
   - **Departure:** Valencia Joaquín Sorolla
   - **Arrival:** Barcelona Sants (main station)
 - **Frequency:** Multiple daily departures (every 1-2 hours)
-- **Best Times:** Morning or early afternoon (check-in at 2:00 PM)
+- **Train Quality:** 
+  - **AVE:** Premium high-speed, panoramic windows, WiFi, power outlets, very comfortable
+  - **Euromed:** Good quality, comfortable seats, decent windows, slightly older but still nice
+- **Scenic Views:** Coastal route - passes through beautiful Mediterranean coastline, beaches, and coastal towns (one of Spain's most scenic train routes!)
 
 **Recommended Departure Times:**
-- **Option 1:** ~10:00-11:00 AM (arrive Barcelona ~12:40-1:40 PM, check-in at 2:00 PM)
+- **Option 1:** ~10:00-11:00 AM (arrive Barcelona ~12:40-1:40 PM, check-in at 2:00 PM) ⭐ **BEST**
 - **Option 2:** ~12:00-1:00 PM (arrive Barcelona ~2:40-3:40 PM, after check-in)
 
 **Booking:**
 - **App:** Renfe app
-- **Fare Type:** Compare AVE vs. Euromed prices
+- **Fare Types:** 
+  - **Promo:** Cheapest (€30-40 per person AVE, €20-30 Euromed) - Book early!
+  - **Promo+:** Allows changes (€40-50 AVE, €30-40 Euromed)
 - **Advance Booking:** Book 60-90 days in advance for best prices
-- **Cost Estimate:** €30-50 per person (AVE) = €180-300 total (for 6 people)
+- **Cost Estimate:** 
+  - **AVE:** €30-50 per person = €270-450 total (for 9 people)
+  - **Euromed:** €20-35 per person = €180-315 total (for 9 people) - **More cost-conscious option**
+- **Seat Selection:** Choose window seats (especially right side for best coastal views)
+
+**Recommendation:** If budget allows, choose AVE for speed and comfort. If cost-conscious, Euromed is still a great option with good windows and scenic views - saves €90-135 total.
 
 **Action Items:**
-- [ ] Book Valencia → Barcelona train for May 29
-- [ ] Compare AVE vs. Euromed prices
+- [ ] Book Valencia → Barcelona train for May 29 (all 9 people)
+- [ ] Compare AVE vs. Euromed prices (Euromed can save significant money)
 - [ ] Coordinate with check-in time (2:00 PM)
-- [ ] Book in advance for best prices
+- [ ] Book in advance (60-90 days) for best Promo prices
+- [ ] Select window seats (right side for coastal views)
 
 ---
 
-#### 3. Barcelona → Madrid (June 1, 2026)
+#### 3. Barcelona → Madrid (June 1, 2026) - All 9 People Together
 
 **Route Details:**
 - **Operator:** Renfe
-- **Train Type:** AVE (high-speed)
+- **Train Type:** AVE (high-speed) ⭐ **RECOMMENDED** - Modern, clean, large windows, comfortable
 - **Duration:** ~2 hours 30 minutes
 - **Stations:**
   - **Departure:** Barcelona Sants
   - **Arrival:** Madrid Atocha
 - **Frequency:** Multiple daily departures (every 1-2 hours)
-- **Best Times:** Midday or afternoon (check-out at 11:00 AM, depart midday/afternoon)
+- **Train Quality:** AVE trains are Spain's premium high-speed service - spacious, clean, large panoramic windows, WiFi, power outlets, comfortable reclining seats
+- **Scenic Views:** Passes through Catalonia and central Spain - countryside, mountains, and rural landscapes
 
 **Recommended Departure Times:**
-- **Option 1:** ~12:00-1:00 PM (depart after check-out, arrive Madrid ~2:30-3:30 PM)
+- **Option 1:** ~12:00-1:00 PM (depart after check-out, arrive Madrid ~2:30-3:30 PM) ⭐ **BEST**
 - **Option 2:** ~2:00-3:00 PM (more time in Barcelona morning, arrive Madrid ~4:30-5:30 PM)
 
 **Booking:**
 - **App:** Renfe app
-- **Fare Type:** Promo (cheapest) or Promo+ (some flexibility)
-- **Advance Booking:** Book 60-90 days in advance for best prices
-- **Cost Estimate:** €50-100 per person = €300-600 total (for 6 people)
+- **Fare Types:** 
+  - **Promo:** Cheapest, no changes (€50-70 per person) - Book early!
+  - **Promo+:** Slightly more, allows changes (€70-90 per person)
+  - **Flexible:** Most expensive, full flexibility
+- **Advance Booking:** Book 60-90 days in advance for best prices (Promo fares sell out fast)
+- **Cost Estimate:** €50-100 per person = €450-900 total (for 9 people)
+- **Seat Selection:** Choose window seats for best views (available in app)
 
 **Action Items:**
-- [ ] Book Barcelona → Madrid train for June 1
+- [ ] Book Barcelona → Madrid train for June 1 (all 9 people)
 - [ ] Coordinate with check-out time (11:00 AM) and departure preference (midday/afternoon)
-- [ ] Book in advance for best prices
+- [ ] Book in advance (60-90 days) for best Promo prices
+- [ ] Select window seats for scenic views
 
 ---
 
