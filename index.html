@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spain 2026 Trip</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <style>
+        :root {
+            --spanish-red: #c60b1e;
+            --spanish-yellow: #ffc400;
+            --warm-cream: #faf6f1;
+            --terracotta: #c4704f;
+            --deep-blue: #1a365d;
+            --olive: #5c6b4a;
+            --sand: #e8dfd0;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Source Sans Pro', sans-serif;
+            background: var(--warm-cream);
+            min-height: 100vh;
+        }
+
+        /* Password Screen */
+        #password-screen {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, var(--deep-blue) 0%, #2d4a6f 50%, var(--terracotta) 100%);
+            position: relative;
+            overflow: hidden;
+        }
+
+        #password-screen::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.05'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+            opacity: 0.5;
+        }
+
+        .password-container {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 3rem;
+            border-radius: 20px;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.4);
+            text-align: center;
+            max-width: 420px;
+            width: 90%;
+            position: relative;
+            z-index: 1;
+        }
+
+        .password-container h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.5rem;
+            color: var(--deep-blue);
+            margin-bottom: 0.5rem;
+        }
+
+        .password-container .subtitle {
+            color: var(--terracotta);
+            font-size: 1.1rem;
+            margin-bottom: 2rem;
+            font-weight: 300;
+        }
+
+        .password-container .spain-flag {
+            display: flex;
+            justify-content: center;
+            gap: 0;
+            margin-bottom: 2rem;
+        }
+
+        .flag-stripe {
+            width: 80px;
+            height: 8px;
+        }
+
+        .flag-stripe.red { background: var(--spanish-red); border-radius: 4px 0 0 4px; }
+        .flag-stripe.yellow { background: var(--spanish-yellow); width: 160px; }
+        .flag-stripe.red-bottom { background: var(--spanish-red); border-radius: 0 4px 4px 0; }
+
+        .password-input-group {
+            position: relative;
+            margin-bottom: 1.5rem;
+        }
+
+        #password-input {
+            width: 100%;
+            padding: 1rem 1.5rem;
+            font-size: 1.1rem;
+            border: 2px solid var(--sand);
+            border-radius: 12px;
+            outline: none;
+            transition: all 0.3s ease;
+            font-family: 'Source Sans Pro', sans-serif;
+        }
+
+        #password-input:focus {
+            border-color: var(--terracotta);
+            box-shadow: 0 0 0 4px rgba(196, 112, 79, 0.1);
+        }
+
+        #submit-btn {
+            width: 100%;
+            padding: 1rem;
+            font-size: 1.1rem;
+            font-weight: 600;
+            background: linear-gradient(135deg, var(--terracotta), var(--spanish-red));
+            color: white;
+            border: none;
+            border-radius: 12px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-family: 'Source Sans Pro', sans-serif;
+        }
+
+        #submit-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(198, 11, 30, 0.3);
+        }
+
+        #error-msg {
+            color: var(--spanish-red);
+            margin-top: 1rem;
+            font-weight: 600;
+            display: none;
+        }
+
+        /* Content Screen */
+        #content-screen {
+            display: none;
+        }
+
+        .header {
+            background: linear-gradient(135deg, var(--deep-blue) 0%, #2d4a6f 100%);
+            color: white;
+            padding: 2rem;
+            text-align: center;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .header h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .header .dates {
+            font-weight: 300;
+            opacity: 0.9;
+            font-size: 1.1rem;
+        }
+
+        .header .spain-flag {
+            display: flex;
+            justify-content: center;
+            margin-top: 1rem;
+        }
+
+        .main-content {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        /* Markdown Styles */
+        .markdown-content {
+            background: white;
+            padding: 3rem;
+            border-radius: 16px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+            line-height: 1.7;
+        }
+
+        .markdown-content h1 {
+            font-family: 'Playfair Display', serif;
+            color: var(--deep-blue);
+            font-size: 2.2rem;
+            margin: 2rem 0 1rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 3px solid var(--spanish-yellow);
+        }
+
+        .markdown-content h2 {
+            font-family: 'Playfair Display', serif;
+            color: var(--terracotta);
+            font-size: 1.8rem;
+            margin: 2rem 0 1rem;
+        }
+
+        .markdown-content h3 {
+            color: var(--deep-blue);
+            font-size: 1.4rem;
+            margin: 1.5rem 0 0.75rem;
+        }
+
+        .markdown-content h4 {
+            color: var(--olive);
+            font-size: 1.2rem;
+            margin: 1.25rem 0 0.5rem;
+        }
+
+        .markdown-content p {
+            margin: 1rem 0;
+            color: #444;
+        }
+
+        .markdown-content ul, .markdown-content ol {
+            margin: 1rem 0;
+            padding-left: 1.5rem;
+        }
+
+        .markdown-content li {
+            margin: 0.5rem 0;
+            color: #444;
+        }
+
+        .markdown-content table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1.5rem 0;
+            font-size: 0.95rem;
+        }
+
+        .markdown-content th {
+            background: var(--deep-blue);
+            color: white;
+            padding: 0.75rem 1rem;
+            text-align: left;
+            font-weight: 600;
+        }
+
+        .markdown-content td {
+            padding: 0.75rem 1rem;
+            border-bottom: 1px solid var(--sand);
+        }
+
+        .markdown-content tr:nth-child(even) {
+            background: var(--warm-cream);
+        }
+
+        .markdown-content tr:hover {
+            background: var(--sand);
+        }
+
+        .markdown-content strong {
+            color: var(--deep-blue);
+        }
+
+        .markdown-content a {
+            color: var(--terracotta);
+            text-decoration: none;
+            border-bottom: 1px solid transparent;
+            transition: border-color 0.2s;
+        }
+
+        .markdown-content a:hover {
+            border-bottom-color: var(--terracotta);
+        }
+
+        .markdown-content blockquote {
+            border-left: 4px solid var(--spanish-yellow);
+            padding-left: 1.5rem;
+            margin: 1.5rem 0;
+            font-style: italic;
+            color: #666;
+            background: var(--warm-cream);
+            padding: 1rem 1.5rem;
+            border-radius: 0 8px 8px 0;
+        }
+
+        .markdown-content code {
+            background: var(--sand);
+            padding: 0.2rem 0.5rem;
+            border-radius: 4px;
+            font-size: 0.9em;
+        }
+
+        .markdown-content hr {
+            border: none;
+            height: 2px;
+            background: linear-gradient(90deg, var(--spanish-red), var(--spanish-yellow), var(--spanish-red));
+            margin: 2rem 0;
+        }
+
+        .markdown-content img {
+            max-width: 100%;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            margin: 1rem 0;
+        }
+
+        /* Checkbox styling */
+        .markdown-content input[type="checkbox"] {
+            margin-right: 0.5rem;
+            accent-color: var(--terracotta);
+        }
+
+        /* Loading */
+        .loading {
+            text-align: center;
+            padding: 3rem;
+            color: var(--deep-blue);
+        }
+
+        .loading::after {
+            content: '';
+            display: inline-block;
+            width: 30px;
+            height: 30px;
+            border: 3px solid var(--sand);
+            border-top-color: var(--terracotta);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin-left: 1rem;
+            vertical-align: middle;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .password-container {
+                padding: 2rem;
+            }
+
+            .password-container h1 {
+                font-size: 2rem;
+            }
+
+            .markdown-content {
+                padding: 1.5rem;
+            }
+
+            .main-content {
+                padding: 1rem;
+            }
+
+            .header h1 {
+                font-size: 1.8rem;
+            }
+        }
+
+        /* Print styles */
+        @media print {
+            .header {
+                position: relative;
+            }
+            
+            .markdown-content {
+                box-shadow: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Password Screen -->
+    <div id="password-screen">
+        <div class="password-container">
+            <h1>🇪🇸 Spain 2026</h1>
+            <p class="subtitle">Family Trip Planning</p>
+            <div class="spain-flag">
+                <div class="flag-stripe red"></div>
+                <div class="flag-stripe yellow"></div>
+                <div class="flag-stripe red-bottom"></div>
+            </div>
+            <div class="password-input-group">
+                <input type="password" id="password-input" placeholder="Enter password" autocomplete="off">
+            </div>
+            <button id="submit-btn">View Trip Details →</button>
+            <p id="error-msg">Incorrect password. Please try again.</p>
+        </div>
+    </div>
+
+    <!-- Content Screen -->
+    <div id="content-screen">
+        <div class="header">
+            <h1>🇪🇸 Spain 2026</h1>
+            <p class="dates">May 27 - June 4, 2026</p>
+            <div class="spain-flag">
+                <div class="flag-stripe red"></div>
+                <div class="flag-stripe yellow"></div>
+                <div class="flag-stripe red-bottom"></div>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="markdown-content" id="markdown-content">
+                <div class="loading">Loading trip details</div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Simple hash function for password (not cryptographically secure, but fine for family trip)
+        const correctHash = '1147845849'; // Hash of "Spain_2026_JN"
+        
+        function simpleHash(str) {
+            let hash = 0;
+            for (let i = 0; i < str.length; i++) {
+                const char = str.charCodeAt(i);
+                hash = ((hash << 5) - hash) + char;
+                hash = hash & hash;
+            }
+            return Math.abs(hash).toString();
+        }
+
+        const passwordInput = document.getElementById('password-input');
+        const submitBtn = document.getElementById('submit-btn');
+        const errorMsg = document.getElementById('error-msg');
+        const passwordScreen = document.getElementById('password-screen');
+        const contentScreen = document.getElementById('content-screen');
+
+        function checkPassword() {
+            const password = passwordInput.value;
+            if (simpleHash(password) === correctHash) {
+                passwordScreen.style.display = 'none';
+                contentScreen.style.display = 'block';
+                loadMarkdown();
+                // Store in session so refresh doesn't require password again
+                sessionStorage.setItem('authenticated', 'true');
+            } else {
+                errorMsg.style.display = 'block';
+                passwordInput.value = '';
+                passwordInput.focus();
+            }
+        }
+
+        submitBtn.addEventListener('click', checkPassword);
+        passwordInput.addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') checkPassword();
+        });
+
+        // Check if already authenticated in this session
+        if (sessionStorage.getItem('authenticated') === 'true') {
+            passwordScreen.style.display = 'none';
+            contentScreen.style.display = 'block';
+            loadMarkdown();
+        }
+
+        async function loadMarkdown() {
+            try {
+                const response = await fetch('Trip_Planning_Document.md');
+                if (!response.ok) throw new Error('Failed to load');
+                const markdown = await response.text();
+                
+                // Configure marked for GitHub-flavored markdown
+                marked.setOptions({
+                    gfm: true,
+                    breaks: true
+                });
+                
+                document.getElementById('markdown-content').innerHTML = marked.parse(markdown);
+            } catch (error) {
+                document.getElementById('markdown-content').innerHTML = `
+                    <h2>Unable to load trip document</h2>
+                    <p>Please make sure Trip_Planning_Document.md is in the same folder.</p>
+                    <p>Error: ${error.message}</p>
+                `;
+            }
+        }
+    </script>
+</body>
+</html>
