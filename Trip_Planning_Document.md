@@ -1059,8 +1059,8 @@ Based on your Italy trip experience:
 |--------|-------------|
 | **Property Name** | Ghost - Quiet 2 Bed. 2 Bath. Apartment |
 | **VRBO Link** | https://www.vrbo.com/4156885ha |
-| **Address** | Near Eixample/Ciutat Vella border, Barcelona (coordinates: 41.384988, 2.174263) |
-| **Google Maps** | [View on Google Maps](https://www.google.com/maps?q=41.384988,2.174263) |
+| **Address** | Near Ronda de la Universitat & C. de Gravina, Barcelona (between Carrer de Pelai and Ronda de la Universitat) |
+| **Google Maps** | [View on Google Maps](https://www.google.com/maps/search/Ronda+de+la+Universitat+C+de+Gravina+Barcelona+Spain) |
 | **Check-in** | May 29 |
 | **Check-out** | June 1 |
 | **Guests** | 4 people (3 adults + 1 baby) |
