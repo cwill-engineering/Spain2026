@@ -11,19 +11,19 @@
 
 ## Travelers
 
-| Name | Age | Relationship | Notes |
-|------|-----|--------------|-------|
-| Angela | 38 | Wife | |
-| Chandler | 37 | Husband | |
-| Carson | 16 | Son | |
-| Harrison | 16 | Son's Friend | |
-| Elise | 7 | Daughter | |
-| Valerie Williams | 68 | Grandma | Enjoys walking and exploring at a comfortable pace |
-| Annalise Thomas | | Sister | Adventurous, traveling with 1-year-old baby |
-| Brandon Thomas | | Brother-in-law | Adventurous, traveling with 1-year-old baby |
-| Harlan Thomas | 1 | Nephew | 1 year old |
+| Name | Age | Relationship |
+|------|-----|--------------|
+| Angela | | Wife |
+| Chandler | | Husband |
+| Carson | 16 | Son |
+| Harrison | 16 | Son's Friend |
+| Elise | 7 | Daughter |
+| Valerie Williams | | Grandma |
+| Annalise Thomas | | Sister |
+| Brandon Thomas | | Brother-in-law |
+| Harlan Thomas | 1 | Nephew |
 
-**Travel Style:** Active family that enjoys exploring together, with activities suitable for all comfort levels. Group doesn't need to do all activities together. Thomas family is adventurous despite traveling with a baby.
+**Travel Style:** Active family that enjoys exploring together. Group doesn't need to do all activities together.
 
 ---
 
@@ -1019,7 +1019,7 @@ Based on your Italy trip experience:
 **Notes:**
 - Thomas family arriving from Barcelona (~2-3 PM) - may arrive before main group
 - Main group arriving from Madrid (~4-5 PM)
-- Pool available for Grandma's water time!
+- Pool available for everyone to enjoy!
 
 **Nearby:** Beach (3-5 min walk), supermarkets, restaurants, train station (~15-20 min by taxi)
 
@@ -1110,7 +1110,7 @@ Best neighborhoods for your group:
 | **Chueca** | Central, vibrant, great restaurants, safe | Busy area | Food lovers, walkability |
 | **La Latina** | Authentic, tapas heaven, Sunday market (El Rastro) | Hilly in parts | Authentic Madrid experience |
 | **Lavapiés** | Diverse, affordable, interesting food scene | Grittier feel | Budget-conscious, adventurous |
-| **Salamanca** | Upscale, safe, beautiful architecture | More expensive | Grandma-friendly, elegant |
+| **Salamanca** | Upscale, safe, beautiful architecture | More expensive | Family-friendly, elegant |
 | **Near Retiro Park** | Green space, family-friendly, quieter | Less nightlife | Families, exercise |
 
 **Recommended for your group:**
@@ -1522,8 +1522,8 @@ These are easier to book and often available last-minute:
 - Magic Fountain show (spectacular)
 - Walking and exploring (lots to see)
 
-**For Grandma (Valerie):**
-- Gothic Quarter walking (comfortable pace, lots to see)
+**For Valerie:**
+- Gothic Quarter walking (lots to see)
 - La Rambla strolling (tree-lined, pleasant)
 - Market visits (Mercado Central, La Boqueria)
 - Beach walks (relaxing)
@@ -1816,7 +1816,7 @@ Barcelona is divided into 10 main districts (distritos), which are further divid
 - Research quieter areas near Barcelona for post-wedding relaxation
 - Consider day trips from Madrid or Barcelona
 - Look into farm stays or rural accommodations if available in Spain
-- Research hiking opportunities that are grandma-friendly
+- Research hiking opportunities that are family-friendly
 - **Barcelona:** Check VRBO proximity to wedding hotels; consider staying near wedding party for convenience
 
 ---
