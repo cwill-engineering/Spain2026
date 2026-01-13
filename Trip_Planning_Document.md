@@ -1002,6 +1002,7 @@ Based on your Italy trip experience:
 |--------|-------------|
 | **Property Name** | Grandmother's house next to the beach in Valencia |
 | **Booking Confirmation** | HA-7TLM9D |
+| **Address** | Near C/ d'Isabel de Villena & C/ de Pavia, Valencia (beachfront area) |
 | **Neighborhood** | Beachfront area, Valencia |
 | **Check-in** | **May 27 at 4:00 PM** |
 | **Check-out** | **May 29 at 11:00 AM** |
