@@ -1003,6 +1003,7 @@ Based on your Italy trip experience:
 | **Property Name** | Grandmother's house next to the beach in Valencia |
 | **Booking Confirmation** | HA-7TLM9D |
 | **Address** | Near C/ d'Isabel de Villena & C/ de Pavia, Valencia (beachfront area) |
+| **Google Maps** | [View on Google Maps](https://www.google.com/maps/search/C+d'Isabel+de+Villena+C+de+Pavia+Valencia+Spain) |
 | **Neighborhood** | Beachfront area, Valencia |
 | **Check-in** | **May 27 at 4:00 PM** |
 | **Check-out** | **May 29 at 11:00 AM** |
@@ -1033,7 +1034,8 @@ Based on your Italy trip experience:
 |--------|-------------|
 | **Property Name** | Luxury Apartment on Valencia Street |
 | **Booking Confirmation** | 726EF3C0B8 |
-| **Address** | Valencia Street (Carrer de València), between Passeig de Gràcia and Rambla de Catalunya |
+| **Address** | Carrer de València, between Passeig de Gràcia and Rambla de Catalunya, Barcelona |
+| **Google Maps** | [View on Google Maps](https://www.google.com/maps/search/Carrer+de+Valencia+between+Passeig+de+Gracia+and+Rambla+de+Catalunya+Barcelona+Spain) |
 | **Neighborhood** | Eixample (Dreta de l'Eixample) |
 | **Check-in** | **May 29 at 2:00 PM** |
 | **Check-out** | **June 1 at 11:00 AM** |
@@ -1057,6 +1059,8 @@ Based on your Italy trip experience:
 |--------|-------------|
 | **Property Name** | Ghost - Quiet 2 Bed. 2 Bath. Apartment |
 | **VRBO Link** | https://www.vrbo.com/4156885ha |
+| **Address** | Near Eixample/Ciutat Vella border, Barcelona (coordinates: 41.384988, 2.174263) |
+| **Google Maps** | [View on Google Maps](https://www.google.com/maps?q=41.384988,2.174263) |
 | **Check-in** | May 29 |
 | **Check-out** | June 1 |
 | **Guests** | 4 people (3 adults + 1 baby) |
