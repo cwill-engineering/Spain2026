@@ -410,18 +410,8 @@
     </div>
 
     <script>
-        // Simple hash function for password (not cryptographically secure, but fine for family trip)
-        const correctHash = '1147845849'; // Hash of "Spain_2026_JN"
-        
-        function simpleHash(str) {
-            let hash = 0;
-            for (let i = 0; i < str.length; i++) {
-                const char = str.charCodeAt(i);
-                hash = ((hash << 5) - hash) + char;
-                hash = hash & hash;
-            }
-            return Math.abs(hash).toString();
-        }
+        // Simple password check
+        const correctPassword = 'Spain_2026_JN';
 
         const passwordInput = document.getElementById('password-input');
         const submitBtn = document.getElementById('submit-btn');
@@ -431,7 +421,7 @@
 
         function checkPassword() {
             const password = passwordInput.value;
-            if (simpleHash(password) === correctHash) {
+            if (password === correctPassword) {
                 passwordScreen.style.display = 'none';
                 contentScreen.style.display = 'block';
                 loadMarkdown();
