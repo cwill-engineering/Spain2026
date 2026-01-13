@@ -109,6 +109,100 @@ This trip is organized by travel phases in chronological order:
 
 ---
 
+## Williams Family (Main Group): Madrid Airport → Valencia (May 27)
+
+### Route Overview
+Williams family (main group) arrives Madrid Barajas at 11:30 AM on May 27 and will travel to Valencia to meet the Thomas family at the VRBO.
+
+### Best Option: High-Speed Train (AVE)
+
+**Step 1: Madrid Airport (MAD) → Madrid Atocha Station**
+- **Options:**
+  - **Metro Line 8:** Direct connection, ~45-50 minutes, ~€5 per person
+  - **Cercanías C1:** ~25-30 minutes, ~€2.60 per person (fastest option!)
+  - **Taxi/Uber:** ~30-40 minutes, ~€30-40 (most convenient with luggage)
+- **Recommendation:** Cercanías C1 is fastest and cheapest - take free shuttle from terminal to T4, then C1 train to Atocha
+- **Allow:** 1-1.5 hours from landing to Atocha station (customs, luggage, transit)
+
+**Step 2: Madrid Atocha → Valencia Joaquín Sorolla**
+- **Train:** AVE (high-speed) ⭐ **RECOMMENDED**
+- **Duration:** ~1 hour 40 minutes
+- **Frequency:** Multiple daily departures (every 1-2 hours)
+- **Train Quality:** 
+  - **AVE:** Premium high-speed, panoramic windows, WiFi, power outlets, very comfortable, spacious seats
+  - Modern, clean, large windows perfect for scenic views
+- **Scenic Views:** Passes through La Mancha region - windmills, vineyards, rolling countryside (beautiful Spanish countryside!)
+- **Stations:** 
+  - **Departure:** Madrid Atocha (main station)
+  - **Arrival:** Valencia Joaquín Sorolla
+- **Cost:** €25-50 per person (book in advance for best Promo prices)
+- **Booking:** Renfe app or Renfe.com
+- **Seat Selection:** Choose window seats for best scenic views
+
+### Recommended Schedule (May 27)
+
+| Time | Activity |
+|------|----------|
+| 11:30 AM | Arrive Madrid Barajas Airport (MAD) |
+| 12:00-12:30 PM | Clear customs, collect luggage |
+| 12:30-1:30 PM | Travel to Madrid Atocha station (Cercanías C1 or Metro) |
+| ~1:30 PM | Arrive Madrid Atocha |
+| 2:00-3:00 PM | Board AVE train to Valencia (book in advance!) ⭐ **BEST TIME** |
+| ~3:40-4:40 PM | Arrive Valencia Joaquín Sorolla |
+| ~4:00-5:00 PM | Arrive at VRBO (taxi/rideshare from station, check-in at 4:00 PM) |
+
+**Note:** Thomas family arrives Valencia earlier (~2:30-3:30 PM) and may get to VRBO first!
+
+### Total Travel Time & Cost
+
+**Travel Time:**
+- Airport → Atocha: ~1-1.5 hours (including customs, luggage, transit)
+- Atocha → Valencia: ~1h 40min (AVE)
+- Valencia station → VRBO: ~15-20 min (taxi)
+- **Total:** ~3-3.5 hours
+
+**Cost (per person):**
+- Airport → Atocha (Cercanías): ~€2.60
+- AVE (Atocha to Valencia): ~€25-50 (book early for best Promo prices)
+- Taxi (station to VRBO): ~€10-15 (split among group)
+- **Total per person:** ~€38-68
+
+**For family of 6:** ~€225-405 total (depending on train prices and booking timing)
+
+### Booking Instructions
+
+**Book in advance (via Renfe app):**
+1. Download Renfe app (before trip)
+2. Search: Madrid Atocha → Valencia Joaquín Sorolla
+3. Date: May 27, 2026
+4. Time: Look for trains departing 2:00-3:00 PM (gives time after 11:30 AM arrival)
+5. Select AVE (high-speed)
+6. Choose **Promo** fare for best price (€25-35) or **Promo+** for flexibility (€35-45)
+7. Select window seats for scenic views
+8. Book and save mobile tickets
+
+**Airport to Atocha:**
+- **Cercanías C1:** Buy ticket at airport station (T4), ~€2.60, ~25-30 min
+- **Metro Line 8:** Buy ticket at airport, ~€5, ~45-50 min
+- Can buy same-day, no advance booking needed
+
+### Tips for Traveling
+
+- **Luggage:** AVE trains have ample luggage storage areas
+- **Comfort:** AVE trains are very comfortable with reclining seats, WiFi, power outlets
+- **Views:** Window seats on right side offer best countryside views
+- **Food:** Can bring snacks or buy on train (café car available)
+- **Timing:** Book 60-90 days in advance for best Promo prices (saves significant money!)
+
+### Action Items - Williams Family
+- [ ] Book Madrid Atocha → Valencia train (May 27, ~2:00-3:00 PM departure)
+- [ ] Download Renfe app and set up account
+- [ ] Book in advance (60-90 days) for best Promo prices
+- [ ] Select window seats for scenic views
+- [ ] Coordinate with flight arrival (11:30 AM) and check-in time (4:00 PM)
+
+---
+
 ## Thomas Family: Barcelona Airport → Valencia (May 27)
 
 ### Route Overview
