@@ -1,5 +1,49 @@
 # Spain Trip Planning - May 2026
 
+## 📑 Table of Contents
+
+### Essential Information
+- [Trip Overview](#trip-overview)
+- [Travelers](#travelers)
+- [Travel Phases Overview](#-travel-phases-overview)
+
+### Flights & Arrival
+- [Flight Itinerary](#flight-itinerary)
+- [Thomas Family Flight Itinerary](#thomas-family-flight-itinerary-annalise--brandon)
+- [Williams Family: Madrid Airport → Valencia](#williams-family-main-group-madrid-airport--valencia-may-27)
+- [Thomas Family: Barcelona Airport → Valencia](#thomas-family-barcelona-airport--valencia-may-27)
+
+### Phase 2: Valencia (May 27-29)
+- [Valencia Accommodation](#-valencia-grandmothers-house-next-to-the-beach-may-27-29)
+- [Valencia Activities](#recommended-activities-by-location)
+- [Valencia → Barcelona Train](#2-valencia--barcelona-may-29-2026---all-9-people-together)
+
+### Phase 3: Barcelona (May 29 - June 1)
+- [Barcelona Accommodations](#booked-accommodations---complete-details)
+- [Barcelona Activities](#recommended-activities-by-location)
+- [Barcelona → Madrid Train](#3-barcelona--madrid-june-1-2026---all-9-people-together)
+
+### Phase 4: Madrid Area (June 1-3)
+- [Madrid Area Accommodations](#-madrid-area-accommodation-needed-june-1-3)
+- [Madrid Area Activities](#recommended-activities-by-location)
+
+### Train Information
+- [Renfe App Guide](#-best-app-for-train-tickets-in-spain-renfe-app)
+- [All Train Routes](#high-speed-train-routes--schedule)
+- [Train Cost Estimates](#total-train-cost-estimate)
+
+### Planning & Checklists
+- [Pre-Travel Checklist](#pre-travel-checklist)
+- [Action Items & To-Do List](#action-items--to-do-list)
+- [Activities Requiring Advance Reservations](#-activities-requiring-advance-reservations)
+
+### Additional Resources
+- [Travel Preferences & Interests](#travel-preferences--interests)
+- [Accommodation Websites](#accommodation-websites--platform-recommendations)
+- [Barcelona Boroughs & Districts](#barcelona-boroughs--districts)
+
+---
+
 ## Trip Overview
 
 **Purpose:** Attend best friend's wedding in Barcelona  
@@ -280,30 +324,14 @@ Thomas family arrives Barcelona (BCN) at 8:45 AM on May 27 and will travel to Va
 - **Stroller:** AVE trains have luggage storage areas for strollers
 - **Changing facilities:** Available on AVE trains
 - **Baby needs:** Bring supplies for ~4-hour journey
-- **Taxi:** Request car seat or bring your own travel car seat
+- **Taxi:** No car seat required for taxis in Spain (based on research)
 - **Airport:** Barcelona airport is baby-friendly with changing facilities
-
-### Alternative Options
-
-**Option 2: Bus**
-- Aerobus to Barcelona Nord, then bus to Valencia
-- Duration: ~4-4.5 hours
-- Cost: ~€35-50 per person
-- Less convenient with baby/luggage
-
-**Option 3: Car Rental**
-- Drive from Barcelona airport to Valencia
-- Duration: ~3.5 hours
-- Cost: Varies (rental + gas + tolls)
-- Need car seat for Harlan
-- More flexibility but more hassle
 
 **Recommendation:** Train is best option - comfortable, fast, and convenient with baby.
 
 ### Action Items - Thomas Family
 - [ ] Book Barcelona Sants → Valencia train (May 27, ~11:00 AM departure)
 - [ ] Download Renfe app and set up account
-- [ ] Research car seat options for taxi in Valencia
 - [ ] Coordinate with main group on arrival timing
 - [ ] Share VRBO address with Thomas family
 
@@ -323,7 +351,7 @@ Thomas family arrives Barcelona (BCN) at 8:45 AM on May 27 and will travel to Va
   - [ ] Brandon Thomas: _______________________
   - [ ] Baby Thomas: _______________________ (if passport needed)
 - [ ] Verify all passports valid through at least December 2026 (6 months after return)
-- [ ] Check if any travelers need visas for Spain (US citizens typically don't need visas for stays under 90 days)
+- [ ] **Visa Status:** ✅ **NO VISA REQUIRED** - US citizens do not need a visa for Spain for tourist visits under 90 days. ETIAS (European Travel Information and Authorization System) was planned but has been delayed; verify current status closer to travel date, though it's unlikely to be required by May 2026.
 - [ ] Make copies/photos of all passports (store separately from originals)
 - [ ] Travel insurance confirmation
 - [ ] Flight confirmations printed/saved to phone
@@ -490,10 +518,9 @@ Based on your Italy trip experience:
 
 ### Transportation
 **Answer:** 
-- Comfortable with and prefer trains
-- Want to understand: cost differences, driving/parking difficulty, other considerations
-- Generally prefer trains and public transit
-- **Decision pending:** Need comparison of train vs. car rental
+- ✅ **Decision: Trains** - Comfortable with and prefer trains
+- High-speed trains (AVE) chosen for all routes - scenic, comfortable, cost-effective when booked in advance
+- No car rental needed - trains provide excellent coverage between cities
 
 ### Barcelona Wedding Details
 **Answer:** Yes - need to be in Barcelona for all three days (May 29, 30, 31)
