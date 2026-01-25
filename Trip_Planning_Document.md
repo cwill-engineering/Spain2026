@@ -12,8 +12,8 @@
 
 ```
 May 26 (Mon)  ✈️  TRAVEL: Nashville → Boston → Overnight flight to Spain
-May 27 (Tue)  🇪🇸  VALENCIA - Both families arrive, meet at beach house
-May 28 (Wed)  🏖️  VALENCIA - Full day together (beach, food, exploring)
+May 27 (Tue)  🇪🇸  VALENCIA - Arrive, beach house, paella dinner at Casa Carmela
+May 28 (Wed)  🏖️  VALENCIA - Pre-wedding events in Ruzafa (11am + 5pm) + beach/pool
 May 29 (Thu)  🚄  BARCELONA - Train from Valencia, check in, Wedding Event #1
 May 30 (Fri)  💒  BARCELONA - Wedding Event #2
 May 31 (Sat)  🎉  BARCELONA - WEDDING DAY (main event)
@@ -99,20 +99,38 @@ Download these before your trip:
 
 **Step 2: Atocha to Valencia (High-Speed AVE)**
 
-| Detail                         | Information                                                       |
-| ------------------------------ | ----------------------------------------------------------------- |
-| **Train Type**           | AVE (Alta Velocidad Española) - Spain's premium high-speed       |
-| **Duration**             | 1 hour 40 minutes                                                 |
-| **Cost**                 | €25-50/person (Promo fare) or €50-80 (Flexible)                 |
-| **Booking**              | Renfe app -**Book 60-90 days in advance for Promo prices!** |
-| **Reservation Required** | YES - Must book in advance, assigned seats                        |
+| Detail | Information |
+|--------|-------------|
+| **Train Type** | AVE (Alta Velocidad Española) - Spain's premium high-speed |
+| **Duration** | 1 hour 40 minutes |
+| **Cost** | €25-50/person (Promo fare) or €50-80 (Flexible) |
+| **Reservation Required** | YES - Must book in advance, assigned seats |
+
+### How to Book in Renfe App (Step-by-Step)
+
+**⚠️ IMPORTANT: Station names are confusing! Follow exactly:**
+
+1. Open **Renfe app** (download from App Store first)
+2. Tap **"Buy tickets"** or **"Comprar billetes"**
+3. **DEPARTURE station** - Type "Madrid" and select:
+   - ✅ **MADRID-PUERTA DE ATOCHA** (this is correct!)
+   - ❌ NOT "Madrid-Atocha Cercanías" (that's commuter rail, wrong!)
+   - ❌ NOT "Madrid Chamartín" (different station)
+4. **ARRIVAL station** - Type "Valencia" and select:
+   - ✅ **VALENCIA-JOAQUÍN SOROLLA**
+   - (You can also select "VALENCIA (TODAS)" which means "all Valencia stations")
+5. **Date:** May 27, 2026
+6. **Passengers:** 5 adults, 1 child (Elise)
+7. **Time:** Look for trains departing 2:00-3:00 PM
+8. **Select "AVE"** train (shows ~1h 40min travel time)
+9. **Fare type:** Choose "Promo" for cheapest (non-refundable) or "Promo+" for flexibility
+10. **Seat selection:** Pick **window seats on RIGHT side** (seats ending in A or window icon)
 
 **Best Seats for Scenic Views:**
-
-- **Request "Preferente" class** if budget allows (~€20-30 more) - Wider seats, better views, meal included
+- **Preferente class** (~€20-30 more) - Wider seats, meal included, worth it for long flights + train day
 - **Turista class** (standard) is still excellent - Large panoramic windows
-- **Seat selection:** Choose **window seat on the RIGHT side** (odd numbers like 1A, 3A) for best countryside views
-- **Scenery:** La Mancha region - windmills, vineyards, golden plains (like Don Quixote country!)
+- **RIGHT side window seats** for best countryside views
+- **Scenery:** La Mancha region - windmills, vineyards, golden plains (Don Quixote country!)
 
 **Recommended Schedule (May 27):**
 
@@ -164,17 +182,35 @@ Download these before your trip:
 
 **Step 2: Barcelona Sants to Valencia (High-Speed AVE or Euromed)**
 
-| Train Type        | Duration | Cost           | Notes                       |
-| ----------------- | -------- | -------------- | --------------------------- |
-| **AVE**     | 2h 40min | €35-60/person | Fastest, most comfortable   |
-| **Euromed** | 3h       | €25-45/person | Slightly slower, still nice |
+| Train Type | Duration | Cost | Notes |
+|------------|----------|------|-------|
+| **AVE** | 2h 40min | €35-60/person | Fastest, most comfortable |
+| **Euromed** | 3h | €25-45/person | Slightly slower, better coastal views! |
+
+### How to Book in Renfe App (Step-by-Step)
+
+**⚠️ IMPORTANT: Station names are confusing! Follow exactly:**
+
+1. Open **Renfe app**
+2. Tap **"Buy tickets"**
+3. **DEPARTURE station** - Type "Barcelona" and select:
+   - ✅ **BARCELONA-SANTS** (this is correct!)
+   - ❌ NOT "Barcelona Passeig de Gràcia" (different station)
+4. **ARRIVAL station** - Type "Valencia" and select:
+   - ✅ **VALENCIA-JOAQUÍN SOROLLA**
+5. **Date:** May 27, 2026
+6. **Passengers:** 2 adults, 1 infant (Harlan - check if under 4, may be free)
+7. **Time:** Look for trains departing 11:00-11:30 AM
+8. **Select "AVE" or "EUROMED"** train
+   - AVE = faster (2h 40min)
+   - Euromed = better coastal scenery (3h) - **recommended for views!**
+9. **Fare type:** Choose "Promo" for cheapest
+10. **Seat selection:** Pick **window seats on RIGHT side** for Mediterranean views
 
 **Best Seats for Scenic Views:**
-
 - This is one of Spain's MOST SCENIC train routes!
-- **Choose RIGHT side window seats** for Mediterranean coast views
-- Passes through coastal towns, beaches, orange groves
-- **Euromed** actually has slightly better coastal views (older route, closer to water)
+- **RIGHT side window seats** = Mediterranean coast, beaches, orange groves
+- **Euromed** runs closer to coast than AVE = better views (worth extra 20 min!)
 
 **Recommended Schedule (May 27):**
 
@@ -245,30 +281,60 @@ Download these before your trip:
 
 ## Valencia: What to Do (May 27-28)
 
+### May 28: Pre-Wedding Events in Ruzafa
+
+**⚠️ SCHEDULED EVENTS - Both families need to attend:**
+
+| Time | Event | Location | Address |
+|------|-------|----------|---------|
+| **11:00 AM** | Morning gathering | San Valero Church | Carrer del Pare Perera, 6, 46006 Valencia |
+| **5:00 PM** | Kitchen event | Private venue | Carrer del Penyagolosa, 5, 46006 Valencia |
+
+**Getting to Ruzafa from Beach House:**
+- **Distance:** ~4-5 km
+- **Taxi:** 10-15 min, ~€8-12
+- **Recommendation:** Take taxi (Uber/Cabify work in Valencia)
+
+**Suggested May 28 Schedule:**
+
+| Time | Activity |
+|------|----------|
+| Morning | Beach/pool time at house |
+| ~10:15 AM | Taxi to Ruzafa (~€10) |
+| **11:00 AM** | **San Valero Church event** |
+| ~12:30 PM | Lunch in Ruzafa OR taxi back to beach |
+| Afternoon | Beach/pool time (if you came back) |
+| ~4:15 PM | Taxi to Ruzafa (~€10) |
+| **5:00 PM** | **Kitchen event** |
+| After | Dinner in Ruzafa or taxi back to beach |
+
+**About Ruzafa:** It's Valencia's coolest neighborhood - great cafes, brunch spots, street art, and foodie scene. If you stay between events, there's plenty to explore!
+
+---
+
 ### Recommendations
 
-**1. Mercado Central (Central Market)** ⭐ MUST DO
+**1. Casa Carmela Paella Dinner** ⭐ MUST DO
+
+- **What:** Traditional wood-fired paella at a legendary local restaurant (since 1922)
+- **Why:** This is how paella is SUPPOSED to be made - wood fire, no gas, no shortcuts. Locals eat here.
+- **Cost:** €20-30/person
+- **Distance:** 10-15 min walk from your beach house (it's on your street!)
+- **Address:** Carrer d'Isabel de Villena, 155
+- **Booking:** Recommended - call +34 963 71 00 73 or [casacarmela.com](https://casacarmela.com)
+- **Suggested Day:** May 27 dinner (arrival day) - perfect welcome to Valencia!
+- **Order:** Paella Valenciana (chicken, rabbit, beans) for traditional, or Paella de Mariscos (seafood)
+- **Tip:** They cook to order, so expect 20-30 min wait - worth it!
+
+**2. Mercado Central (Central Market)**
 
 - **What:** One of Europe's largest and most beautiful food markets (1,000+ stalls)
-- **Why:** Stunning 1914 Art Nouveau building, authentic local food experience, incredible produce
+- **Why:** Stunning 1914 Art Nouveau building, authentic local food experience
 - **Cost:** Free entry; budget €10-20/person for tastings and snacks
 - **Distance:** 20 min taxi from accommodation (~€12-15)
 - **When:** Open Mon-Sat 7:30 AM - 3:00 PM (closed Sundays)
-- **Booking:** None needed - just show up
-- **Tip:** Go in the morning for best experience; try fresh-squeezed Valencian orange juice
-
-**2. Paella Cooking Class** ⭐ BOOK NOW (2-4 weeks ahead)
-
-- **What:** Learn to make authentic Valencian paella from local chefs
-- **Why:** Valencia invented paella - this is THE place to learn it
-- **Cost:** €50-80/person (usually includes market visit + cooking + eating)
-- **Distance:** Classes typically in city center, 20 min from accommodation
-- **Duration:** 3-4 hours
-- **Booking:**
-  - [My First Paella](https://www.myfirstpaella.com/) - Family-friendly, highly rated
-  - [Escuela de Arroces](https://www.escueladearroces.com/) - Traditional, market visit included
-  - Viator/GetYourGuide also have options
-- **Suggested Day:** May 28 (full day in Valencia)
+- **Booking:** None needed
+- **Note:** May 28 you have pre-wedding events, so this would be May 27 afternoon if you have energy after travel
 
 **3. City of Arts and Sciences**
 
@@ -364,39 +430,59 @@ Download these before your trip:
 
 **Date:** May 29, 2026
 
-| Detail                     | Information                                                          |
-| -------------------------- | -------------------------------------------------------------------- |
-| **Route**            | Valencia Joaquín Sorolla → Barcelona Sants                         |
-| **Train Options**    | AVE (2h 40min) or Euromed (3h)                                       |
+| Detail | Information |
+|--------|-------------|
+| **Route** | Valencia → Barcelona |
+| **Train Options** | AVE (2h 40min) or Euromed (3h) |
 | **Best for Scenery** | **Euromed** - runs closer to coast, better Mediterranean views |
-| **Cost**             | AVE: €35-55/person / Euromed: €25-40/person                        |
-| **Total (9 people)** | €225-500 depending on train and booking timing                      |
-| **Booking**          | Renfe app -**Book 60-90 days ahead for Promo prices**          |
+| **Cost** | AVE: €35-55/person / Euromed: €25-40/person |
+| **Total (9 people)** | €225-500 depending on train and booking timing |
+
+### How to Book in Renfe App (Step-by-Step)
+
+**⚠️ IMPORTANT: Station names are confusing! Follow exactly:**
+
+1. Open **Renfe app**
+2. Tap **"Buy tickets"**
+3. **DEPARTURE station** - Type "Valencia" and select:
+   - ✅ **VALENCIA-JOAQUÍN SOROLLA** (this is the AVE/high-speed station!)
+   - ❌ NOT "Valencia Nord" (that's a different, older station)
+4. **ARRIVAL station** - Type "Barcelona" and select:
+   - ✅ **BARCELONA-SANTS**
+5. **Date:** May 29, 2026
+6. **Passengers:** 6 adults, 2 children, 1 infant
+   - Adults: Angela, Chandler, Valerie, Annalise, Brandon, + Harrison (16 counts as adult)
+   - Children: Carson (16 - may count as adult), Elise (7)
+   - Infant: Harlan (1 - often free if under 4)
+7. **Time:** Look for trains departing ~12:00 PM (noon)
+8. **Choose train type:**
+   - **Euromed** = RECOMMENDED for scenic coastal views (3h, worth it!)
+   - AVE = faster but less scenic (2h 40min)
+9. **Fare type:** "Promo" for cheapest, "Promo+" for flexibility
+10. **Seat selection:** Pick **window seats on RIGHT side** (Mediterranean views!)
 
 **Best Seats for Scenic Views:**
-
-- **RIGHT side window seats** - Mediterranean coastline views
+- **RIGHT side window seats** - You'll see the Mediterranean coast!
 - Passes through: Castellón, Tarragona, coastal towns, beaches
 - One of Spain's most beautiful train routes!
 
 **Recommended Schedule:**
 
-| Time          | Activity                                  |
-| ------------- | ----------------------------------------- |
-| 9:00-10:00 AM | Breakfast, pack up                        |
-| 11:00 AM      | Check out                                 |
-| 11:30 AM      | Taxi to Valencia train station (~€15-20) |
-| 12:00 PM      | Board train to Barcelona                  |
-| 2:40-3:00 PM  | Arrive Barcelona Sants                    |
-| 3:00-3:30 PM  | Taxi to accommodations (~€15-20)         |
-| ~3:30 PM      | Arrive, settle in (check-in 2:00 PM)      |
-| Evening       | Wedding Event #1                          |
+| Time | Activity |
+|------|----------|
+| 9:00-10:00 AM | Breakfast, pack up |
+| 11:00 AM | Check out |
+| 11:30 AM | Taxi to Valencia train station (~€15-20) |
+| 12:00 PM | Board train to Barcelona |
+| 2:40-3:00 PM | Arrive Barcelona Sants |
+| 3:00-3:30 PM | Taxi to accommodations (~€15-20) |
+| ~3:30 PM | Arrive, settle in (check-in 2:00 PM) |
+| Evening | Wedding Event #1 |
 
 ### Action Items
-
 - Book Valencia → Barcelona train for May 29 (all 9 people, ~12:00 PM departure)
-- Select RIGHT side window seats for coastal views
-- Consider Euromed for better scenery (slightly longer but worth it)
+- Select **EUROMED** for best coastal scenery
+- Select **RIGHT side window seats**
 
 ---
 
@@ -610,39 +696,59 @@ Download these before your trip:
 
 **Date:** June 1, 2026
 
-| Detail                     | Information                                        |
-| -------------------------- | -------------------------------------------------- |
-| **Route**            | Barcelona Sants → Madrid Atocha                   |
-| **Train**            | AVE (high-speed)                                   |
-| **Duration**         | 2 hours 30 minutes                                 |
-| **Cost**             | €50-100/person (Promo €50-65, Flexible €80-100) |
-| **Total (9 people)** | €450-900 depending on booking timing              |
-| **Booking**          | Renfe app -**Book 60-90 days ahead!**        |
+| Detail | Information |
+|--------|-------------|
+| **Route** | Barcelona → Madrid |
+| **Train** | AVE (high-speed) - only option for this route |
+| **Duration** | 2 hours 30 minutes |
+| **Cost** | €50-100/person (Promo €50-65, Flexible €80-100) |
+| **Total (9 people)** | €450-900 depending on booking timing |
+
+### How to Book in Renfe App (Step-by-Step)
+
+**⚠️ IMPORTANT: Station names are confusing! Follow exactly:**
+
+1. Open **Renfe app**
+2. Tap **"Buy tickets"**
+3. **DEPARTURE station** - Type "Barcelona" and select:
+   - ✅ **BARCELONA-SANTS** (this is correct!)
+4. **ARRIVAL station** - Type "Madrid" and select:
+   - ✅ **MADRID-PUERTA DE ATOCHA**
+   - ❌ NOT "Madrid-Atocha Cercanías" (that's commuter rail!)
+   - ❌ NOT "Madrid Chamartín" (different station, north of city)
+5. **Date:** June 1, 2026
+6. **Passengers:** 6 adults, 2 children, 1 infant
+7. **Time:** Look for trains departing ~12:00-12:30 PM
+8. **Select "AVE"** train (only high-speed option on this route)
+9. **Fare type:** 
+   - "Promo" = cheapest (~€50-65/person)
+   - "Preferente" = bigger seats, meal included (~€80-100) - nice after wedding!
+10. **Seat selection:** Either side works for views on this route
 
 **Scenic Views:**
-
 - Passes through: Catalonia countryside, Aragón, Castilla-La Mancha
-- Less coastal than Valencia route, but still nice countryside
-- **Either side works** for views on this route
+- Less coastal than Valencia route, but nice countryside and mountains
+- **Either side works** - views are similar on both sides
+
+**Tip:** Consider **Preferente class** for this trip - you'll be tired after the wedding, and the bigger seats + included meal are worth it!
 
 **Recommended Schedule:**
 
-| Time              | Activity                                |
-| ----------------- | --------------------------------------- |
-| 9:00-10:00 AM     | Sleep in after wedding, light breakfast |
-| 11:00 AM          | Check out                               |
-| 11:30 AM          | Taxi to Barcelona Sants (~€15-20)      |
-| 12:00-12:30 PM    | Board AVE to Madrid                     |
-| 2:30-3:00 PM      | Arrive Madrid Atocha                    |
-| 3:00-3:30 PM      | Taxi to apartment (~€15-20)            |
-| 3:30 PM           | Arrive apartment (check-in 3:00 PM)     |
-| Afternoon/Evening | Explore neighborhood, tapas dinner      |
+| Time | Activity |
+|------|----------|
+| 9:00-10:00 AM | Sleep in after wedding, light breakfast |
+| 11:00 AM | Check out |
+| 11:30 AM | Taxi to Barcelona Sants (~€15-20) |
+| 12:00-12:30 PM | Board AVE to Madrid |
+| 2:30-3:00 PM | Arrive Madrid Atocha |
+| 3:00-3:30 PM | Taxi to apartment (~€15-20) |
+| 3:30 PM | Arrive apartment (check-in 3:00 PM) |
+| Afternoon/Evening | Explore neighborhood, tapas dinner |
 
 ### Action Items
-
-- Book Barcelona → Madrid AVE for June 1 (all 9 people, ~12:00-12:30 PM departure)
-- Select window seats
-- Consider Preferente class for post-wedding comfort (bigger seats, meal included)
+- Book Barcelona → Madrid AVE for June 1 (all 9 people, ~12:00-12:30 PM)
+- Select **MADRID-PUERTA DE ATOCHA** (not "Cercanías"!)
+- Consider Preferente class for post-wedding comfort
 
 ---
 
