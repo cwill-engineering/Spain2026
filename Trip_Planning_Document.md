@@ -23,8 +23,8 @@
 - [Barcelona Activities](#recommended-activities-by-location)
 - [Barcelona → Madrid Train](#3-barcelona--madrid-june-1-2026---all-9-people-together)
 
-### Phase 4: Madrid Area (June 1-3)
-- [Madrid Area Accommodations](#-madrid-area-accommodation-needed-june-1-3)
+### Phase 4: Madrid Area (June 1-4)
+- [Madrid Accommodation - BOOKED](#-madrid-cibeles-luxe-iii-june-1-4---booked)
 - [Madrid Area Activities](#recommended-activities-by-location)
 
 ### Train Information
@@ -91,10 +91,11 @@ This trip is organized by travel phases in chronological order:
 - **Activities:** Gothic Quarter, Gaudí sites, Montserrat day trip, food scene
 - **Train to Madrid:** June 1 midday/afternoon (high-speed AVE)
 
-### Phase 4: Madrid Area (June 1-3)
-- **Accommodation:** Need to book (2 places, similar to Barcelona setup)
-- **Activities:** Madrid city, Toledo day trip, Segovia day trip, or Ávila
-- **Thomas Family:** Departs June 3
+### Phase 4: Madrid Area (June 1-4)
+- **Accommodation:** ✅ **BOOKED** - Cibeles Luxe III (Reservation #30602041)
+- **Location:** Cortes/Literary Quarter (2 min to Gran Vía, 5 min to Sol)
+- **Activities:** Madrid city exploration, Retiro Park, museums, tapas
+- **Thomas Family:** Departs June 3 (may stay at same apartment or book separately)
 - **Main Group:** Departs June 4
 
 ### Phase 5: Departure (June 3-4)
@@ -441,8 +442,10 @@ Thomas family arrives Barcelona (BCN) at 8:45 AM on May 27 and will travel to Va
    - **May 31:** Wedding (main event, likely goes late into night)
    - **Day trip options:** Montserrat, Girona (can do on May 29 or 30 if time allows)
 5. **June 1 midday/afternoon:** Depart Barcelona → Fast train to Madrid (2h 30min)
-6. **June 1-3:** Explore Madrid area (Toledo, Segovia, Ávila day trips, or stay in Madrid)
-7. **June 4:** Depart Madrid
+6. **June 1-4:** Madrid - Cibeles Luxe III apartment (✅ BOOKED - Reservation #30602041)
+   - Explore Madrid city, Retiro Park, tapas, museums
+   - Optional day trips: Toledo (30 min), Segovia (30 min)
+7. **June 4:** Depart Madrid (flight 2:05 PM)
 
 **Thomas Family Route (3 people + baby):**
 1. **May 27:** Arrive Barcelona (8:45 AM) → Train to Valencia (~3.5 hours) → Meet main group at VRBO
@@ -1269,21 +1272,85 @@ Based on your Italy trip experience:
 
 ---
 
-### 🔲 MADRID AREA: Accommodation Needed (June 1-3)
+### ✅ MADRID: Cibeles Luxe III (June 1-4) - BOOKED
 
 | Detail | Information |
 |--------|-------------|
-| **Status** | Not yet booked |
-| **Dates Needed** | June 1 (afternoon) - June 3 or 4, 2026 |
-| **Guests** | 9 people (likely split into 2 places like Barcelona) |
-| **Check-in** | June 1 (late afternoon/evening after arriving from Barcelona) |
-| **Check-out** | June 3 (Thomas family) / June 4 (main group) |
+| **Status** | ✅ **BOOKED** |
+| **Reservation ID** | 30602041 |
+| **Property ID** | 10981691ha |
+| **Property Name** | Cibeles Luxe III apartment in Madrid |
+| **Dates** | June 1-4, 2026 (3 nights) |
+| **Check-in** | 3:00 PM, June 1 |
+| **Check-out** | 11:00 AM, June 4 |
+| **Guests Booked** | 6 (3 adults, 3 children) - Williams Family |
+| **Rating** | 9.8/10 (14 reviews) - Top 10% in area |
 
-**Setup:** Likely two places (similar to Barcelona arrangement)
-- **Place 1:** Main group (5 people) - Angela, Chandler, Carson, Harrison, Elise
-- **Place 2:** Thomas family + Grandma (4 people) - Annalise, Brandon, Harlan, Valerie
+**Address:** Near Calle Madrazo, Cortes/Literary Quarter, Madrid
+*(Exact address available in VRBO app → Trip Details after confirmation)*
+**Google Maps:** [View Neighborhood](https://www.google.com/maps/search/Calle+Madrazo+Madrid+Literary+Quarter+Spain)
 
-**Note:** Request crib/high chair for Harlan at whichever place they stay.
+**Location:** Cortes neighborhood (Literary Quarter/Barrio de las Letras)
+- 2 min walk to Gran Vía
+- 5 min walk to Puerta del Sol
+- 5 min walk to Plaza de Santa Ana
+- Near Banco de España and Sevilla metro stations (Metro L2)
+- Close to Thyssen-Bornemisza Museum
+- ~15 min walk to Retiro Park
+- ~10 min walk to Prado Museum
+
+**Pricing (in Euros):**
+| Item | Amount |
+|------|--------|
+| Nightly Rate | €327.27 x 3 nights = €981.82 |
+| Cleaning Fee | €131.82 |
+| Tax | €111.36 |
+| **Total** | **€1,225.00** |
+| Refundable Deposit (at property) | €400.00 |
+| **Total + Deposit** | **€1,625.00** |
+
+**Payment Schedule:**
+- Due January 25, 2026: €612.50
+- Due May 25, 2026: €612.50
+
+**Bed Configuration:**
+| Room | Beds | Suggested Assignment |
+|------|------|---------------------|
+| Bedroom 1 (Master) | 1 King Bed (en-suite) | Angela & Chandler |
+| Bedroom 2 | 1 Double Bed | Grandma Valerie |
+| Bedroom 3 | 2 Twin Beds | Carson & Harrison |
+| Bedroom 4 | 2 Twin Beds | Elise (+ Annalise/Brandon if joining) |
+| Living Room | 1 Double Sofa Bed | Overflow / Annalise & Brandon |
+
+**Amenities:**
+- ✅ Air conditioning & underfloor heating
+- ✅ Elevator in building
+- ✅ Full kitchen (high-end appliances, dishwasher)
+- ✅ Washer
+- ✅ Free WiFi
+- ✅ 3 full bathrooms
+- ✅ 2,153 sq ft (200 m²)
+
+**⚠️ Important Notes:**
+1. **Online check-in required** - Register all guests online BEFORE arrival via mithouse app
+2. **Contact host 48 hours before arrival**
+3. **Keyless entry** - Need mobile phone with internet to access
+4. **Noise monitoring** - 24-hour system, respect quiet hours
+5. **Crib available** - Must request 5 days in advance (for Harlan if Thomas family joins)
+6. **Madrid Central Zone** - Restricted traffic area, arrive by taxi/metro/walk (no private cars)
+
+**Thomas Family Status:** Annalise, Brandon & Harlan may:
+- Join at this apartment (sleeps 9, has space for them)
+- OR book their own nearby accommodation
+
+**Note:** Thomas family departs June 3 (flight at 2:45 PM from Madrid). Main group departs June 4.
+
+**Reviews Highlight:**
+> "We had a wonderful time with our teenagers at this location, there was plenty to do and the apartment was comfortable, spacious and stylish." - Lisa C.
+
+> "This was a great property for our family of 6. Easy to get in and out using online app." - Penny M.
+
+> "Beautiful and perfect location! Excellent location. Spacious. Newly renovated. Clean." - Multiple reviewers
 
 ---
 
@@ -1320,23 +1387,21 @@ Best neighborhoods for your group:
 
 ---
 
-### Recommended Search Strategy for Madrid
+### Madrid Accommodation - Booked!
 
-**For Two Places (like Barcelona):**
-1. Search VRBO/AirBNB for apartments sleeping 4-6 in same neighborhood
-2. Look in Malasaña, Chueca, or near Sol
-3. Ideally within walking distance of each other
+**✅ Cibeles Luxe III is booked for June 1-4**
 
-**Key Features to Look For:**
-- Near metro station (for day trips to Toledo/Segovia)
-- Madrid Atocha or Chamartín station access (main train stations)
-- Kitchen (helpful with baby)
-- Air conditioning (June can be warm)
+The apartment is in the Cortes/Literary Quarter, which offers:
+- Excellent metro access (Banco de España and Sevilla stations)
+- Walking distance to Madrid Atocha station (for day trips to Toledo)
+- Central location for exploring Madrid
+- Near Retiro Park for relaxing activities
 
-**Train Station Proximity:**
-- **Madrid Atocha** - Main station for Toledo (30 min) and high-speed trains
-- **Madrid Chamartín** - Station for Segovia (30 min)
-- Both accessible by metro from central neighborhoods
+**If Thomas Family Needs Separate Accommodation:**
+Annalise, Brandon & Harlan may choose to book their own place nearby. Recommended:
+- Same neighborhood (Cortes/Literary Quarter)
+- Or near Sol/Gran Vía for proximity
+- Look for 1-2BR with crib availability
 
 ---
 
@@ -1801,30 +1866,22 @@ These are easier to book and often available last-minute:
 - Spain-focused, good for vacation rentals
 - May have properties not on other platforms
 
-### Action Plan for Madrid Area
+### Action Plan for Madrid Area - ✅ BOOKED!
 
-**Step 1: Search Large Rentals**
-- [ ] AirBNB: Search "entire place" sleeping 9+ in:
-  - [ ] Toledo (recommended - historic, cheaper)
-  - [ ] Segovia (historic, cheaper)
-  - [ ] Madrid city center
-  - [ ] Small towns near Madrid
-- [ ] VRBO: Search properties sleeping 9+
-- [ ] HomeToGo: Compare all options
+**✅ COMPLETED: Cibeles Luxe III Booked (Reservation #30602041)**
 
-**Step 2: Search Multiple Rooms Option**
-- [ ] Booking.com: Search hotels with:
-  - [ ] Family rooms (sleep 4-6)
-  - [ ] Multiple connecting rooms
-  - [ ] Apartments with multiple bedrooms
-- [ ] Compare cost: Large rental vs. multiple hotel rooms
+**Before Trip - Madrid Accommodation Tasks:**
+- [ ] Contact host 48 hours before arrival (May 30)
+- [ ] Complete online guest registration for all 6 guests via mithouse app
+- [ ] Download mithouse app for keyless entry
+- [ ] Decide: Will Thomas family stay at same apartment or book separately?
+- [ ] If Thomas family joins: Request crib for Harlan (5 days before = May 27)
+- [ ] Pay second installment: €612.50 due May 25, 2026
 
-**Step 3: Verify & Book**
-- [ ] Check reviews carefully (cleanliness, bed bugs, etc.)
-- [ ] Verify property has license number
-- [ ] Confirm baby-friendly amenities (crib, high chair)
-- [ ] Verify location and train access for day trips
-- [ ] Book early - large group accommodations fill up quickly
+**Payment Tracking:**
+- [x] First payment: €612.50 (due January 25, 2026)
+- [ ] Second payment: €612.50 (due May 25, 2026)
+- [ ] Refundable deposit: €400.00 (paid at property)
 
 ### Accommodation Options to Research
 
