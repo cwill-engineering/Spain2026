@@ -27,17 +27,17 @@ Jun 4  (Wed)  ✈️  MADRID - Williams family departs
 
 ## Travelers
 
-| Name             | Age | Relationship   | Family   |
-| ---------------- | --- | -------------- | -------- |
-| Angela           | 38  | Wife           | Williams |
-| Chandler         | 37  | Husband        | Williams |
-| Carson           | 16  | Son            | Williams |
-| Harrison         | 16  | Son's Friend   | Williams |
-| Elise            | 7   | Daughter       | Williams |
-| Valerie Williams | 68  | Grandma        | Williams |
-| Annalise Thomas  | 34  | Sister         | Thomas   |
-| Brandon Thomas   | 39  | Brother-in-law | Thomas   |
-| Harlan Thomas    | 1   | Nephew (baby)  | Thomas   |
+| Name             | Age | Relationship   | Family   | Passport       |
+| ---------------- | --- | -------------- | -------- | -------------- |
+| Angela           | 38  | Wife           | Williams | A65228680      |
+| Chandler         | 37  | Husband        | Williams | A13217522      |
+| Carson           | 16  | Son            | Williams | *(need number)* |
+| Harrison         | 16  | Son's Friend   | Williams | *(need number)* |
+| Elise            | 7   | Daughter       | Williams | A21526388      |
+| Valerie Williams | 68  | Grandma        | Williams | *(need number)* |
+| Annalise Thomas  | 34  | Sister         | Thomas   | *(need number)* |
+| Brandon Thomas   | 39  | Brother-in-law | Thomas   | *(need number)* |
+| Harlan Thomas    | 1   | Nephew (baby)  | Thomas   | *(need number)* |
 
 ---
 
@@ -108,47 +108,60 @@ Download these before your trip:
 
 ### How to Book in Renfe App (Step-by-Step)
 
-**⚠️ IMPORTANT: Station names are confusing! Follow exactly:**
+**⚠️ IMPORTANT: Station names are confusing! Follow EXACTLY what's below:**
 
 1. Open **Renfe app** (download from App Store first)
 2. Tap **"Buy tickets"** or **"Comprar billetes"**
 3. **DEPARTURE station** - Type "Madrid" and select:
-   - ✅ **MADRID-PUERTA DE ATOCHA** (this is correct!)
-   - ❌ NOT "Madrid-Atocha Cercanías" (that's commuter rail, wrong!)
-   - ❌ NOT "Madrid Chamartín" (different station)
+   - ✅ **MADRID-PUERTA DE ATOCHA-ALMUDENA GRANDES** (this is correct!)
+   - ✅ Also OK: **MADRID-PUERTA DE ATOCHA** (same station, shorter name)
+   - ❌ NOT "Madrid-Atocha Cercanías" (that's commuter rail, WRONG!)
+   - ❌ NOT "Madrid Chamartín" (different station entirely)
 4. **ARRIVAL station** - Type "Valencia" and select:
-   - ✅ **VALENCIA-JOAQUÍN SOROLLA**
-   - (You can also select "VALENCIA (TODAS)" which means "all Valencia stations")
+   - ✅ **VALENCIA-JOAQUÍN SOROLLA** (this is the high-speed station!)
+   - ❌ NOT "Valencia Nord" (different, older station)
 5. **Date:** May 27, 2026
-6. **Passengers:** 5 adults, 1 child (Elise)
-7. **Time:** Look for trains departing 2:00-3:00 PM
-8. **Select "AVE"** train (shows ~1h 40min travel time)
-9. **Fare type:** Choose "Promo" for cheapest (non-refundable) or "Promo+" for flexibility
-10. **Seat selection:** Pick **window seats on RIGHT side** (seats ending in A or window icon)
+6. **Passengers:** 5 adults, 1 child (Elise age 7)
+7. **Time:** Look for **19:40 (7:40 PM)** departure - direct AVE, 2 hours
+8. **Select "AVE"** train (shows ~2h travel time)
+9. **Fare type:** 
+   - **Premium 4 o más** = Best value for group (€57.25/person) - includes lounge access, free changes, bigger seats, food
+   - "Elige 4 o más" = Budget option (€37.40/person) - some flexibility
+10. **Seat selection:** Pick **window seats on RIGHT side** for countryside views
 
 **Best Seats for Scenic Views:**
-- **Preferente class** (~€20-30 more) - Wider seats, meal included, worth it for long flights + train day
-- **Turista class** (standard) is still excellent - Large panoramic windows
+- **Premium class** - Larger comfort seats, meal included, Club Lounge access at Atocha
 - **RIGHT side window seats** for best countryside views
 - **Scenery:** La Mancha region - windmills, vineyards, golden plains (Don Quixote country!)
 
+**Club Lounge Access (Premium tickets only):**
+- Enter lounge 2 hours before departure (starting 5:40 PM)
+- Free snacks, drinks, WiFi, comfortable seating, clean bathrooms
+- Great for resting after long flight before the 4+ hour wait
+
 **Recommended Schedule (May 27):**
 
-| Time           | Activity                                    |
-| -------------- | ------------------------------------------- |
-| 11:30 AM       | Land at Madrid Barajas                      |
-| 12:00-12:30 PM | Customs, luggage                            |
-| 12:45 PM       | Cercanías C1 to Atocha (no booking needed) |
-| 1:15 PM        | Arrive Atocha                               |
-| 2:00-2:30 PM   | Board AVE to Valencia                       |
-| 3:45-4:15 PM   | Arrive Valencia                             |
-| ~4:30 PM       | Taxi to accommodation (€15-20, ~15 min)    |
+| Time | Activity |
+|------|----------|
+| 11:30 AM | Land at Madrid Barajas |
+| 12:00-12:30 PM | Customs, luggage |
+| 12:45 PM | Cercanías C1 to Atocha (no booking needed, €2.60/person) |
+| 1:15 PM | Arrive Atocha |
+| 1:15-5:40 PM | **Option A:** Store luggage, explore Retiro Park, grab lunch |
+|  | **Option B:** Relax in Atocha station (tropical garden, food court) |
+| 5:40 PM | Enter Club Lounge (Premium tickets) |
+| 7:40 PM | Board AVE to Valencia |
+| 9:40 PM | Arrive Valencia-Joaquín Sorolla |
+| ~10:00 PM | Taxi to accommodation (€15-20, ~15 min) |
 
 ### Action Items - Williams Family
 
-- Book Madrid → Valencia AVE train via Renfe app (target 2:00-2:30 PM departure)
+- Book Madrid → Valencia AVE train via Renfe app (**19:40 departure, Premium 4 o más**)
+- Select **MADRID-PUERTA DE ATOCHA-ALMUDENA GRANDES** (not Cercanías!)
+- Select **VALENCIA-JOAQUÍN SOROLLA**
 - Select window seats on RIGHT side for views
 - Download Renfe app and create account before trip
+- Update Carson's passport number in booking once you have it
 
 ---
 
@@ -189,22 +202,24 @@ Download these before your trip:
 
 ### How to Book in Renfe App (Step-by-Step)
 
-**⚠️ IMPORTANT: Station names are confusing! Follow exactly:**
+**⚠️ IMPORTANT: Station names are confusing! Follow EXACTLY what's below:**
 
 1. Open **Renfe app**
 2. Tap **"Buy tickets"**
 3. **DEPARTURE station** - Type "Barcelona" and select:
    - ✅ **BARCELONA-SANTS** (this is correct!)
    - ❌ NOT "Barcelona Passeig de Gràcia" (different station)
+   - ❌ NOT "Barcelona El Prat" (that's the airport)
 4. **ARRIVAL station** - Type "Valencia" and select:
-   - ✅ **VALENCIA-JOAQUÍN SOROLLA**
+   - ✅ **VALENCIA-JOAQUÍN SOROLLA** (this is the high-speed station!)
+   - ❌ NOT "Valencia Nord" (different, older station)
 5. **Date:** May 27, 2026
-6. **Passengers:** 2 adults, 1 infant (Harlan - check if under 4, may be free)
+6. **Passengers:** 2 adults, 1 infant (Harlan - under 4 is usually free, sits on lap)
 7. **Time:** Look for trains departing 11:00-11:30 AM
 8. **Select "AVE" or "EUROMED"** train
    - AVE = faster (2h 40min)
-   - Euromed = better coastal scenery (3h) - **recommended for views!**
-9. **Fare type:** Choose "Promo" for cheapest
+   - **Euromed = RECOMMENDED** for scenic coastal views (3h, worth extra 20 min!)
+9. **Fare type:** "Elige" or "Elige 4 o más" for flexibility (in case flight is delayed)
 10. **Seat selection:** Pick **window seats on RIGHT side** for Mediterranean views
 
 **Best Seats for Scenic Views:**
@@ -440,26 +455,28 @@ Download these before your trip:
 
 ### How to Book in Renfe App (Step-by-Step)
 
-**⚠️ IMPORTANT: Station names are confusing! Follow exactly:**
+**⚠️ IMPORTANT: Station names are confusing! Follow EXACTLY what's below:**
 
 1. Open **Renfe app**
 2. Tap **"Buy tickets"**
 3. **DEPARTURE station** - Type "Valencia" and select:
-   - ✅ **VALENCIA-JOAQUÍN SOROLLA** (this is the AVE/high-speed station!)
-   - ❌ NOT "Valencia Nord" (that's a different, older station)
+   - ✅ **VALENCIA-JOAQUÍN SOROLLA** (this is the high-speed station!)
+   - ❌ NOT "Valencia Nord" (different, older station)
+   - ❌ NOT "Valencia (TODAS)" unless Joaquín Sorolla isn't listed
 4. **ARRIVAL station** - Type "Barcelona" and select:
-   - ✅ **BARCELONA-SANTS**
+   - ✅ **BARCELONA-SANTS** (this is correct!)
+   - ❌ NOT "Barcelona Passeig de Gràcia" (different station)
 5. **Date:** May 29, 2026
 6. **Passengers:** 6 adults, 2 children, 1 infant
-   - Adults: Angela, Chandler, Valerie, Annalise, Brandon, + Harrison (16 counts as adult)
+   - Adults: Angela, Chandler, Valerie, Annalise, Brandon, Harrison (16 = adult)
    - Children: Carson (16 - may count as adult), Elise (7)
-   - Infant: Harlan (1 - often free if under 4)
+   - Infant: Harlan (1 - under 4 usually free, sits on lap)
 7. **Time:** Look for trains departing ~12:00 PM (noon)
 8. **Choose train type:**
-   - **Euromed** = RECOMMENDED for scenic coastal views (3h, worth it!)
+   - **Euromed = RECOMMENDED** for scenic coastal views (3h, worth it!)
    - AVE = faster but less scenic (2h 40min)
-9. **Fare type:** "Promo" for cheapest, "Promo+" for flexibility
-10. **Seat selection:** Pick **window seats on RIGHT side** (Mediterranean views!)
+9. **Fare type:** "Elige 4 o más" for flexibility, or "Premium 4 o más" for comfort
+10. **Seat selection:** Pick **window seats on RIGHT side** (Mediterranean coast views!)
 
 **Best Seats for Scenic Views:**
 - **RIGHT side window seats** - You'll see the Mediterranean coast!
@@ -706,23 +723,25 @@ Download these before your trip:
 
 ### How to Book in Renfe App (Step-by-Step)
 
-**⚠️ IMPORTANT: Station names are confusing! Follow exactly:**
+**⚠️ IMPORTANT: Station names are confusing! Follow EXACTLY what's below:**
 
 1. Open **Renfe app**
 2. Tap **"Buy tickets"**
 3. **DEPARTURE station** - Type "Barcelona" and select:
    - ✅ **BARCELONA-SANTS** (this is correct!)
+   - ❌ NOT "Barcelona Passeig de Gràcia" (different station)
 4. **ARRIVAL station** - Type "Madrid" and select:
-   - ✅ **MADRID-PUERTA DE ATOCHA**
-   - ❌ NOT "Madrid-Atocha Cercanías" (that's commuter rail!)
+   - ✅ **MADRID-PUERTA DE ATOCHA-ALMUDENA GRANDES** (this is correct!)
+   - ✅ Also OK: **MADRID-PUERTA DE ATOCHA** (same station, shorter name)
+   - ❌ NOT "Madrid-Atocha Cercanías" (that's commuter rail, WRONG!)
    - ❌ NOT "Madrid Chamartín" (different station, north of city)
 5. **Date:** June 1, 2026
 6. **Passengers:** 6 adults, 2 children, 1 infant
 7. **Time:** Look for trains departing ~12:00-12:30 PM
 8. **Select "AVE"** train (only high-speed option on this route)
 9. **Fare type:** 
-   - "Promo" = cheapest (~€50-65/person)
-   - "Preferente" = bigger seats, meal included (~€80-100) - nice after wedding!
+   - "Promo 4 o más" = cheapest group rate (~€50-65/person)
+   - "Premium 4 o más" = bigger seats, meal included, lounge access (~€57-65/person) - nice after wedding!
 10. **Seat selection:** Either side works for views on this route
 
 **Scenic Views:**
