@@ -31,10 +31,10 @@ Jun 4  (Wed)  ✈️  MADRID - Williams family departs
 | ---------------- | --- | -------------- | -------- | -------------- |
 | Angela           | 38  | Wife           | Williams | A65228680      |
 | Chandler         | 37  | Husband        | Williams | A13217522      |
-| Carson           | 16  | Son            | Williams | *(need number)* |
+| Carson           | 16  | Son            | Williams | A21526389      |
 | Harrison         | 16  | Son's Friend   | Williams | *(need number)* |
 | Elise            | 7   | Daughter       | Williams | A21526388      |
-| Valerie Williams | 68  | Grandma        | Williams | *(need number)* |
+| Valerie Williams | 68  | Grandma        | Williams | A75415133      |
 | Annalise Thomas  | 34  | Sister         | Thomas   | *(need number)* |
 | Brandon Thomas   | 39  | Brother-in-law | Thomas   | *(need number)* |
 | Harlan Thomas    | 1   | Nephew (baby)  | Thomas   | *(need number)* |
