@@ -97,39 +97,31 @@ Download these before your trip:
 - **How it works:** Take free shuttle bus from your terminal to T4, then follow signs to "Cercanías" (commuter rail), take C1 toward "Atocha"
 - **Frequency:** Every 30 minutes
 
-**Step 2: Atocha to Valencia (High-Speed AVE)**
+**Step 2: Atocha to Valencia (High-Speed AVE) - BOOKED**
 
 | Detail | Information |
 |--------|-------------|
-| **Train Type** | AVE (Alta Velocidad Española) - Spain's premium high-speed |
-| **Duration** | 1 hour 40 minutes |
-| **Cost** | €25-50/person (Promo fare) or €50-80 (Flexible) |
-| **Reservation Required** | YES - Must book in advance, assigned seats |
+| **Booking Reference** | **4XYBG8** |
+| **Train** | AVE 05990 |
+| **Date** | May 27, 2026 |
+| **Route** | Madrid P. Atocha → Valencia J. Sorolla |
+| **Departure** | 19:40 (7:40 PM) |
+| **Arrival** | 21:40 (9:40 PM) |
+| **Class** | Premium Confort |
+| **Total Paid** | €320.60 |
 
-### How to Book in Renfe App (Step-by-Step)
+**Seat Assignments (Coach 1):**
 
-1. Open **Renfe app** (download from App Store first)
-2. Tap **"Buy tickets"**
-3. **DEPARTURE station:** Type "Madrid" and select **MADRID-PUERTA DE ATOCHA-ALMUDENA GRANDES**
-4. **ARRIVAL station:** Type "Valencia" and select **VALENCIA-JOAQUÍN SOROLLA**
-5. **Date:** May 27, 2026
-6. **Passengers:** 5 adults, 1 child (Elise age 7)
-7. **Time:** Select **19:40 (7:40 PM)** departure - direct AVE, 2 hours
-8. **Train:** Select **AVE**
-9. **Fare type:** 
-   - **Premium 4 o más** = Best value for group (€57.25/person) - includes lounge access, free changes, bigger seats, food
-   - "Elige 4 o más" = Budget option (€37.40/person) - some flexibility
-10. **Seat selection:** Pick **window seats on RIGHT side** for countryside views
+| Passenger | Seat | Price |
+|-----------|------|-------|
+| Chandler | 3C | €57.25 |
+| Angela | 3B | €57.25 |
+| Carson | 3A | €57.25 |
+| Valerie | 4C | €57.25 |
+| Harrison | 4B | €57.25 |
+| Elise | 4A | €34.35 |
 
-**Best Seats for Scenic Views:**
-- **Premium class** - Larger comfort seats, meal included, Club Lounge access at Atocha
-- **RIGHT side window seats** for best countryside views
-- **Scenery:** La Mancha region - windmills, vineyards, golden plains (Don Quixote country!)
-
-**Club Lounge Access (Premium tickets only):**
-- Enter lounge 2 hours before departure (starting 5:40 PM)
-- Free snacks, drinks, WiFi, comfortable seating, clean bathrooms
-- Great for resting after long flight before the 4+ hour wait
+**Included:** Dinner on board, Club Lounge access at Atocha (enter 2 hours before, starting 5:40 PM)
 
 **Recommended Schedule (May 27):**
 
@@ -142,16 +134,9 @@ Download these before your trip:
 | 1:15-5:40 PM | **Option A:** Store luggage, explore Retiro Park, grab lunch |
 |  | **Option B:** Relax in Atocha station (tropical garden, food court) |
 | 5:40 PM | Enter Club Lounge (Premium tickets) |
-| 7:40 PM | Board AVE to Valencia |
+| 7:40 PM | Board AVE 05990 to Valencia (Coach 1) |
 | 9:40 PM | Arrive Valencia-Joaquín Sorolla |
 | ~10:00 PM | Taxi to accommodation (€15-20, ~15 min) |
-
-### Action Items - Williams Family
-
-- Book Madrid → Valencia AVE train via Renfe app (19:40 departure, Premium 4 o más)
-- Select window seats on RIGHT side for views
-- Download Renfe app and create account before trip
-- Update Carson's passport number in booking once you have it
 
 ---
 
