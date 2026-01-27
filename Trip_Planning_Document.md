@@ -346,29 +346,46 @@ Download these before your trip:
 
 ### Valencia: Restaurants
 
-**Near Your Accommodation (Beachfront Area):**
+**Casa Carmela** ⭐ MAKE RESERVATION
 
-| Restaurant                           | Cuisine            | Cost           | Distance    | Notes                        |
-| ------------------------------------ | ------------------ | -------------- | ----------- | ---------------------------- |
-| **La Pepica**                  | Traditional paella | €25-35/person | 10 min walk | Historic, Hemingway ate here |
-| **Casa Carmela**               | Rice dishes        | €20-30/person | 15 min walk | Authentic, wood-fire paella  |
-| **Restaurante Albufera**       | Seafood/paella     | €20-30/person | 10 min walk | Good for families            |
-| **Various beach chiringuitos** | Casual seafood     | €15-25/person | 5 min walk  | Casual beachfront dining     |
+| Detail | Information |
+|--------|-------------|
+| **What** | Legendary wood-fired paella since 1922 - THE authentic Valencia experience |
+| **Why** | This is how paella is SUPPOSED to be made. Wood fire, no gas, no shortcuts. Locals eat here. |
+| **Address** | Carrer d'Isabel de Villena, 155 (on your street!) |
+| **Distance** | 10-15 min walk from beach house |
+| **Cost** | €20-30/person |
+| **Reservation** | **REQUIRED for groups** - Call +34 963 71 00 73 or book at [casacarmela.com](https://casacarmela.com) |
+| **Book when** | 1 week before is fine |
+| **Best day** | May 27 dinner (arrival night) |
+| **What to order** | Paella Valenciana (chicken, rabbit, beans) for traditional OR Paella de Mariscos (seafood) |
+| **Heads up** | Paella cooked to order - 20-30 min wait (worth it!) |
 
-**In City Center (if visiting):**
+**Other Great Options Near Beach House:**
 
-| Restaurant                       | Cuisine      | Cost           | Distance    | Notes                          |
-| -------------------------------- | ------------ | -------------- | ----------- | ------------------------------ |
-| **Mercado Central stalls** | Tapas/snacks | €10-20/person | 20 min taxi | Best for breakfast/lunch       |
-| **Mercabañal**            | Food hall    | €15-25/person | 25 min taxi | Award-winning croquettes       |
-| **Horchatería Daniel**    | Traditional  | €5-10/person  | 20 min taxi | Try horchata (tiger nut drink) |
+| Restaurant | Cuisine | Cost | Distance | Why It's Special |
+|------------|---------|------|----------|------------------|
+| **La Pepica** | Paella | €25-35 | 10 min walk | Historic - Hemingway ate here. Tourist-famous but still good. |
+| **Restaurante Levante** | Seafood | €25-40 | 15 min walk | Upscale beachfront, fresh catches, great for a splurge |
+| **Beach chiringuitos** | Casual | €15-25 | 5 min walk | Toes-in-sand dining, cold beer, simple grilled fish |
+
+**For the Adventurous (City Center - 20 min taxi):**
+
+| Restaurant | What to Try | Cost | Why It's Memorable |
+|------------|-------------|------|-------------------|
+| **Mercado Central** | Everything! | €10-20 | Graze through 1,000+ stalls - jamón carved in front of you, fresh olives, weird cheeses |
+| **Ricard Camarena** | Tasting menu | €150+ | Michelin-starred if you want ONE blow-out meal |
+| **El Poblet** | Modern Valencian | €80-120 | Chef Quique Dacosta's "casual" spot (still has a Michelin star) |
+| **Horchatería Daniel** | Horchata + fartons | €5-10 | Tiger nut milk drink you can't get anywhere else - kids will love dunking the pastries |
 
 **Must-Try Foods in Valencia:**
 
-- **Paella Valenciana** - The original! (chicken, rabbit, beans - NOT seafood)
-- **Paella de Mariscos** - Seafood version
-- **Horchata con fartons** - Sweet tiger nut drink with dunking pastries
-- **Fresh Valencian oranges** - Best in the world
+- **Paella Valenciana** - The ORIGINAL (chicken, rabbit, beans - locals will tell you seafood paella is for tourists!)
+- **Fideuà** - Like paella but with short noodles instead of rice - equally delicious
+- **All i pebre** - Garlic eel stew (adventurous! traditional fisherman's dish)
+- **Esgarraet** - Roasted red peppers with salt cod - simple but incredible
+- **Horchata con fartons** - Sweet tiger nut drink with dunking pastries (Elise will love this)
+- **Clóchinas** - Local mussels, in season May/June!
 
 ---
 
@@ -619,27 +636,38 @@ Download these before your trip:
 
 ### Barcelona: Restaurants
 
-**Near Williams Apartment (Eixample):**
+**Note:** You'll be busy with wedding events, so focus on a few great meals rather than trying everything!
 
-| Restaurant                     | Cuisine        | Cost           | Distance    | Notes                         |
-| ------------------------------ | -------------- | -------------- | ----------- | ----------------------------- |
-| **Cervecería Catalana** | Tapas          | €25-35/person | 5 min walk  | Excellent tapas, often lines  |
-| **Tapas 24**             | Modern tapas   | €25-35/person | 10 min walk | By famous chef Carles Abellan |
-| **Flax & Kale**          | Healthy/brunch | €15-25/person | 10 min walk | Great for breakfast           |
-| **La Flauta**            | Tapas          | €20-30/person | 5 min walk  | Good value, local favorite    |
+**Near Williams Apartment (Eixample) - Walk to These:**
 
-**Near Thomas Apartment / Gothic Quarter:**
+| Restaurant | What to Get | Cost | Why It's Memorable |
+|------------|-------------|------|-------------------|
+| **Cervecería Catalana** | Tapas feast | €25-35 | Best tapas in Eixample - expect a line but worth it. Order at the bar! |
+| **Tapas 24** | Bikini truffle sandwich, croquettes | €25-35 | Celebrity chef Carles Abellan's spot - the "McFoie" burger is insane |
+| **Can Paixano** | Cava + cured meats | €15-20 | Standing-room-only cava bar, locals crushing glasses at noon |
+| **Tickets** | Creative tapas | €60-80 | If you want ONE splurge - Ferran Adrià's (elBulli fame) playful restaurant. **BOOK NOW** |
 
-| Restaurant                 | Cuisine      | Cost           | Distance    | Notes                                 |
-| -------------------------- | ------------ | -------------- | ----------- | ------------------------------------- |
-| **El Xampanyet**     | Tapas/cava   | €15-25/person | 15 min walk | Historic, authentic                   |
-| **Bar del Pla**      | Modern tapas | €25-30/person | 15 min walk | High quality                          |
-| **Can Culleretes**   | Catalan      | €20-30/person | 10 min walk | Barcelona's oldest restaurant (1786!) |
-| **La Boqueria bars** | Market tapas | €15-25/person | 15 min walk | Breakfast/lunch at market stalls      |
+**Gothic Quarter / El Born (Near Wedding Events):**
+
+| Restaurant | What to Get | Cost | Why It's Memorable |
+|------------|-------------|------|-------------------|
+| **El Xampanyet** | Cava from the barrel + anchovies | €15-25 | Unchanged since 1929 - blue tiles, no menu, point at what looks good |
+| **Can Culleretes** | Traditional Catalan | €20-30 | Operating since 1786! Oldest restaurant in Barcelona. Old-school legit. |
+| **Cal Pep** | Whatever chef gives you | €40-50 | Sit at the bar, chef decides what you eat. Trust him. **Reservation essential** |
+| **Bar del Pla** | Foie with PX reduction | €25-30 | Tiny, modern, perfect for a pre-wedding dinner |
+
+**For the Adventurous:**
+
+| Restaurant | Experience | Cost | Book Ahead? |
+|------------|------------|------|-------------|
+| **Tickets** | Avant-garde tapas theater | €60-80 | YES - weeks ahead |
+| **Disfrutar** | 2 Michelin stars, mind-bending | €200+ | YES - months ahead |
+| **Quimet y Quimet** | Standing tapas, montaditos | €20-30 | No - but tiny, go early |
+| **Els Quatre Gats** | Where Picasso hung out | €30-40 | Cool history, decent food |
 
 **Must-Try Foods in Barcelona:**
 
-- **Patatas bravas** - Fried potatoes with spicy sauce
+- **Patatas bravas** - Fried potatoes with spicy sauce (every bar has their own version - compare!)
 - **Pan con tomate** - Bread rubbed with tomato
 - **Jamón ibérico** - Cured ham
 - **Cava** - Catalan sparkling wine
@@ -891,39 +919,49 @@ Your apartment is in **Cortes/Barrio de las Letras** (Literary Quarter) - a hist
 
 ### Madrid: Restaurants
 
-**Near Your Apartment (Literary Quarter / Plaza de Santa Ana):**
+**Note:** You'll be post-wedding tired, so Madrid is about relaxed tapas crawls and memorable one-off experiences.
 
-| Restaurant             | Cuisine           | Cost           | Distance   | Notes                                  |
-| ---------------------- | ----------------- | -------------- | ---------- | -------------------------------------- |
-| **La Venencia**  | Sherry bar        | €10-15/person | 5 min walk | Historic, authentic, sherry specialist |
-| **Lateral**      | Modern Spanish    | €25-35/person | 3 min walk | Great brunch, family-friendly          |
-| **Casa Alberto** | Traditional tapas | €20-30/person | 5 min walk | Since 1827, classic Madrid             |
-| **StreetXO**     | Asian fusion      | €30-40/person | 5 min walk | Fun, modern, teens would like          |
+**Walking Distance from Apartment (Literary Quarter):**
 
-**La Latina (Best Tapas Neighborhood):**
+| Restaurant | What to Get | Cost | Why It's Memorable |
+|------------|-------------|------|-------------------|
+| **La Venencia** | Sherry flights | €10-15 | Time capsule - no photos allowed, sherry poured from dusty barrels, unchanged since Civil War |
+| **Casa Alberto** | Vermouth + croquettes | €20-30 | Operating since 1827. Cervantes allegedly wrote here. Old Madrid soul. |
+| **Taberna la Dolores** | Beer + conservas | €15-20 | Stunning tile work, standing at bar with locals, tinned seafood done right |
+| **StreetXO** | Asian-Spanish fusion | €30-40 | Loud, fun, irreverent - teens will love it |
 
-| Restaurant                | Cuisine           | Cost           | Distance    | Notes                       |
-| ------------------------- | ----------------- | -------------- | ----------- | --------------------------- |
-| **Juana la Loca**   | Pintxos/tapas     | €20-30/person | 15 min walk | Famous tortilla             |
-| **Casa Lucas**      | Traditional tapas | €20-25/person | 15 min walk | Local favorite              |
-| **El Viajero**      | Rooftop           | €25-35/person | 15 min walk | Great terrace views         |
-| **Calle Cava Baja** | Various           | €15-30/person | 15 min walk | Whole street of tapas bars! |
+**La Latina - DO A TAPAS CRAWL HERE (15 min walk):**
 
-**Must-Visit:**
+The whole neighborhood is tapas heaven. Strategy: Don't sit down anywhere. Order 1-2 things per bar, move on.
 
-| Restaurant                         | Cuisine     | Cost           | Distance    | Notes                             |
-| ---------------------------------- | ----------- | -------------- | ----------- | --------------------------------- |
-| **Chocolatería San Ginés** | Churros     | €5-8/person   | 10 min walk | Open 24 hrs, since 1894           |
-| **Mercado de San Miguel**    | Food market | €15-25/person | 10 min walk | Gourmet tastings                  |
-| **Sobrino de Botín**        | Traditional | €40-50/person | 10 min walk | World's oldest restaurant (1725!) |
+| Stop | What to Get | Cost | The Move |
+|------|-------------|------|----------|
+| **Juana la Loca** | Tortilla (famous!) | €15-20 | Start here. Their runny-center tortilla is legendary. |
+| **Casa Lucas** | Huevos rotos | €15-20 | Broken eggs over jamón and potatoes. Simple. Perfect. |
+| **Taberna Tempranillo** | Wine + cheese | €15-20 | Best wine list on Cava Baja, gorgeous old space |
+| **El Viajero** | Rooftop drink | €20-25 | End here for sunset views over Madrid rooftops |
+
+**Can't-Miss Experiences:**
+
+| Restaurant | Experience | Cost | Book Ahead? |
+|------------|------------|------|-------------|
+| **Sobrino de Botín** | World's oldest restaurant (1725!) | €40-50 | YES - days ahead |
+| **Chocolatería San Ginés** | Churros + thick chocolate at 2am | €5-8 | No - open 24 hrs! |
+| **Mercado de San Miguel** | Gourmet grazing - olives, jamón, croquettes | €15-25 | No - just wander |
+| **DiverXO** | 3 Michelin stars, wild experience | €250+ | YES - months ahead (if you want to splurge BIG) |
+
+**Madrid's Secret Weapon - Vermut Culture:**
+
+Madrid does Sunday "vermut" (vermouth hour) like nowhere else. Find any old bar around noon, order a vermut (vermouth on tap with an olive), and some simple tapas. It's how locals spend Sunday. You arrive June 1 (Sunday) - perfect timing!
 
 **Must-Try Foods in Madrid:**
 
-- **Churros con chocolate** - At San Ginés!
-- **Cocido madrileño** - Traditional Madrid stew
-- **Bocadillo de calamares** - Fried squid sandwich (Madrid specialty)
-- **Jamón ibérico** - Cured ham
-- **Tortilla española** - Spanish omelette
+- **Churros con chocolate** - At San Ginés! Dip thick churros in drinking chocolate
+- **Cocido madrileño** - Hearty chickpea stew with meats (served in courses - ask for "completo")
+- **Bocadillo de calamares** - Fried squid rings on bread. Sounds weird. Trust me. Get it near Plaza Mayor.
+- **Oreja** - Pig ear (for the adventurous!)
+- **Callos** - Tripe stew (another adventurous one - very traditional)
+- **Jamón ibérico** - The good stuff. Ask for "bellota" (acorn-fed) at any bar.
 
 ---
 
