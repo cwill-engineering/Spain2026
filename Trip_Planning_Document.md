@@ -13,7 +13,7 @@
 ```
 May 26 (Mon)  ✈️  TRAVEL: Nashville → Boston → Overnight flight to Spain
 May 27 (Tue)  🇪🇸  VALENCIA - Arrive, beach house, paella dinner at Casa Carmela
-May 28 (Wed)  🏖️  VALENCIA - Pre-wedding events in Ruzafa (11am + 5pm) + beach/pool
+May 28 (Wed)  🏖️  VALENCIA - Beach, pool, explore (flexible day)
 May 29 (Thu)  🚄  BARCELONA - Train from Valencia, check in, Wedding Event #1
 May 30 (Fri)  💒  BARCELONA - Wedding Event #2
 May 31 (Sat)  🎉  BARCELONA - WEDDING DAY (main event)
@@ -262,37 +262,6 @@ Download these before your trip:
 
 ## Valencia: What to Do (May 27-28)
 
-### May 28: Pre-Wedding Events in Ruzafa
-
-**⚠️ SCHEDULED EVENTS - Both families need to attend:**
-
-| Time | Event | Location | Address |
-|------|-------|----------|---------|
-| **11:00 AM** | Morning gathering | San Valero Church | Carrer del Pare Perera, 6, 46006 Valencia |
-| **5:00 PM** | Kitchen event | Private venue | Carrer del Penyagolosa, 5, 46006 Valencia |
-
-**Getting to Ruzafa from Beach House:**
-- **Distance:** ~4-5 km
-- **Taxi:** 10-15 min, ~€8-12
-- **Recommendation:** Take taxi (Uber/Cabify work in Valencia)
-
-**Suggested May 28 Schedule:**
-
-| Time | Activity |
-|------|----------|
-| Morning | Beach/pool time at house |
-| ~10:15 AM | Taxi to Ruzafa (~€10) |
-| **11:00 AM** | **San Valero Church event** |
-| ~12:30 PM | Lunch in Ruzafa OR taxi back to beach |
-| Afternoon | Beach/pool time (if you came back) |
-| ~4:15 PM | Taxi to Ruzafa (~€10) |
-| **5:00 PM** | **Kitchen event** |
-| After | Dinner in Ruzafa or taxi back to beach |
-
-**About Ruzafa:** It's Valencia's coolest neighborhood - great cafes, brunch spots, street art, and foodie scene. If you stay between events, there's plenty to explore!
-
----
-
 ### Recommendations
 
 **1. Casa Carmela Paella Dinner** ⭐ MUST DO
@@ -315,7 +284,7 @@ Download these before your trip:
 - **Distance:** 20 min taxi from accommodation (~€12-15)
 - **When:** Open Mon-Sat 7:30 AM - 3:00 PM (closed Sundays)
 - **Booking:** None needed
-- **Note:** May 28 you have pre-wedding events, so this would be May 27 afternoon if you have energy after travel
+- **Note:** May 28 is a flexible day - could visit then or May 27 afternoon if you have energy after travel
 
 **3. City of Arts and Sciences**
 
