@@ -533,6 +533,22 @@ Download these before your trip:
 **Wedding Area:** Gothic Quarter, Barcelona
 **Reference Hotels:** Kimpton Vividora (Carrer del Duc 15), Hotel 1898 (La Rambla 109)
 
+### Chandler's Suit Rental
+
+**Plan:** Rent a suit in Barcelona instead of packing formal wear.
+
+| Detail | Information |
+|--------|-------------|
+| **Shop** | Casa Gay |
+| **Address** | Roger de Llúria, 12-14, Barcelona (walkable from apartment!) |
+| **Phone/WhatsApp** | +34 696 54 76 35 |
+| **Website** | casagay.com |
+| **Fitting** | May 29 afternoon (after check-in) |
+| **Return** | June 1 morning (before train to Madrid) |
+| **Shoes** | Bring or buy separately (shoe rental unlikely) |
+
+**Why renting:** Saves packing suit, jacket, dress shirt, slacks, tie through 4 trains and 2 flights.
+
 ---
 
 ### Recommendations
@@ -1041,16 +1057,26 @@ Your apartment is in **Cortes/Barrio de las Letras** (Literary Quarter) - a hist
 
 ## Bookings to Make NOW
 
-| What                        | When to Book           | For What Day |
-| --------------------------- | ---------------------- | ------------ |
-| Madrid → Valencia train    | Now (60-90 days ahead) | May 27       |
-| Barcelona → Valencia train | Now (60-90 days ahead) | May 27       |
-| Valencia → Barcelona train | Now (60-90 days ahead) | May 29       |
-| Barcelona → Madrid train   | Now (60-90 days ahead) | June 1       |
-| Sagrada Família tickets    | Now (sells out!)       | May 30       |
-| Paella cooking class        | Now (2-4 weeks ahead)  | May 28       |
-| Park Güell tickets         | 2-4 weeks ahead        | May 29 or 30 |
-| Casa Batlló or La Pedrera  | 1-2 weeks ahead        | May 29 or 30 |
+| What                        | When to Book           | For What Day | Status |
+| --------------------------- | ---------------------- | ------------ | ------ |
+| Madrid → Valencia train    | Now (60-90 days ahead) | May 27       | BOOKED |
+| Barcelona → Valencia train | Now (60-90 days ahead) | May 27       | |
+| Valencia → Barcelona train | Now (60-90 days ahead) | May 29       | |
+| Barcelona → Madrid train   | Now (60-90 days ahead) | June 1       | |
+| Sagrada Família tickets    | Now (sells out!)       | May 30       | |
+| Park Güell tickets         | 2-4 weeks ahead        | May 29 or 30 | |
+| Casa Batlló or La Pedrera  | 1-2 weeks ahead        | May 29 or 30 | |
+
+**>>> CHANDLER: SUIT RENTAL - CONTACT NOW! <<<**
+
+| Task | Contact | Phone/WhatsApp |
+|------|---------|----------------|
+| Contact Casa Gay to arrange suit fitting | Casa Gay, Barcelona | +34 696 54 76 35 |
+
+Ask about:
+- Suit availability for May 29-31
+- Sizes and prices
+- Whether shoes are available to rent (probably need to bring/buy)
 
 ## Madrid Apartment Tasks
 
