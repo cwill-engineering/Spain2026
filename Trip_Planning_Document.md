@@ -71,6 +71,30 @@ Download these before your trip:
 
 # Phase 1: Arrival & Valencia (May 26-29)
 
+## About Valencia
+
+**Spain's third-largest city, but feels like a secret.** While tourists flood Barcelona and Madrid, Valencia stays gloriously underrated - and that's exactly why you'll love it.
+
+**The History:** Founded by Romans in 138 BC, conquered by Moors who built incredible irrigation systems (still used today!), reconquered by El Cid in 1094, and today a vibrant mix of ancient and ultra-modern. The old city walls are gone, replaced by the stunning Turia Gardens - a 9km park built in a drained riverbed after a catastrophic 1957 flood.
+
+**What Makes It Special:**
+- **Birthplace of paella** - Valencians will passionately tell you the "real" paella has rabbit and beans, NOT seafood
+- **Las Fallas festival** (March) - They build massive sculptures all year, then burn them all in one night. Insane.
+- **The language** - Listen for Valenciano (Catalan dialect) alongside Spanish
+- **Oranges everywhere** - The streets are literally lined with orange trees
+- **City of Arts and Sciences** - The most futuristic architecture you'll see in Europe, designed by local hero Santiago Calatrava
+
+**Look For:**
+- Ceramic tiles (azulejos) on buildings - Valencia was the tile capital of medieval Europe
+- The Central Market's stunning modernist ironwork and stained glass
+- Horchata stands - this tiger nut drink was invented here
+- Old men playing cards in plazas (they take it VERY seriously)
+- The beach culture - locals live at the beach in summer
+
+**The Vibe:** Relaxed, foodie, proudly local, beach-loving, not trying to impress anyone. Perfect for your first stop to decompress after the flight.
+
+---
+
 ## Williams Family: Getting to Valencia
 
 ### Flight Itinerary
@@ -391,6 +415,31 @@ Download these before your trip:
 
 # Phase 2: Barcelona (May 29 - June 1)
 
+## About Barcelona
+
+**The city that doesn't feel quite like Spain** - and that's intentional. Barcelona is the capital of Catalonia, a region with its own language, culture, flag, and fierce independent streak. You'll see "Catalonia is not Spain" graffiti. The independence debate is real and ongoing.
+
+**The History:** Founded as a Roman colony, ruled by Visigoths, conquered by Moors (briefly), then became the seat of the powerful Crown of Aragon. In 1714, Catalonia lost a brutal siege and its autonomy - a wound that still shapes politics today. Franco banned the Catalan language for 40 years. Since democracy returned, Barcelona has exploded into one of Europe's most creative, design-forward cities.
+
+**What Makes It Special:**
+- **Gaudí's fingerprints everywhere** - Sagrada Família, Park Güell, Casa Batlló, La Pedrera... one architect defined an entire city's identity
+- **Modernisme** - Barcelona's unique spin on Art Nouveau. Once you see it, you'll spot it everywhere: organic curves, nature motifs, intricate tilework
+- **La Rambla** - The famous pedestrian boulevard (touristy but still worth a walk)
+- **The Gothic Quarter** - 2,000 years of history in narrow medieval streets (where the wedding is!)
+- **Beach + city** - Rare combo. The waterfront was a wasteland until the 1992 Olympics transformed it
+
+**Look For:**
+- **Catalan flags** hanging from balconies (the striped ones are regional pride; add a star = independence movement)
+- **Trencadís** - Gaudí's signature broken-tile mosaic technique
+- **Human towers (castells)** - If you see a crowd gathering in a plaza, you might witness this UNESCO-recognized tradition
+- **Late dinners** - Nobody eats before 9pm. Seriously.
+- **The sea at the end of streets** - The city slopes down to the Mediterranean
+- **Vermut culture** - Sunday vermouth hour in El Born or Gràcia neighborhoods
+
+**The Vibe:** Creative, proud, Mediterranean, stylish, politically charged, obsessed with good design and better food. This is where your best friend is getting married - fitting for a city that celebrates life beautifully.
+
+---
+
 ## Getting There: Valencia to Barcelona
 
 ### Train Details (All 9 People Together)
@@ -676,6 +725,34 @@ Download these before your trip:
 ---
 
 # Phase 3: Madrid (June 1-4)
+
+## About Madrid
+
+**The heart of Spain - literally.** Madrid sits at the exact geographic center of the Iberian Peninsula. While Barcelona looks to the Mediterranean and Valencia to its beaches, Madrid is uncompromisingly, defiantly Spanish. This is where the king lives, where the government sits, and where Spain's soul resides.
+
+**The History:** Unlike most Spanish cities, Madrid has no Roman or Moorish roots. It was a nothing town until 1561 when King Philip II randomly made it the capital (historians still debate why). From there, it became the seat of the world's most powerful empire - at its peak, Spain ruled from Peru to the Philippines. The Prado Museum houses art collected when Spanish kings could afford literally anything.
+
+**What Makes It Special:**
+- **The Golden Triangle of Art** - Prado, Reina Sofía (Picasso's Guernica!), and Thyssen-Bornemisza within walking distance
+- **Late night culture** - Madrid doesn't sleep. Dinner at 10pm, bars at midnight, clubs at 3am, churros at dawn at San Ginés
+- **The tapas tradition** - Free tapas with drinks is a Madrid (and southern Spain) thing. Order a beer, get a snack.
+- **Royal Madrid** - Palacio Real is the largest royal palace in Western Europe (the king doesn't actually live there, but still)
+- **Retiro Park** - 350 acres of gardens, once the private playground of Spanish royalty
+
+**Look For:**
+- **Neoclassical architecture** - Madrid was rebuilt in the 18th century to look "properly European." Grand, symmetrical, Habsburg-influenced.
+- **Terrazas** - Sidewalk cafes are religion here. Prime people-watching.
+- **El Rastro** - Sunday flea market in La Latina (you arrive June 1, Sunday - perfect timing!)
+- **Vermouth culture** - Sunday vermut (vermouth hour) is sacred. Old bars, vermouth on tap, olives, pickled things.
+- **The sky** - Madrid is famous for its blue sky and intense light (2,769 hours of sun per year!)
+- **Real Madrid references** - Soccer is religion. You'll see jerseys, flags, and heated opinions everywhere.
+
+**Literary Quarter (Your Neighborhood):**
+Your apartment is in Barrio de las Letras - where Cervantes, Lope de Vega, and Quevedo lived during Spain's Golden Age of literature. You'll literally walk streets named after their characters. Cervantes is buried nearby (his bones were lost for centuries and only recently found).
+
+**The Vibe:** Proud, lively, night-owl, culturally fierce, traditional yet modern, obsessed with good food and strong opinions. After the wedding, Madrid is the perfect place to decompress with late tapas, lazy museum mornings, and that famous Spanish "mañana" attitude.
+
+---
 
 ## Getting There: Barcelona to Madrid
 
