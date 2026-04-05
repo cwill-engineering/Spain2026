@@ -3,8 +3,8 @@
 
 **Status:** ✅ **BOOKED** - Reservation #30602041
 
-**Group:** 9 people total (Williams family: 6 + Thomas family: 3 including baby Harlan)
-*Note: Thomas family may join at this apartment or book separately. They depart June 3.*
+**Group:** 9 people total (Williams family: 6 + Thomas family: 3 including baby Harlan) — ALL TOGETHER
+*Note: Thomas family departs June 3 (Wed, 2:45 PM flight). Only 2 nights in Madrid.*
 
 ---
 
@@ -335,8 +335,8 @@ You'd need to book a separate place for Annalise, Brandon, and Harlan nearby:
 - [ ] Contact host 48 hours before arrival (by May 30)
 - [ ] Download mithouse app (for keyless entry)
 - [ ] Complete online guest registration for all guests
-- [ ] Decide: Will Thomas family join at apartment or book separately?
-- [ ] If Thomas family joins: Request crib for Harlan (5 days in advance = by May 27)
+- [x] ~~Decide: Will Thomas family join at apartment or book separately?~~ → Confirmed: ALL staying together
+- [ ] Request crib for Harlan (5 days in advance = by May 27)
 - [ ] Prepare guest info for online registration
 
 ### Note on Seasonal Rental
@@ -344,5 +344,5 @@ The property requires a non-tourism reason for stay. "Attending a family wedding
 
 ---
 
-*Last updated: January 25, 2026*
+*Last updated: April 5, 2026*
 *Status: ✅ BOOKED*

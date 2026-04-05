@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <title>Spain 2026 Trip</title>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Source+Sans+Pro:wght@300;400;600;700&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <style>
         :root {
@@ -15,21 +15,21 @@
             --deep-blue: #1a365d;
             --olive: #5c6b4a;
             --sand: #e8dfd0;
+            --card-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            --header-height: 56px;
+            --tab-height: 48px;
         }
 
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
 
         body {
             font-family: 'Source Sans Pro', sans-serif;
             background: var(--warm-cream);
             min-height: 100vh;
+            -webkit-font-smoothing: antialiased;
         }
 
-        /* Password Screen */
+        /* ── Password Screen ── */
         #password-screen {
             min-height: 100vh;
             display: flex;
@@ -39,434 +39,647 @@
             position: relative;
             overflow: hidden;
         }
-
         #password-screen::before {
             content: '';
             position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
+            inset: 0;
             background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.05'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
             opacity: 0.5;
         }
-
         .password-container {
-            background: rgba(255, 255, 255, 0.95);
-            padding: 3rem;
+            background: rgba(255,255,255,0.95);
+            padding: 2.5rem;
             border-radius: 20px;
-            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.4);
+            box-shadow: 0 25px 50px -12px rgba(0,0,0,0.4);
             text-align: center;
-            max-width: 420px;
+            max-width: 400px;
             width: 90%;
             position: relative;
             z-index: 1;
         }
-
         .password-container h1 {
             font-family: 'Playfair Display', serif;
-            font-size: 2.5rem;
+            font-size: 2.2rem;
             color: var(--deep-blue);
-            margin-bottom: 0.5rem;
+            margin-bottom: 0.25rem;
         }
-
         .password-container .subtitle {
             color: var(--terracotta);
-            font-size: 1.1rem;
-            margin-bottom: 2rem;
+            font-size: 1rem;
+            margin-bottom: 1.5rem;
             font-weight: 300;
         }
-
-        .password-container .spain-flag {
+        .password-container .flag-bar {
             display: flex;
             justify-content: center;
-            gap: 0;
-            margin-bottom: 2rem;
-        }
-
-        .flag-stripe {
-            width: 80px;
-            height: 8px;
-        }
-
-        .flag-stripe.red { background: var(--spanish-red); border-radius: 4px 0 0 4px; }
-        .flag-stripe.yellow { background: var(--spanish-yellow); width: 160px; }
-        .flag-stripe.red-bottom { background: var(--spanish-red); border-radius: 0 4px 4px 0; }
-
-        .password-input-group {
-            position: relative;
             margin-bottom: 1.5rem;
+            height: 6px;
         }
-
+        .flag-bar .red { background: var(--spanish-red); width: 60px; border-radius: 3px 0 0 3px; }
+        .flag-bar .yellow { background: var(--spanish-yellow); width: 120px; }
+        .flag-bar .red-end { background: var(--spanish-red); width: 60px; border-radius: 0 3px 3px 0; }
         #password-input {
             width: 100%;
-            padding: 1rem 1.5rem;
-            font-size: 1.1rem;
+            padding: 0.875rem 1.25rem;
+            font-size: 1rem;
             border: 2px solid var(--sand);
-            border-radius: 12px;
+            border-radius: 10px;
             outline: none;
             transition: all 0.3s ease;
-            font-family: 'Source Sans Pro', sans-serif;
+            font-family: inherit;
+            margin-bottom: 1rem;
         }
-
         #password-input:focus {
             border-color: var(--terracotta);
-            box-shadow: 0 0 0 4px rgba(196, 112, 79, 0.1);
+            box-shadow: 0 0 0 3px rgba(196,112,79,0.12);
         }
-
         #submit-btn {
             width: 100%;
-            padding: 1rem;
-            font-size: 1.1rem;
+            padding: 0.875rem;
+            font-size: 1rem;
             font-weight: 600;
             background: linear-gradient(135deg, var(--terracotta), var(--spanish-red));
             color: white;
             border: none;
-            border-radius: 12px;
+            border-radius: 10px;
             cursor: pointer;
-            transition: all 0.3s ease;
-            font-family: 'Source Sans Pro', sans-serif;
+            transition: all 0.2s ease;
+            font-family: inherit;
         }
+        #submit-btn:hover { transform: translateY(-1px); box-shadow: 0 8px 16px rgba(198,11,30,0.25); }
+        #submit-btn:active { transform: translateY(0); }
+        #error-msg { color: var(--spanish-red); margin-top: 0.75rem; font-weight: 600; display: none; font-size: 0.9rem; }
 
-        #submit-btn:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 10px 20px rgba(198, 11, 30, 0.3);
-        }
+        /* ── App Shell ── */
+        #content-screen { display: none; }
 
-        #error-msg {
-            color: var(--spanish-red);
-            margin-top: 1rem;
-            font-weight: 600;
-            display: none;
-        }
-
-        /* Content Screen */
-        #content-screen {
-            display: none;
-        }
-
-        .header {
-            background: linear-gradient(135deg, var(--deep-blue) 0%, #2d4a6f 100%);
-            color: white;
-            padding: 2rem;
-            text-align: center;
-            position: sticky;
-            top: 0;
-            z-index: 100;
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
-        }
-
-        .header h1 {
-            font-family: 'Playfair Display', serif;
-            font-size: 2.5rem;
-            margin-bottom: 0.5rem;
-        }
-
-        .header .dates {
-            font-weight: 300;
-            opacity: 0.9;
-            font-size: 1.1rem;
-        }
-
-        .header .spain-flag {
-            display: flex;
-            justify-content: center;
-            margin-top: 1rem;
-        }
-
-        .main-content {
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 2rem;
-        }
-
-        /* Markdown Styles */
-        .markdown-content {
-            background: white;
-            padding: 3rem;
-            border-radius: 16px;
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
-            line-height: 1.7;
-        }
-
-        .markdown-content h1 {
-            font-family: 'Playfair Display', serif;
-            color: var(--deep-blue);
-            font-size: 2.2rem;
-            margin: 2rem 0 1rem;
-            padding-bottom: 0.5rem;
-            border-bottom: 3px solid var(--spanish-yellow);
-        }
-
-        .markdown-content h2 {
-            font-family: 'Playfair Display', serif;
-            color: var(--terracotta);
-            font-size: 1.8rem;
-            margin: 2rem 0 1rem;
-        }
-
-        .markdown-content h3 {
-            color: var(--deep-blue);
-            font-size: 1.4rem;
-            margin: 1.5rem 0 0.75rem;
-        }
-
-        .markdown-content h4 {
-            color: var(--olive);
-            font-size: 1.2rem;
-            margin: 1.25rem 0 0.5rem;
-        }
-
-        .markdown-content p {
-            margin: 1rem 0;
-            color: #444;
-        }
-
-        .markdown-content ul, .markdown-content ol {
-            margin: 1rem 0;
-            padding-left: 1.5rem;
-        }
-
-        .markdown-content li {
-            margin: 0.5rem 0;
-            color: #444;
-        }
-
-        .markdown-content table {
-            width: 100%;
-            border-collapse: collapse;
-            margin: 1.5rem 0;
-            font-size: 0.95rem;
-        }
-
-        .markdown-content th {
+        .app-header {
             background: var(--deep-blue);
             color: white;
-            padding: 0.75rem 1rem;
+            height: var(--header-height);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: sticky;
+            top: 0;
+            z-index: 200;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.15);
+            gap: 0.75rem;
+            padding: 0 1rem;
+        }
+        .app-header h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.25rem;
+            font-weight: 600;
+            white-space: nowrap;
+        }
+        .app-header .dates {
+            font-size: 0.8rem;
+            opacity: 0.75;
+            font-weight: 300;
+        }
+
+        /* ── Tab Bar ── */
+        .tab-bar {
+            position: sticky;
+            top: var(--header-height);
+            z-index: 199;
+            background: white;
+            display: flex;
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+            scrollbar-width: none;
+            border-bottom: 2px solid var(--sand);
+            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+        }
+        .tab-bar::-webkit-scrollbar { display: none; }
+        .tab-btn {
+            flex: 0 0 auto;
+            padding: 0 1.25rem;
+            height: var(--tab-height);
+            display: flex;
+            align-items: center;
+            gap: 0.4rem;
+            border: none;
+            background: none;
+            font-family: inherit;
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: #888;
+            cursor: pointer;
+            white-space: nowrap;
+            position: relative;
+            transition: color 0.2s;
+        }
+        .tab-btn .tab-icon { font-size: 1rem; }
+        .tab-btn:hover { color: var(--deep-blue); }
+        .tab-btn.active {
+            color: var(--terracotta);
+        }
+        .tab-btn.active::after {
+            content: '';
+            position: absolute;
+            bottom: -2px;
+            left: 0.75rem;
+            right: 0.75rem;
+            height: 3px;
+            background: var(--terracotta);
+            border-radius: 3px 3px 0 0;
+        }
+
+        /* ── Tab Panels ── */
+        .tab-panel { display: none; }
+        .tab-panel.active { display: block; }
+
+        .panel-content {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 1rem;
+        }
+
+        /* ── Collapsible Sections ── */
+        .section-card {
+            background: white;
+            border-radius: 12px;
+            box-shadow: var(--card-shadow);
+            margin-bottom: 0.75rem;
+            overflow: hidden;
+            border: 1px solid rgba(0,0,0,0.04);
+        }
+        .section-header {
+            display: flex;
+            align-items: center;
+            padding: 1rem 1.25rem;
+            cursor: pointer;
+            user-select: none;
+            gap: 0.75rem;
+            transition: background 0.15s;
+            -webkit-tap-highlight-color: transparent;
+            min-height: 52px;
+        }
+        .section-header:hover { background: rgba(0,0,0,0.015); }
+        .section-header:active { background: rgba(0,0,0,0.03); }
+        .section-header h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.15rem;
+            color: var(--deep-blue);
+            flex: 1;
+            line-height: 1.3;
+        }
+        .section-chevron {
+            width: 20px;
+            height: 20px;
+            flex-shrink: 0;
+            transition: transform 0.25s ease;
+            color: #bbb;
+        }
+        .section-card.open .section-chevron { transform: rotate(180deg); color: var(--terracotta); }
+        .section-body {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.35s ease;
+        }
+        .section-card.open .section-body {
+            max-height: 20000px;
+        }
+        .section-body-inner {
+            padding: 0 1.25rem 1.25rem;
+            line-height: 1.65;
+        }
+
+        /* ── Markdown inside cards ── */
+        .section-body-inner h3 {
+            color: var(--terracotta);
+            font-size: 1.1rem;
+            margin: 1.25rem 0 0.5rem;
+            font-family: 'Playfair Display', serif;
+        }
+        .section-body-inner h4 {
+            color: var(--olive);
+            font-size: 1rem;
+            font-weight: 700;
+            margin: 1rem 0 0.4rem;
+        }
+        .section-body-inner p {
+            margin: 0.6rem 0;
+            color: #444;
+            font-size: 0.95rem;
+        }
+        .section-body-inner ul, .section-body-inner ol {
+            margin: 0.5rem 0;
+            padding-left: 1.25rem;
+        }
+        .section-body-inner li {
+            margin: 0.35rem 0;
+            color: #444;
+            font-size: 0.95rem;
+        }
+        .section-body-inner table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 0.75rem 0;
+            font-size: 0.85rem;
+        }
+        .section-body-inner th {
+            background: var(--deep-blue);
+            color: white;
+            padding: 0.5rem 0.75rem;
             text-align: left;
             font-weight: 600;
+            font-size: 0.8rem;
         }
-
-        .markdown-content td {
-            padding: 0.75rem 1rem;
+        .section-body-inner td {
+            padding: 0.5rem 0.75rem;
             border-bottom: 1px solid var(--sand);
+            vertical-align: top;
         }
-
-        .markdown-content tr:nth-child(even) {
-            background: var(--warm-cream);
-        }
-
-        .markdown-content tr:hover {
-            background: var(--sand);
-        }
-
-        .markdown-content strong {
-            color: var(--deep-blue);
-        }
-
-        .markdown-content a {
+        .section-body-inner tr:nth-child(even) { background: var(--warm-cream); }
+        .section-body-inner strong { color: var(--deep-blue); }
+        .section-body-inner a {
             color: var(--terracotta);
             text-decoration: none;
-            border-bottom: 1px solid transparent;
-            transition: border-color 0.2s;
+            border-bottom: 1px dashed rgba(196,112,79,0.4);
         }
-
-        .markdown-content a:hover {
-            border-bottom-color: var(--terracotta);
-        }
-
-        .markdown-content blockquote {
-            border-left: 4px solid var(--spanish-yellow);
-            padding-left: 1.5rem;
-            margin: 1.5rem 0;
+        .section-body-inner a:hover { border-bottom-style: solid; }
+        .section-body-inner blockquote {
+            border-left: 3px solid var(--spanish-yellow);
+            padding: 0.75rem 1rem;
+            margin: 0.75rem 0;
             font-style: italic;
             color: #666;
             background: var(--warm-cream);
-            padding: 1rem 1.5rem;
             border-radius: 0 8px 8px 0;
+            font-size: 0.9rem;
         }
-
-        .markdown-content code {
+        .section-body-inner code {
             background: var(--sand);
-            padding: 0.2rem 0.5rem;
+            padding: 0.15rem 0.4rem;
             border-radius: 4px;
-            font-size: 0.9em;
+            font-size: 0.85em;
         }
-
-        .markdown-content hr {
+        .section-body-inner hr {
             border: none;
-            height: 2px;
-            background: linear-gradient(90deg, var(--spanish-red), var(--spanish-yellow), var(--spanish-red));
-            margin: 2rem 0;
+            height: 1px;
+            background: var(--sand);
+            margin: 1.25rem 0;
         }
-
-        .markdown-content img {
-            max-width: 100%;
-            border-radius: 12px;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-            margin: 1rem 0;
-        }
-
-        /* Checkbox styling */
-        .markdown-content input[type="checkbox"] {
-            margin-right: 0.5rem;
+        .section-body-inner input[type="checkbox"] {
+            margin-right: 0.4rem;
             accent-color: var(--terracotta);
         }
 
-        /* Loading */
-        .loading {
-            text-align: center;
-            padding: 3rem;
-            color: var(--deep-blue);
+        /* ── Overview panel special: no collapse, just render ── */
+        .overview-content {
+            background: white;
+            border-radius: 12px;
+            box-shadow: var(--card-shadow);
+            padding: 1.5rem 1.25rem;
+            margin-bottom: 0.75rem;
+            line-height: 1.65;
+            border: 1px solid rgba(0,0,0,0.04);
         }
+        .overview-content h2 {
+            font-family: 'Playfair Display', serif;
+            color: var(--terracotta);
+            font-size: 1.15rem;
+            margin: 0 0 0.75rem;
+        }
+        .overview-content h3 { color: var(--deep-blue); font-size: 1rem; margin: 0.75rem 0 0.4rem; }
+        .overview-content p { margin: 0.5rem 0; color: #444; font-size: 0.95rem; }
+        .overview-content ul, .overview-content ol { margin: 0.5rem 0; padding-left: 1.25rem; }
+        .overview-content li { margin: 0.3rem 0; color: #444; font-size: 0.95rem; }
+        .overview-content table { width: 100%; border-collapse: collapse; margin: 0.6rem 0; font-size: 0.85rem; }
+        .overview-content th { background: var(--deep-blue); color: white; padding: 0.5rem 0.75rem; text-align: left; font-weight: 600; font-size: 0.8rem; }
+        .overview-content td { padding: 0.5rem 0.75rem; border-bottom: 1px solid var(--sand); vertical-align: top; }
+        .overview-content tr:nth-child(even) { background: var(--warm-cream); }
+        .overview-content strong { color: var(--deep-blue); }
+        .overview-content a { color: var(--terracotta); text-decoration: none; }
+        .overview-content code { background: var(--sand); padding: 0.15rem 0.4rem; border-radius: 4px; font-size: 0.85em; }
+        .overview-content hr { border: none; height: 1px; background: var(--sand); margin: 1rem 0; }
 
-        .loading::after {
-            content: '';
-            display: inline-block;
-            width: 30px;
-            height: 30px;
+        /* ── Scroll to top ── */
+        .scroll-top {
+            position: fixed;
+            bottom: 1.5rem;
+            right: 1.5rem;
+            width: 44px;
+            height: 44px;
+            border-radius: 50%;
+            background: var(--deep-blue);
+            color: white;
+            border: none;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+            opacity: 0;
+            transform: translateY(10px);
+            transition: opacity 0.3s, transform 0.3s;
+            z-index: 150;
+        }
+        .scroll-top.visible { opacity: 1; transform: translateY(0); }
+        .scroll-top:active { transform: scale(0.92); }
+        .scroll-top svg { width: 20px; height: 20px; }
+
+        /* ── Loading ── */
+        .loading-screen {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 4rem 2rem;
+            color: var(--deep-blue);
+            gap: 1rem;
+        }
+        .spinner {
+            width: 32px;
+            height: 32px;
             border: 3px solid var(--sand);
             border-top-color: var(--terracotta);
             border-radius: 50%;
-            animation: spin 1s linear infinite;
-            margin-left: 1rem;
-            vertical-align: middle;
+            animation: spin 0.8s linear infinite;
+        }
+        @keyframes spin { to { transform: rotate(360deg); } }
+
+        /* ── Table horizontal scroll on mobile ── */
+        .table-wrap {
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+            margin: 0.75rem 0;
+        }
+        .table-wrap table { margin: 0; min-width: 500px; }
+
+        /* ── Responsive ── */
+        @media (max-width: 600px) {
+            .tab-btn { padding: 0 0.85rem; font-size: 0.8rem; }
+            .tab-btn .tab-icon { font-size: 0.9rem; }
+            .section-header h2 { font-size: 1.05rem; }
+            .panel-content { padding: 0.75rem; }
         }
 
-        @keyframes spin {
-            to { transform: rotate(360deg); }
+        @media (min-width: 900px) {
+            .tab-bar { justify-content: center; }
+            .tab-btn { padding: 0 1.75rem; font-size: 0.9rem; }
         }
 
-        /* Responsive */
-        @media (max-width: 768px) {
-            .password-container {
-                padding: 2rem;
-            }
-
-            .password-container h1 {
-                font-size: 2rem;
-            }
-
-            .markdown-content {
-                padding: 1.5rem;
-            }
-
-            .main-content {
-                padding: 1rem;
-            }
-
-            .header h1 {
-                font-size: 1.8rem;
-            }
-        }
-
-        /* Print styles */
         @media print {
-            .header {
-                position: relative;
-            }
-            
-            .markdown-content {
-                box-shadow: none;
-            }
+            .app-header, .tab-bar, .scroll-top { display: none; }
+            .tab-panel { display: block !important; }
+            .section-body { max-height: none !important; }
+            .section-card { break-inside: avoid; box-shadow: none; border: 1px solid #ddd; }
         }
     </style>
 </head>
 <body>
-    <!-- Password Screen -->
-    <div id="password-screen">
-        <div class="password-container">
-            <h1>🇪🇸 Spain 2026</h1>
-            <p class="subtitle">Family Trip Planning</p>
-            <div class="spain-flag">
-                <div class="flag-stripe red"></div>
-                <div class="flag-stripe yellow"></div>
-                <div class="flag-stripe red-bottom"></div>
-            </div>
-            <div class="password-input-group">
-                <input type="password" id="password-input" placeholder="Enter password" autocomplete="off">
-            </div>
-            <button id="submit-btn">View Trip Details →</button>
-            <p id="error-msg">Incorrect password. Please try again.</p>
+
+<!-- Password Screen -->
+<div id="password-screen">
+    <div class="password-container">
+        <h1>Spain 2026</h1>
+        <p class="subtitle">Family Trip Planning</p>
+        <div class="flag-bar">
+            <div class="red"></div>
+            <div class="yellow"></div>
+            <div class="red-end"></div>
         </div>
+        <input type="password" id="password-input" placeholder="Enter password" autocomplete="off">
+        <button id="submit-btn">View Trip Details</button>
+        <p id="error-msg">Incorrect password. Try again.</p>
     </div>
+</div>
 
-    <!-- Content Screen -->
-    <div id="content-screen">
-        <div class="header">
-            <h1>🇪🇸 Spain 2026</h1>
-            <p class="dates">May 27 - June 4, 2026</p>
-            <div class="spain-flag">
-                <div class="flag-stripe red"></div>
-                <div class="flag-stripe yellow"></div>
-                <div class="flag-stripe red-bottom"></div>
-            </div>
+<!-- App -->
+<div id="content-screen">
+    <header class="app-header">
+        <h1>Spain 2026</h1>
+        <span class="dates">May 26 – Jun 4</span>
+    </header>
+
+    <nav class="tab-bar" id="tab-bar"></nav>
+
+    <main id="panels-container">
+        <div class="loading-screen" id="loading">
+            <div class="spinner"></div>
+            <span>Loading trip details...</span>
         </div>
-        <div class="main-content">
-            <div class="markdown-content" id="markdown-content">
-                <div class="loading">Loading trip details</div>
-            </div>
-        </div>
-    </div>
+    </main>
 
-    <script>
-        // Simple password check
-        const correctPassword = 'Spain_2026_JN';
+    <button class="scroll-top" id="scroll-top" aria-label="Scroll to top">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"/></svg>
+    </button>
+</div>
 
-        const passwordInput = document.getElementById('password-input');
-        const submitBtn = document.getElementById('submit-btn');
-        const errorMsg = document.getElementById('error-msg');
-        const passwordScreen = document.getElementById('password-screen');
-        const contentScreen = document.getElementById('content-screen');
+<script>
+const correctPassword = 'Spain_2026_JN';
+const passwordInput = document.getElementById('password-input');
+const submitBtn = document.getElementById('submit-btn');
+const errorMsg = document.getElementById('error-msg');
+const passwordScreen = document.getElementById('password-screen');
+const contentScreen = document.getElementById('content-screen');
 
-        function checkPassword() {
-            const password = passwordInput.value;
-            if (password === correctPassword) {
-                passwordScreen.style.display = 'none';
-                contentScreen.style.display = 'block';
-                loadMarkdown();
-                // Store in session so refresh doesn't require password again
-                sessionStorage.setItem('authenticated', 'true');
-            } else {
-                errorMsg.style.display = 'block';
-                passwordInput.value = '';
-                passwordInput.focus();
-            }
+function checkPassword() {
+    if (passwordInput.value === correctPassword) {
+        passwordScreen.style.display = 'none';
+        contentScreen.style.display = 'block';
+        loadAndRender();
+        sessionStorage.setItem('authenticated', 'true');
+    } else {
+        errorMsg.style.display = 'block';
+        passwordInput.value = '';
+        passwordInput.focus();
+    }
+}
+submitBtn.addEventListener('click', checkPassword);
+passwordInput.addEventListener('keypress', e => { if (e.key === 'Enter') checkPassword(); });
+if (sessionStorage.getItem('authenticated') === 'true') {
+    passwordScreen.style.display = 'none';
+    contentScreen.style.display = 'block';
+    loadAndRender();
+}
+
+const TAB_DEFS = [
+    { id: 'overview',  icon: '📋', label: 'Overview' },
+    { id: 'valencia',  icon: '🏖️', label: 'Valencia' },
+    { id: 'barcelona', icon: '⛪', label: 'Barcelona' },
+    { id: 'madrid',    icon: '🏛️', label: 'Madrid' },
+    { id: 'return',    icon: '✈️', label: 'Return' },
+    { id: 'checklist', icon: '✅', label: 'Checklist' },
+];
+
+async function loadAndRender() {
+    try {
+        const res = await fetch('Trip_Planning_Document.md');
+        if (!res.ok) throw new Error('Failed to load');
+        const md = await res.text();
+        marked.setOptions({ gfm: true, breaks: true });
+        const html = marked.parse(md);
+        buildUI(html);
+    } catch (err) {
+        document.getElementById('loading').innerHTML =
+            `<p>Unable to load trip document.</p><p style="color:#999">${err.message}</p>`;
+    }
+}
+
+function buildUI(html) {
+    const temp = document.createElement('div');
+    temp.innerHTML = html;
+
+    const sections = [];
+    let cur = null;
+    for (const node of [...temp.childNodes]) {
+        if (node.nodeType === 1 && node.tagName === 'H1') {
+            if (cur) sections.push(cur);
+            cur = { title: node.textContent, nodes: [] };
+        } else if (cur) {
+            cur.nodes.push(node.nodeType === 1 ? node.outerHTML : node.textContent);
+        }
+    }
+    if (cur) sections.push(cur);
+
+    const tabBar = document.getElementById('tab-bar');
+    const container = document.getElementById('panels-container');
+    container.innerHTML = '';
+
+    sections.forEach((section, i) => {
+        if (i >= TAB_DEFS.length) return;
+        const def = TAB_DEFS[i];
+
+        const btn = document.createElement('button');
+        btn.className = 'tab-btn' + (i === 0 ? ' active' : '');
+        btn.dataset.tab = def.id;
+        btn.innerHTML = `<span class="tab-icon">${def.icon}</span>${def.label}`;
+        btn.addEventListener('click', () => switchTab(def.id));
+        tabBar.appendChild(btn);
+
+        const panel = document.createElement('div');
+        panel.className = 'tab-panel' + (i === 0 ? ' active' : '');
+        panel.id = `panel-${def.id}`;
+
+        const inner = document.createElement('div');
+        inner.className = 'panel-content';
+
+        if (i === 0) {
+            inner.innerHTML = buildOverviewCards(section.nodes.join(''));
+        } else {
+            inner.innerHTML = buildCollapsibleSections(section.nodes.join(''));
         }
 
-        submitBtn.addEventListener('click', checkPassword);
-        passwordInput.addEventListener('keypress', (e) => {
-            if (e.key === 'Enter') checkPassword();
+        panel.appendChild(inner);
+        container.appendChild(panel);
+    });
+
+    wrapTables();
+    restoreTab();
+}
+
+function buildOverviewCards(html) {
+    const temp = document.createElement('div');
+    temp.innerHTML = html;
+    let cards = '';
+    let currentContent = [];
+
+    for (const node of [...temp.childNodes]) {
+        if (node.nodeType === 1 && node.tagName === 'H2') {
+            if (currentContent.length) {
+                cards += `<div class="overview-content">${currentContent.join('')}</div>`;
+                currentContent = [];
+            }
+            currentContent.push(`<h2>${node.innerHTML}</h2>`);
+        } else if (node.nodeType === 1 && node.tagName === 'HR') {
+            if (currentContent.length) {
+                cards += `<div class="overview-content">${currentContent.join('')}</div>`;
+                currentContent = [];
+            }
+        } else {
+            currentContent.push(node.nodeType === 1 ? node.outerHTML : node.textContent);
+        }
+    }
+    if (currentContent.length) {
+        cards += `<div class="overview-content">${currentContent.join('')}</div>`;
+    }
+    return cards;
+}
+
+function buildCollapsibleSections(html) {
+    const temp = document.createElement('div');
+    temp.innerHTML = html;
+    let cards = '';
+    let curTitle = null;
+    let curContent = [];
+    let index = 0;
+
+    function flush() {
+        if (curTitle !== null) {
+            const open = index <= 1 ? ' open' : '';
+            cards += `
+                <div class="section-card${open}">
+                    <div class="section-header" onclick="toggleSection(this)">
+                        <h2>${curTitle}</h2>
+                        <svg class="section-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+                    </div>
+                    <div class="section-body"><div class="section-body-inner">${curContent.join('')}</div></div>
+                </div>`;
+            index++;
+        }
+    }
+
+    for (const node of [...temp.childNodes]) {
+        if (node.nodeType === 1 && node.tagName === 'H2') {
+            flush();
+            curTitle = node.innerHTML;
+            curContent = [];
+        } else if (node.nodeType === 1 && node.tagName === 'HR') {
+            // skip HRs between sections
+        } else if (curTitle !== null) {
+            curContent.push(node.nodeType === 1 ? node.outerHTML : node.textContent);
+        } else {
+            cards += node.nodeType === 1 ? node.outerHTML : '';
+        }
+    }
+    flush();
+    return cards;
+}
+
+function toggleSection(header) {
+    header.closest('.section-card').classList.toggle('open');
+}
+
+function switchTab(tabId) {
+    document.querySelectorAll('.tab-btn').forEach(b => b.classList.toggle('active', b.dataset.tab === tabId));
+    document.querySelectorAll('.tab-panel').forEach(p => p.classList.toggle('active', p.id === `panel-${tabId}`));
+    window.scrollTo({ top: 0, behavior: 'instant' });
+    sessionStorage.setItem('activeTab', tabId);
+}
+
+function restoreTab() {
+    const saved = sessionStorage.getItem('activeTab');
+    if (saved) switchTab(saved);
+}
+
+function wrapTables() {
+    document.querySelectorAll('.section-body-inner table, .overview-content table').forEach(table => {
+        if (table.parentElement.classList.contains('table-wrap')) return;
+        const wrap = document.createElement('div');
+        wrap.className = 'table-wrap';
+        table.parentNode.insertBefore(wrap, table);
+        wrap.appendChild(table);
+    });
+}
+
+// Scroll-to-top button
+const scrollBtn = document.getElementById('scroll-top');
+let ticking = false;
+window.addEventListener('scroll', () => {
+    if (!ticking) {
+        requestAnimationFrame(() => {
+            scrollBtn.classList.toggle('visible', window.scrollY > 400);
+            ticking = false;
         });
-
-        // Check if already authenticated in this session
-        if (sessionStorage.getItem('authenticated') === 'true') {
-            passwordScreen.style.display = 'none';
-            contentScreen.style.display = 'block';
-            loadMarkdown();
-        }
-
-        async function loadMarkdown() {
-            try {
-                const response = await fetch('Trip_Planning_Document.md');
-                if (!response.ok) throw new Error('Failed to load');
-                const markdown = await response.text();
-                
-                // Configure marked for GitHub-flavored markdown
-                marked.setOptions({
-                    gfm: true,
-                    breaks: true
-                });
-                
-                document.getElementById('markdown-content').innerHTML = marked.parse(markdown);
-            } catch (error) {
-                document.getElementById('markdown-content').innerHTML = `
-                    <h2>Unable to load trip document</h2>
-                    <p>Please make sure Trip_Planning_Document.md is in the same folder.</p>
-                    <p>Error: ${error.message}</p>
-                `;
-            }
-        }
-    </script>
+        ticking = true;
+    }
+});
+scrollBtn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+</script>
 </body>
 </html>

@@ -11,16 +11,16 @@
 ## Where We'll Be (Day by Day)
 
 ```
-May 26 (Mon)  ✈️  TRAVEL: Nashville → Boston → Overnight flight to Spain
-May 27 (Tue)  🇪🇸  VALENCIA - Arrive, beach house, paella dinner at Casa Carmela
-May 28 (Wed)  🏖️  VALENCIA - Beach, pool, explore (flexible day)
-May 29 (Thu)  🚄  BARCELONA - Train from Valencia, check in, Wedding Event #1
-May 30 (Fri)  💒  BARCELONA - Wedding Event #2
-May 31 (Sat)  🎉  BARCELONA - WEDDING DAY (main event)
-Jun 1  (Sun)  🚄  MADRID - Train from Barcelona, check in, explore
-Jun 2  (Mon)  🏛️  MADRID - Full day exploring (museums, tapas, parks)
-Jun 3  (Tue)  ✈️  MADRID - Thomas family departs / Williams explores
-Jun 4  (Wed)  ✈️  MADRID - Williams family departs
+May 26 (Tue)  ✈️  TRAVEL: Nashville → Boston → Overnight flight to Spain
+May 27 (Wed)  🇪🇸  VALENCIA - Arrive, beach house, paella dinner at Casa Carmela
+May 28 (Thu)  🏖️  VALENCIA - Beach, pool, explore (flexible day)
+May 29 (Fri)  🚄  BARCELONA - Train from Valencia, check in, Wedding Event #1
+May 30 (Sat)  💒  BARCELONA - Tour Day (La Pedrera, Sagrada Família, Tapas Tour) + Wedding Event #2
+May 31 (Sun)  🎉  BARCELONA - WEDDING DAY (main event)
+Jun 1  (Mon)  🚄  MADRID - Train from Barcelona, check in, explore
+Jun 2  (Tue)  🏛️  MADRID - Full day exploring (museums, tapas, parks)
+Jun 3  (Wed)  ✈️  MADRID - Thomas family departs / Williams explores
+Jun 4  (Thu)  ✈️  MADRID - Williams family departs
 ```
 
 ---
@@ -53,6 +53,7 @@ Download these before your trip:
 | **Mithouse**         | Keyless entry for Madrid apartment | [App Store](https://apps.apple.com/app/mithouse/id1455847541)                |
 | **VRBO**             | Manage bookings, contact hosts     | [App Store](https://apps.apple.com/app/vrbo-vacation-rentals/id332399323)    |
 | **Uber/Cabify**      | Ride-hailing in Spain              | [App Store](https://apps.apple.com/app/uber/id368677368)                     |
+| **Sagrada Família Oficial** | Tickets + audioguide for Sagrada entry | [App Store](https://apps.apple.com/app/sagrada-familia-oficial/id1435751089) |
 | **XE Currency**      | Currency conversion                | [App Store](https://apps.apple.com/app/xe-currency/id315241195)              |
 
 **Tip:** Download offline maps for Madrid, Valencia, and Barcelona in Google Maps before you leave.
@@ -251,12 +252,15 @@ Download these before your trip:
 | Detail                         | Information                                                                                      |
 | ------------------------------ | ------------------------------------------------------------------------------------------------ |
 | **Property Name**        | Grandmother's house next to the beach in Valencia                                                |
+| **VRBO Link**            | [vrbo.com/11535693ha](https://www.vrbo.com/11535693ha)                                           |
 | **Booking Confirmation** | HA-7TLM9D                                                                                        |
 | **Address**              | Near C/ d'Isabel de Villena & C/ de Pavia, Valencia                                              |
 | **Google Maps**          | [View Location](https://www.google.com/maps/search/C+d'Isabel+de+Villena+C+de+Pavia+Valencia+Spain) |
 | **Check-in**             | May 27 at 4:00 PM                                                                                |
 | **Check-out**            | May 29 at 11:00 AM                                                                               |
 | **Guests**               | 9 people (ALL TOGETHER!)                                                                         |
+| **Total Price**          | €535.29                                                                                          |
+| **Payment 2 of 2**      | €333.50 — **due by May 12, 2026**                                                               |
 | **Bedrooms**             | 6                                                                                                |
 | **Bathrooms**            | 3                                                                                                |
 
@@ -502,13 +506,15 @@ Download these before your trip:
 | Detail                         | Information                                                                                           |
 | ------------------------------ | ----------------------------------------------------------------------------------------------------- |
 | **Property Name**        | Luxury Apartment on Valencia Street                                                                   |
+| **VRBO Link**            | [vrbo.com/6133724ha](https://www.vrbo.com/6133724ha)                                                  |
 | **Booking Confirmation** | 726EF3C0B8                                                                                            |
 | **Address**              | Carrer de València, between Passeig de Gràcia and Rambla de Catalunya                               |
 | **Google Maps**          | [View Location](https://www.google.com/maps/search/Carrer+de+Valencia+Passeig+de+Gracia+Barcelona+Spain) |
 | **Neighborhood**         | Eixample (Dreta de l'Eixample)                                                                        |
 | **Check-in**             | May 29 at 2:00 PM                                                                                     |
 | **Check-out**            | June 1 at 11:00 AM                                                                                    |
-| **Guests**               | Angela, Chandler, Carson, Harrison, Elise (5)                                                         |
+| **Guests**               | Angela, Chandler, Carson, Harrison, Elise (5 — Williams family only)                                  |
+| **Total Price**          | €1,624.95                                                                                             |
 
 **Property Features:**
 
@@ -561,12 +567,35 @@ Download these before your trip:
 
 | Date         | Event                | Location       |
 | ------------ | -------------------- | -------------- |
-| May 29 (Thu) | Wedding Event #1     | Gothic Quarter |
-| May 30 (Fri) | Wedding Event #2     | Gothic Quarter |
-| May 31 (Sat) | WEDDING (main event) | Gothic Quarter |
+| May 29 (Fri) | Wedding Event #1     | Gothic Quarter |
+| May 30 (Sat) | Tour Day + Wedding Event #2 | See schedule below |
+| May 31 (Sun) | WEDDING (main event) | Gothic Quarter |
 
 **Wedding Area:** Gothic Quarter, Barcelona
 **Reference Hotels:** Kimpton Vividora (Carrer del Duc 15), Hotel 1898 (La Rambla 109)
+
+### May 30 Tour Day Schedule (Saturday)
+
+Wedding-organized group tour day. The morning tour is a separate wedding activity (already paid via Venmo). Sagrada Família tickets are for official entry after/between tours.
+
+| Time | Activity | Details |
+|------|----------|---------|
+| **9:45 AM** | Morning Tour (Group A): La Pedrera & Sagrada Família | Meet outside La Pedrera, Passeig de Gràcia 92 |
+| **~12:15 PM** | Sagrada Família Official Entry | Locator: 97232969, Entry at C/ Marina. Download **Sagrada Família Oficial** app + bring photo ID |
+| **5:00 PM** | Evening Tour: Tapas Tour | Meet at Grand Hotel Central |
+
+**Sagrada Família Tickets - BOOKED:**
+
+| Detail | Information |
+|--------|-------------|
+| **Locator** | 97232969 |
+| **Date/Time** | May 30, 2026 at 12:15 PM |
+| **Entry** | C/ Marina - 08013 Barcelona |
+| **Tickets** | 2x General (€26 ea), 2x Student (€24 ea), 1x Child under 11 (free) |
+| **Total** | €100.00 |
+| **App Required** | Download **Sagrada Família Oficial** app before arrival for tickets + audioguide |
+| **ID Required** | Must show official photo ID to enter (ticket is non-transferable) |
+| **Note** | Annalise has a separate duplicate confirmation for the other half of the party |
 
 ### Chandler's Suit Rental
 
@@ -588,17 +617,17 @@ Download these before your trip:
 
 ### Recommendations
 
-**1. Sagrada Família** ⭐ BOOK NOW (1-2 months ahead!)
+**1. Sagrada Família** ✅ BOOKED
 
 - **What:** Gaudí's iconic basilica - recently became world's tallest church
 - **Why:** Once-in-a-lifetime architectural experience, under construction since 1882
-- **Cost:** €26 basic / €36 with tower access / €40+ guided tour
+- **Cost:** €100 total (see ticket breakdown in Tour Day Schedule above)
 - **Distance:** 15 min walk or 2 metro stops from Williams apartment
 - **Duration:** 1.5-2 hours
-- **Booking:** [sagradafamilia.org](https://sagradafamilia.org) - **MUST BOOK IN ADVANCE** (sells out!)
-- **Best Time:** Morning (less crowded) or late afternoon (beautiful light)
-- **Suggested Day:** May 30 morning (before Wedding Event #2)
-- **Tip:** Tower access worth it for views; book "Nativity Towers" for better experience
+- **Booking:** ✅ Booked — Locator 97232969, May 30 at 12:15 PM
+- **App:** Download **Sagrada Família Oficial** app before arrival (required for tickets + audioguide)
+- **ID:** Must bring official photo ID (tickets are non-transferable)
+- **Note:** This is the official entry after the wedding morning tour (Group A) which arrives at Sagrada ~12:15 PM
 
 **2. Park Güell** ⭐ BOOK 2-4 weeks ahead
 
@@ -742,7 +771,7 @@ Download these before your trip:
 **Look For:**
 - **Neoclassical architecture** - Madrid was rebuilt in the 18th century to look "properly European." Grand, symmetrical, Habsburg-influenced.
 - **Terrazas** - Sidewalk cafes are religion here. Prime people-watching.
-- **El Rastro** - Sunday flea market in La Latina (you arrive June 1, Sunday - perfect timing!)
+- **El Rastro** - Sunday flea market in La Latina (you arrive June 1, which is a Monday - El Rastro is Sundays only, so you'd miss it unless you visit Barcelona's equivalent markets instead)
 - **Vermouth culture** - Sunday vermut (vermouth hour) is sacred. Old bars, vermouth on tap, olives, pickled things.
 - **The sky** - Madrid is famous for its blue sky and intense light (2,769 hours of sun per year!)
 - **Real Madrid references** - Soccer is religion. You'll see jerseys, flags, and heated opinions everywhere.
@@ -812,18 +841,19 @@ Your apartment is in Barrio de las Letras - where Cervantes, Lope de Vega, and Q
 
 ## Madrid: Where We're Staying
 
-### Williams Family: Cibeles Luxe III (June 1-4)
+### Everyone Together: Cibeles Luxe III (June 1-4)
 
 | Detail                   | Information                                                                         |
 | ------------------------ | ----------------------------------------------------------------------------------- |
 | **Property Name**  | Cibeles Luxe III                                                                    |
+| **VRBO Link**      | [View Booking](https://www.vrbo.com/trips/egti-ZH9-1JJ-0EDY/details/OTAxNDA5NTU0MzQ5NTtlZzpwcm9wZXJ0eToyNDM2ZTFkOTY5ZTM4ODM2MGNkNjc3Y2FkYzVkMjA3ZQ) |
 | **Reservation ID** | 30602041                                                                            |
 | **Address**        | C. de los Madrazo (across from Araldo Pizza, next to Consulado General de Colombia) |
 | **Google Maps**    | [View Location](https://www.google.com/maps/search/Calle+de+los+Madrazo+Madrid+Spain)  |
 | **Neighborhood**   | Cortes (Literary Quarter/Barrio de las Letras) - [See all Madrid neighborhoods](https://www.esmadrid.com/en/madrid-neighbourhoods) |
 | **Check-in**       | June 1 at 3:00 PM                                                                   |
 | **Check-out**      | June 4 at 11:00 AM                                                                  |
-| **Guests**         | 6 (Williams Family)                                                                 |
+| **Guests**         | 9 (ALL TOGETHER — Williams + Thomas + Grandma)                                      |
 | **Rating**         | 9.8/10 - Top 10% in area                                                            |
 
 **Cost:**
@@ -848,8 +878,8 @@ Your apartment is in Barrio de las Letras - where Cervantes, Lope de Vega, and Q
 | Master      | King (en-suite) | Angela & Chandler                  |
 | Bedroom 2   | Double          | Grandma Valerie                    |
 | Bedroom 3   | 2 Twins         | Carson & Harrison                  |
-| Bedroom 4   | 2 Twins         | Elise (+ Thomas family if joining) |
-| Living Room | Sofa bed        | Overflow                           |
+| Bedroom 4   | 2 Twins         | Annalise & Brandon (+ Harlan crib) |
+| Living Room | Sofa bed        | Elise                              |
 
 **Property Features:**
 
@@ -875,18 +905,9 @@ Your apartment is in Barrio de las Letras - where Cervantes, Lope de Vega, and Q
 - Download **Mithouse app** for keyless entry
 - Contact host 48 hours before (May 30)
 - Register all guests online BEFORE arrival
-- If Thomas family joins: Request crib by May 27 (5 days advance)
+- Request crib for Harlan by May 27 (5 days advance required)
 
----
-
-### Thomas Family Accommodation (TBD)
-
-**Options:**
-
-1. **Stay at Cibeles Luxe III** - Apartment sleeps 9, has room
-2. **Book own place nearby** - Same neighborhood recommended
-
-**Note:** Thomas family departs June 3 (2:45 PM flight). Only 2 nights in Madrid.
+**Note:** Thomas family departs June 3 (Wed, 2:45 PM flight). Only 2 nights in Madrid.
 
 ---
 
@@ -1029,7 +1050,7 @@ The whole neighborhood is tapas heaven. Strategy: Don't sit down anywhere. Order
 
 **Madrid's Secret Weapon - Vermut Culture:**
 
-Madrid does Sunday "vermut" (vermouth hour) like nowhere else. Find any old bar around noon, order a vermut (vermouth on tap with an olive), and some simple tapas. It's how locals spend Sunday. You arrive June 1 (Sunday) - perfect timing!
+Madrid does Sunday "vermut" (vermouth hour) like nowhere else. Find any old bar around noon, order a vermut (vermouth on tap with an olive), and some simple tapas. It's how locals spend Sunday. June 1 is a Monday, but vermut culture is enjoyable any day - the tradition just peaks on Sundays.
 
 **Must-Try Foods in Madrid:**
 
@@ -1136,6 +1157,7 @@ Madrid does Sunday "vermut" (vermouth hour) like nowhere else. Find any old bar 
 - Google Maps (download offline maps!)
 - Google Translate
 - Mithouse (Madrid apartment)
+- Sagrada Família Oficial (required for tickets + audioguide)
 - VRBO
 - Uber/Cabify
 
@@ -1147,7 +1169,7 @@ Madrid does Sunday "vermut" (vermouth hour) like nowhere else. Find any old bar 
 | Barcelona → Valencia train | Now (60-90 days ahead) | May 27       | |
 | Valencia → Barcelona train | Now (60-90 days ahead) | May 29       | |
 | Barcelona → Madrid train   | Now (60-90 days ahead) | June 1       | |
-| Sagrada Família tickets    | Now (sells out!)       | May 30       | |
+| Sagrada Família tickets    | Now (sells out!)       | May 30       | ✅ BOOKED (Locator 97232969, 12:15 PM) |
 | Park Güell tickets         | 2-4 weeks ahead        | May 29 or 30 | |
 | Casa Batlló or La Pedrera  | 1-2 weeks ahead        | May 29 or 30 | |
 
@@ -1174,4 +1196,4 @@ Ask about:
 
 ---
 
-*Last updated: January 25, 2026*
+*Last updated: April 5, 2026*
