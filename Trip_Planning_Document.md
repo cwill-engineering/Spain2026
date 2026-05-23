@@ -51,7 +51,7 @@ When checkout time and your next train or flight don't line up, use these option
 | May 29 Valencia | Leave ~07:45, Vrbo checkout 11:00 | Ask host Maria Pilar to hold bags / early checkout; Stasher near Estació del Nord if needed |
 | May 29 Barcelona | Train 12:20, check-in 14:00 | Lunch near apartment; light bags OK; Stasher at Sants if heavy |
 | Jun 1 Barcelona | Checkout 11:00 → train 15:00 | Stasher near Gothic Quarter or Barcelona-Sants lockers (~€6–10/day); Casa Gay suit return AM |
-| Jun 4 Madrid | Checkout 11:00 → flight 14:05 | Stasher La Latina/Sol (~€3.49/bag) or Airbnb partner storage (15% off in reservation) |
+| Jun 4 Madrid | Checkout 11:00 → flight 14:05 | **Corpus Christi public holiday** — many shops/banks closed. Stasher La Latina/Sol or Airbnb partner storage (15% off). Eat lunch early; confirm taxi night before. |
 
 ---
 
@@ -105,25 +105,9 @@ Download these before your trip:
 
 ## About Valencia
 
-**Spain's third-largest city, but feels like a secret.** While tourists flood Barcelona and Madrid, Valencia stays gloriously underrated - and that's exactly why you'll love it.
+Spain's third-largest city — beach, paella, and a 9km park where a river used to be. You're here May 27–29 to decompress after the flight and eat well before Barcelona.
 
-**The History:** Founded by Romans in 138 BC, conquered by Moors who built incredible irrigation systems (still used today!), reconquered by El Cid in 1094, and today a vibrant mix of ancient and ultra-modern. The old city walls are gone, replaced by the stunning Turia Gardens - a 9km park built in a drained riverbed after a catastrophic 1957 flood.
-
-**What Makes It Special:**
-- **Birthplace of paella** - Valencians will passionately tell you the "real" paella has rabbit and beans, NOT seafood
-- **Las Fallas festival** (March) - They build massive sculptures all year, then burn them all in one night. Insane.
-- **The language** - Listen for Valenciano (Catalan dialect) alongside Spanish
-- **Oranges everywhere** - The streets are literally lined with orange trees
-- **City of Arts and Sciences** - The most futuristic architecture you'll see in Europe, designed by local hero Santiago Calatrava
-
-**Look For:**
-- Ceramic tiles (azulejos) on buildings - Valencia was the tile capital of medieval Europe
-- The Central Market's stunning modernist ironwork and stained glass
-- Horchata stands - this tiger nut drink was invented here
-- Old men playing cards in plazas (they take it VERY seriously)
-- The beach culture - locals live at the beach in summer
-
-**The Vibe:** Relaxed, foodie, proudly local, beach-loving, not trying to impress anyone. Perfect for your first stop to decompress after the flight.
+**For the full deep dive** — history, politics, architecture, demographics, and what to watch for on the ground — open the **Valencia Decoded** tab on this site.
 
 ---
 
@@ -457,26 +441,9 @@ Download these before your trip:
 
 ## About Barcelona
 
-**The city that doesn't feel quite like Spain** - and that's intentional. Barcelona is the capital of Catalonia, a region with its own language, culture, flag, and fierce independent streak. You'll see "Catalonia is not Spain" graffiti. The independence debate is real and ongoing.
+Catalonia's capital — Gaudí, Gothic alleys, and a wedding weekend. Your apartment is on **Carrer de València** in the Eixample grid, walking distance from the Gothic Quarter.
 
-**The History:** Founded as a Roman colony, ruled by Visigoths, conquered by Moors (briefly), then became the seat of the powerful Crown of Aragon. In 1714, Catalonia lost a brutal siege and its autonomy - a wound that still shapes politics today. Franco banned the Catalan language for 40 years. Since democracy returned, Barcelona has exploded into one of Europe's most creative, design-forward cities.
-
-**What Makes It Special:**
-- **Gaudí's fingerprints everywhere** - Sagrada Família, Park Güell, Casa Batlló, La Pedrera... one architect defined an entire city's identity
-- **Modernisme** - Barcelona's unique spin on Art Nouveau. Once you see it, you'll spot it everywhere: organic curves, nature motifs, intricate tilework
-- **La Rambla** - The famous pedestrian boulevard (touristy but still worth a walk)
-- **The Gothic Quarter** - 2,000 years of history in narrow medieval streets (where the wedding is!)
-- **Beach + city** - Rare combo. The waterfront was a wasteland until the 1992 Olympics transformed it
-
-**Look For:**
-- **Catalan flags** hanging from balconies (the striped ones are regional pride; add a star = independence movement)
-- **Trencadís** - Gaudí's signature broken-tile mosaic technique
-- **Human towers (castells)** - If you see a crowd gathering in a plaza, you might witness this UNESCO-recognized tradition
-- **Late dinners** - Nobody eats before 9pm. Seriously.
-- **The sea at the end of streets** - The city slopes down to the Mediterranean
-- **Vermut culture** - Sunday vermouth hour in El Born or Gràcia neighborhoods
-
-**The Vibe:** Creative, proud, Mediterranean, stylish, politically charged, obsessed with good design and better food. This is where your best friend is getting married - fitting for a city that celebrates life beautifully.
+**For the full deep dive** — 1714 siege, independence politics, Modernisme, demographics, and what's happening while you're here — open **Barcelona Unpacked**.
 
 ---
 
@@ -791,29 +758,9 @@ Wedding-organized group tour day. The morning tour is a separate wedding activit
 
 ## About Madrid
 
-**The heart of Spain - literally.** Madrid sits at the exact geographic center of the Iberian Peninsula. While Barcelona looks to the Mediterranean and Valencia to its beaches, Madrid is uncompromisingly, defiantly Spanish. This is where the king lives, where the government sits, and where Spain's soul resides.
+The capital — where Spain's government, monarchy, and late-night culture converge. Your Airbnb in **La Latina** is walking distance from Sol, Plaza Mayor, and serious tapas.
 
-**The History:** Unlike most Spanish cities, Madrid has no Roman or Moorish roots. It was a nothing town until 1561 when King Philip II randomly made it the capital (historians still debate why). From there, it became the seat of the world's most powerful empire - at its peak, Spain ruled from Peru to the Philippines. The Prado Museum houses art collected when Spanish kings could afford literally anything.
-
-**What Makes It Special:**
-- **The Golden Triangle of Art** - Prado, Reina Sofía (Picasso's Guernica!), and Thyssen-Bornemisza within walking distance
-- **Late night culture** - Madrid doesn't sleep. Dinner at 10pm, bars at midnight, clubs at 3am, churros at dawn at San Ginés
-- **The tapas tradition** - Free tapas with drinks is a Madrid (and southern Spain) thing. Order a beer, get a snack.
-- **Royal Madrid** - Palacio Real is the largest royal palace in Western Europe (the king doesn't actually live there, but still)
-- **Retiro Park** - 350 acres of gardens, once the private playground of Spanish royalty
-
-**Look For:**
-- **Neoclassical architecture** - Madrid was rebuilt in the 18th century to look "properly European." Grand, symmetrical, Habsburg-influenced.
-- **Terrazas** - Sidewalk cafes are religion here. Prime people-watching.
-- **El Rastro** - Sunday flea market in La Latina (you arrive June 1, which is a Monday - El Rastro is Sundays only, so you'd miss it unless you visit Barcelona's equivalent markets instead)
-- **Vermouth culture** - Sunday vermut (vermouth hour) is sacred. Old bars, vermouth on tap, olives, pickled things.
-- **The sky** - Madrid is famous for its blue sky and intense light (2,769 hours of sun per year!)
-- **Real Madrid references** - Soccer is religion. You'll see jerseys, flags, and heated opinions everywhere.
-
-**La Latina / Sol (Your Neighborhood):**
-Your apartment is on Calle de la Encomienda, right by La Latina / Tirso de Molina and an easy walk to Puerta del Sol, Plaza Mayor, and Mercado de San Miguel. This is one of Madrid's best areas for tapas, evening wandering, and getting everywhere without much transit.
-
-**The Vibe:** Proud, lively, night-owl, culturally fierce, traditional yet modern, obsessed with good food and strong opinions. After the wedding, Madrid is the perfect place to decompress with late tapas, lazy museum mornings, and that famous Spanish "mañana" attitude.
+**For the full deep dive** — empire history, Ayuso/Sánchez politics, architecture, demographics, and **Corpus Christi (Jun 4) holiday impacts** — open **Madrid in Context**.
 
 ---
 
@@ -1097,7 +1044,7 @@ Madrid does Sunday "vermut" (vermouth hour) like nowhere else. Find any old bar 
 | ------------------- | ----------------------------------------- |
 | Morning             | Last breakfast, pack                      |
 | 11:00 AM            | Check out (or leave bags at Williams apt) |
-| 11:00 AM - 12:00 PM | Last activities / lunch                   |
+| 11:00 AM - 12:00 PM | Last activities / lunch — **Thu Jun 4 is Corpus Christi; many businesses closed** |
 | 12:00-12:30 PM      | Taxi to airport                           |
 | ~1:00 PM            | Arrive Madrid Barajas                     |
 | 2:45 PM             | Flight departs                            |
@@ -1123,7 +1070,7 @@ Madrid does Sunday "vermut" (vermouth hour) like nowhere else. Find any old bar 
 | ------------------- | --------------------- |
 | Morning             | Pack, breakfast       |
 | 11:00 AM            | Check out             |
-| 11:00 AM - 12:00 PM | Light lunch nearby    |
+| 11:00 AM - 12:00 PM | Light lunch nearby — **Corpus Christi holiday; confirm what's open** |
 | 12:00-12:15 PM      | Taxi to airport       |
 | ~12:45 PM           | Arrive Madrid Barajas |
 | 2:05 PM             | Flight departs        |

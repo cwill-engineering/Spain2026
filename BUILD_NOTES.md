@@ -1,13 +1,14 @@
 # BUILD NOTES - Spain 2026 Travel Site
 
-> Last updated: 2026-05-22
+> Last updated: 2026-05-23
 
 ## Purpose
-Static, password-gated family travel site for the Spain 2026 trip. It gives the group one mobile-friendly place to check itinerary, lodging, trains, activities, and pre-trip tasks.
+Static, password-gated family travel site for the Spain 2026 trip. It gives the group one mobile-friendly place to check itinerary, lodging, trains, activities, city deep-dives, and pre-trip tasks.
 
 ## How It Works
 - `index.html` is the full static app shell, styling, password screen, tab renderer, and client-side markdown loader.
 - `Trip_Planning_Document.md` is the visible trip content rendered into tabs by top-level `#` headings.
+- `briefings/Valencia.md`, `briefings/Barcelona.md`, `briefings/Madrid.md` lazy-load into **Valencia Decoded**, **Barcelona Unpacked**, and **Madrid in Context** tabs.
 - `trip-events.json` is the structured itinerary source for the **Plan** tab (vis-timeline + Leaflet map).
 - `spain-2026.ics` is the static subscribable calendar file served from the Netlify site root.
 - `spain-2026.kml` is a Google Earth / My Maps export of locked pins and ideas.
@@ -40,11 +41,11 @@ webcal://neon-daffodil-236a0f.netlify.app/spain-2026.ics
 ## Key Design Decisions
 1. The site remains static so it can deploy on Netlify without a build step.
 2. Trip content lives in markdown so family-facing updates are simple and readable.
-3. Top-level `#` headings map to content tabs (Overview content + Valencia/Barcelona/Madrid/Return/Checklist); the **Plan** tab is injected separately and does not consume a markdown section.
-4. `trip-events.json` drives the Plan tab timeline/map; keep it aligned with `spain-2026.ics` when bookings change.
-5. The password gate is privacy-by-obscurity only; do not put truly sensitive secrets in rendered trip content.
-6. Spain itinerary times should be encoded as `Europe/Madrid` so events stay pinned to local Spain time for subscribed users.
-7. US outbound flight legs on May 26 use `America/New_York` in the calendar.
+3. Top-level `#` headings map to content tabs (Overview + Valencia/Barcelona/Madrid/Return/Checklist). **Plan** and three **city briefing** tabs use `mdIndex: null` and load separate files.
+4. City briefings use H2 sections in markdown → collapsible cards; lazy-loaded on first tab open.
+5. `trip-events.json` drives the Plan tab timeline/map; keep aligned with `spain-2026.ics` when bookings change.
+6. The password gate is privacy-by-obscurity only; do not put truly sensitive secrets in rendered trip content.
+7. Spain itinerary times use `Europe/Madrid`; US outbound flights May 26 use `America/New_York` in the calendar.
 
 ## Research & Discovery Log
 - **Question / Goal**: Update the live trip site with May 2026 train and Madrid lodging changes.
@@ -81,8 +82,8 @@ webcal://neon-daffodil-236a0f.netlify.app/spain-2026.ics
 - **DO NOT REVERT**: Reverting to Cibeles Luxe III or generic train booking instructions will make the family-facing itinerary inaccurate.
 
 ## Gotchas & Warnings
-- Do not add or remove top-level `#` markdown sections without checking `TAB_DEFS` mdIndex mapping in `index.html`. The Plan tab is separate (`mdIndex: null`).
-- When updating bookings, edit `trip-events.json`, `spain-2026.ics`, and relevant markdown sections together.
+- Do not add or remove top-level `#` markdown sections without checking `TAB_DEFS` mdIndex mapping in `index.html`. Plan and briefing tabs use `briefFile` / `mdIndex: null`.
+- Briefing tabs: `valencia-decoded`, `barcelona-unpacked`, `madrid-context` — edit files under `briefings/`, not the trip doc.
 - May 29 Valencia: Vrbo checkout is 11:00 but train is 09:06 — plan assumes leave ~07:45 and host bag hold.
 - May 29 Barcelona: train arrives ~12:20, check-in 14:00 — document lunch / Stasher gap.
 - Jun 1 Madrid: Airbnb earliest check-in 15:00 but group arrives ~19:00 after AVE — calendar uses arrival event, not 15:00.
@@ -102,6 +103,8 @@ To duplicate this for another trip:
 ## Change Log
 | Date | Change | Why |
 |---|-----|-----|
+| 2026-05-23 | Deepened city briefings: local news + vocabulary sections | Spring 2026 teacher strike, housing protests, overtourism policy, Corpus Christi prep |
+| 2026-05-23 | City deep briefing tabs + briefings/*.md | History, politics, architecture, demographics, while-you-are-here for MBA/military lens |
 | 2026-05-22 | Plan tab (vis-timeline + Leaflet), trip-events.json, KML, calendar/content sync | Paella booking, cribs, check-in/out, luggage gaps, timezone fixes |
 | 2026-05-17 | Added static subscribable calendar and updated May 30 tour time | Keep the site and calendar aligned with the new Group A 9:15 AM start and Sagrada entry |
 | 2026-05-17 | Added build notes | Required project documentation for future site updates |

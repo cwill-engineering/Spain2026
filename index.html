@@ -575,8 +575,11 @@ const TAB_DEFS = [
     { id: 'overview',  icon: '📋', label: 'Overview',  mdIndex: 0 },
     { id: 'plan',      icon: '🗺️', label: 'Plan',      mdIndex: null },
     { id: 'valencia',  icon: '🏖️', label: 'Valencia',  mdIndex: 1 },
+    { id: 'valencia-decoded', icon: '📜', label: 'Valencia Decoded', mdIndex: null, briefFile: 'briefings/Valencia.md' },
     { id: 'barcelona', icon: '⛪', label: 'Barcelona', mdIndex: 2 },
+    { id: 'barcelona-unpacked', icon: '📜', label: 'Barcelona Unpacked', mdIndex: null, briefFile: 'briefings/Barcelona.md' },
     { id: 'madrid',    icon: '🏛️', label: 'Madrid',    mdIndex: 3 },
+    { id: 'madrid-context', icon: '📜', label: 'Madrid in Context', mdIndex: null, briefFile: 'briefings/Madrid.md' },
     { id: 'return',    icon: '✈️', label: 'Return',    mdIndex: 4 },
     { id: 'checklist', icon: '✅', label: 'Checklist', mdIndex: 5 },
 ];
@@ -586,6 +589,7 @@ let planTimeline = null;
 let planMap = null;
 let planMarkers = {};
 let planTripData = null;
+const briefingLoaded = {};
 
 async function loadAndRender() {
     try {
@@ -638,9 +642,12 @@ function buildUI(html) {
 
         if (def.id === 'plan') {
             inner.innerHTML = buildPlanPanelShell();
+        } else if (def.briefFile) {
+            inner.innerHTML = buildBriefingShell(def.label);
+            inner.dataset.briefFile = def.briefFile;
         } else if (def.mdIndex === 0) {
             inner.innerHTML = buildOverviewCards(sections[def.mdIndex].nodes.join(''));
-        } else {
+        } else if (def.mdIndex != null) {
             inner.innerHTML = buildCollapsibleSections(sections[def.mdIndex].nodes.join(''));
         }
 
@@ -730,6 +737,35 @@ function switchTab(tabId) {
     window.scrollTo({ top: 0, behavior: 'instant' });
     sessionStorage.setItem('activeTab', tabId);
     if (tabId === 'plan') initPlanTab();
+    const def = TAB_DEFS.find(t => t.id === tabId);
+    if (def && def.briefFile) loadBriefingTab(tabId, def.briefFile);
+}
+
+function buildBriefingShell(label) {
+    return `
+        <div class="overview-content">
+            <h2>${label}</h2>
+            <p>Loading city briefing…</p>
+        </div>
+    `;
+}
+
+async function loadBriefingTab(tabId, briefFile) {
+    if (briefingLoaded[tabId]) return;
+    const panel = document.querySelector(`#panel-${tabId} .panel-content`);
+    if (!panel) return;
+    try {
+        const res = await fetch(briefFile);
+        if (!res.ok) throw new Error('Failed to load briefing');
+        const md = await res.text();
+        marked.setOptions({ gfm: true, breaks: true });
+        const html = marked.parse(md);
+        panel.innerHTML = buildCollapsibleSections(html);
+        wrapTables();
+        briefingLoaded[tabId] = true;
+    } catch (err) {
+        panel.innerHTML = `<div class="overview-content"><p>Unable to load briefing.</p><p style="color:#999">${err.message}</p></div>`;
+    }
 }
 
 function restoreTab() {
