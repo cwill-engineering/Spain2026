@@ -105,7 +105,7 @@ To duplicate this for another trip:
 ## Change Log
 | Date | Change | Why |
 |---|-----|-----|
-| 2026-05-23 | trip-quick-ref.json: countdown, emergency, metro, phrases, weather, expenses | Pre-trip quick reference on Overview + print/PDF |
+| 2026-05-23 | Live weather widget (Open-Meteo) on Overview for trip dates | Real forecast vs AEMET links only |
 | 2026-05-23 | Wedding attire/logistics (Joe email) + expanded packing section | Family guidance for wedding dress code, baby travel, walking shoes |
 | 2026-05-23 | City deep briefing tabs + briefings/*.md | History, politics, architecture, demographics, while-you-are-here for MBA/military lens |
 | 2026-05-22 | Plan tab (vis-timeline + Leaflet), trip-events.json, KML, calendar/content sync | Paella booking, cribs, check-in/out, luggage gaps, timezone fixes |

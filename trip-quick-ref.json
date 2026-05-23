@@ -104,20 +104,26 @@
     {
       "city": "Valencia",
       "emoji": "🏖️",
-      "url": "https://www.aemet.es/en/eltiempo/prediccion/municipios/valencia-id46250",
-      "expect": "24–28°C, dry, strong sun May 27–29"
+      "lat": 39.47,
+      "lon": -0.38,
+      "tripDays": ["2026-05-27", "2026-05-28", "2026-05-29"],
+      "url": "https://www.aemet.es/en/eltiempo/prediccion/municipios/valencia-id46250"
     },
     {
       "city": "Barcelona",
       "emoji": "⛪",
-      "url": "https://www.aemet.es/en/eltiempo/prediccion/municipios/barcelona-id08019",
-      "expect": "22–27°C, wedding weekend May 29–31"
+      "lat": 41.39,
+      "lon": 2.17,
+      "tripDays": ["2026-05-29", "2026-05-30", "2026-05-31", "2026-06-01"],
+      "url": "https://www.aemet.es/en/eltiempo/prediccion/municipios/barcelona-id08019"
     },
     {
       "city": "Madrid",
       "emoji": "🏛️",
-      "url": "https://www.aemet.es/en/eltiempo/prediccion/municipios/madrid-id28079",
-      "expect": "Warm by Jun 4 — can hit 30°C+; hydrate"
+      "lat": 40.42,
+      "lon": -3.7,
+      "tripDays": ["2026-06-01", "2026-06-02", "2026-06-03", "2026-06-04"],
+      "url": "https://www.aemet.es/en/eltiempo/prediccion/municipios/madrid-id28079"
     }
   ],
   "expenses": [

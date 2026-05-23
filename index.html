@@ -577,6 +577,92 @@
             text-decoration: none;
         }
         .weather-note { font-size: 0.78rem; color: #666; width: 100%; }
+
+        /* ── Live weather widget ── */
+        .weather-live-widget {
+            background: linear-gradient(160deg, #e8f4fc 0%, #faf6f1 100%);
+            border-radius: 12px;
+            padding: 1.25rem;
+            margin-bottom: 0.75rem;
+            box-shadow: var(--card-shadow);
+            border: 1px solid rgba(108, 180, 212, 0.25);
+        }
+        .weather-live-widget h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.15rem;
+            color: var(--deep-blue);
+            margin: 0 0 0.25rem;
+        }
+        .weather-live-meta {
+            font-size: 0.75rem;
+            color: #666;
+            margin-bottom: 1rem;
+        }
+        .weather-live-grid {
+            display: grid;
+            gap: 0.75rem;
+        }
+        @media (min-width: 700px) {
+            .weather-live-grid { grid-template-columns: repeat(3, 1fr); }
+        }
+        .weather-live-city {
+            background: white;
+            border-radius: 10px;
+            padding: 0.85rem 1rem;
+            border: 1px solid rgba(0,0,0,0.05);
+        }
+        .weather-live-city h3 {
+            font-size: 0.95rem;
+            color: var(--deep-blue);
+            margin: 0 0 0.5rem;
+            font-family: 'Playfair Display', serif;
+        }
+        .weather-now {
+            display: flex;
+            align-items: baseline;
+            gap: 0.35rem;
+            margin-bottom: 0.5rem;
+        }
+        .weather-now .wx-icon { font-size: 1.5rem; line-height: 1; }
+        .weather-now .wx-temp {
+            font-size: 1.6rem;
+            font-weight: 700;
+            color: var(--deep-blue);
+            font-variant-numeric: tabular-nums;
+        }
+        .weather-now .wx-feels {
+            font-size: 0.78rem;
+            color: #666;
+        }
+        .weather-now .wx-label {
+            font-size: 0.8rem;
+            color: var(--terracotta);
+            font-weight: 600;
+        }
+        .weather-trip-days {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            font-size: 0.78rem;
+            color: #444;
+        }
+        .weather-trip-days li {
+            display: flex;
+            justify-content: space-between;
+            gap: 0.5rem;
+            padding: 0.2rem 0;
+            border-top: 1px solid var(--sand);
+        }
+        .weather-trip-days li:first-child { border-top: none; }
+        .weather-aemet-link {
+            display: inline-block;
+            margin-top: 0.5rem;
+            font-size: 0.72rem;
+            color: var(--deep-blue);
+            font-weight: 600;
+        }
+        .weather-loading { font-size: 0.85rem; color: #888; }
+
         .expense-table {
             width: 100%;
             border-collapse: collapse;
@@ -835,7 +921,7 @@
         }
 
         @media print {
-            .app-header, .tab-bar, .scroll-top, .calendar-widget, .eats-widget, .countdown-strip, .overview-content, .print-ref-btn { display: none !important; }
+            .app-header, .tab-bar, .scroll-top, .calendar-widget, .eats-widget, .weather-live-widget, .countdown-strip, .overview-content, .print-ref-btn { display: none !important; }
             .quick-ref-widget { box-shadow: none; border: none; page-break-inside: avoid; }
             .tab-panel { display: block !important; }
             #panel-overview { display: block !important; }
@@ -1001,6 +1087,7 @@ function buildUI(html) {
     wrapTables();
     injectOverviewWidgets();
     injectEatsWidget();
+    injectLiveWeatherWidget();
     injectTripQuickRef();
     restoreTab();
 }
@@ -1077,6 +1164,107 @@ async function injectEatsWidget() {
     } catch (_) { /* optional widget */ }
 }
 
+const WMO_WEATHER = {
+    0: { icon: '☀️', label: 'Clear' },
+    1: { icon: '🌤️', label: 'Mainly clear' },
+    2: { icon: '⛅', label: 'Partly cloudy' },
+    3: { icon: '☁️', label: 'Overcast' },
+    45: { icon: '🌫️', label: 'Fog' },
+    48: { icon: '🌫️', label: 'Fog' },
+    51: { icon: '🌦️', label: 'Drizzle' },
+    53: { icon: '🌦️', label: 'Drizzle' },
+    55: { icon: '🌧️', label: 'Drizzle' },
+    61: { icon: '🌧️', label: 'Rain' },
+    63: { icon: '🌧️', label: 'Rain' },
+    65: { icon: '🌧️', label: 'Heavy rain' },
+    80: { icon: '🌦️', label: 'Showers' },
+    81: { icon: '🌦️', label: 'Showers' },
+    82: { icon: '⛈️', label: 'Heavy showers' },
+    95: { icon: '⛈️', label: 'Thunderstorm' }
+};
+
+function wmoWeather(code) {
+    return WMO_WEATHER[code] || { icon: '🌡️', label: 'Mixed' };
+}
+
+function fmtTripDay(iso) {
+    const d = new Date(iso + 'T12:00:00');
+    return d.toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric' });
+}
+
+async function fetchOpenMeteo(lat, lon) {
+    const params = new URLSearchParams({
+        latitude: lat,
+        longitude: lon,
+        current: 'temperature_2m,apparent_temperature,weather_code,wind_speed_10m',
+        daily: 'weather_code,temperature_2m_max,temperature_2m_min',
+        timezone: 'Europe/Madrid',
+        forecast_days: '14'
+    });
+    const res = await fetch(`https://api.open-meteo.com/v1/forecast?${params}`);
+    if (!res.ok) throw new Error('Weather fetch failed');
+    return res.json();
+}
+
+async function injectLiveWeatherWidget() {
+    const panel = document.querySelector('#panel-overview .panel-content');
+    if (!panel) return;
+
+    const shell = document.createElement('div');
+    shell.className = 'weather-live-widget';
+    shell.innerHTML = `
+        <h2>🌤️ Live Weather</h2>
+        <p class="weather-live-meta">Forecast for our trip dates · updates on load · <a href="https://open-meteo.com/" target="_blank" rel="noopener">Open-Meteo</a></p>
+        <div class="weather-live-grid" id="weather-live-grid"><p class="weather-loading">Loading forecasts…</p></div>
+    `;
+    const eats = panel.querySelector('.eats-widget');
+    if (eats) eats.after(shell);
+    else panel.appendChild(shell);
+
+    const grid = document.getElementById('weather-live-grid');
+    try {
+        const refRes = await fetch('trip-quick-ref.json');
+        if (!refRes.ok) throw new Error('No quick ref');
+        const ref = await refRes.json();
+        const cities = ref.weather || [];
+        const cards = await Promise.all(cities.map(async w => {
+            const wx = await fetchOpenMeteo(w.lat, w.lon);
+            const cur = wx.current;
+            const now = wmoWeather(cur.weather_code);
+            const dayMap = {};
+            wx.daily.time.forEach((t, i) => {
+                dayMap[t] = {
+                    max: Math.round(wx.daily.temperature_2m_max[i]),
+                    min: Math.round(wx.daily.temperature_2m_min[i]),
+                    code: wx.daily.weather_code[i]
+                };
+            });
+            const tripLines = (w.tripDays || []).map(day => {
+                const d = dayMap[day];
+                if (!d) return `<li><span>${fmtTripDay(day)}</span><span>—</span></li>`;
+                const wxd = wmoWeather(d.code);
+                return `<li><span>${fmtTripDay(day)} ${wxd.icon}</span><span>${d.max}° / ${d.min}°C</span></li>`;
+            }).join('');
+            return `
+                <div class="weather-live-city">
+                    <h3>${w.emoji} ${w.city}</h3>
+                    <div class="weather-now">
+                        <span class="wx-icon">${now.icon}</span>
+                        <span class="wx-temp">${Math.round(cur.temperature_2m)}°C</span>
+                        <span class="wx-feels">feels ${Math.round(cur.apparent_temperature)}°</span>
+                    </div>
+                    <div class="wx-label">${now.label} now · wind ${Math.round(cur.wind_speed_10m)} km/h</div>
+                    <ul class="weather-trip-days">${tripLines}</ul>
+                    <a class="weather-aemet-link" href="${w.url}" target="_blank" rel="noopener">Official AEMET forecast →</a>
+                </div>
+            `;
+        }));
+        grid.innerHTML = cards.join('');
+    } catch (err) {
+        grid.innerHTML = `<p class="weather-loading">Could not load live weather. Use AEMET links in Quick Reference below.</p>`;
+    }
+}
+
 function boldMd(text) {
     return String(text).replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
 }
@@ -1142,8 +1330,8 @@ async function injectTripQuickRef() {
 
         const weatherHtml = data.weather.map(w => `
             <div class="weather-row">
-                <a class="weather-btn" href="${w.url}" target="_blank" rel="noopener">${w.emoji} ${w.city} forecast (AEMET)</a>
-                <span class="weather-note">${w.expect}</span>
+                <a class="weather-btn" href="${w.url}" target="_blank" rel="noopener">${w.emoji} ${w.city} — AEMET (official)</a>
+                <span class="weather-note">Live forecast shown in the widget above during our trip dates.</span>
             </div>
         `).join('');
 
@@ -1170,7 +1358,7 @@ async function injectTripQuickRef() {
                 <div class="phrase-grid">${phraseHtml}</div>
             </div>
             <div class="quick-ref-section">
-                <h3>Weather (official AEMET)</h3>
+                <h3>Weather backup (AEMET official)</h3>
                 ${weatherHtml}
             </div>
             <div class="quick-ref-section">
