@@ -18,7 +18,7 @@ Static, password-gated family travel site for the Spain 2026 trip. It gives the 
 ## Environment & Dependencies
 - Runtime: static HTML in a browser.
 - External browser dependencies: Google Fonts, `marked` (jsDelivr), `vis-timeline` 8.5.1 (unpkg), Leaflet 1.9.4 + markercluster 1.5.3 + polylinedecorator 1.6.0 (unpkg).
-- Favicon: `favicon.svg` — terracotta square with **WT** (Williamson Thomas) for browser tab recognition.
+- Favicon: `favicon.svg` — terracotta square with **WTF** (Williamson Thomas Family) for browser tab recognition.
 - Calendar: static iCalendar (`.ics`) file. Timed Spain events use `TZID=Europe/Madrid`; US outbound flights May 26 use `TZID=America/New_York`.
 - Plan tab: loads `trip-events.json`; timeline groups by city; map markers sync on click.
 - Environment variable: `SPAIN_2026_SITE_PASSWORD` stores the site password in the workspace `.env` for operator reference. The current static site still hardcodes the same password in `index.html`.
