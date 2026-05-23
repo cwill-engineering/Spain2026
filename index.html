@@ -440,6 +440,174 @@
         .eats-foods li { margin: 0.35rem 0; }
         .eats-foods strong { color: var(--terracotta); }
 
+        /* ── Countdown strip ── */
+        .countdown-strip {
+            background: linear-gradient(135deg, var(--spanish-red) 0%, var(--terracotta) 100%);
+            color: white;
+            border-radius: 12px;
+            padding: 1rem 1.25rem;
+            margin-bottom: 0.75rem;
+            box-shadow: var(--card-shadow);
+            text-align: center;
+        }
+        .countdown-strip h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1rem;
+            margin: 0 0 0.75rem;
+            opacity: 0.95;
+            font-weight: 600;
+        }
+        .countdown-grid {
+            display: grid;
+            gap: 0.75rem;
+        }
+        @media (min-width: 600px) {
+            .countdown-grid { grid-template-columns: repeat(3, 1fr); }
+        }
+        .countdown-block {
+            background: rgba(255,255,255,0.15);
+            border-radius: 10px;
+            padding: 0.65rem 0.5rem;
+        }
+        .countdown-block .cd-num {
+            font-size: 1.75rem;
+            font-weight: 700;
+            line-height: 1.1;
+            font-variant-numeric: tabular-nums;
+        }
+        .countdown-block .cd-label {
+            font-size: 0.72rem;
+            opacity: 0.9;
+            margin-top: 0.25rem;
+            line-height: 1.3;
+        }
+
+        /* ── Quick reference widget ── */
+        .quick-ref-widget {
+            background: white;
+            border-radius: 12px;
+            padding: 1.25rem;
+            margin-bottom: 0.75rem;
+            box-shadow: var(--card-shadow);
+            border: 1px solid rgba(0,0,0,0.04);
+        }
+        .quick-ref-widget > h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.15rem;
+            color: var(--deep-blue);
+            margin: 0 0 1rem;
+        }
+        .quick-ref-section {
+            margin-bottom: 1.25rem;
+            padding-bottom: 1.25rem;
+            border-bottom: 1px solid var(--sand);
+        }
+        .quick-ref-section:last-child { border-bottom: none; margin-bottom: 0; padding-bottom: 0; }
+        .quick-ref-section h3 {
+            font-size: 0.95rem;
+            color: var(--terracotta);
+            margin: 0 0 0.6rem;
+            font-family: 'Playfair Display', serif;
+        }
+        .quick-ref-list {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+        .quick-ref-list li {
+            font-size: 0.88rem;
+            color: #444;
+            margin: 0.45rem 0;
+            line-height: 1.45;
+        }
+        .quick-ref-list a {
+            color: var(--deep-blue);
+            font-weight: 600;
+            text-decoration: none;
+            border-bottom: 1px dashed rgba(26,54,93,0.35);
+        }
+        .quick-ref-list a:hover { border-bottom-style: solid; }
+        .quick-ref-list .qr-sub { display: block; font-size: 0.8rem; color: #666; font-weight: 400; margin-top: 0.15rem; }
+        .metro-city {
+            margin-bottom: 0.75rem;
+        }
+        .metro-city h4 {
+            font-size: 0.88rem;
+            color: var(--deep-blue);
+            margin: 0 0 0.35rem;
+        }
+        .metro-city ul {
+            margin: 0;
+            padding-left: 1.1rem;
+            font-size: 0.82rem;
+            color: #444;
+        }
+        .metro-city li { margin: 0.3rem 0; }
+        .phrase-grid {
+            display: grid;
+            gap: 0.5rem;
+        }
+        @media (min-width: 600px) {
+            .phrase-grid { grid-template-columns: 1fr 1fr; }
+        }
+        .phrase-row {
+            background: var(--warm-cream);
+            border-radius: 8px;
+            padding: 0.5rem 0.65rem;
+            font-size: 0.82rem;
+        }
+        .phrase-row strong { color: var(--deep-blue); display: block; }
+        .phrase-row em { color: #777; font-size: 0.75rem; font-style: normal; }
+        .weather-row {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            align-items: center;
+            margin-bottom: 0.5rem;
+        }
+        .weather-btn {
+            display: inline-block;
+            padding: 0.4rem 0.75rem;
+            background: var(--viking-soft, #E8F1F6);
+            background: #E8F1F6;
+            color: var(--deep-blue);
+            border-radius: 8px;
+            font-size: 0.82rem;
+            font-weight: 600;
+            text-decoration: none;
+        }
+        .weather-note { font-size: 0.78rem; color: #666; width: 100%; }
+        .expense-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.8rem;
+        }
+        .expense-table th {
+            text-align: left;
+            background: var(--warm-cream);
+            padding: 0.4rem 0.5rem;
+            color: var(--deep-blue);
+            font-weight: 600;
+        }
+        .expense-table td {
+            padding: 0.4rem 0.5rem;
+            border-bottom: 1px solid var(--sand);
+            vertical-align: top;
+        }
+        .print-ref-btn {
+            margin-top: 0.75rem;
+            padding: 0.55rem 1rem;
+            background: var(--deep-blue);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-family: inherit;
+            font-size: 0.85rem;
+            font-weight: 600;
+            cursor: pointer;
+        }
+        .print-ref-btn:active { opacity: 0.9; }
+
         /* ── Collapsible Sections ── */
         .section-card {
             background: white;
@@ -667,8 +835,11 @@
         }
 
         @media print {
-            .app-header, .tab-bar, .scroll-top { display: none; }
+            .app-header, .tab-bar, .scroll-top, .calendar-widget, .eats-widget, .countdown-strip, .overview-content, .print-ref-btn { display: none !important; }
+            .quick-ref-widget { box-shadow: none; border: none; page-break-inside: avoid; }
             .tab-panel { display: block !important; }
+            #panel-overview { display: block !important; }
+            .quick-ref-section { break-inside: avoid; }
             .section-body { max-height: none !important; }
             .section-card { break-inside: avoid; box-shadow: none; border: 1px solid #ddd; }
         }
@@ -830,6 +1001,7 @@ function buildUI(html) {
     wrapTables();
     injectOverviewWidgets();
     injectEatsWidget();
+    injectTripQuickRef();
     restoreTab();
 }
 
@@ -903,6 +1075,116 @@ async function injectEatsWidget() {
             panel.appendChild(widget);
         }
     } catch (_) { /* optional widget */ }
+}
+
+function boldMd(text) {
+    return String(text).replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+}
+
+function formatCountdown(targetIso) {
+    const target = new Date(targetIso);
+    const now = new Date();
+    const ms = target - now;
+    if (ms <= 0) return { main: 'NOW', sub: 'or past — check Plan tab' };
+    const days = Math.floor(ms / (1000 * 60 * 60 * 24));
+    const hours = Math.floor((ms % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    const mins = Math.floor((ms % (1000 * 60 * 60)) / (1000 * 60));
+    if (days > 0) return { main: `${days}d ${hours}h`, sub: `${mins}m left` };
+    if (hours > 0) return { main: `${hours}h ${mins}m`, sub: 'counting down' };
+    return { main: `${mins}m`, sub: 'almost time' };
+}
+
+let countdownInterval = null;
+
+async function injectTripQuickRef() {
+    const panel = document.querySelector('#panel-overview .panel-content');
+    if (!panel) return;
+    try {
+        const res = await fetch('trip-quick-ref.json');
+        if (!res.ok) return;
+        const data = await res.json();
+
+        const strip = document.createElement('div');
+        strip.className = 'countdown-strip';
+        strip.id = 'countdown-strip';
+        function renderCountdowns() {
+            const blocks = data.countdowns.map(cd => {
+                const f = formatCountdown(cd.target);
+                return `<div class="countdown-block"><div class="cd-num">${f.main}</div><div class="cd-label">${cd.label}<br><span style="opacity:0.8;font-size:0.65rem">${f.sub}</span></div></div>`;
+            }).join('');
+            strip.innerHTML = `<h2>⏱️ Trip Countdown</h2><div class="countdown-grid">${blocks}</div>`;
+        }
+        renderCountdowns();
+        panel.insertBefore(strip, panel.firstChild);
+        if (countdownInterval) clearInterval(countdownInterval);
+        countdownInterval = setInterval(renderCountdowns, 60000);
+
+        const emergencyHtml = data.emergency.map(e => {
+            const link = e.action
+                ? `<a href="${e.action}" ${e.action.startsWith('http') ? 'target="_blank" rel="noopener"' : ''}>${e.display}</a>`
+                : e.display;
+            return `<li><strong>${e.name}</strong> — ${link}<span class="qr-sub">${e.detail}</span></li>`;
+        }).join('');
+
+        const metroHtml = data.metro.map(m => `
+            <div class="metro-city">
+                <h4>${m.emoji} ${m.city}</h4>
+                <ul>${m.tips.map(t => `<li>${boldMd(t)}</li>`).join('')}</ul>
+            </div>
+        `).join('');
+
+        const phraseHtml = data.phrases.map(p => `
+            <div class="phrase-row">
+                <strong>${p.en}</strong>
+                ${p.es}<br><em>${p.note}</em>
+            </div>
+        `).join('');
+
+        const weatherHtml = data.weather.map(w => `
+            <div class="weather-row">
+                <a class="weather-btn" href="${w.url}" target="_blank" rel="noopener">${w.emoji} ${w.city} forecast (AEMET)</a>
+                <span class="weather-note">${w.expect}</span>
+            </div>
+        `).join('');
+
+        const expenseHtml = `<div class="table-wrap"><table class="expense-table">
+            <thead><tr><th>Item</th><th>Amount</th><th>Split notes</th></tr></thead>
+            <tbody>${data.expenses.map(e => `<tr><td>${e.item}</td><td>${e.amount}</td><td>${e.split}</td></tr>`).join('')}</tbody>
+        </table></div>`;
+
+        const widget = document.createElement('div');
+        widget.className = 'quick-ref-widget';
+        widget.id = 'quick-ref-print';
+        widget.innerHTML = `
+            <h2>🆘 Quick Reference</h2>
+            <div class="quick-ref-section">
+                <h3>Emergency &amp; key contacts</h3>
+                <ul class="quick-ref-list">${emergencyHtml}</ul>
+            </div>
+            <div class="quick-ref-section">
+                <h3>Metro &amp; trains cheat sheet</h3>
+                ${metroHtml}
+            </div>
+            <div class="quick-ref-section">
+                <h3>10 phrases to survive</h3>
+                <div class="phrase-grid">${phraseHtml}</div>
+            </div>
+            <div class="quick-ref-section">
+                <h3>Weather (official AEMET)</h3>
+                ${weatherHtml}
+            </div>
+            <div class="quick-ref-section">
+                <h3>Shared costs reference</h3>
+                ${expenseHtml}
+            </div>
+            <button type="button" class="print-ref-btn" id="print-quick-ref">Print / Save as PDF</button>
+        `;
+
+        panel.appendChild(widget);
+        document.getElementById('print-quick-ref')?.addEventListener('click', () => {
+            window.print();
+        });
+    } catch (_) { /* optional */ }
 }
 
 function buildOverviewCards(html) {

@@ -19,7 +19,7 @@ Static, password-gated family travel site for the Spain 2026 trip. It gives the 
 - Runtime: static HTML in a browser.
 - External browser dependencies: Google Fonts, `marked` (jsDelivr), `vis-timeline` 8.5.1 (unpkg), Leaflet 1.9.4 + markercluster 1.5.3 + polylinedecorator 1.6.0 (unpkg).
 - Favicon: `favicon.ico`, `favicon-32.png`, `favicon.svg`, `apple-touch-icon.png` — terracotta square with **WTF** (Williamson Thomas Family). Prefer `.ico`/PNG for browser compatibility.
-- Overview widgets: calendar subscribe (Apple + **Google Calendar** + download + copy) and `eat-drink.json` top eats/drinks grid.
+- Overview widgets: calendar subscribe (Apple + **Google Calendar** + download + copy), `eat-drink.json` top eats/drinks grid, `trip-quick-ref.json` countdown + emergency/metro/phrases/weather/expenses + print-to-PDF.
 - Calendar: static iCalendar (`.ics`) file. Timed Spain events use `TZID=Europe/Madrid`; US outbound flights May 26 use `TZID=America/New_York`.
 - Plan tab: loads `trip-events.json`; timeline groups by city; map markers sync on click.
 - Environment variable: `SPAIN_2026_SITE_PASSWORD` stores the site password in the workspace `.env` for operator reference. The current static site still hardcodes the same password in `index.html`.
@@ -105,7 +105,7 @@ To duplicate this for another trip:
 ## Change Log
 | Date | Change | Why |
 |---|-----|-----|
-| 2026-05-23 | PNG/ICO WTF favicon, Google Calendar button, eat-drink.json Overview widget | SVG-only favicon missed some browsers; family uses Google Calendar |
+| 2026-05-23 | trip-quick-ref.json: countdown, emergency, metro, phrases, weather, expenses | Pre-trip quick reference on Overview + print/PDF |
 | 2026-05-23 | Wedding attire/logistics (Joe email) + expanded packing section | Family guidance for wedding dress code, baby travel, walking shoes |
 | 2026-05-23 | City deep briefing tabs + briefings/*.md | History, politics, architecture, demographics, while-you-are-here for MBA/military lens |
 | 2026-05-22 | Plan tab (vis-timeline + Leaflet), trip-events.json, KML, calendar/content sync | Paella booking, cribs, check-in/out, luggage gaps, timezone fixes |

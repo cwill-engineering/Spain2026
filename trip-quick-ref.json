@@ -1,0 +1,132 @@
+{
+  "countdowns": [
+    {
+      "id": "travel",
+      "label": "Until wheels up (Nashville → Boston)",
+      "target": "2026-05-26T15:15:00-04:00"
+    },
+    {
+      "id": "spain",
+      "label": "Until land in Spain (Madrid)",
+      "target": "2026-05-27T11:30:00+02:00"
+    },
+    {
+      "id": "wedding",
+      "label": "Until wedding day",
+      "target": "2026-05-31T10:00:00+02:00"
+    }
+  ],
+  "emergency": [
+    {
+      "name": "Spain emergency",
+      "detail": "Police, fire, ambulance",
+      "action": "tel:112",
+      "display": "112"
+    },
+    {
+      "name": "US Embassy Madrid",
+      "detail": "Calles Serrano 75, 28006 Madrid",
+      "action": "tel:+34915872200",
+      "display": "+34 91 587 2200"
+    },
+    {
+      "name": "Valencia host — Maria Pilar",
+      "detail": "Vrbo HA-7TLM9D — message in VRBO app",
+      "action": "https://www.vrbo.com/11535693ha",
+      "display": "Open VRBO"
+    },
+    {
+      "name": "Madrid host — Elena",
+      "detail": "Airbnb HMR8NYWPZF — message in Airbnb app",
+      "action": "https://www.airbnb.com/trips/v1/reservation-details/ro/RESERVATION2_CHECKIN/HMR8NYWPZF",
+      "display": "Open Airbnb"
+    },
+    {
+      "name": "Casa Gay (suit rental)",
+      "detail": "Roger de Llúria 12-14, Barcelona",
+      "action": "tel:+34696547635",
+      "display": "+34 696 54 76 35"
+    },
+    {
+      "name": "Trip lead",
+      "detail": "Chandler — family group chat if anything goes sideways",
+      "action": null,
+      "display": "Group chat"
+    }
+  ],
+  "metro": [
+    {
+      "city": "Madrid",
+      "emoji": "🏛️",
+      "tips": [
+        "**Barajas → city:** Cercanías C1 to Atocha (~25 min, ~€2.60) — no reservation.",
+        "**Airport taxi:** ~€30–35 to La Latina; allow 30–40 min.",
+        "**Metro Line 8** to Nuevos Ministerios, then transfer — slower with luggage.",
+        "**T-Casual** 10-trip card (~€11.35) — shareable, good for short hops.",
+        "**Jun 4 Corpus Christi:** Metro runs but shops closed — plan airport taxi night before."
+      ]
+    },
+    {
+      "city": "Valencia",
+      "emoji": "🏖️",
+      "tips": [
+        "**From Joaquín Sorolla (AVE):** Taxi to beach house ~€15–20 (~15 min).",
+        "**Estació del Nord** — your May 29 Euromed to Barcelona departs here.",
+        "**Tram/metro** to city center if you skip taxi — EMT app for buses.",
+        "**May 29:** Leave accommodation ~07:45 for 09:06 train — bags at host or Stasher."
+      ]
+    },
+    {
+      "city": "Barcelona",
+      "emoji": "⛪",
+      "tips": [
+        "**Barcelona-Sants** — trains from Valencia (May 29) and to Madrid (Jun 1).",
+        "**Metro L3** (green) — Sants ↔ Passeig de Gràcia ↔ Gothic Quarter.",
+        "**Eixample apartment → Gothic Quarter:** ~15 min walk or short metro hop.",
+        "**Jun 1:** Checkout 11:00 → train 15:00 — Stasher or Sants lockers if needed.",
+        "**T-usual / Hola BCN** — day passes if doing multiple metro rides in one day."
+      ]
+    }
+  ],
+  "phrases": [
+    { "en": "Hello / Good morning", "es": "Hola / Buenos días", "note": "Barcelona: Bon dia (Catalan) wins points" },
+    { "en": "The check, please", "es": "La cuenta, por favor", "note": "Valencia: El compte, si us plau" },
+    { "en": "Where is…?", "es": "¿Dónde está…?", "note": "Bathroom: el baño / el lavabo" },
+    { "en": "A table for [number], please", "es": "Una mesa para [n], por favor", "note": "Paella lunch May 28 — already booked" },
+    { "en": "I don't understand", "es": "No entiendo", "note": "Follow with ¿Habla inglés?" },
+    { "en": "Do you speak English?", "es": "¿Habla inglés?", "note": "Try a local greeting first" },
+    { "en": "What do you recommend?", "es": "¿Qué recomienda?", "note": "Tapas bars love this question" },
+    { "en": "Thank you / You're welcome", "es": "Gracias / De nada", "note": "Gràcies in Catalan" },
+    { "en": "Excuse me / Sorry", "es": "Perdón / Disculpe", "note": "Crowded metro / bumping someone" },
+    { "en": "Help!", "es": "¡Ayuda!", "note": "Emergency: call 112" }
+  ],
+  "weather": [
+    {
+      "city": "Valencia",
+      "emoji": "🏖️",
+      "url": "https://www.aemet.es/en/eltiempo/prediccion/municipios/valencia-id46250",
+      "expect": "24–28°C, dry, strong sun May 27–29"
+    },
+    {
+      "city": "Barcelona",
+      "emoji": "⛪",
+      "url": "https://www.aemet.es/en/eltiempo/prediccion/municipios/barcelona-id08019",
+      "expect": "22–27°C, wedding weekend May 29–31"
+    },
+    {
+      "city": "Madrid",
+      "emoji": "🏛️",
+      "url": "https://www.aemet.es/en/eltiempo/prediccion/municipios/madrid-id28079",
+      "expect": "Warm by Jun 4 — can hit 30°C+; hydrate"
+    }
+  ],
+  "expenses": [
+    { "item": "Valencia VRBO (9 guests, 2 nights)", "amount": "€535.29", "split": "~€59/person if split 9 ways" },
+    { "item": "Barcelona VRBO (Williams, 5 guests)", "amount": "€1,624.95", "split": "Williams family lodging" },
+    { "item": "Madrid → Valencia AVE (Williams ×6)", "amount": "€320.60", "split": "See train ticket table — Thomas TBD" },
+    { "item": "Valencia → Barcelona Euromed (Williams ×6)", "amount": "€489.75", "split": "Thomas family — confirm separate tickets" },
+    { "item": "Barcelona → Madrid AVE (Williams ×6)", "amount": "€390.35", "split": "See Madrid tab for per-seat breakdown" },
+    { "item": "Sagrada Família tickets", "amount": "€100.00", "split": "Williams party — May 30 12:15" },
+    { "item": "Casa Gay tux rental", "amount": "TBD", "split": "Chandler — fitting May 29" }
+  ]
+}
