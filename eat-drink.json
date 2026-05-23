@@ -1,0 +1,78 @@
+{
+  "title": "Top Eats & Drinks",
+  "subtitle": "Don't leave Spain without these — one drink and three foods per city.",
+  "cities": [
+    {
+      "id": "valencia",
+      "emoji": "🏖️",
+      "name": "Valencia",
+      "tab": "Valencia",
+      "drink": {
+        "name": "Horchata con fartons",
+        "detail": "Sweet tiger-nut milk with pastry sticks for dunking. Try Horchatería Daniel or any chuferia near the beach."
+      },
+      "foods": [
+        {
+          "name": "Paella Valenciana",
+          "detail": "The original — chicken, rabbit, green beans. Not seafood. Casa Carmela May 28 ✅"
+        },
+        {
+          "name": "Clóchinas",
+          "detail": "Local mussels — peak season May/June. Beach chiringuitos or Mercado Central."
+        },
+        {
+          "name": "Fideuà",
+          "detail": "Short noodles cooked paella-style in the pan. Same vibe, different carb."
+        }
+      ]
+    },
+    {
+      "id": "barcelona",
+      "emoji": "⛪",
+      "name": "Barcelona",
+      "tab": "Barcelona",
+      "drink": {
+        "name": "Cava",
+        "detail": "Catalan sparkling wine — say cava, not champagne. Can Paixano or El Xampanyet for standing-room-only vibes."
+      },
+      "foods": [
+        {
+          "name": "Pan con tomate",
+          "detail": "Bread rubbed with tomato, olive oil, salt. Every meal starts here."
+        },
+        {
+          "name": "Patatas bravas",
+          "detail": "Fried potatoes + spicy sauce. Every bar claims theirs is best — compare on the tapas tour."
+        },
+        {
+          "name": "Jamón ibérico",
+          "detail": "Cured ham carved to order. La Boqueria or any good tapas bar."
+        }
+      ]
+    },
+    {
+      "id": "madrid",
+      "emoji": "🏛️",
+      "name": "Madrid",
+      "tab": "Madrid",
+      "drink": {
+        "name": "Vermut (vermouth on tap)",
+        "detail": "Madrid's Sunday ritual — vermouth with an olive, simple tapas. Casa Alberto or any old bar in La Latina."
+      },
+      "foods": [
+        {
+          "name": "Churros con chocolate",
+          "detail": "San Ginés — open 24 hours. Thick chocolate for dipping. Perfect post-wedding recovery."
+        },
+        {
+          "name": "Bocadillo de calamares",
+          "detail": "Fried squid sandwich near Plaza Mayor. Sounds weird. Trust the locals."
+        },
+        {
+          "name": "Tortilla española",
+          "detail": "Runny-center potato omelet. Juana la Loca on Cava Baja is the move."
+        }
+      ]
+    }
+  ]
+}

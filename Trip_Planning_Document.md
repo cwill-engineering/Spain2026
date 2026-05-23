@@ -15,12 +15,25 @@
 | Option | Link |
 | ------ | ---- |
 | **Apple Calendar (subscribe)** | [webcal://neon-daffodil-236a0f.netlify.app/spain-2026.ics](webcal://neon-daffodil-236a0f.netlify.app/spain-2026.ics) |
+| **Google Calendar (subscribe)** | [Add to Google Calendar](https://calendar.google.com/calendar/r?cid=https%3A%2F%2Fneon-daffodil-236a0f.netlify.app%2Fspain-2026.ics) |
 | **Download .ics file** | [spain-2026.ics](spain-2026.ics) |
-| **Google Calendar / other apps** | Paste this URL: https://neon-daffodil-236a0f.netlify.app/spain-2026.ics |
+| **Copy/paste URL (any app)** | https://neon-daffodil-236a0f.netlify.app/spain-2026.ics |
 
 **Timezone note:** Timed Spain events use `Europe/Madrid` (CEST). Outbound US flights on May 26 use `America/New_York` (EDT).
 
 **Interactive plan:** Open the **Plan** tab for a zoomable timeline + map with train routes. KML export: [`spain-2026.kml`](spain-2026.kml).
+
+---
+
+## Top Eats & Drinks
+
+One signature **drink** and three **must-try foods** per city. Full restaurant lists on each city tab.
+
+| City | Drink | Must-try foods |
+| ---- | ----- | -------------- |
+| **Valencia** | **Horchata con fartons** | Paella Valenciana (Casa Carmela ✅), clóchinas, fideuà |
+| **Barcelona** | **Cava** | Pan con tomate, patatas bravas, jamón ibérico |
+| **Madrid** | **Vermut** | Churros con chocolate, bocadillo de calamares, tortilla (Juana la Loca) |
 
 ---
 

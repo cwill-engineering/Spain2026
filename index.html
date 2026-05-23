@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <title>WTF — Spain 2026 Family Trip</title>
-    <link rel="icon" href="favicon.svg?v=2" type="image/svg+xml">
-    <link rel="shortcut icon" href="favicon.svg?v=2">
-    <link rel="apple-touch-icon" href="favicon.svg?v=2">
+    <link rel="icon" href="favicon.ico?v=3" sizes="any">
+    <link rel="icon" href="favicon-32.png?v=3" type="image/png" sizes="32x32">
+    <link rel="icon" href="favicon.svg?v=3" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png?v=3">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Source+Sans+Pro:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link href="https://unpkg.com/vis-timeline@8.5.1/styles/vis-timeline-graph2d.min.css" rel="stylesheet">
     <link href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" rel="stylesheet">
@@ -339,6 +340,10 @@
             background: var(--spanish-yellow);
             color: var(--deep-blue);
         }
+        .calendar-btn-google {
+            background: white;
+            color: #1a73e8;
+        }
         .calendar-btn-secondary {
             background: rgba(255,255,255,0.15);
             color: white;
@@ -378,6 +383,62 @@
         }
         .route-legend-line.train { background: var(--terracotta); }
         .route-legend-line.flight { background: var(--deep-blue); border-top: 2px dashed var(--deep-blue); height: 0; }
+
+        /* ── Eats & drinks widget (Overview) ── */
+        .eats-widget {
+            background: white;
+            border-radius: 12px;
+            padding: 1.25rem;
+            margin-bottom: 0.75rem;
+            box-shadow: var(--card-shadow);
+            border: 1px solid rgba(0,0,0,0.04);
+        }
+        .eats-widget h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.15rem;
+            color: var(--deep-blue);
+            margin: 0 0 0.35rem;
+        }
+        .eats-widget .eats-sub {
+            font-size: 0.9rem;
+            color: #666;
+            margin: 0 0 1rem;
+        }
+        .eats-grid {
+            display: grid;
+            gap: 0.75rem;
+        }
+        @media (min-width: 700px) {
+            .eats-grid { grid-template-columns: repeat(3, 1fr); }
+        }
+        .eats-city {
+            background: var(--warm-cream);
+            border-radius: 10px;
+            padding: 0.85rem 1rem;
+            border-left: 4px solid var(--terracotta);
+        }
+        .eats-city h3 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1rem;
+            color: var(--deep-blue);
+            margin: 0 0 0.5rem;
+        }
+        .eats-drink {
+            font-size: 0.85rem;
+            margin-bottom: 0.6rem;
+            padding-bottom: 0.6rem;
+            border-bottom: 1px dashed var(--sand);
+        }
+        .eats-drink strong { color: var(--olive); }
+        .eats-drink span { color: #555; display: block; margin-top: 0.2rem; }
+        .eats-foods {
+            margin: 0;
+            padding-left: 1.1rem;
+            font-size: 0.82rem;
+            color: #444;
+        }
+        .eats-foods li { margin: 0.35rem 0; }
+        .eats-foods strong { color: var(--terracotta); }
 
         /* ── Collapsible Sections ── */
         .section-card {
@@ -768,12 +829,14 @@ function buildUI(html) {
 
     wrapTables();
     injectOverviewWidgets();
+    injectEatsWidget();
     restoreTab();
 }
 
 const CALENDAR_ICS = 'spain-2026.ics';
 const CALENDAR_WEBCAL = 'webcal://neon-daffodil-236a0f.netlify.app/spain-2026.ics';
 const CALENDAR_HTTPS = 'https://neon-daffodil-236a0f.netlify.app/spain-2026.ics';
+const CALENDAR_GOOGLE = 'https://calendar.google.com/calendar/r?cid=' + encodeURIComponent(CALENDAR_HTTPS);
 
 function injectOverviewWidgets() {
     const panel = document.querySelector('#panel-overview .panel-content');
@@ -785,9 +848,10 @@ function injectOverviewWidgets() {
         <h2>📅 Subscribe to Trip Calendar</h2>
         <p>Trains, check-in/out, paella, Sagrada, wedding events, and departures — auto-updates when we change the file.</p>
         <div class="calendar-actions">
-            <a class="calendar-btn calendar-btn-primary" href="${CALENDAR_WEBCAL}">Add to Apple Calendar</a>
-            <a class="calendar-btn calendar-btn-secondary" href="${CALENDAR_ICS}" download="spain-2026.ics">Download .ics file</a>
-            <button type="button" class="calendar-btn calendar-btn-secondary" id="copy-calendar-url">Copy subscribe link</button>
+            <a class="calendar-btn calendar-btn-primary" href="${CALENDAR_WEBCAL}">Apple Calendar</a>
+            <a class="calendar-btn calendar-btn-google" href="${CALENDAR_GOOGLE}" target="_blank" rel="noopener">Google Calendar</a>
+            <a class="calendar-btn calendar-btn-secondary" href="${CALENDAR_ICS}" download="spain-2026.ics">Download .ics</a>
+            <button type="button" class="calendar-btn calendar-btn-secondary" id="copy-calendar-url">Copy link</button>
         </div>
         <div class="calendar-url">${CALENDAR_HTTPS}</div>
     `;
@@ -807,6 +871,38 @@ function injectOverviewWidgets() {
             setTimeout(() => { btn.textContent = orig; }, 2000);
         });
     });
+}
+
+async function injectEatsWidget() {
+    const panel = document.querySelector('#panel-overview .panel-content');
+    if (!panel) return;
+    try {
+        const res = await fetch('eat-drink.json');
+        if (!res.ok) return;
+        const data = await res.json();
+        const widget = document.createElement('div');
+        widget.className = 'eats-widget';
+        let citiesHtml = data.cities.map(c => `
+            <div class="eats-city">
+                <h3>${c.emoji} ${c.name}</h3>
+                <div class="eats-drink"><strong>🍷 Drink:</strong> ${c.drink.name}<span>${c.drink.detail}</span></div>
+                <ul class="eats-foods">${c.foods.map(f => `<li><strong>${f.name}</strong> — ${f.detail}</li>`).join('')}</ul>
+            </div>
+        `).join('');
+        widget.innerHTML = `
+            <h2>🍽️ ${data.title}</h2>
+            <p class="eats-sub">${data.subtitle} Full restaurant lists on each city tab.</p>
+            <div class="eats-grid">${citiesHtml}</div>
+        `;
+        const cal = panel.querySelector('.calendar-widget');
+        if (cal && cal.nextSibling) {
+            panel.insertBefore(widget, cal.nextSibling);
+        } else if (cal) {
+            cal.after(widget);
+        } else {
+            panel.appendChild(widget);
+        }
+    } catch (_) { /* optional widget */ }
 }
 
 function buildOverviewCards(html) {
