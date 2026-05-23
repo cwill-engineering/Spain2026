@@ -105,7 +105,7 @@ To duplicate this for another trip:
 ## Change Log
 | Date | Change | Why |
 |---|-----|-----|
-| 2026-05-23 | WT favicon, calendar subscribe widget, Plan tab map routes + clustering, timeline polish | Fix blank overview cards, broken ICS table, truncated timeline labels |
+| 2026-05-23 | PNG/ICO WTF favicon, Google Calendar button, eat-drink.json Overview widget | SVG-only favicon missed some browsers; family uses Google Calendar |
 | 2026-05-23 | Wedding attire/logistics (Joe email) + expanded packing section | Family guidance for wedding dress code, baby travel, walking shoes |
 | 2026-05-23 | City deep briefing tabs + briefings/*.md | History, politics, architecture, demographics, while-you-are-here for MBA/military lens |
 | 2026-05-22 | Plan tab (vis-timeline + Leaflet), trip-events.json, KML, calendar/content sync | Paella booking, cribs, check-in/out, luggage gaps, timezone fixes |
