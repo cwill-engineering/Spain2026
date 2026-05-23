@@ -154,6 +154,8 @@ Your beach house sits in **Poblats Marítims** — formerly independent fishing 
 
 ---
 
+## On the Ground
+
 **Look for:**
 - **Orange trees** on sidewalks — decorative now, but symbol of huerta wealth
 - **Ceramic tile** on facades — azulejo tradition

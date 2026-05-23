@@ -169,6 +169,8 @@ Madrid runs **one hour behind Valencia/Barcelona** in political temperament: mor
 
 ---
 
+## On the Ground
+
 **Notice:**
 - **Kilometer zero plaque** at Puerta del Sol — all Spanish road distances start here
 - **Bear and strawberry tree statue** — Madrid symbol (not a real bear eating a strawberry tree — it's a madroño)

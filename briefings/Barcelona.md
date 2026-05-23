@@ -163,6 +163,8 @@ Barcelona makes money from **port, industry, tourism, and tech** — in that rou
 
 ---
 
+## On the Ground
+
 **Flags:**
 - **Senyera** (yellow/red stripes) — Catalan identity
 - **Estelada** (blue star) — independence sympathy
