@@ -4,12 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <title>Spain 2026 Trip</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="favicon.svg">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Source+Sans+Pro:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link href="https://unpkg.com/vis-timeline@8.5.1/styles/vis-timeline-graph2d.min.css" rel="stylesheet">
     <link href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" rel="stylesheet">
+    <link href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" rel="stylesheet">
+    <link href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <script src="https://unpkg.com/vis-timeline@8.5.1/standalone/umd/vis-timeline-graph2d.min.js"></script>
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+    <script src="https://unpkg.com/leaflet-polylinedecorator@1.6.0/dist/leaflet.polylineDecorator.js"></script>
     <style>
         :root {
             --spanish-red: #c60b1e;
@@ -227,12 +233,29 @@
         .plan-legend-dot.locked { background: var(--terracotta); }
         .plan-legend-dot.idea { background: var(--olive); opacity: 0.7; }
         #plan-timeline {
-            height: 240px;
+            height: 380px;
             background: white;
             border-radius: 12px;
             box-shadow: var(--card-shadow);
             border: 1px solid rgba(0,0,0,0.04);
             margin-bottom: 0.75rem;
+        }
+        #plan-timeline .vis-item {
+            font-size: 0.78rem;
+            font-weight: 600;
+            border-radius: 6px;
+        }
+        #plan-timeline .vis-item .vis-item-content {
+            padding: 5px 10px;
+            white-space: nowrap;
+            overflow: visible;
+        }
+        #plan-timeline .vis-label {
+            font-weight: 700;
+            color: var(--deep-blue);
+        }
+        #plan-timeline .vis-time-axis .vis-text {
+            font-size: 0.75rem;
         }
         #plan-map {
             height: 420px;
@@ -266,9 +289,94 @@
             opacity: 0.85;
         }
         @media (max-width: 600px) {
-            #plan-timeline { height: 200px; }
-            #plan-map { height: 320px; }
+            #plan-timeline { height: 320px; }
+            #plan-map { height: 360px; }
         }
+
+        /* ── Calendar subscribe widget (Overview) ── */
+        .calendar-widget {
+            background: linear-gradient(135deg, var(--deep-blue) 0%, #2d4a6f 100%);
+            color: white;
+            border-radius: 12px;
+            padding: 1.25rem;
+            margin-bottom: 0.75rem;
+            box-shadow: var(--card-shadow);
+        }
+        .calendar-widget h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.15rem;
+            margin: 0 0 0.5rem;
+            color: white;
+        }
+        .calendar-widget p {
+            font-size: 0.9rem;
+            opacity: 0.9;
+            margin: 0 0 1rem;
+            line-height: 1.5;
+        }
+        .calendar-actions {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+        .calendar-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.35rem;
+            padding: 0.6rem 1rem;
+            border-radius: 8px;
+            font-family: inherit;
+            font-size: 0.85rem;
+            font-weight: 600;
+            text-decoration: none;
+            border: none;
+            cursor: pointer;
+            transition: transform 0.15s, box-shadow 0.15s;
+        }
+        .calendar-btn:active { transform: scale(0.98); }
+        .calendar-btn-primary {
+            background: var(--spanish-yellow);
+            color: var(--deep-blue);
+        }
+        .calendar-btn-secondary {
+            background: rgba(255,255,255,0.15);
+            color: white;
+            border: 1px solid rgba(255,255,255,0.3);
+        }
+        .calendar-btn:hover {
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+        }
+        .calendar-url {
+            margin-top: 0.75rem;
+            font-size: 0.75rem;
+            opacity: 0.75;
+            word-break: break-all;
+        }
+        .plan-map-wrap {
+            position: relative;
+        }
+        .route-legend {
+            position: absolute;
+            bottom: 12px;
+            left: 12px;
+            z-index: 500;
+            background: rgba(255,255,255,0.95);
+            border-radius: 8px;
+            padding: 0.5rem 0.75rem;
+            font-size: 0.75rem;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+            line-height: 1.6;
+        }
+        .route-legend-line {
+            display: inline-block;
+            width: 24px;
+            height: 3px;
+            vertical-align: middle;
+            margin-right: 4px;
+            border-radius: 2px;
+        }
+        .route-legend-line.train { background: var(--terracotta); }
+        .route-legend-line.flight { background: var(--deep-blue); border-top: 2px dashed var(--deep-blue); height: 0; }
 
         /* ── Collapsible Sections ── */
         .section-card {
@@ -588,6 +696,8 @@ let planInitialized = false;
 let planTimeline = null;
 let planMap = null;
 let planMarkers = {};
+let planLockedCluster = null;
+let planIdeaCluster = null;
 let planTripData = null;
 const briefingLoaded = {};
 
@@ -656,7 +766,46 @@ function buildUI(html) {
     });
 
     wrapTables();
+    injectOverviewWidgets();
     restoreTab();
+}
+
+const CALENDAR_ICS = 'spain-2026.ics';
+const CALENDAR_WEBCAL = 'webcal://neon-daffodil-236a0f.netlify.app/spain-2026.ics';
+const CALENDAR_HTTPS = 'https://neon-daffodil-236a0f.netlify.app/spain-2026.ics';
+
+function injectOverviewWidgets() {
+    const panel = document.querySelector('#panel-overview .panel-content');
+    if (!panel) return;
+
+    const widget = document.createElement('div');
+    widget.className = 'calendar-widget';
+    widget.innerHTML = `
+        <h2>📅 Subscribe to Trip Calendar</h2>
+        <p>Trains, check-in/out, paella, Sagrada, wedding events, and departures — auto-updates when we change the file.</p>
+        <div class="calendar-actions">
+            <a class="calendar-btn calendar-btn-primary" href="${CALENDAR_WEBCAL}">Add to Apple Calendar</a>
+            <a class="calendar-btn calendar-btn-secondary" href="${CALENDAR_ICS}" download="spain-2026.ics">Download .ics file</a>
+            <button type="button" class="calendar-btn calendar-btn-secondary" id="copy-calendar-url">Copy subscribe link</button>
+        </div>
+        <div class="calendar-url">${CALENDAR_HTTPS}</div>
+    `;
+
+    const cards = panel.querySelectorAll('.overview-content');
+    if (cards.length >= 2) {
+        panel.insertBefore(widget, cards[1]);
+    } else {
+        panel.insertBefore(widget, panel.firstChild);
+    }
+
+    document.getElementById('copy-calendar-url')?.addEventListener('click', () => {
+        navigator.clipboard.writeText(CALENDAR_HTTPS).then(() => {
+            const btn = document.getElementById('copy-calendar-url');
+            const orig = btn.textContent;
+            btn.textContent = 'Copied!';
+            setTimeout(() => { btn.textContent = orig; }, 2000);
+        });
+    });
 }
 
 function buildOverviewCards(html) {
@@ -664,26 +813,31 @@ function buildOverviewCards(html) {
     temp.innerHTML = html;
     let cards = '';
     let currentContent = [];
+    let curTitle = null;
+
+    function flush() {
+        const html = currentContent.join('').trim();
+        if (html) {
+            cards += `<div class="overview-content">${html}</div>`;
+        }
+        currentContent = [];
+    }
 
     for (const node of [...temp.childNodes]) {
         if (node.nodeType === 1 && node.tagName === 'H2') {
-            if (currentContent.length) {
-                cards += `<div class="overview-content">${currentContent.join('')}</div>`;
-                currentContent = [];
-            }
-            currentContent.push(`<h2>${node.innerHTML}</h2>`);
+            flush();
+            curTitle = node.innerHTML;
+            currentContent = [`<h2>${curTitle}</h2>`];
         } else if (node.nodeType === 1 && node.tagName === 'HR') {
-            if (currentContent.length) {
-                cards += `<div class="overview-content">${currentContent.join('')}</div>`;
-                currentContent = [];
-            }
-        } else {
+            flush();
+        } else if (curTitle !== null) {
             currentContent.push(node.nodeType === 1 ? node.outerHTML : node.textContent);
+        } else if (node.nodeType === 1 && node.tagName !== 'H1') {
+            const bit = node.outerHTML.trim();
+            if (bit) cards += `<div class="overview-content">${bit}</div>`;
         }
     }
-    if (currentContent.length) {
-        cards += `<div class="overview-content">${currentContent.join('')}</div>`;
-    }
+    flush();
     return cards;
 }
 
@@ -697,7 +851,7 @@ function buildCollapsibleSections(html) {
 
     function flush() {
         if (curTitle !== null) {
-            const open = index <= 1 ? ' open' : '';
+            const open = index <= 1 || /packing/i.test(String(curTitle)) ? ' open' : '';
             cards += `
                 <div class="section-card${open}">
                     <div class="section-header" onclick="toggleSection(this)">
@@ -800,14 +954,20 @@ scrollBtn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 's
 function buildPlanPanelShell() {
     return `
         <div class="plan-legend">
-            <span><strong>Scroll</strong> to zoom in on times</span>
+            <span><strong>Pinch/scroll</strong> timeline to zoom times</span>
             <span class="plan-legend-item"><span class="plan-legend-dot locked"></span> Locked booking</span>
             <span class="plan-legend-item"><span class="plan-legend-dot idea"></span> Idea (map)</span>
             <span>Times: Spain (CEST) unless flight says ET</span>
         </div>
         <div id="plan-timeline"></div>
-        <div id="plan-map"></div>
-        <div class="plan-detail" id="plan-detail">Click a timeline item or map pin for details.</div>
+        <div class="plan-map-wrap">
+            <div id="plan-map"></div>
+            <div class="route-legend">
+                <div><span class="route-legend-line train"></span> Train route</div>
+                <div><span class="route-legend-line flight"></span> Flight leg</div>
+            </div>
+        </div>
+        <div class="plan-detail" id="plan-detail">Tap a timeline bar or map pin for details.</div>
     `;
 }
 
@@ -846,20 +1006,22 @@ async function initPlanTab() {
     }
 
     const groups = new vis.DataSet([
-        { id: 'Travel', content: 'Travel' },
-        { id: 'Valencia', content: 'Valencia' },
-        { id: 'Barcelona', content: 'Barcelona' },
-        { id: 'Madrid', content: 'Madrid' }
+        { id: 'Travel', content: '✈️ Travel' },
+        { id: 'Valencia', content: '🏖️ Valencia' },
+        { id: 'Barcelona', content: '⛪ Barcelona' },
+        { id: 'Madrid', content: '🏛️ Madrid' }
     ]);
 
     const items = [];
     (planTripData.events || []).forEach(ev => {
+        const isPoint = !ev.end || ev.end === ev.start || ev.category === 'task';
         items.push({
             id: ev.id,
             group: ev.group || ev.city,
             content: ev.title,
             start: ev.start,
-            end: ev.end,
+            end: isPoint ? undefined : ev.end,
+            type: isPoint ? 'point' : 'range',
             className: 'locked-event',
             title: ev.description || ev.title,
             _data: ev
@@ -881,12 +1043,20 @@ async function initPlanTab() {
     const container = document.getElementById('plan-timeline');
     planTimeline = new vis.Timeline(container, new vis.DataSet(items), groups, {
         stack: true,
-        zoomMin: 1000 * 60 * 30,
+        stackSubgroups: true,
+        verticalScroll: true,
+        zoomKey: 'ctrlKey',
+        zoomMin: 1000 * 60 * 60 * 2,
         zoomMax: 1000 * 60 * 60 * 24 * 14,
         orientation: 'top',
-        margin: { item: 8 },
-        start: '2026-05-26',
-        end: '2026-06-05'
+        margin: { item: { horizontal: 8, vertical: 12 } },
+        start: '2026-05-26T00:00:00+02:00',
+        end: '2026-06-05T00:00:00+02:00',
+        showCurrentTime: false,
+        format: {
+            minorLabels: { hour: 'ha', day: 'ddd D MMM' },
+            majorLabels: { day: 'ddd D MMMM YYYY', week: 'MMMM YYYY' }
+        }
     });
 
     planTimeline.on('select', props => {
@@ -898,49 +1068,101 @@ async function initPlanTab() {
         }
     });
 
-    planMap = L.map('plan-map').setView([40.0, -2.5], 6);
+    planMap = L.map('plan-map').setView([40.2, -1.5], 6);
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         attribution: '&copy; OpenStreetMap'
     }).addTo(planMap);
 
     const lockedIcon = L.divIcon({
         className: 'plan-marker locked',
-        html: '<div style="background:#c4704f;width:14px;height:14px;border-radius:50%;border:2px solid white;box-shadow:0 1px 4px rgba(0,0,0,0.3)"></div>',
-        iconSize: [14, 14], iconAnchor: [7, 7]
+        html: '<div style="background:#c4704f;width:16px;height:16px;border-radius:50%;border:2px solid white;box-shadow:0 1px 4px rgba(0,0,0,0.35)"></div>',
+        iconSize: [16, 16], iconAnchor: [8, 8]
     });
     const ideaIcon = L.divIcon({
         className: 'plan-marker idea',
-        html: '<div style="background:#5c6b4a;width:12px;height:12px;border-radius:50%;border:2px solid white;box-shadow:0 1px 4px rgba(0,0,0,0.3);opacity:0.85"></div>',
-        iconSize: [12, 12], iconAnchor: [6, 6]
+        html: '<div style="background:#5c6b4a;width:14px;height:14px;border-radius:50%;border:2px solid white;box-shadow:0 1px 4px rgba(0,0,0,0.3);opacity:0.9"></div>',
+        iconSize: [14, 14], iconAnchor: [7, 7]
     });
+
+    planLockedCluster = L.markerClusterGroup({
+        maxClusterRadius: 40,
+        spiderfyOnMaxZoom: true,
+        showCoverageOnHover: false
+    });
+    planIdeaCluster = L.markerClusterGroup({
+        maxClusterRadius: 35,
+        spiderfyOnMaxZoom: true,
+        showCoverageOnHover: false
+    });
+    planMap.addLayer(planLockedCluster);
+    planMap.addLayer(planIdeaCluster);
 
     function addMarker(entry, isSuggestion) {
         if (!entry.lat || !entry.lng) return;
         const marker = L.marker([entry.lat, entry.lng], {
             icon: isSuggestion ? ideaIcon : lockedIcon,
             title: entry.title
-        }).addTo(planMap);
+        });
         marker.bindPopup(`<strong>${entry.title}</strong>${entry.description ? '<br>' + entry.description : ''}`);
         marker.on('click', () => {
             showPlanDetail(entry);
             if (entry.start || entry.day) {
                 const t = entry.start ? new Date(entry.start) : new Date(entry.day + 'T12:00:00+02:00');
-                planTimeline.setWindow(t.getTime() - 1000 * 60 * 60 * 6, t.getTime() + 1000 * 60 * 60 * 6);
+                planTimeline.setWindow(t.getTime() - 1000 * 60 * 60 * 12, t.getTime() + 1000 * 60 * 60 * 12);
             }
             if (!isSuggestion) planTimeline.setSelection([entry.id]);
         });
+        (isSuggestion ? planIdeaCluster : planLockedCluster).addLayer(marker);
         planMarkers[entry.id] = marker;
     }
 
     (planTripData.events || []).forEach(ev => addMarker(ev, false));
     (planTripData.suggestions || []).forEach(sug => addMarker(sug, true));
 
+    function drawRoute(route) {
+        const latlngs = route.coords.map(c => [c[0], c[1]]);
+        const isFlight = route.mode === 'flight';
+        const color = isFlight ? '#1a365d' : '#c4704f';
+        const polyline = L.polyline(latlngs, {
+            color,
+            weight: isFlight ? 3 : 4,
+            opacity: 0.75,
+            dashArray: isFlight ? '8 8' : null
+        }).addTo(planMap);
+        if (typeof L.polylineDecorator === 'function') {
+            L.polylineDecorator(polyline, {
+                patterns: [{
+                    offset: '50%',
+                    repeat: 0,
+                    symbol: L.Symbol.arrowHead({
+                        pixelSize: 12,
+                        polygon: false,
+                        pathOptions: { stroke: true, color, weight: 3 }
+                    })
+                }]
+            }).addTo(planMap);
+        }
+        polyline.bindPopup(`<strong>${route.label}</strong>`);
+    }
+
+    (planTripData.routes || []).forEach(drawRoute);
+
+    const allCoords = (planTripData.routes || []).flatMap(r => r.coords);
+    if (allCoords.length) {
+        planMap.fitBounds(allCoords.map(c => [c[0], c[1]]), { padding: [40, 40] });
+    }
+
     planInitialized = true;
 }
 
 function focusPlanMap(id) {
     const marker = planMarkers[id];
-    if (marker) {
+    if (!marker) return;
+    const cluster = planTripData?.suggestions?.some(s => s.id === id)
+        ? planIdeaCluster : planLockedCluster;
+    if (cluster) {
+        cluster.zoomToShowLayer(marker, () => marker.openPopup());
+    } else {
         planMap.setView(marker.getLatLng(), 13, { animate: true });
         marker.openPopup();
     }

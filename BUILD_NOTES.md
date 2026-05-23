@@ -17,7 +17,8 @@ Static, password-gated family travel site for the Spain 2026 trip. It gives the 
 
 ## Environment & Dependencies
 - Runtime: static HTML in a browser.
-- External browser dependencies: Google Fonts, `marked` (jsDelivr), `vis-timeline` 8.5.1 (unpkg), Leaflet 1.9.4 (unpkg).
+- External browser dependencies: Google Fonts, `marked` (jsDelivr), `vis-timeline` 8.5.1 (unpkg), Leaflet 1.9.4 + markercluster 1.5.3 + polylinedecorator 1.6.0 (unpkg).
+- Favicon: `favicon.svg` — terracotta square with **WT** (Williamson Thomas) for browser tab recognition.
 - Calendar: static iCalendar (`.ics`) file. Timed Spain events use `TZID=Europe/Madrid`; US outbound flights May 26 use `TZID=America/New_York`.
 - Plan tab: loads `trip-events.json`; timeline groups by city; map markers sync on click.
 - Environment variable: `SPAIN_2026_SITE_PASSWORD` stores the site password in the workspace `.env` for operator reference. The current static site still hardcodes the same password in `index.html`.
@@ -103,7 +104,8 @@ To duplicate this for another trip:
 ## Change Log
 | Date | Change | Why |
 |---|-----|-----|
-| 2026-05-23 | Deepened city briefings: local news + vocabulary sections | Spring 2026 teacher strike, housing protests, overtourism policy, Corpus Christi prep |
+| 2026-05-23 | WT favicon, calendar subscribe widget, Plan tab map routes + clustering, timeline polish | Fix blank overview cards, broken ICS table, truncated timeline labels |
+| 2026-05-23 | Wedding attire/logistics (Joe email) + expanded packing section | Family guidance for wedding dress code, baby travel, walking shoes |
 | 2026-05-23 | City deep briefing tabs + briefings/*.md | History, politics, architecture, demographics, while-you-are-here for MBA/military lens |
 | 2026-05-22 | Plan tab (vis-timeline + Leaflet), trip-events.json, KML, calendar/content sync | Paella booking, cribs, check-in/out, luggage gaps, timezone fixes |
 | 2026-05-17 | Added static subscribable calendar and updated May 30 tour time | Keep the site and calendar aligned with the new Group A 9:15 AM start and Sagrada entry |

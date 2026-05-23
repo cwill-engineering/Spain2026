@@ -79,9 +79,8 @@
     },
     {
       "id": "valencia-police-form",
-      "title": "Complete Valencia police guest form",
-      "start": "2026-05-26T00:00:00+02:00",
-      "end": "2026-05-27T16:00:00+02:00",
+      "title": "Deadline: Valencia police guest form",
+      "start": "2026-05-26T12:00:00+02:00",
       "timezone": "Europe/Madrid",
       "type": "locked",
       "category": "task",
@@ -300,6 +299,38 @@
       "lat": 40.4983,
       "lng": -3.5676,
       "description": "JetBlue 2260 Madrid → Boston. Taxi ~12:00–12:15 PM from Airbnb."
+    }
+  ],
+  "routes": [
+    {
+      "id": "flight-bna-bos",
+      "label": "JetBlue 1506: Nashville → Boston",
+      "mode": "flight",
+      "coords": [[36.1263, -86.6774], [42.3656, -71.0096]]
+    },
+    {
+      "id": "flight-bos-mad",
+      "label": "JetBlue 2261: Boston → Madrid",
+      "mode": "flight",
+      "coords": [[42.3656, -71.0096], [40.4983, -3.5676]]
+    },
+    {
+      "id": "train-madrid-valencia",
+      "label": "AVE 05990: Madrid Atocha → Valencia Joaquín Sorolla",
+      "mode": "train",
+      "coords": [[40.4065, -3.6896], [39.45, -1.2], [39.4661, -0.3774]]
+    },
+    {
+      "id": "train-valencia-barcelona",
+      "label": "Euromed 01092: Valencia Nord → Barcelona-Sants",
+      "mode": "train",
+      "coords": [[39.4661, -0.3774], [40.0, 0.3], [41.3799, 2.1404]]
+    },
+    {
+      "id": "train-barcelona-madrid",
+      "label": "AVE 03152: Barcelona-Sants → Madrid Atocha",
+      "mode": "train",
+      "coords": [[41.3799, 2.1404], [40.8, -0.5], [40.4065, -3.6896]]
     }
   ],
   "suggestions": [

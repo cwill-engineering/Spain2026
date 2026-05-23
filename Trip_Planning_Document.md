@@ -10,17 +10,17 @@
 
 ## Subscribeable Calendar
 
-Use the trip calendar for the major Spain-local itinerary items, including trains, lodging check-in/out, the updated Barcelona tour time, Sagrada Família entry, and departure flights.
+**Quick subscribe:** Use the blue **Subscribe to Trip Calendar** box at the top of the Overview tab — Apple Calendar, download `.ics`, or copy the link.
 
-| Calendar | Link |
-| -------- | ---- |
-| **Download / subscribe file** | [spain-2026.ics](spain-2026.ics) |
-| **Deployed calendar URL** | `https://neon-daffodil-236a0f.netlify.app/spain-2026.ics` |
-| **Apple Calendar subscribe URL** | `webcal://neon-daffodil-236a0f.netlify.app/spain-2026.ics` |
+| Option | Link |
+| ------ | ---- |
+| **Apple Calendar (subscribe)** | [webcal://neon-daffodil-236a0f.netlify.app/spain-2026.ics](webcal://neon-daffodil-236a0f.netlify.app/spain-2026.ics) |
+| **Download .ics file** | [spain-2026.ics](spain-2026.ics) |
+| **Google Calendar / other apps** | Paste this URL: https://neon-daffodil-236a0f.netlify.app/spain-2026.ics |
 
-**Timezone note:** Timed Spain events use `Europe/Madrid` (CEST). Outbound US flights on May 26 use `America/New_York` (EDT). The 9:15 AM Barcelona tour and 12:15 PM Sagrada Família entry stay in Spain local time when subscribed.
+**Timezone note:** Timed Spain events use `Europe/Madrid` (CEST). Outbound US flights on May 26 use `America/New_York` (EDT).
 
-**Interactive plan:** Open the **Plan** tab on this site for a zoomable timeline + map synced to [`trip-events.json`](trip-events.json). KML export: [`spain-2026.kml`](spain-2026.kml).
+**Interactive plan:** Open the **Plan** tab for a zoomable timeline + map with train routes. KML export: [`spain-2026.kml`](spain-2026.kml).
 
 ---
 
@@ -574,6 +574,33 @@ Catalonia's capital — Gaudí, Gothic alleys, and a wedding weekend. Your apart
 **Wedding Area:** Gothic Quarter, Barcelona
 **Reference Hotels:** Kimpton Vividora (Carrer del Duc 15), Hotel 1898 (La Rambla 109)
 
+### Wedding Attire & Logistics (from Joe, Apr 2026)
+
+Joe's guidance: responsibilities are **light except Sunday**. Wedding party meets at the venue a bit ahead of the main group for photos — exact timing TBD.
+
+**Sunday ceremony day (current plan):**
+- Wedding party heads to venue **~2:30 PM** (meet at hotel earlier — exact time TBD)
+- Hair/makeup **before** leaving hotel (bridesmaids use hotel library room; optional pro hair/makeup available if you want Joe to arrange)
+- Shuttle transportation to venue — TBD headcount (family may also ride early)
+- Small area at venue for personal items (water bottle, light jacket, book) — limited space; pack light for the day
+- You'll walk down the aisle but sit in the **first few rows** — not standing at the altar
+
+**Men — black tuxedo:**
+- White shirt, **black bow tie**
+- **No vest or cummerbund**
+- Lapel style flexible (peak / shawl / notch — nothing too unusual)
+- Any **black dress shoes** fine — patent leather **not** required
+- **Rent locally** if you don't own one (Chandler: Casa Gay fitting May 29). Any standard black tux rental works — fit matters more than brand
+
+**Women:**
+- **Black tuxedo OR black dress/gown** — both are great
+- Annalise / sisters / guests: **no tux required** — a formal black dress is perfect
+- Comfortable shoes still matter — Gothic Quarter is cobblestones; plan for walking and standing
+
+**Optional hair/makeup:** Joe can arrange the same team as bridesmaids (hotel library room or in-room). Totally optional — do your own if you prefer (especially curly hair — Tamara's note: pro stylists often struggle with curls).
+
+**Questions still TBD from Joe:** Final Sunday timeline, shuttle schedule, whether Jason can take early transport to explore.
+
 ### May 30 Tour Day Schedule (Saturday)
 
 Wedding-organized group tour day. The morning tour is a separate wedding activity (already paid via Venmo). Sagrada Família tickets are for official entry after/between tours.
@@ -1102,10 +1129,65 @@ Madrid does Sunday "vermut" (vermouth hour) like nowhere else. Find any old bar 
 
 ## Packing
 
-- **Power adapters** - Spain uses Type C/F plugs (230V)
-- Portable batteries
-- Comfortable walking shoes
-- Light layers (May/June: 20-28°C / 68-82°F)
+Spain in late May / early June: **20–28°C (68–82°F)**, sunny, dry. You'll walk **a lot** on cobblestones — prioritize comfort over fashion except wedding Sunday.
+
+### Everyone
+
+| Item | Notes |
+| ---- | ----- |
+| **Power adapters** | Type C/F (230V). Bring 2–3 if sharing rooms. |
+| **Portable batteries** | Full days of maps, photos, tickets. |
+| **Comfortable walking shoes** | Broken-in sneakers or walking sandals. Cobblestones + 15k steps/day. |
+| **Light layers** | Morning/evening can be cool (~16°C). Cardigan or light jacket. |
+| **Sun protection** | Hat, sunglasses, sunscreen — Mediterranean UV is real. |
+| **Day bag / crossbody** | Small pack for water, snacks, tickets, light jacket. |
+| **Medications** | Bring extras + keep in carry-on. |
+| **Copies of passports** | Photo on phone + paper copy stored separately. |
+
+### Wedding Weekend (May 29–31)
+
+| Who | What to pack / plan |
+| --- | ------------------- |
+| **Chandler (groomsmen party)** | Rent tux in Barcelona (Casa Gay). Bring **black dress shoes** (any black leather — not patent required). White shirt if rental doesn't include one. |
+| **Angela, Valerie, Elise** | **Black dress or black formal outfit** for Sunday wedding. Comfortable dress shoes for cobblestones — consider block heel or elegant flats. |
+| **Annalise (sister)** | **Black dress or gown** — tux not required. Same shoe advice. Optional: own hair/makeup tools if skipping pro styling. |
+| **Brandon** | Match men's guidance if attending wedding events — black tux or dark formal suit if not in wedding party. |
+| **Carson, Harrison (teens)** | Smart casual for events; dark formal for Sunday if requested. Comfortable shoes for tour day (May 30 is long). |
+| **All adults** | May 30: smart casual for La Pedrera / Sagrada / tapas tour. May 29 Event #1: check with Joe — likely smart casual. |
+
+### Traveling with Harlan (baby, ~1 year)
+
+| Item | Notes |
+| ---- | ----- |
+| **Stroller** | Lightweight umbrella stroller strongly recommended — Barcelona Gothic Quarter has steps and narrow alleys; Madrid/Valencia flatter but lots of walking. |
+| **Baby carrier** | Backup for stairs and crowded metro. |
+| **Diapers / wipes** | Pack 2–3 days in carry-on; buy rest in Spain (DIA, Mercadona, Carrefour). |
+| **Formula / snacks** | Bring familiar brands if picky; Spain has equivalents but names differ. |
+| **Light blanket / sun shade** | Stroller shade or hat for beach days in Valencia. |
+| **Sleep** | **Crib confirmed** Valencia (Maria Pilar) and Madrid (Elena). Pack familiar sleep sack / lovey. |
+| **Pace** | Plan slower mornings; Harlan doesn't need wedding formal wear — comfortable cute outfit for photos is fine. |
+
+### Clothes by City (casual days)
+
+| City | Day vibe | Pack |
+| ---- | -------- | ---- |
+| **Valencia** | Beach / pool | Swimsuits, cover-ups, sandals, one nicer outfit for paella lunch |
+| **Barcelona** | Urban walking + wedding | Mix of casual + 2–3 dressier outfits; layers for evening |
+| **Madrid** | Museums / parks | Comfortable daytime clothes; **Jun 4 Corpus Christi** — some shops closed, plan outfit night before |
+
+### What NOT to over-pack
+
+- Full suit/tux in checked luggage (Chandler rents locally)
+- Heavy jeans for every day (one pair enough)
+- More than one "nice" outfit per person outside wedding gear
+- Bulky hair tools if using pro styling at hotel
+
+### Carry-on essentials
+
+- 1 change of clothes per person (lost luggage hedge)
+- All medications, documents, chargers
+- Wedding-adjacent items: bow tie backup
+- Sagrada Família app downloaded + ticket locators saved offline
 
 ## Financial
 
@@ -1158,4 +1240,4 @@ Ask about:
 
 ---
 
-*Last updated: May 22, 2026*
+*Last updated: May 23, 2026*
