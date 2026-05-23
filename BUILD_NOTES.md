@@ -20,7 +20,7 @@ Static, password-gated family travel site for the Spain 2026 trip. It gives the 
 - External browser dependencies: Google Fonts, `marked` (jsDelivr), `vis-timeline` 8.5.1 (unpkg), Leaflet 1.9.4 + markercluster 1.5.3 + polylinedecorator 1.6.0 (unpkg).
 - Favicon: `favicon.ico`, `favicon-32.png`, `favicon.svg`, `apple-touch-icon.png` — terracotta square with **WTF** (Williamson Thomas Family). Prefer `.ico`/PNG for browser compatibility.
 - Overview widgets: calendar subscribe (Apple + **Google Calendar** + download + copy), `eat-drink.json` top eats/drinks grid, `trip-quick-ref.json` countdown + emergency/metro/phrases/weather/expenses + print-to-PDF.
-- Calendar: static iCalendar (`.ics`) file. Timed Spain events use `TZID=Europe/Madrid`; US outbound flights May 26 use `TZID=America/New_York`.
+- Calendar: `generate-ics.py` builds `spain-2026.ics` from `trip-events.json` plus three all-day lodging spans. **Re-run after booking changes:** `python generate-ics.py`. Timed Spain events use `TZID=Europe/Madrid`; US outbound flights use `America/New_York` / `America/Chicago`; cross-timezone legs use UTC `Z`.
 - Plan tab: loads `trip-events.json`; timeline groups by city; map markers sync on click.
 - Environment variable: `SPAIN_2026_SITE_PASSWORD` stores the site password in the workspace `.env` for operator reference. The current static site still hardcodes the same password in `index.html`.
 - Deploy target: Netlify static site at `https://neon-daffodil-236a0f.netlify.app/`.
@@ -45,7 +45,7 @@ webcal://neon-daffodil-236a0f.netlify.app/spain-2026.ics
 2. Trip content lives in markdown so family-facing updates are simple and readable.
 3. Top-level `#` headings map to content tabs (Overview + Valencia/Barcelona/Madrid/Return/Checklist). **Plan** and three **city briefing** tabs use `mdIndex: null` and load separate files.
 4. City briefings use H2 sections in markdown → collapsible cards; lazy-loaded on first tab open.
-5. `trip-events.json` drives the Plan tab timeline/map; keep aligned with `spain-2026.ics` when bookings change.
+5. `trip-events.json` drives the Plan tab timeline/map; run `python generate-ics.py` to sync `spain-2026.ics` when bookings change.
 6. The password gate is privacy-by-obscurity only; do not put truly sensitive secrets in rendered trip content.
 7. Spain itinerary times use `Europe/Madrid`; US outbound flights May 26 use `America/New_York` in the calendar.
 
@@ -77,6 +77,12 @@ webcal://neon-daffodil-236a0f.netlify.app/spain-2026.ics
 | Assuming the site already had a calendar | No `.ics` file or generator existed in the project | Add a static `spain-2026.ics` at the site root and link it from the trip document |
 
 ## Known Issues & Fixes
+- **Date**: 2026-05-23
+- **Symptom**: Subscribed calendar showed many missing events; Google/Apple import incomplete.
+- **Root Cause**: `spain-2026.ics` had a blank line between every property (~261 empty lines). Invalid RFC 5545 — most parsers stop or skip events. Thomas family outbound flights (DL4662, DL0128) were also absent from `trip-events.json`.
+- **Fix**: Added `generate-ics.py` to rebuild ICS from JSON with proper CRLF and no interior blank lines. Added Thomas flights to `trip-events.json`. Added Netlify `_headers` for `text/calendar` MIME type.
+- **⚠️ DO NOT REVERT**: Do not reintroduce double-spaced ICS or edit `.ics` without running the generator.
+
 - **Date**: 2026-05-17
 - **Symptom**: The site still showed train booking instructions for booked train legs and the old Madrid VRBO/Cibeles stay.
 - **Root Cause**: Travel bookings changed after the original markdown was written.
@@ -93,7 +99,7 @@ webcal://neon-daffodil-236a0f.netlify.app/spain-2026.ics
 - `SPAIN_2026_SITE_PASSWORD` is not a real secret. Do not rely on the static password gate for confidential data.
 - The provided Renfe tickets cover Chandler, Angela, Carson, Valerie, Harrison, and Elise only. Thomas family train tickets should stay clearly marked as separate / to confirm unless new ticket data is provided.
 - `spain-2026.ics` includes a few placeholder durations/times where the plan has no exact end time (for example wedding events). Mark those descriptions as placeholders.
-- If editing the calendar manually, keep `DTSTART;TZID=Europe/Madrid` / `DTEND;TZID=Europe/Madrid` for Spain-local timed events.
+- If editing the calendar, prefer editing `trip-events.json` and running `generate-ics.py`. Do not hand-edit with blank lines between properties — RFC 5545 forbids empty lines inside `VCALENDAR`/`VEVENT`; Google/Apple may drop events.
 
 ## Replication Guide
 To duplicate this for another trip:
@@ -105,6 +111,7 @@ To duplicate this for another trip:
 ## Change Log
 | Date | Change | Why |
 |---|-----|-----|
+| 2026-05-23 | Fix calendar ICS + `generate-ics.py` + Thomas Delta flights | Blank-line ICS broke subscribe import |
 | 2026-05-23 | Live weather widget (Open-Meteo) on Overview for trip dates | Real forecast vs AEMET links only |
 | 2026-05-23 | Wedding attire/logistics (Joe email) + expanded packing section | Family guidance for wedding dress code, baby travel, walking shoes |
 | 2026-05-23 | City deep briefing tabs + briefings/*.md | History, politics, architecture, demographics, while-you-are-here for MBA/military lens |
