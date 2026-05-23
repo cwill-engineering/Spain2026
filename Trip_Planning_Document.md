@@ -8,12 +8,28 @@
 
 ---
 
+## Subscribeable Calendar
+
+Use the trip calendar for the major Spain-local itinerary items, including trains, lodging check-in/out, the updated Barcelona tour time, Sagrada Família entry, and departure flights.
+
+| Calendar | Link |
+| -------- | ---- |
+| **Download / subscribe file** | [spain-2026.ics](spain-2026.ics) |
+| **Deployed calendar URL** | `https://neon-daffodil-236a0f.netlify.app/spain-2026.ics` |
+| **Apple Calendar subscribe URL** | `webcal://neon-daffodil-236a0f.netlify.app/spain-2026.ics` |
+
+**Timezone note:** Timed Spain events use `Europe/Madrid` (CEST). Outbound US flights on May 26 use `America/New_York` (EDT). The 9:15 AM Barcelona tour and 12:15 PM Sagrada Família entry stay in Spain local time when subscribed.
+
+**Interactive plan:** Open the **Plan** tab on this site for a zoomable timeline + map synced to [`trip-events.json`](trip-events.json). KML export: [`spain-2026.kml`](spain-2026.kml).
+
+---
+
 ## Where We'll Be (Day by Day)
 
 ```
 May 26 (Tue)  ✈️  TRAVEL: Nashville → Boston → Overnight flight to Spain
-May 27 (Wed)  🇪🇸  VALENCIA - Arrive, beach house, paella dinner at Casa Carmela
-May 28 (Thu)  🏖️  VALENCIA - Beach, pool, explore (flexible day)
+May 27 (Wed)  🇪🇸  VALENCIA - Arrive, beach house check-in 4:00 PM
+May 28 (Thu)  🍽️  VALENCIA - Paella lunch at Casa Carmela (1:00 PM), beach/pool
 May 29 (Fri)  🚄  BARCELONA - Train from Valencia, check in, Wedding Event #1
 May 30 (Sat)  💒  BARCELONA - Tour Day (La Pedrera, Sagrada Família, Tapas Tour) + Wedding Event #2
 May 31 (Sun)  🎉  BARCELONA - WEDDING DAY (main event)
@@ -22,6 +38,20 @@ Jun 2  (Tue)  🏛️  MADRID - Full day exploring (museums, tapas, parks)
 Jun 3  (Wed)  ✈️  MADRID - Thomas family departs / Williams explores
 Jun 4  (Thu)  ✈️  MADRID - Williams family departs
 ```
+
+---
+
+## Luggage Between Check-out and Travel
+
+When checkout time and your next train or flight don't line up, use these options:
+
+| Transition | Gap | Recommended option |
+|------------|-----|-------------------|
+| May 27 Madrid | Land ~11:30 → train 19:40 | Atocha consigna (~€5–6/bag) or Stasher near Retiro; Club Lounge from 17:40 with Premium ticket |
+| May 29 Valencia | Leave ~07:45, Vrbo checkout 11:00 | Ask host Maria Pilar to hold bags / early checkout; Stasher near Estació del Nord if needed |
+| May 29 Barcelona | Train 12:20, check-in 14:00 | Lunch near apartment; light bags OK; Stasher at Sants if heavy |
+| Jun 1 Barcelona | Checkout 11:00 → train 15:00 | Stasher near Gothic Quarter or Barcelona-Sants lockers (~€6–10/day); Casa Gay suit return AM |
+| Jun 4 Madrid | Checkout 11:00 → flight 14:05 | Stasher La Latina/Sol (~€3.49/bag) or Airbnb partner storage (15% off in reservation) |
 
 ---
 
@@ -47,11 +77,12 @@ Download these before your trip:
 
 | App                        | Purpose                            | Link                                                                      |
 | -------------------------- | ---------------------------------- | ------------------------------------------------------------------------- |
+| **Trip Calendar**    | Subscribe to Spain 2026 itinerary | [Download / Subscribe](spain-2026.ics) |
 | **Renfe**            | Book all trains in Spain           | [App Store](https://apps.apple.com/app/renfe-tickets-timetables/id397aborad) |
 | **Google Maps**      | Offline maps, directions           | [App Store](https://apps.apple.com/app/google-maps/id585027354)              |
 | **Google Translate** | Translation with camera feature    | [App Store](https://apps.apple.com/app/google-translate/id414706506)         |
-| **Mithouse**         | Keyless entry for Madrid apartment | [App Store](https://apps.apple.com/app/mithouse/id1455847541)                |
-| **VRBO**             | Manage bookings, contact hosts     | [App Store](https://apps.apple.com/app/vrbo-vacation-rentals/id332399323)    |
+| **Airbnb**           | Manage Madrid booking, host messages, trip details | [App Store](https://apps.apple.com/app/airbnb/id401626263)                   |
+| **VRBO**             | Manage Valencia/Barcelona bookings, contact hosts  | [App Store](https://apps.apple.com/app/vrbo-vacation-rentals/id332399323)    |
 | **Uber/Cabify**      | Ride-hailing in Spain              | [App Store](https://apps.apple.com/app/uber/id368677368)                     |
 | **Sagrada Família Oficial** | Tickets + audioguide for Sagrada entry | [App Store](https://apps.apple.com/app/sagrada-familia-oficial/id1435751089) |
 | **XE Currency**      | Currency conversion                | [App Store](https://apps.apple.com/app/xe-currency/id315241195)              |
@@ -134,17 +165,19 @@ Download these before your trip:
 | **Arrival** | 21:40 (9:40 PM) |
 | **Class** | Premium Confort |
 | **Total Paid** | €320.60 |
+| **Covered Passengers** | Chandler, Angela, Carson, Valerie, Harrison, Elise |
+| **Thomas Family** | Annalise, Brandon, and Harlan arrive separately via Barcelona and meet the group in Valencia. |
 
 **Seat Assignments (Coach 1):**
 
-| Passenger | Seat | Price |
-|-----------|------|-------|
-| Chandler | 3C | €57.25 |
-| Angela | 3B | €57.25 |
-| Carson | 3A | €57.25 |
-| Valerie | 4C | €57.25 |
-| Harrison | 4B | €57.25 |
-| Elise | 4A | €34.35 |
+| Passenger | Seat | Ticket No. | Price |
+|-----------|------|------------|-------|
+| Chandler | 3C | 7281401961442 | €57.25 |
+| Angela | 3B | 7281401961459 | €57.25 |
+| Carson | 3A | 7281401961467 | €57.25 |
+| Valerie | 4C | 7281401961475 | €57.25 |
+| Harrison | 4B | 7281401961483 | €57.25 |
+| Elise | 4A | 7281401961491 | €34.35 |
 
 **Included:** Dinner on board, Club Lounge access at Atocha (enter 2 hours before, starting 5:40 PM)
 
@@ -257,8 +290,9 @@ Download these before your trip:
 | **Address**              | Near C/ d'Isabel de Villena & C/ de Pavia, Valencia                                              |
 | **Google Maps**          | [View Location](https://www.google.com/maps/search/C+d'Isabel+de+Villena+C+de+Pavia+Valencia+Spain) |
 | **Check-in**             | May 27 at 4:00 PM                                                                                |
-| **Check-out**            | May 29 at 11:00 AM                                                                               |
+| **Check-out**            | May 29 at 11:00 AM (leave ~07:45 for 09:06 train — ask host to hold bags)                        |
 | **Guests**               | 9 people (ALL TOGETHER!)                                                                         |
+| **Crib**                 | ✅ Confirmed for Harlan                                                                           |
 | **Total Price**          | €535.29                                                                                          |
 | **Payment 2 of 2**      | €333.50 — **due by May 12, 2026**                                                               |
 | **Bedrooms**             | 6                                                                                                |
@@ -286,21 +320,26 @@ Download these before your trip:
 - Valencia city center: 20 min by taxi/bus
 - Train station: 15-20 min by taxi
 
+**Host notes (Maria Pilar):**
+
+- **Police guest form (required):** Complete before arrival at [heavenonearth.es/docpolicial](https://heavenonearth.es/docpolicial/indexen.php?id=MTEwOTI=) — name, nationality, passport for each guest.
+- **Arrival time:** Message host with your expected arrival time (train lands ~21:40 May 27).
+- **Oceanogràfic:** Host offers discounted skip-the-line aquarium tickets — ask if interested.
+
 ---
 
 ## Valencia: What to Do (May 27-28)
 
 ### Recommendations
 
-**1. Casa Carmela Paella Dinner** ⭐ MUST DO
+**1. Casa Carmela Paella Lunch** ⭐ BOOKED
 
 - **What:** Traditional wood-fired paella at a legendary local restaurant (since 1922)
 - **Why:** This is how paella is SUPPOSED to be made - wood fire, no gas, no shortcuts. Locals eat here.
+- **When:** **Thursday May 28, 2026 at 1:00 PM Spain time** (day after arrival)
 - **Cost:** €20-30/person
 - **Distance:** 10-15 min walk from your beach house (it's on your street!)
 - **Address:** Carrer d'Isabel de Villena, 155
-- **Booking:** Recommended - call +34 963 71 00 73 or [casacarmela.com](https://casacarmela.com)
-- **Suggested Day:** May 27 dinner (arrival day) - perfect welcome to Valencia!
 - **Order:** Paella Valenciana (chicken, rabbit, beans) for traditional, or Paella de Mariscos (seafood)
 - **Tip:** They cook to order, so expect 20-30 min wait - worth it!
 
@@ -374,18 +413,15 @@ Download these before your trip:
 
 ### Valencia: Restaurants
 
-**Casa Carmela** ⭐ MAKE RESERVATION
+**Casa Carmela** ✅ BOOKED
 
 | Detail | Information |
 |--------|-------------|
 | **What** | Legendary wood-fired paella since 1922 - THE authentic Valencia experience |
-| **Why** | This is how paella is SUPPOSED to be made. Wood fire, no gas, no shortcuts. Locals eat here. |
+| **When** | **Thursday May 28, 2026 at 1:00 PM Spain time** |
 | **Address** | Carrer d'Isabel de Villena, 155 (on your street!) |
 | **Distance** | 10-15 min walk from beach house |
 | **Cost** | €20-30/person |
-| **Reservation** | **REQUIRED for groups** - Call +34 963 71 00 73 or book at [casacarmela.com](https://casacarmela.com) |
-| **Book when** | 1 week before is fine |
-| **Best day** | May 27 dinner (arrival night) |
 | **What to order** | Paella Valenciana (chicken, rabbit, beans) for traditional OR Paella de Mariscos (seafood) |
 | **Heads up** | Paella cooked to order - 20-30 min wait (worth it!) |
 
@@ -446,56 +482,53 @@ Download these before your trip:
 
 ## Getting There: Valencia to Barcelona
 
-### Train Details (All 9 People Together)
+### Train Details - BOOKED
 
 **Date:** May 29, 2026
 
 | Detail | Information |
 |--------|-------------|
-| **Route** | Valencia → Barcelona |
-| **Train Options** | AVE (2h 40min) or Euromed (3h) |
-| **Best for Scenery** | **Euromed** - runs closer to coast, better Mediterranean views |
-| **Cost** | AVE: €35-55/person / Euromed: €25-40/person |
-| **Total (9 people)** | €225-500 depending on train and booking timing |
+| **Route** | Valencia-Estació del Nord → Barcelona-Sants |
+| **Train** | Euromed 01092 |
+| **Departure** | 09:06 |
+| **Arrival** | 12:20 |
+| **Class** | Premium - 4 o más |
+| **Total Paid** | €489.75 |
+| **Covered Passengers** | Chandler, Valerie, Carson, Angela, Harrison, Elise |
+| **Thomas Family** | Annalise, Brandon, and Harlan are staying with the group in Valencia and Madrid; their train coverage is separate / still to confirm. |
 
-### How to Book in Renfe App (Step-by-Step)
+**Seat Assignments (Coach 13):**
 
-1. Open **Renfe app**
-2. Tap **"Buy tickets"**
-3. **DEPARTURE station:** Type "Valencia" and select **VALENCIA-JOAQUÍN SOROLLA**
-4. **ARRIVAL station:** Type "Barcelona" and select **BARCELONA-SANTS**
-5. **Date:** May 29, 2026
-6. **Passengers:** 6 adults, 2 children, 1 infant
-   - Adults: Angela, Chandler, Valerie, Annalise, Brandon, Harrison (16 = adult)
-   - Children: Carson (16 - may count as adult), Elise (7)
-   - Infant: Harlan (1 - under 4 usually free, sits on lap)
-7. **Time:** Select train departing ~12:00 PM (noon)
-8. **Train:** Select **Euromed** for scenic coastal views (3h) or AVE for faster (2h 40min)
-9. **Fare type:** "Elige 4 o más" for flexibility, or "Premium 4 o más" for comfort
-10. **Seat selection:** Pick **window seats on RIGHT side** for Mediterranean coast views
+| Passenger | Seat | Ticket No. | Price |
+|-----------|------|------------|-------|
+| Chandler | 2C | 7150702026843 | €87.45 |
+| Valerie | 2B | 7150702026850 | €87.45 |
+| Carson | 3C | 7150702026868 | €87.45 |
+| Angela | 3B | 7150702026876 | €87.45 |
+| Harrison | 6C | 7150702026884 | €87.45 |
+| Elise | 6B | 7150702026892 | €52.50 |
 
-**Best Seats for Scenic Views:**
-- **RIGHT side window seats** - You'll see the Mediterranean coast!
-- Passes through: Castellón, Tarragona, coastal towns, beaches
-- One of Spain's most beautiful train routes!
+**Scenic Views:**
+- Euromed is the right call for this route - it runs closer to the coast than the faster AVE options.
+- Best views are generally on the right side heading north toward Barcelona.
+- Route passes through coastal towns, Castellón/Tarragona area, beaches, and orange groves.
 
 **Recommended Schedule:**
 
 | Time | Activity |
 |------|----------|
-| 9:00-10:00 AM | Breakfast, pack up |
-| 11:00 AM | Check out |
-| 11:30 AM | Taxi to Valencia train station (~€15-20) |
-| 12:00 PM | Board train to Barcelona |
-| 2:40-3:00 PM | Arrive Barcelona Sants |
-| 3:00-3:30 PM | Taxi to accommodations (~€15-20) |
-| ~3:30 PM | Arrive, settle in (check-in 2:00 PM) |
+| 6:45-7:30 AM | Breakfast, pack up |
+| 7:45 AM | Leave Valencia beach house |
+| 8:15 AM | Arrive Valencia-Estació del Nord |
+| 9:06 AM | Board Euromed 01092 to Barcelona (Coach 13) |
+| 12:20 PM | Arrive Barcelona-Sants |
+| 12:30-1:00 PM | Taxi to accommodations (~€15-20) |
+| 2:00 PM | Williams apartment check-in target |
 | Evening | Wedding Event #1 |
 
 ### Action Items
-- Book Valencia → Barcelona train for May 29 (all 9 people, ~12:00 PM departure)
-- Select **EUROMED** for best coastal scenery
-- Select **RIGHT side window seats**
+- Confirm Thomas family train details for Annalise, Brandon, and Harlan if separate tickets are not already saved.
+- Save Renfe tickets offline in the Renfe app / wallet before leaving Valencia.
 
 ---
 
@@ -580,8 +613,9 @@ Wedding-organized group tour day. The morning tour is a separate wedding activit
 
 | Time | Activity | Details |
 |------|----------|---------|
-| **9:45 AM** | Morning Tour (Group A): La Pedrera & Sagrada Família | Meet outside La Pedrera, Passeig de Gràcia 92 |
-| **~12:15 PM** | Sagrada Família Official Entry | Locator: 97232969, Entry at C/ Marina. Download **Sagrada Família Oficial** app + bring photo ID |
+| **9:15 AM** | Morning Tour (Group A): La Pedrera & Sagrada Família | **Updated start time**. Meet outside La Pedrera, Passeig de Gràcia 92 |
+| **~11:45 AM** | Arrive at Sagrada Família with tour group | Approximate arrival after the updated morning tour start |
+| **12:15 PM** | Sagrada Família Official Entry | Locator: 97232969, Entry at C/ Marina. Download **Sagrada Família Oficial** app + bring photo ID |
 | **5:00 PM** | Evening Tour: Tapas Tour | Meet at Grand Hotel Central |
 
 **Sagrada Família Tickets - BOOKED:**
@@ -589,7 +623,7 @@ Wedding-organized group tour day. The morning tour is a separate wedding activit
 | Detail | Information |
 |--------|-------------|
 | **Locator** | 97232969 |
-| **Date/Time** | May 30, 2026 at 12:15 PM |
+| **Date/Time** | May 30, 2026 at 12:15 PM Spain time |
 | **Entry** | C/ Marina - 08013 Barcelona |
 | **Tickets** | 2x General (€26 ea), 2x Student (€24 ea), 1x Child under 11 (free) |
 | **Total** | €100.00 |
@@ -627,7 +661,7 @@ Wedding-organized group tour day. The morning tour is a separate wedding activit
 - **Booking:** ✅ Booked — Locator 97232969, May 30 at 12:15 PM
 - **App:** Download **Sagrada Família Oficial** app before arrival (required for tickets + audioguide)
 - **ID:** Must bring official photo ID (tickets are non-transferable)
-- **Note:** This is the official entry after the wedding morning tour (Group A) which arrives at Sagrada ~12:15 PM
+- **Note:** This is the official entry after the wedding morning tour (Group A), which now starts at 9:15 AM and arrives at Sagrada around 11:45 AM
 
 **2. Park Güell** ⭐ BOOK 2-4 weeks ahead
 
@@ -776,8 +810,8 @@ Wedding-organized group tour day. The morning tour is a separate wedding activit
 - **The sky** - Madrid is famous for its blue sky and intense light (2,769 hours of sun per year!)
 - **Real Madrid references** - Soccer is religion. You'll see jerseys, flags, and heated opinions everywhere.
 
-**Literary Quarter (Your Neighborhood):**
-Your apartment is in Barrio de las Letras - where Cervantes, Lope de Vega, and Quevedo lived during Spain's Golden Age of literature. You'll literally walk streets named after their characters. Cervantes is buried nearby (his bones were lost for centuries and only recently found).
+**La Latina / Sol (Your Neighborhood):**
+Your apartment is on Calle de la Encomienda, right by La Latina / Tirso de Molina and an easy walk to Puerta del Sol, Plaza Mayor, and Mercado de San Miguel. This is one of Madrid's best areas for tapas, evening wandering, and getting everywhere without much transit.
 
 **The Vibe:** Proud, lively, night-owl, culturally fierce, traditional yet modern, obsessed with good food and strong opinions. After the wedding, Madrid is the perfect place to decompress with late tapas, lazy museum mornings, and that famous Spanish "mañana" attitude.
 
@@ -785,127 +819,108 @@ Your apartment is in Barrio de las Letras - where Cervantes, Lope de Vega, and Q
 
 ## Getting There: Barcelona to Madrid
 
-### Train Details (All 9 People Together)
+### Train Details - BOOKED
 
 **Date:** June 1, 2026
 
 | Detail | Information |
 |--------|-------------|
-| **Route** | Barcelona → Madrid |
-| **Train** | AVE (high-speed) - only option for this route |
-| **Duration** | 2 hours 30 minutes |
-| **Cost** | €50-100/person (Promo €50-65, Flexible €80-100) |
-| **Total (9 people)** | €450-900 depending on booking timing |
+| **Booking Reference** | **JKSS7B** |
+| **Route** | Barcelona-Sants → Madrid-Puerta de Atocha-Almudena Grandes |
+| **Train** | AVE 03152 |
+| **Departure** | 15:00 (3:00 PM) |
+| **Arrival** | 18:17 (6:17 PM) |
+| **Class** | Premium - 4 o más |
+| **Total Paid** | €390.35 |
+| **Covered Passengers** | Chandler, Carson, Angela, Harrison, Valerie, Elise |
+| **Thomas Family** | Annalise, Brandon, and Harlan are staying with the group in Madrid; their Barcelona → Madrid train coverage is separate / still to confirm. |
 
-### How to Book in Renfe App (Step-by-Step)
+**Seat Assignments (Coach 1):**
 
-1. Open **Renfe app**
-2. Tap **"Buy tickets"**
-3. **DEPARTURE station:** Type "Barcelona" and select **BARCELONA-SANTS**
-4. **ARRIVAL station:** Type "Madrid" and select **MADRID-PUERTA DE ATOCHA-ALMUDENA GRANDES**
-5. **Date:** June 1, 2026
-6. **Passengers:** 6 adults, 2 children, 1 infant
-7. **Time:** Select train departing ~12:00-12:30 PM
-8. **Train:** Select **AVE**
-9. **Fare type:** 
-   - "Promo 4 o más" = cheapest group rate (~€50-65/person)
-   - "Premium 4 o más" = bigger seats, meal included, lounge access (~€57-65/person) - nice after wedding!
-10. **Seat selection:** Either side works for views on this route
+| Passenger | Seat | Ticket No. | Price |
+|-----------|------|------------|-------|
+| Chandler | 13C | 7815702023202 | €69.70 |
+| Carson | 13B | 7815702023210 | €69.70 |
+| Angela | 13A | 7815702023228 | €69.70 |
+| Harrison | 14C | 7815702023236 | €69.70 |
+| Valerie | 14B | 7815702023244 | €69.70 |
+| Elise | 14A | 7815702023251 | €41.85 |
 
 **Scenic Views:**
-- Passes through: Catalonia countryside, Aragón, Castilla-La Mancha
-- Less coastal than Valencia route, but nice countryside and mountains
-- **Either side works** - views are similar on both sides
-
-**Tip:** Consider **Preferente class** for this trip - you'll be tired after the wedding, and the bigger seats + included meal are worth it!
+- Passes through Catalonia countryside, Aragón, and Castilla-La Mancha.
+- Less coastal than the Valencia route, but still a comfortable high-speed ride.
+- Either side works for views on this route.
 
 **Recommended Schedule:**
 
 | Time | Activity |
 |------|----------|
 | 9:00-10:00 AM | Sleep in after wedding, light breakfast |
-| 11:00 AM | Check out |
-| 11:30 AM | Taxi to Barcelona Sants (~€15-20) |
-| 12:00-12:30 PM | Board AVE to Madrid |
-| 2:30-3:00 PM | Arrive Madrid Atocha |
-| 3:00-3:30 PM | Taxi to apartment (~€15-20) |
-| 3:30 PM | Arrive apartment (check-in 3:00 PM) |
+| 11:00 AM | Check out / store luggage if needed |
+| 12:00-1:30 PM | Lunch near apartments or Sants |
+| 2:00 PM | Taxi to Barcelona-Sants (~€15-20) |
+| 3:00 PM | Board AVE 03152 to Madrid (Coach 1) |
+| 6:17 PM | Arrive Madrid Atocha |
+| 6:30-7:00 PM | Taxi to Airbnb (~€15-20) |
+| ~7:00 PM | Arrive Airbnb (check-in starts 3:00 PM) |
 | Afternoon/Evening | Explore neighborhood, tapas dinner |
 
 ### Action Items
-- Book Barcelona → Madrid AVE for June 1 (all 9 people, ~12:00-12:30 PM)
-- Select **MADRID-PUERTA DE ATOCHA** (not "Cercanías"!)
-- Consider Preferente class for post-wedding comfort
+- Confirm Thomas family train details for Annalise, Brandon, and Harlan if separate tickets are not already saved.
+- Save Renfe tickets offline in the Renfe app / wallet before leaving Barcelona.
 
 ---
 
 ## Madrid: Where We're Staying
 
-### Everyone Together: Cibeles Luxe III (June 1-4)
+### Everyone Together: Airbnb Home in Madrid (June 1-4)
 
-| Detail                   | Information                                                                         |
-| ------------------------ | ----------------------------------------------------------------------------------- |
-| **Property Name**  | Cibeles Luxe III                                                                    |
-| **VRBO Link**      | [View Booking](https://www.vrbo.com/trips/egti-ZH9-1JJ-0EDY/details/OTAxNDA5NTU0MzQ5NTtlZzpwcm9wZXJ0eToyNDM2ZTFkOTY5ZTM4ODM2MGNkNjc3Y2FkYzVkMjA3ZQ) |
-| **Reservation ID** | 30602041                                                                            |
-| **Address**        | C. de los Madrazo (across from Araldo Pizza, next to Consulado General de Colombia) |
-| **Google Maps**    | [View Location](https://www.google.com/maps/search/Calle+de+los+Madrazo+Madrid+Spain)  |
-| **Neighborhood**   | Cortes (Literary Quarter/Barrio de las Letras) - [See all Madrid neighborhoods](https://www.esmadrid.com/en/madrid-neighbourhoods) |
-| **Check-in**       | June 1 at 3:00 PM                                                                   |
-| **Check-out**      | June 4 at 11:00 AM                                                                  |
-| **Guests**         | 9 (ALL TOGETHER — Williams + Thomas + Grandma)                                      |
-| **Rating**         | 9.8/10 - Top 10% in area                                                            |
+| Detail | Information |
+|--------|-------------|
+| **Property Name** | Gorgeous LOFT in SOL 4 Bdroms 4 bathroms shortstay |
+| **Airbnb Link** | [Reservation details](https://www.airbnb.com/trips/v1/reservation-details/ro/RESERVATION2_CHECKIN/HMR8NYWPZF) |
+| **Host** | Elena |
+| **Confirmation Code** | **HMR8NYWPZF** |
+| **Address** | Calle de la Encomienda, 11 1º, IZQ, Madrid, Comunidad de Madrid 28012, Spain |
+| **Google Maps** | [View Location](https://www.google.com/maps/search/Calle+de+la+Encomienda+11+Madrid+Spain) |
+| **Neighborhood** | La Latina / Tirso de Molina, near Sol and Plaza Mayor |
+| **Check-in** | June 1 at 3:00 PM (earliest); group arrives ~7:00 PM after AVE from Barcelona |
+| **Check-out** | June 4 at 11:00 AM |
+| **Crib** | ✅ Confirmed for Harlan |
+| **Guests** | 7 guests, 1 child, and 1 infant (whole family: Williams + Thomas + Grandma + Harrison) |
+| **Maximum Occupancy** | 10 guests |
 
-**Cost:**
+**Who's Staying:**
 
-| Item                  | Amount               |
-| --------------------- | -------------------- |
-| 3 nights              | €981.82             |
-| Cleaning              | €131.82             |
-| Tax                   | €111.36             |
-| **Total**       | **€1,225.00** |
-| Deposit (at property) | €400.00             |
+- Williams Family: Angela, Chandler, Carson, Harrison, Elise, Valerie (6)
+- Thomas Family: Annalise, Brandon, Harlan (3)
 
-**Payment Schedule:**
+**Check-in Details:**
 
-- January 25, 2026: €612.50
-- May 25, 2026: €612.50
-
-**Bedrooms:**
-
-| Room        | Beds            | Assignment                         |
-| ----------- | --------------- | ---------------------------------- |
-| Master      | King (en-suite) | Angela & Chandler                  |
-| Bedroom 2   | Double          | Grandma Valerie                    |
-| Bedroom 3   | 2 Twins         | Carson & Harrison                  |
-| Bedroom 4   | 2 Twins         | Annalise & Brandon (+ Harlan crib) |
-| Living Room | Sofa bed        | Elise                              |
-
-**Property Features:**
-
-- 3 full bathrooms
-- A/C + underfloor heating
-- Elevator
-- Full kitchen (high-end), dishwasher, washer
-- WiFi
-- 2,153 sq ft (200 m²)
+| Detail | Information |
+|--------|-------------|
+| **Check-in Method** | Smart lock self check-in |
+| **Host Note** | Reach out to Elena for how to check in |
+| **House Rules** | No pets; 10 guests maximum |
+| **Cancellation** | Partial refund before May 25 at 3:00 PM; non-refundable after that |
 
 **Location:**
 
-- Gran Vía: 2 min walk
-- Puerta del Sol: 5 min walk
-- Plaza de Santa Ana (tapas!): 5 min walk
-- Prado Museum: 10 min walk
-- Retiro Park: 15 min walk
-- Thyssen-Bornemisza Museum: 5 min walk
-- Metro: Sevilla or Banco de España (L2) - 3 min walk
+- Puerta del Sol: ~10 min walk
+- Plaza Mayor: ~7 min walk
+- Mercado de San Miguel: ~10 min walk
+- La Latina tapas streets / Cava Baja: ~10 min walk
+- Prado Museum: ~20 min walk or short taxi
+- Retiro Park: ~25 min walk or short taxi
+- Metro: Tirso de Molina / La Latina nearby
 
 **Important - Before Arrival:**
 
-- Download **Mithouse app** for keyless entry
-- Contact host 48 hours before (May 30)
-- Register all guests online BEFORE arrival
-- Request crib for Harlan by May 27 (5 days advance required)
+- Save Airbnb reservation and address offline.
+- Message Elena before arrival to confirm smart lock instructions.
+- Crib for Harlan is confirmed — no further action needed.
+- Use Airbnb partner luggage storage (15% off) on Jun 4 if needed between checkout and flight.
+- Share the address and confirmation code with both families.
 
 **Note:** Thomas family departs June 3 (Wed, 2:45 PM flight). Only 2 nights in Madrid.
 
@@ -917,16 +932,16 @@ Your apartment is in Barrio de las Letras - where Cervantes, Lope de Vega, and Q
 
 ### Madrid Neighborhoods Quick Reference
 
-Your apartment is in **Cortes/Barrio de las Letras** (Literary Quarter) - a historic area where Spain's Golden Age writers lived. It's central and walkable to everything.
+Your Airbnb is near **La Latina / Tirso de Molina**, close to Sol and Plaza Mayor. It is central, walkable, and especially good for tapas, markets, and easy evening wandering with the group.
 
 | Neighborhood | Vibe | Best For | Distance |
 |--------------|------|----------|----------|
-| **Sol-Gran Vía** | Touristy, bustling | Shopping, central location | 2-5 min walk |
-| **La Latina** | Authentic, tapas heaven | Tapas crawl, El Rastro market (Sundays) | 15 min walk |
+| **Sol-Gran Vía** | Touristy, bustling | Shopping, central location | 10 min walk |
+| **La Latina** | Authentic, tapas heaven | Tapas crawl, El Rastro market (Sundays) | 5-10 min walk |
 | **Malasaña** | Hipster, bohemian | Vintage shops, trendy bars, teens would like | 15 min walk |
-| **Chueca** | Vibrant, foodie | Great restaurants, nightlife | 10 min walk |
-| **Retiro** | Green, family-friendly | Park, rowboats, relaxing | 15 min walk |
-| **Paseo del Arte** | Cultural | Prado, Thyssen, Reina Sofía museums | 10 min walk |
+| **Chueca** | Vibrant, foodie | Great restaurants, nightlife | 20 min walk or short taxi |
+| **Retiro** | Green, family-friendly | Park, rowboats, relaxing | 25 min walk or short taxi |
+| **Paseo del Arte** | Cultural | Prado, Thyssen, Reina Sofía museums | 20 min walk or short taxi |
 
 **Explore More:** [Official Madrid Neighborhoods Guide](https://www.esmadrid.com/en/madrid-neighbourhoods)
 
@@ -1019,7 +1034,7 @@ Your apartment is in **Cortes/Barrio de las Letras** (Literary Quarter) - a hist
 
 **Note:** You'll be post-wedding tired, so Madrid is about relaxed tapas crawls and memorable one-off experiences.
 
-**Walking Distance from Apartment (Literary Quarter):**
+**Walking Distance from Airbnb (La Latina / Sol):**
 
 | Restaurant | What to Get | Cost | Why It's Memorable |
 |------------|-------------|------|-------------------|
@@ -1153,12 +1168,13 @@ Madrid does Sunday "vermut" (vermouth hour) like nowhere else. Find any old bar 
 
 ## Apps to Download
 
+- Trip Calendar (subscribe/download from site)
 - Renfe (trains)
 - Google Maps (download offline maps!)
 - Google Translate
-- Mithouse (Madrid apartment)
+- Airbnb (Madrid booking)
 - Sagrada Família Oficial (required for tickets + audioguide)
-- VRBO
+- VRBO (Valencia/Barcelona bookings)
 - Uber/Cabify
 
 ## Bookings to Make NOW
@@ -1167,8 +1183,8 @@ Madrid does Sunday "vermut" (vermouth hour) like nowhere else. Find any old bar 
 | --------------------------- | ---------------------- | ------------ | ------ |
 | Madrid → Valencia train    | Now (60-90 days ahead) | May 27       | BOOKED |
 | Barcelona → Valencia train | Now (60-90 days ahead) | May 27       | |
-| Valencia → Barcelona train | Now (60-90 days ahead) | May 29       | |
-| Barcelona → Madrid train   | Now (60-90 days ahead) | June 1       | |
+| Valencia → Barcelona train | Now (60-90 days ahead) | May 29       | BOOKED for Chandler, Angela, Carson, Valerie, Harrison, Elise |
+| Barcelona → Madrid train   | Now (60-90 days ahead) | June 1       | BOOKED for Chandler, Angela, Carson, Valerie, Harrison, Elise |
 | Sagrada Família tickets    | Now (sells out!)       | May 30       | ✅ BOOKED (Locator 97232969, 12:15 PM) |
 | Park Güell tickets         | 2-4 weeks ahead        | May 29 or 30 | |
 | Casa Batlló or La Pedrera  | 1-2 weeks ahead        | May 29 or 30 | |
@@ -1184,16 +1200,15 @@ Ask about:
 - Sizes and prices
 - Whether shoes are available to rent (probably need to bring/buy)
 
-## Madrid Apartment Tasks
+## Madrid Airbnb Tasks
 
 | Task                              | When                     |
 | --------------------------------- | ------------------------ |
-| Pay second installment (€612.50) | By May 25                |
-| Download Mithouse app             | Before trip              |
-| Contact host                      | 48 hours before (May 30) |
-| Register guests online            | Before arrival           |
-| Request crib (if Thomas joins)    | By May 27                |
+| Save Airbnb reservation and address offline | Before trip |
+| Message Elena for smart lock instructions | 48 hours before (May 30) |
+| Complete Valencia police guest form | Before May 27 arrival |
+| Message Maria Pilar with arrival time | Before May 27 |
 
 ---
 
-*Last updated: April 5, 2026*
+*Last updated: May 22, 2026*

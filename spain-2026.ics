@@ -1,0 +1,522 @@
+BEGIN:VCALENDAR
+
+VERSION:2.0
+
+PRODID:-//Spain 2026 Trip//Travel Site//EN
+
+CALSCALE:GREGORIAN
+
+METHOD:PUBLISH
+
+X-WR-CALNAME:Spain 2026 Family Trip
+
+X-WR-CALDESC:Spain 2026 family trip itinerary. Spain events use Europe/Madrid; US outbound flights use America/New_York.
+
+X-WR-TIMEZONE:Europe/Madrid
+
+BEGIN:VTIMEZONE
+
+TZID:Europe/Madrid
+
+X-LIC-LOCATION:Europe/Madrid
+
+BEGIN:DAYLIGHT
+
+TZOFFSETFROM:+0100
+
+TZOFFSETTO:+0200
+
+TZNAME:CEST
+
+DTSTART:19700329T020000
+
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+
+END:DAYLIGHT
+
+BEGIN:STANDARD
+
+TZOFFSETFROM:+0200
+
+TZOFFSETTO:+0100
+
+TZNAME:CET
+
+DTSTART:19701025T030000
+
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+
+END:STANDARD
+
+END:VTIMEZONE
+
+BEGIN:VTIMEZONE
+
+TZID:America/New_York
+
+X-LIC-LOCATION:America/New_York
+
+BEGIN:DAYLIGHT
+
+TZOFFSETFROM:-0500
+
+TZOFFSETTO:-0400
+
+TZNAME:EDT
+
+DTSTART:19700308T020000
+
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+
+END:DAYLIGHT
+
+BEGIN:STANDARD
+
+TZOFFSETFROM:-0400
+
+TZOFFSETTO:-0500
+
+TZNAME:EST
+
+DTSTART:19701101T020000
+
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+
+END:STANDARD
+
+END:VTIMEZONE
+
+BEGIN:VEVENT
+
+UID:spain-2026-flight-bna-bos@spain-trip
+
+DTSTAMP:20260522T120000Z
+
+SUMMARY:JetBlue 1506: Nashville to Boston
+
+DTSTART;TZID=America/New_York:20260526T151500
+
+DTEND;TZID=America/New_York:20260526T185100
+
+LOCATION:Nashville International Airport (BNA)
+
+DESCRIPTION:Confirmation QYKBMM. Williams family outbound leg 1.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:spain-2026-flight-bos-mad@spain-trip
+
+DTSTAMP:20260522T120000Z
+
+SUMMARY:JetBlue 2261: Boston to Madrid
+
+DTSTART;TZID=America/New_York:20260526T222900
+
+DTEND;TZID=Europe/Madrid:20260527T113000
+
+LOCATION:Boston Logan International Airport (BOS)
+
+DESCRIPTION:Overnight flight. Arrives Madrid Barajas ~11:30 AM Spain time May 27. Confirmation QYKBMM.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:spain-2026-arrive-madrid@spain-trip
+
+DTSTAMP:20260522T120000Z
+
+SUMMARY:Arrive in Madrid
+
+DTSTART;TZID=Europe/Madrid:20260527T113000
+
+DTEND;TZID=Europe/Madrid:20260527T123000
+
+LOCATION:Adolfo Suárez Madrid-Barajas Airport
+
+DESCRIPTION:Williams family arrives from Boston. Cercanías C1 to Atocha for Valencia train. Luggage: Atocha consigna or Stasher near Retiro until 19:40 train.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:spain-2026-train-madrid-valencia-4xybg8@spain-trip
+
+DTSTAMP:20260522T120000Z
+
+SUMMARY:Train: Madrid to Valencia
+
+DTSTART;TZID=Europe/Madrid:20260527T194000
+
+DTEND;TZID=Europe/Madrid:20260527T214000
+
+LOCATION:Madrid-Puerta de Atocha-Almudena Grandes to Valencia-Joaquin Sorolla
+
+DESCRIPTION:AVE 05990. Locator 4XYBG8. Covers Chandler, Angela, Carson, Valerie, Harrison, Elise. Total €320.60. Club Lounge from 17:40.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:spain-2026-valencia-house@spain-trip
+
+DTSTAMP:20260522T120000Z
+
+SUMMARY:Valencia stay: Beach house
+
+DTSTART;VALUE=DATE:20260527
+
+DTEND;VALUE=DATE:20260530
+
+LOCATION:Valencia, Spain
+
+DESCRIPTION:Grandmother's house next to the beach. Vrbo HA-7TLM9D. Host Maria Pilar. Crib confirmed for Harlan. Check-in May 27 4:00 PM; checkout May 29 11:00 AM (leave ~07:45 May 29 for train).
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:spain-2026-valencia-checkin@spain-trip
+
+DTSTAMP:20260522T120000Z
+
+SUMMARY:Check in: Valencia beach house
+
+DTSTART;TZID=Europe/Madrid:20260527T160000
+
+DTEND;TZID=Europe/Madrid:20260527T163000
+
+LOCATION:Near C/ d'Isabel de Villena & C/ de Pavia, Valencia
+
+DESCRIPTION:Vrbo HA-7TLM9D. Crib confirmed. Message host Maria Pilar with arrival time.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:spain-2026-valencia-police-form@spain-trip
+
+DTSTAMP:20260522T120000Z
+
+SUMMARY:Complete Valencia police guest form
+
+DTSTART;VALUE=DATE:20260526
+
+DTEND;VALUE=DATE:20260527
+
+LOCATION:Valencia, Spain
+
+DESCRIPTION:Required by Spanish law before arrival. All guests: name, nationality, passport. https://heavenonearth.es/docpolicial/indexen.php?id=MTEwOTI=
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:spain-2026-paella-casa-carmela@spain-trip
+
+DTSTAMP:20260522T120000Z
+
+SUMMARY:Paella lunch — Restaurante Casa Carmela
+
+DTSTART;TZID=Europe/Madrid:20260528T130000
+
+DTEND;TZID=Europe/Madrid:20260528T150000
+
+LOCATION:Carrer d'Isabel de Villena, 155, Valencia
+
+DESCRIPTION:Booked for 1:00 PM Spain time. Day after Valencia arrival.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:spain-2026-valencia-checkout@spain-trip
+
+DTSTAMP:20260522T120000Z
+
+SUMMARY:Leave Valencia (early checkout / bag hold)
+
+DTSTART;TZID=Europe/Madrid:20260529T074500
+
+DTEND;TZID=Europe/Madrid:20260529T081500
+
+LOCATION:Valencia beach house
+
+DESCRIPTION:Vrbo checkout is 11:00 but train departs 09:06. Leave ~07:45. Ask host to hold bags or confirm early checkout.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:spain-2026-train-valencia-barcelona@spain-trip
+
+DTSTAMP:20260522T120000Z
+
+SUMMARY:Train: Valencia to Barcelona
+
+DTSTART;TZID=Europe/Madrid:20260529T090600
+
+DTEND;TZID=Europe/Madrid:20260529T122000
+
+LOCATION:Valencia-Estacio del Nord to Barcelona-Sants
+
+DESCRIPTION:Euromed 01092. Locator 9D2RJU. Covers Chandler, Valerie, Carson, Angela, Harrison, Elise. Total €489.75. Thomas family train coverage separate / to confirm.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:spain-2026-barcelona-stay@spain-trip
+
+DTSTAMP:20260522T120000Z
+
+SUMMARY:Barcelona stay
+
+DTSTART;VALUE=DATE:20260529
+
+DTEND;VALUE=DATE:20260602
+
+LOCATION:Barcelona, Spain
+
+DESCRIPTION:Williams apartment on Valencia Street (726EF3C0B8); Thomas family and Grandma at Ghost apartment. Wedding weekend. Check-in May 29 2:00 PM; check-out June 1 11:00 AM.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:spain-2026-barcelona-checkin@spain-trip
+
+DTSTAMP:20260522T120000Z
+
+SUMMARY:Check in: Barcelona apartment
+
+DTSTART;TZID=Europe/Madrid:20260529T140000
+
+DTEND;TZID=Europe/Madrid:20260529T143000
+
+LOCATION:Carrer de València, Barcelona (Eixample)
+
+DESCRIPTION:Vrbo 726EF3C0B8. Train arrives ~12:20; gap until 14:00 check-in — lunch nearby or Stasher at Sants if heavy bags.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:spain-2026-wedding-event-1@spain-trip
+
+DTSTAMP:20260522T120000Z
+
+SUMMARY:Wedding Event #1
+
+DTSTART;TZID=Europe/Madrid:20260529T190000
+
+DTEND;TZID=Europe/Madrid:20260529T220000
+
+LOCATION:Gothic Quarter, Barcelona
+
+DESCRIPTION:Placeholder time from trip plan. Confirm exact time/location from wedding details.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:spain-2026-morning-tour-group-a@spain-trip
+
+DTSTAMP:20260522T120000Z
+
+SUMMARY:Morning Tour Group A: La Pedrera & Sagrada Familia
+
+DTSTART;TZID=Europe/Madrid:20260530T091500
+
+DTEND;TZID=Europe/Madrid:20260530T114500
+
+LOCATION:Outside La Pedrera, Passeig de Gracia 92, Barcelona
+
+DESCRIPTION:Updated start time is 9:15 AM Spain time. Group A morning tour; approximate arrival at Sagrada Familia is 11:45 AM.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:spain-2026-sagrada-familia-97232969@spain-trip
+
+DTSTAMP:20260522T120000Z
+
+SUMMARY:Sagrada Familia entry
+
+DTSTART;TZID=Europe/Madrid:20260530T121500
+
+DTEND;TZID=Europe/Madrid:20260530T134500
+
+LOCATION:C/ Marina, 08013 Barcelona
+
+DESCRIPTION:Locator 97232969. Download Sagrada Familia Oficial app and bring official photo ID. Tickets: 2 general, 2 student, 1 child under 11. Total €100.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:spain-2026-tapas-tour@spain-trip
+
+DTSTAMP:20260522T120000Z
+
+SUMMARY:Evening Tapas Tour
+
+DTSTART;TZID=Europe/Madrid:20260530T170000
+
+DTEND;TZID=Europe/Madrid:20260530T200000
+
+LOCATION:Grand Hotel Central, Barcelona
+
+DESCRIPTION:Wedding-organized evening tapas tour. Confirm exact end time.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:spain-2026-wedding-day@spain-trip
+
+DTSTAMP:20260522T120000Z
+
+SUMMARY:Wedding Day
+
+DTSTART;VALUE=DATE:20260531
+
+DTEND;VALUE=DATE:20260601
+
+LOCATION:Gothic Quarter, Barcelona
+
+DESCRIPTION:Main wedding day. Confirm exact ceremony and event times from wedding details.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:spain-2026-barcelona-checkout@spain-trip
+
+DTSTAMP:20260522T120000Z
+
+SUMMARY:Check out: Barcelona apartments
+
+DTSTART;TZID=Europe/Madrid:20260601T110000
+
+DTEND;TZID=Europe/Madrid:20260601T113000
+
+LOCATION:Barcelona apartments
+
+DESCRIPTION:Return Casa Gay suit if rented. Store bags via Stasher or Barcelona-Sants lockers until 15:00 train.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:spain-2026-train-barcelona-madrid-jkss7b@spain-trip
+
+DTSTAMP:20260522T120000Z
+
+SUMMARY:Train: Barcelona to Madrid
+
+DTSTART;TZID=Europe/Madrid:20260601T150000
+
+DTEND;TZID=Europe/Madrid:20260601T181700
+
+LOCATION:Barcelona-Sants to Madrid-Puerta de Atocha-Almudena Grandes
+
+DESCRIPTION:AVE 03152. Locator JKSS7B. Covers Chandler, Carson, Angela, Harrison, Valerie, Elise. Total €390.35. Thomas family train coverage separate / to confirm.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:spain-2026-madrid-airbnb@spain-trip
+
+DTSTAMP:20260522T120000Z
+
+SUMMARY:Madrid Airbnb stay
+
+DTSTART;VALUE=DATE:20260601
+
+DTEND;VALUE=DATE:20260605
+
+LOCATION:Calle de la Encomienda, 11 1º IZQ, Madrid, Spain
+
+DESCRIPTION:Airbnb confirmation HMR8NYWPZF. Hosted by Elena. Crib confirmed for Harlan. Check-in earliest Jun 1 3:00 PM; group arrives ~7:00 PM after AVE. Check-out Jun 4 11:00 AM.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:spain-2026-madrid-airbnb-arrival@spain-trip
+
+DTSTAMP:20260522T120000Z
+
+SUMMARY:Arrive Madrid Airbnb
+
+DTSTART;TZID=Europe/Madrid:20260601T190000
+
+DTEND;TZID=Europe/Madrid:20260601T193000
+
+LOCATION:Calle de la Encomienda, 11 1º IZQ, Madrid, Spain
+
+DESCRIPTION:Smart lock self check-in. Earliest check-in 15:00; group arrives ~19:00 after AVE from Barcelona. Message Elena before arrival.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:spain-2026-thomas-depart-madrid@spain-trip
+
+DTSTAMP:20260522T120000Z
+
+SUMMARY:Thomas family flight departs Madrid
+
+DTSTART;TZID=Europe/Madrid:20260603T144500
+
+DTEND;TZID=Europe/Madrid:20260603T154500
+
+LOCATION:Adolfo Suárez Madrid-Barajas Airport
+
+DESCRIPTION:DL0063 Madrid to Boston departs 2:45 PM Spain time. Recommended taxi from Airbnb around 12:00-12:30 PM.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:spain-2026-madrid-airbnb-checkout@spain-trip
+
+DTSTAMP:20260522T120000Z
+
+SUMMARY:Check out: Madrid Airbnb
+
+DTSTART;TZID=Europe/Madrid:20260604T110000
+
+DTEND;TZID=Europe/Madrid:20260604T113000
+
+LOCATION:Calle de la Encomienda, 11 1º IZQ, Madrid, Spain
+
+DESCRIPTION:Airbnb checkout is 11:00 AM. Store bags via Stasher La Latina/Sol or Airbnb partner storage before 14:05 flight.
+
+END:VEVENT
+
+BEGIN:VEVENT
+
+UID:spain-2026-williams-depart-madrid@spain-trip
+
+DTSTAMP:20260522T120000Z
+
+SUMMARY:Williams family flight departs Madrid
+
+DTSTART;TZID=Europe/Madrid:20260604T140500
+
+DTEND;TZID=Europe/Madrid:20260604T150500
+
+LOCATION:Adolfo Suárez Madrid-Barajas Airport
+
+DESCRIPTION:JetBlue 2260 Madrid to Boston departs 2:05 PM Spain time. Recommended taxi from Airbnb around 12:00-12:15 PM.
+
+END:VEVENT
+
+END:VCALENDAR
+

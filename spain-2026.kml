@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Spain 2026 Family Trip</name>
+    <description>Locked bookings and lodging pins. Times in trip-events.json and spain-2026.ics.</description>
+    <Style id="locked">
+      <IconStyle>
+        <color>ff4f70c4</color>
+        <scale>1.1</scale>
+        <Icon><href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href></Icon>
+      </IconStyle>
+    </Style>
+    <Style id="idea">
+      <IconStyle>
+        <color>ff4a6b5c</color>
+        <scale>0.9</scale>
+        <Icon><href>http://maps.google.com/mapfiles/kml/paddle/grn-circle.png</href></Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>Valencia beach house (check-in May 27 4PM)</name>
+      <description>Vrbo HA-7TLM9D. Crib confirmed. Host Maria Pilar.</description>
+      <styleUrl>#locked</styleUrl>
+      <Point><coordinates>-0.325,39.468,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Paella — Restaurante Casa Carmela</name>
+      <description>May 28, 2026 1:00 PM Spain time. Carrer d'Isabel de Villena, 155.</description>
+      <styleUrl>#locked</styleUrl>
+      <Point><coordinates>-0.3255,39.4678,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Valencia Estació del Nord (train May 29 09:06)</name>
+      <description>Euromed 01092 to Barcelona. Locator 9D2RJU.</description>
+      <styleUrl>#locked</styleUrl>
+      <Point><coordinates>-0.3774,39.4661,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Barcelona apartment — Valencia Street</name>
+      <description>Vrbo 726EF3C0B8. Check-in May 29 2PM; checkout Jun 1 11AM.</description>
+      <styleUrl>#locked</styleUrl>
+      <Point><coordinates>2.1654,41.3912,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>La Pedrera — Morning Tour Group A</name>
+      <description>May 30 9:15 AM. Passeig de Gràcia 92.</description>
+      <styleUrl>#locked</styleUrl>
+      <Point><coordinates>2.1619,41.3954,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Sagrada Família entry</name>
+      <description>May 30 12:15 PM. Locator 97232969. C/ Marina.</description>
+      <styleUrl>#locked</styleUrl>
+      <Point><coordinates>2.1744,41.4036,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Grand Hotel Central — Tapas Tour</name>
+      <description>May 30 5:00 PM evening tapas tour.</description>
+      <styleUrl>#locked</styleUrl>
+      <Point><coordinates>2.1773,41.3851,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Gothic Quarter — Wedding events</name>
+      <description>May 29 Event #1; May 31 wedding day.</description>
+      <styleUrl>#locked</styleUrl>
+      <Point><coordinates>2.1769,41.3825,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Barcelona-Sants (train Jun 1 3PM)</name>
+      <description>AVE 03152 to Madrid. Locator JKSS7B.</description>
+      <styleUrl>#locked</styleUrl>
+      <Point><coordinates>2.1404,41.3799,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Madrid Airbnb — Calle de la Encomienda 11</name>
+      <description>Airbnb HMR8NYWPZF. Jun 1–4. Crib confirmed. Arrive ~7PM Jun 1.</description>
+      <styleUrl>#locked</styleUrl>
+      <Point><coordinates>-3.7078,40.4112,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Madrid Barajas Airport</name>
+      <description>Thomas departs Jun 3 2:45 PM; Williams Jun 4 2:05 PM.</description>
+      <styleUrl>#locked</styleUrl>
+      <Point><coordinates>-3.5676,40.4983,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>L'Oceanogràfic (idea)</name>
+      <description>Discount tickets via host Maria Pilar.</description>
+      <styleUrl>#idea</styleUrl>
+      <Point><coordinates>-0.3526,39.454,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Mercado Central Valencia (idea)</name>
+      <description>Flexible May 28 morning.</description>
+      <styleUrl>#idea</styleUrl>
+      <Point><coordinates>-0.3763,39.4737,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Park Güell (idea)</name>
+      <description>Timed entry required.</description>
+      <styleUrl>#idea</styleUrl>
+      <Point><coordinates>2.1527,41.4145,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Retiro Park Madrid (idea)</name>
+      <description>Good Jun 2 relax day.</description>
+      <styleUrl>#idea</styleUrl>
+      <Point><coordinates>-3.6844,40.4153,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Prado Museum Madrid (idea)</name>
+      <description>Book ahead or free 6–8 PM.</description>
+      <styleUrl>#idea</styleUrl>
+      <Point><coordinates>-3.6921,40.4138,0</coordinates></Point>
+    </Placemark>
+  </Document>
+</kml>
