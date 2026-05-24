@@ -49,7 +49,7 @@
     </Placemark>
     <Placemark>
       <name>La Pedrera — Morning Tour Group A</name>
-      <description>May 30 9:15 AM. Passeig de Gràcia 92.</description>
+      <description>May 30 9:15 AM. Map: tmg.link/app/r/lapedrera</description>
       <styleUrl>#locked</styleUrl>
       <Point><coordinates>2.1619,41.3954,0</coordinates></Point>
     </Placemark>
@@ -61,13 +61,25 @@
     </Placemark>
     <Placemark>
       <name>Catedral de Barcelona — Tapas Tour</name>
-      <description>May 30 5:00 PM. Meet outside Catedral de Barcelona (Nikki &amp; Joe — changed from Grand Hotel Central May 23).</description>
+      <description>May 30 5:00 PM. Map: tmg.link/app/r/catedralbcn</description>
       <styleUrl>#locked</styleUrl>
       <Point><coordinates>2.1766,41.3840,0</coordinates></Point>
     </Placemark>
     <Placemark>
-      <name>Gothic Quarter — Wedding events</name>
-      <description>May 29 welcome party 7 PM; May 31 shuttles 4:30 PM, ceremony &amp; reception.</description>
+      <name>Alaire Rooftop — Welcome party</name>
+      <description>May 29 7 PM. Map: tmg.link/app/r/condes</description>
+      <styleUrl>#locked</styleUrl>
+      <Point><coordinates>2.1680,41.3945,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Shuttle pickup — Wedding Sun</name>
+      <description>May 31 4:30 PM. Map: tmg.link/app/r/shuttlepickup</description>
+      <styleUrl>#locked</styleUrl>
+      <Point><coordinates>2.1769,41.3825,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Gothic Quarter — Wedding ceremony</name>
+      <description>May 31 ceremony &amp; reception after shuttles.</description>
       <styleUrl>#locked</styleUrl>
       <Point><coordinates>2.1769,41.3825,0</coordinates></Point>
     </Placemark>

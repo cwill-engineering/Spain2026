@@ -45,6 +45,32 @@
       "class": "Premium"
     }
   ],
+  "venueMaps": [
+    {
+      "when": "Fri May 29, 7 PM",
+      "event": "Welcome party",
+      "venue": "Alaire Rooftop",
+      "map": "https://tmg.link/app/r/condes"
+    },
+    {
+      "when": "Sat May 30, 9:15 AM",
+      "event": "Morning tour",
+      "venue": "La Pedrera",
+      "map": "https://tmg.link/app/r/lapedrera"
+    },
+    {
+      "when": "Sat May 30, 5 PM",
+      "event": "Tapas tour",
+      "venue": "Catedral de Barcelona",
+      "map": "https://tmg.link/app/r/catedralbcn"
+    },
+    {
+      "when": "Sun May 31, 4:30 PM",
+      "event": "Shuttle pickup",
+      "venue": "Shuttle pickup point",
+      "map": "https://tmg.link/app/r/shuttlepickup"
+    }
+  ],
   "lodging": [
     {
       "city": "Valencia",

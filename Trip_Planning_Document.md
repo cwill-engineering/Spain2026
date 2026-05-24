@@ -623,9 +623,9 @@ Catalonia's capital — Gaudí, Gothic alleys, and a wedding weekend. Your apart
 
 | Date         | Event                | Time | Location       |
 | ------------ | -------------------- | ---- | -------------- |
-| May 29 (Fri) | Welcome party        | 7:00 PM | Gothic Quarter |
+| May 29 (Fri) | Welcome party        | 7:00 PM | [Alaire Rooftop](https://tmg.link/app/r/condes) |
 | May 30 (Sat) | Tour Day (if registered) | See schedule below | La Pedrera, Sagrada, Catedral |
-| May 31 (Sun) | Wedding shuttles     | 4:30 PM | Pickup TBD |
+| May 31 (Sun) | Wedding shuttles     | 4:30 PM | [Shuttle pickup](https://tmg.link/app/r/shuttlepickup) |
 | May 31 (Sun) | Ceremony & reception | After shuttles | Gothic Quarter |
 
 **Wedding Area:** Gothic Quarter, Barcelona
@@ -640,6 +640,19 @@ Catalonia's capital — Gaudí, Gothic alleys, and a wedding weekend. Your apart
 - **Sat May 30:** Tours (if you signed up) — see Tour Day schedule below
 - **Sun May 31:** Shuttles **4:30 PM**
 
+### Weekend Venue Maps — save these! (Joe, May 24)
+
+Offline-friendly map links from Joe & Nikki. Open on your phone before you leave Wi‑Fi.
+
+| When | Event | Venue | Map |
+| --- | --- | --- | --- |
+| **Fri May 29, 7 PM** | Welcome party | **Alaire Rooftop** | [tmg.link/app/r/condes](https://tmg.link/app/r/condes) |
+| **Sat May 30, 9:15 AM** | Morning tour meetup | **La Pedrera** | [tmg.link/app/r/lapedrera](https://tmg.link/app/r/lapedrera) |
+| **Sat May 30, 5 PM** | Tapas tour meetup | **Catedral de Barcelona** | [tmg.link/app/r/catedralbcn](https://tmg.link/app/r/catedralbcn) |
+| **Sun May 31, 4:30 PM** | Shuttle pickup | **Shuttle pickup point** | [tmg.link/app/r/shuttlepickup](https://tmg.link/app/r/shuttlepickup) |
+
+Also saved in the **Quick Reference** widget on Overview and in each calendar event description.
+
 ### Wedding Attire & Logistics (from Joe, Apr 2026)
 
 Joe's guidance: responsibilities are **light except Sunday**. Wedding party may meet at the venue ahead of the main group for photos — exact timing TBD.
@@ -647,7 +660,7 @@ Joe's guidance: responsibilities are **light except Sunday**. Wedding party may 
 **Sunday ceremony day (current plan):**
 - Wedding party may head to venue **~2:30 PM** (meet at hotel earlier — exact time TBD)
 - Hair/makeup **before** leaving hotel (bridesmaids use hotel library room; optional pro hair/makeup available if you want Joe to arrange)
-- **Guest shuttles depart 4:30 PM** (confirmed May 24) — pickup location TBD; family may also ride early
+- **Guest shuttles depart 4:30 PM** (confirmed May 24) — pickup: [tmg.link/app/r/shuttlepickup](https://tmg.link/app/r/shuttlepickup); family may also ride early
 - Small area at venue for personal items (water bottle, light jacket, book) — limited space; pack light for the day
 - You'll walk down the aisle but sit in the **first few rows** — not standing at the altar
 
@@ -665,7 +678,7 @@ Joe's guidance: responsibilities are **light except Sunday**. Wedding party may 
 
 **Optional hair/makeup:** Joe can arrange the same team as bridesmaids (hotel library room or in-room). Totally optional — do your own if you prefer (especially curly hair — Tamara's note: pro stylists often struggle with curls).
 
-**Questions still TBD from Joe:** Exact shuttle pickup location, ceremony start time, whether Jason can take early transport to explore.
+**Questions still TBD from Joe:** Ceremony start time, whether Jason can take early transport to explore.
 
 ### May 30 Tour Day Schedule (Saturday)
 
@@ -680,10 +693,10 @@ Wedding-organized group tour day. Morning + evening tours are paid wedding activ
 
 | Time | Activity | Meeting point / details |
 |------|----------|-------------------------|
-| **9:15 AM** | **Morning Tour · Group A:** La Pedrera & Sagrada Família | Outside [La Pedrera](https://maps.app.goo.gl/ueMaPBQnHizNshxs5), Passeig de Gràcia 92 |
+| **9:15 AM** | **Morning Tour · Group A:** La Pedrera & Sagrada Família | [La Pedrera](https://tmg.link/app/r/lapedrera) — also [Google Maps](https://maps.app.goo.gl/ueMaPBQnHizNshxs5), Passeig de Gràcia 92 |
 | **~11:45 AM** | Arrive at Sagrada Família with tour group | Approximate — after morning tour |
 | **12:15 PM** | Sagrada Família official entry | Locator: 97232969, Entry at C/ Marina. **Sagrada Família Oficial** app + photo ID |
-| **5:00 PM** | **Evening Tour:** Tapas Tour | Outside [Catedral de Barcelona](https://maps.app.goo.gl/aDW3zC5ce4SuLt2e9) |
+| **5:00 PM** | **Evening Tour:** Tapas Tour | Meet at [Catedral de Barcelona](https://tmg.link/app/r/catedralbcn) — also [Google Maps](https://maps.app.goo.gl/aDW3zC5ce4SuLt2e9) |
 
 ⚠️ **Tapas meeting point changed (May 23):** was Grand Hotel Central → now **Catedral de Barcelona**. Arrive a few minutes early.
 

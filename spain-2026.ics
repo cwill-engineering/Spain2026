@@ -184,8 +184,8 @@ SUMMARY:Welcome party (Joe & Nikki)
 DTSTART;TZID=Europe/Madrid:20260529T190000
 DTEND;TZID=Europe/Madrid:20260529T220000
 LOCATION:Barcelona\, Spain
-DESCRIPTION:Fri May 29 at 7:00 PM per Joe (May 24). Smart casual. Gothic Qu
- arter area — exact venue TBD.
+DESCRIPTION:Fri May 29 at 7:00 PM. Alaire Rooftop. Map: https://tmg.link/ap
+ p/r/condes — Smart casual.
 END:VEVENT
 BEGIN:VEVENT
 UID:spain-2026-morning-tour-group-a@spain-trip
@@ -195,8 +195,8 @@ DTSTART;TZID=Europe/Madrid:20260530T091500
 DTEND;TZID=Europe/Madrid:20260530T114500
 LOCATION:Barcelona\, Spain
 DESCRIPTION:Nikki & Joe wedding tour. Meet outside La Pedrera\, Passeig de 
- Gràcia 92. Registered: Chandler\, Angela\, Carson\, Elise\, Harrison (5 g
- uests). maps.app.goo.gl/ueMaPBQnHizNshxs5
+ Gràcia 92. Map: https://tmg.link/app/r/lapedrera — Registered: Chandler
+ \, Angela\, Carson\, Elise\, Harrison (5 guests).
 END:VEVENT
 BEGIN:VEVENT
 UID:spain-2026-sagrada-familia@spain-trip
@@ -215,9 +215,8 @@ SUMMARY:Evening Tapas Tour (Nikki & Joe)
 DTSTART;TZID=Europe/Madrid:20260530T170000
 DTEND;TZID=Europe/Madrid:20260530T200000
 LOCATION:Barcelona\, Spain
-DESCRIPTION:Meet outside Catedral de Barcelona (changed May 23 — NOT Gran
- d Hotel Central). maps.app.goo.gl/aDW3zC5ce4SuLt2e9. Questions: joeking7@g
- mail.com
+DESCRIPTION:Meet outside Catedral de Barcelona. Map: https://tmg.link/app/r
+ /catedralbcn — Questions: joeking7@gmail.com
 END:VEVENT
 BEGIN:VEVENT
 UID:spain-2026-wedding-shuttles@spain-trip
@@ -226,8 +225,8 @@ SUMMARY:Wedding shuttles (pickup)
 DTSTART;TZID=Europe/Madrid:20260531T163000
 DTEND;TZID=Europe/Madrid:20260531T170000
 LOCATION:Barcelona\, Spain
-DESCRIPTION:Shuttles depart 4:30 PM per Joe (May 24). Pickup location TBD 
- — wedding party may meet earlier (~2:30 PM) for photos.
+DESCRIPTION:Shuttles depart 4:30 PM. Pickup map: https://tmg.link/app/r/shu
+ ttlepickup — Wedding party may meet earlier (~2:30 PM) for photos.
 END:VEVENT
 BEGIN:VEVENT
 UID:spain-2026-wedding-ceremony@spain-trip

@@ -1350,6 +1350,8 @@ async function injectTripQuickRef() {
             <tbody>${data.lodging.map(l => `<tr><td>${l.city}</td><td>${l.link ? `<a href="${l.link}" target="_blank" rel="noopener">${l.property}</a>` : l.property}<br><span class="qr-sub">${l.dates} · ${l.host}</span></td><td><strong>${l.confirmation}</strong></td><td>${l.checkIn}</td><td>${l.checkOut}</td></tr>`).join('')}</tbody>
         </table></div>` : '';
 
+        const venueMapsHtml = data.venueMaps ? `<ul class="quick-ref-list">${data.venueMaps.map(v => `<li><strong>${v.when}</strong> — ${v.event}<br><a href="${v.map}" target="_blank" rel="noopener">${v.venue}</a><span class="qr-sub">${v.map.replace('https://', '')}</span></li>`).join('')}</ul>` : '';
+
         const widget = document.createElement('div');
         widget.className = 'quick-ref-widget';
         widget.id = 'quick-ref-print';
@@ -1362,6 +1364,10 @@ async function injectTripQuickRef() {
             ${lodgingHtml ? `<div class="quick-ref-section">
                 <h3>Lodging confirmations</h3>
                 ${lodgingHtml}
+            </div>` : ''}
+            ${venueMapsHtml ? `<div class="quick-ref-section">
+                <h3>Weekend venue maps (save these)</h3>
+                ${venueMapsHtml}
             </div>` : ''}
             <div class="quick-ref-section">
                 <h3>Emergency &amp; key contacts</h3>
