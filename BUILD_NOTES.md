@@ -111,6 +111,7 @@ To duplicate this for another trip:
 ## Change Log
 | Date | Change | Why |
 |---|-----|-----|
+| 2026-05-23 | Nikki & Joe May 30 tour details + tapas meet at Catedral | Email from longlivethekingsbcn@gmail.com |
 | 2026-05-23 | Fix calendar ICS + `generate-ics.py` + Thomas Delta flights | Blank-line ICS broke subscribe import |
 | 2026-05-23 | Live weather widget (Open-Meteo) on Overview for trip dates | Real forecast vs AEMET links only |
 | 2026-05-23 | Wedding attire/logistics (Joe email) + expanded packing section | Family guidance for wedding dress code, baby travel, walking shoes |

@@ -616,14 +616,23 @@ Joe's guidance: responsibilities are **light except Sunday**. Wedding party meet
 
 ### May 30 Tour Day Schedule (Saturday)
 
-Wedding-organized group tour day. The morning tour is a separate wedding activity (already paid via Venmo). Sagrada Família tickets are for official entry after/between tours.
+**Nikki & Joe tour details** (email May 23, 2026 — save for Tour Day)
 
-| Time | Activity | Details |
-|------|----------|---------|
-| **9:15 AM** | Morning Tour (Group A): La Pedrera & Sagrada Família | **Updated start time**. Meet outside La Pedrera, Passeig de Gràcia 92 |
-| **~11:45 AM** | Arrive at Sagrada Família with tour group | Approximate arrival after the updated morning tour start |
-| **12:15 PM** | Sagrada Família Official Entry | Locator: 97232969, Entry at C/ Marina. Download **Sagrada Família Oficial** app + bring photo ID |
-| **5:00 PM** | Evening Tour: Tapas Tour | Meet at Grand Hotel Central |
+| | |
+|---|---|
+| **Registered guests** | 5 — Chandler, Angela, Carson, Elise, Harrison |
+| **Questions** | Joe: [joeking7@gmail.com](mailto:joeking7@gmail.com) |
+
+Wedding-organized group tour day. Morning + evening tours are paid wedding activities. Sagrada Família tickets below are your separate official entry (Locator 97232969).
+
+| Time | Activity | Meeting point / details |
+|------|----------|-------------------------|
+| **9:15 AM** | **Morning Tour · Group A:** La Pedrera & Sagrada Família | Outside [La Pedrera](https://maps.app.goo.gl/ueMaPBQnHizNshxs5), Passeig de Gràcia 92 |
+| **~11:45 AM** | Arrive at Sagrada Família with tour group | Approximate — after morning tour |
+| **12:15 PM** | Sagrada Família official entry | Locator: 97232969, Entry at C/ Marina. **Sagrada Família Oficial** app + photo ID |
+| **5:00 PM** | **Evening Tour:** Tapas Tour | Outside [Catedral de Barcelona](https://maps.app.goo.gl/aDW3zC5ce4SuLt2e9) |
+
+⚠️ **Tapas meeting point changed (May 23):** was Grand Hotel Central → now **Catedral de Barcelona**. Arrive a few minutes early.
 
 **Sagrada Família Tickets - BOOKED:**
 

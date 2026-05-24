@@ -97,7 +97,7 @@ Barcelona makes money from **port, industry, tourism, and tech** — in that rou
 | Date | What matters |
 |------|----------------|
 | **Fri May 29** | Train in ~12:20, check-in 14:00. **Wedding Event #1** evening. Suit fitting at Casa Gay if scheduled. |
-| **Sat May 30** | **Tour day:** La Pedrera 09:15, Sagrada 12:15 entry, tapas tour 17:00. Peak logistics day. |
+| **Sat May 30** | **Tour day (Nikki & Joe):** La Pedrera 09:15, Sagrada 12:15 entry, tapas 17:00 at **Catedral de Barcelona** (not Grand Hotel Central). |
 | **Sun May 31** | **Wedding day.** |
 | **Mon Jun 1** | Checkout 11:00, train to Madrid 15:00. Suit return AM. |
 

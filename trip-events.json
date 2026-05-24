@@ -190,7 +190,7 @@
     },
     {
       "id": "morning-tour-group-a",
-      "title": "Morning Tour Group A: La Pedrera & Sagrada",
+      "title": "Morning Tour · Group A: La Pedrera & Sagrada Família",
       "start": "2026-05-30T09:15:00+02:00",
       "end": "2026-05-30T11:45:00+02:00",
       "timezone": "Europe/Madrid",
@@ -200,7 +200,7 @@
       "group": "Barcelona",
       "lat": 41.3954,
       "lng": 2.1619,
-      "description": "Meet outside La Pedrera, Passeig de Gràcia 92. Updated start 9:15 AM."
+      "description": "Nikki & Joe wedding tour. Meet outside La Pedrera, Passeig de Gràcia 92. Registered: Chandler, Angela, Carson, Elise, Harrison (5 guests). maps.app.goo.gl/ueMaPBQnHizNshxs5"
     },
     {
       "id": "sagrada-familia",
@@ -218,7 +218,7 @@
     },
     {
       "id": "tapas-tour",
-      "title": "Evening Tapas Tour",
+      "title": "Evening Tapas Tour (Nikki & Joe)",
       "start": "2026-05-30T17:00:00+02:00",
       "end": "2026-05-30T20:00:00+02:00",
       "timezone": "Europe/Madrid",
@@ -226,9 +226,9 @@
       "category": "food",
       "city": "Barcelona",
       "group": "Barcelona",
-      "lat": 41.3851,
-      "lng": 2.1773,
-      "description": "Meet at Grand Hotel Central. Wedding-organized evening tapas tour."
+      "lat": 41.3840,
+      "lng": 2.1766,
+      "description": "Meet outside Catedral de Barcelona (changed May 23 — NOT Grand Hotel Central). maps.app.goo.gl/aDW3zC5ce4SuLt2e9. Questions: joeking7@gmail.com"
     },
     {
       "id": "wedding-day",

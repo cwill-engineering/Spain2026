@@ -189,12 +189,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:spain-2026-morning-tour-group-a@spain-trip
 DTSTAMP:20260523T120000Z
-SUMMARY:Morning Tour Group A: La Pedrera & Sagrada
+SUMMARY:Morning Tour · Group A: La Pedrera & Sagrada Família
 DTSTART;TZID=Europe/Madrid:20260530T091500
 DTEND;TZID=Europe/Madrid:20260530T114500
 LOCATION:Barcelona\, Spain
-DESCRIPTION:Meet outside La Pedrera\, Passeig de Gràcia 92. Updated start 
- 9:15 AM.
+DESCRIPTION:Nikki & Joe wedding tour. Meet outside La Pedrera\, Passeig de 
+ Gràcia 92. Registered: Chandler\, Angela\, Carson\, Elise\, Harrison (5 g
+ uests). maps.app.goo.gl/ueMaPBQnHizNshxs5
 END:VEVENT
 BEGIN:VEVENT
 UID:spain-2026-sagrada-familia@spain-trip
@@ -209,12 +210,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:spain-2026-tapas-tour@spain-trip
 DTSTAMP:20260523T120000Z
-SUMMARY:Evening Tapas Tour
+SUMMARY:Evening Tapas Tour (Nikki & Joe)
 DTSTART;TZID=Europe/Madrid:20260530T170000
 DTEND;TZID=Europe/Madrid:20260530T200000
 LOCATION:Barcelona\, Spain
-DESCRIPTION:Meet at Grand Hotel Central. Wedding-organized evening tapas to
- ur.
+DESCRIPTION:Meet outside Catedral de Barcelona (changed May 23 — NOT Gran
+ d Hotel Central). maps.app.goo.gl/aDW3zC5ce4SuLt2e9. Questions: joeking7@g
+ mail.com
 END:VEVENT
 BEGIN:VEVENT
 UID:spain-2026-wedding-day@spain-trip
