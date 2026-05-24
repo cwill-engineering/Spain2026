@@ -23,13 +23,13 @@
             --spanish-red: #c60b1e;
             --spanish-yellow: #ffc400;
             --warm-cream: #faf6f1;
-            --terracotta: #b8623f;
+            --terracotta: #a0522d;
             --deep-blue: #1a365d;
             --olive: #4d5a3e;
             --sand: #e8dfd0;
             --text-primary: #1f2937;
             --text-secondary: #4b5563;
-            --text-muted: #6b7280;
+            --text-muted: #5f6770;
             --card-shadow: 0 2px 8px rgba(0,0,0,0.08);
             --header-height: 56px;
             --tab-height: 52px;
@@ -131,7 +131,7 @@
         }
         #password-input:focus {
             border-color: var(--terracotta);
-            box-shadow: 0 0 0 3px rgba(184,98,63,0.15);
+            box-shadow: 0 0 0 3px rgba(160,82,45,0.15);
         }
         #submit-btn {
             width: 100%;
@@ -333,12 +333,12 @@
         .plan-detail .plan-time { color: var(--terracotta); font-weight: 600; }
         .vis-item.locked-event {
             background-color: var(--terracotta) !important;
-            border-color: #a85a3a !important;
+            border-color: #7a3d1f !important;
             color: white !important;
         }
         .vis-item.idea-event {
             background-color: var(--olive) !important;
-            border-color: #4a5639 !important;
+            border-color: #3a4530 !important;
             color: white !important;
             opacity: 0.85;
         }
@@ -813,7 +813,7 @@
             height: 20px;
             flex-shrink: 0;
             transition: transform 0.25s ease;
-            color: #bbb;
+            color: #7d8590;
         }
         .section-card.open .section-chevron { transform: rotate(180deg); color: var(--terracotta); }
         .section-body {
@@ -884,7 +884,7 @@
         .section-body-inner a {
             color: var(--terracotta);
             text-decoration: none;
-            border-bottom: 1px dashed rgba(196,112,79,0.4);
+            border-bottom: 1px dashed rgba(160,82,45,0.4);
         }
         .section-body-inner a:hover { border-bottom-style: solid; }
         .section-body-inner a:focus-visible {
@@ -1040,6 +1040,15 @@
         @media (min-width: 900px) {
             .tab-bar { justify-content: center; }
             .tab-btn { padding: 0 1.75rem; font-size: 0.9rem; }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            *, *::before, *::after {
+                animation-duration: 0.01ms !important;
+                animation-iteration-count: 1 !important;
+                transition-duration: 0.01ms !important;
+                scroll-behavior: auto !important;
+            }
         }
 
         @media print {
@@ -1788,12 +1797,12 @@ async function initPlanTab() {
 
     const lockedIcon = L.divIcon({
         className: 'plan-marker locked',
-        html: '<div style="background:#c4704f;width:16px;height:16px;border-radius:50%;border:2px solid white;box-shadow:0 1px 4px rgba(0,0,0,0.35)"></div>',
+        html: '<div style="background:#a0522d;width:16px;height:16px;border-radius:50%;border:2px solid white;box-shadow:0 1px 4px rgba(0,0,0,0.35)"></div>',
         iconSize: [16, 16], iconAnchor: [8, 8]
     });
     const ideaIcon = L.divIcon({
         className: 'plan-marker idea',
-        html: '<div style="background:#5c6b4a;width:14px;height:14px;border-radius:50%;border:2px solid white;box-shadow:0 1px 4px rgba(0,0,0,0.3);opacity:0.9"></div>',
+        html: '<div style="background:#4d5a3e;width:14px;height:14px;border-radius:50%;border:2px solid white;box-shadow:0 1px 4px rgba(0,0,0,0.3);opacity:0.9"></div>',
         iconSize: [14, 14], iconAnchor: [7, 7]
     });
 
@@ -1835,7 +1844,7 @@ async function initPlanTab() {
     function drawRoute(route) {
         const latlngs = route.coords.map(c => [c[0], c[1]]);
         const isFlight = route.mode === 'flight';
-        const color = isFlight ? '#1a365d' : '#c4704f';
+        const color = isFlight ? '#1a365d' : '#a0522d';
         const polyline = L.polyline(latlngs, {
             color,
             weight: isFlight ? 3 : 4,
