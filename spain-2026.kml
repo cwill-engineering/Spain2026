@@ -37,9 +37,15 @@
     </Placemark>
     <Placemark>
       <name>Barcelona apartment — Valencia Street</name>
-      <description>Vrbo 726EF3C0B8. Check-in May 29 2PM; checkout Jun 1 11AM.</description>
+      <description>Williams family. Vrbo 726EF3C0B8. Check-in May 29 2PM; checkout Jun 1 11AM.</description>
       <styleUrl>#locked</styleUrl>
       <Point><coordinates>2.1654,41.3912,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Barcelona — Ghost apartment</name>
+      <description>Thomas + Valerie. VRBO 4156885ha. Near Ronda de la Universitat. Check-in May 29 2PM; checkout Jun 1 11AM.</description>
+      <styleUrl>#locked</styleUrl>
+      <Point><coordinates>2.1685,41.3875,0</coordinates></Point>
     </Placemark>
     <Placemark>
       <name>La Pedrera — Morning Tour Group A</name>

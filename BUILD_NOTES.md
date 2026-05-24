@@ -111,6 +111,7 @@ To duplicate this for another trip:
 ## Change Log
 | Date | Change | Why |
 |---|-----|-----|
+| 2026-05-24 | Bookings at a glance + quick-ref trains/lodging; gitignore planning screenshots | Consolidate 3 train locators + 4 stays; ignore unused PNGs |
 | 2026-05-24 | Joe one-week-out wedding update: welcome party 7 PM, shuttles 4:30 PM Sun, weather/packing/BCN transport | Sync trip-events.json, ICS, plan doc, briefings, quick-ref |
 | 2026-05-23 | Fix calendar ICS + `generate-ics.py` + Thomas Delta flights | Blank-line ICS broke subscribe import |
 | 2026-05-23 | Live weather widget (Open-Meteo) on Overview for trip dates | Real forecast vs AEMET links only |

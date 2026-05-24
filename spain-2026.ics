@@ -113,8 +113,8 @@ SUMMARY:Train: Madrid → Valencia (AVE 05990)
 DTSTART;TZID=Europe/Madrid:20260527T194000
 DTEND;TZID=Europe/Madrid:20260527T214000
 LOCATION:Madrid\, Spain
-DESCRIPTION:Locator 4XYBG8. Atocha → Valencia Joaquín Sorolla. Premium C
- onfort. Club Lounge from 17:40.
+DESCRIPTION:Locator 4XYBG8. Madrid Atocha → Valencia Joaquín Sorolla. Ma
+ y 27 19:40. AVE 05990\, Premium Confort\, Coach 1. Club Lounge from 17:40.
 END:VEVENT
 BEGIN:VEVENT
 UID:spain-2026-valencia-checkin@spain-trip
@@ -163,18 +163,19 @@ SUMMARY:Train: Valencia → Barcelona (Euromed 01092)
 DTSTART;TZID=Europe/Madrid:20260529T090600
 DTEND;TZID=Europe/Madrid:20260529T122000
 LOCATION:Valencia\, Spain
-DESCRIPTION:Locator 9D2RJU. Estació del Nord → Barcelona-Sants. Coach 13
- .
+DESCRIPTION:Locator 9D2RJU. Valencia Estació del Nord → Barcelona-Sants.
+  May 29 09:06. Euromed 01092\, Premium\, Coach 13.
 END:VEVENT
 BEGIN:VEVENT
 UID:spain-2026-barcelona-checkin@spain-trip
 DTSTAMP:20260523T120000Z
-SUMMARY:Check in: Barcelona apartment
+SUMMARY:Check in: Barcelona apartments
 DTSTART;TZID=Europe/Madrid:20260529T140000
 DTEND;TZID=Europe/Madrid:20260529T143000
 LOCATION:Barcelona\, Spain
-DESCRIPTION:Vrbo 726EF3C0B8. Luxury Apartment on Valencia Street (Williams 
- family).
+DESCRIPTION:Williams: Vrbo 726EF3C0B8\, Luxury Apartment on Valencia Street
+  (5 guests). Thomas + Valerie: Ghost apt\, VRBO 4156885ha\, near Ronda de 
+ la Universitat.
 END:VEVENT
 BEGIN:VEVENT
 UID:spain-2026-welcome-party@spain-trip
@@ -256,7 +257,8 @@ SUMMARY:Train: Barcelona → Madrid (AVE 03152)
 DTSTART;TZID=Europe/Madrid:20260601T150000
 DTEND;TZID=Europe/Madrid:20260601T181700
 LOCATION:Barcelona\, Spain
-DESCRIPTION:Locator JKSS7B. Barcelona-Sants → Madrid Atocha. Coach 1.
+DESCRIPTION:Locator JKSS7B. Barcelona-Sants → Madrid Atocha. Jun 1 15:00.
+  AVE 03152\, Premium\, Coach 1.
 END:VEVENT
 BEGIN:VEVENT
 UID:spain-2026-madrid-checkin@spain-trip
@@ -265,8 +267,8 @@ SUMMARY:Arrive Madrid Airbnb
 DTSTART;TZID=Europe/Madrid:20260601T190000
 DTEND;TZID=Europe/Madrid:20260601T193000
 LOCATION:Madrid\, Spain
-DESCRIPTION:Airbnb HMR8NYWPZF. Earliest check-in 15:00\; group arrives ~19:
- 00 after AVE. Crib confirmed for Harlan.
+DESCRIPTION:Airbnb HMR8NYWPZF. Host Elena. Calle de la Encomienda 11\, La L
+ atina. Smart lock check-in. Crib confirmed for Harlan. All 9 guests.
 END:VEVENT
 BEGIN:VEVENT
 UID:spain-2026-thomas-depart@spain-trip
@@ -315,9 +317,9 @@ SUMMARY:Barcelona stay
 DTSTART;VALUE=DATE:20260529
 DTEND;VALUE=DATE:20260601
 LOCATION:Barcelona\, Spain
-DESCRIPTION:Williams apartment on Valencia Street (726EF3C0B8)\; Thomas fam
- ily and Grandma at Ghost apartment. Wedding weekend. Check-in May 29 2:00 
- PM\; check-out June 1 11:00 AM.
+DESCRIPTION:Williams apartment on Valencia Street (726EF3C0B8)\; Ghost apar
+ tment (4156885ha) for Thomas + Valerie. Wedding weekend. Check-in May 29 2
+ :00 PM\; check-out June 1 11:00 AM.
 END:VEVENT
 BEGIN:VEVENT
 UID:spain-2026-madrid-stay@spain-trip
@@ -326,8 +328,9 @@ SUMMARY:Madrid Airbnb stay
 DTSTART;VALUE=DATE:20260601
 DTEND;VALUE=DATE:20260604
 LOCATION:Madrid\, Spain
-DESCRIPTION:Airbnb HMR8NYWPZF. Whole family. Earliest check-in 15:00\; Will
- iams arrive ~19:00 Jun 1. Thomas depart Jun 3\; Williams Jun 4 (Corpus Chr
- isti — shops closed).
+DESCRIPTION:Airbnb HMR8NYWPZF. Host Elena. Calle de la Encomienda 11\, La L
+ atina. Whole family (9). Earliest check-in 15:00\; Williams arrive ~19:00 
+ Jun 1. Thomas depart Jun 3\; Williams Jun 4 (Corpus Christi — shops clos
+ ed).
 END:VEVENT
 END:VCALENDAR

@@ -89,7 +89,7 @@
       "group": "Madrid",
       "lat": 40.4065,
       "lng": -3.6896,
-      "description": "Locator 4XYBG8. Atocha → Valencia Joaquín Sorolla. Premium Confort. Club Lounge from 17:40."
+      "description": "Locator 4XYBG8. Madrid Atocha → Valencia Joaquín Sorolla. May 27 19:40. AVE 05990, Premium Confort, Coach 1. Club Lounge from 17:40."
     },
     {
       "id": "valencia-checkin",
@@ -158,11 +158,11 @@
       "group": "Valencia",
       "lat": 39.4661,
       "lng": -0.3774,
-      "description": "Locator 9D2RJU. Estació del Nord → Barcelona-Sants. Coach 13."
+      "description": "Locator 9D2RJU. Valencia Estació del Nord → Barcelona-Sants. May 29 09:06. Euromed 01092, Premium, Coach 13."
     },
     {
       "id": "barcelona-checkin",
-      "title": "Check in: Barcelona apartment",
+      "title": "Check in: Barcelona apartments",
       "start": "2026-05-29T14:00:00+02:00",
       "end": "2026-05-29T14:30:00+02:00",
       "timezone": "Europe/Madrid",
@@ -172,7 +172,7 @@
       "group": "Barcelona",
       "lat": 41.3912,
       "lng": 2.1654,
-      "description": "Vrbo 726EF3C0B8. Luxury Apartment on Valencia Street (Williams family)."
+      "description": "Williams: Vrbo 726EF3C0B8, Luxury Apartment on Valencia Street (5 guests). Thomas + Valerie: Ghost apt, VRBO 4156885ha, near Ronda de la Universitat."
     },
     {
       "id": "welcome-party",
@@ -284,7 +284,7 @@
       "group": "Barcelona",
       "lat": 41.3799,
       "lng": 2.1404,
-      "description": "Locator JKSS7B. Barcelona-Sants → Madrid Atocha. Coach 1."
+      "description": "Locator JKSS7B. Barcelona-Sants → Madrid Atocha. Jun 1 15:00. AVE 03152, Premium, Coach 1."
     },
     {
       "id": "madrid-checkin",
@@ -298,7 +298,7 @@
       "group": "Madrid",
       "lat": 40.4112,
       "lng": -3.7078,
-      "description": "Airbnb HMR8NYWPZF. Earliest check-in 15:00; group arrives ~19:00 after AVE. Crib confirmed for Harlan."
+      "description": "Airbnb HMR8NYWPZF. Host Elena. Calle de la Encomienda 11, La Latina. Smart lock check-in. Crib confirmed for Harlan. All 9 guests."
     },
     {
       "id": "thomas-depart",

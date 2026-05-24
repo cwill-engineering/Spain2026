@@ -32,7 +32,7 @@ STAY_EVENTS = [
         "end": "2026-06-01",
         "location": "Barcelona, Spain",
         "description": (
-            "Williams apartment on Valencia Street (726EF3C0B8); Thomas family and Grandma at Ghost apartment. "
+            "Williams apartment on Valencia Street (726EF3C0B8); Ghost apartment (4156885ha) for Thomas + Valerie. "
             "Wedding weekend. Check-in May 29 2:00 PM; check-out June 1 11:00 AM."
         ),
     },
@@ -43,7 +43,8 @@ STAY_EVENTS = [
         "end": "2026-06-04",
         "location": "Madrid, Spain",
         "description": (
-            "Airbnb HMR8NYWPZF. Whole family. Earliest check-in 15:00; Williams arrive ~19:00 Jun 1. "
+            "Airbnb HMR8NYWPZF. Host Elena. Calle de la Encomienda 11, La Latina. "
+            "Whole family (9). Earliest check-in 15:00; Williams arrive ~19:00 Jun 1. "
             "Thomas depart Jun 3; Williams Jun 4 (Corpus Christi — shops closed)."
         ),
     },

@@ -25,6 +25,46 @@
 
 ---
 
+## Bookings at a Glance
+
+All three Renfe legs and all three city stays — confirmation codes for offline access and the Renfe app.
+
+### Trains (Williams party ×6 — BOOKED)
+
+| Leg | Renfe locator | Train | Date | Depart → Arrive | Class | Coach |
+| --- | --- | --- | --- | --- | --- | --- |
+| **Madrid → Valencia** | **4XYBG8** | AVE 05990 | May 27 | 19:40 → 21:40 | Premium Confort | 1 |
+| **Valencia → Barcelona** | **9D2RJU** | Euromed 01092 | May 29 | 09:06 → 12:20 | Premium | 13 |
+| **Barcelona → Madrid** | **JKSS7B** | AVE 03152 | Jun 1 | 15:00 → 18:17 | Premium | 1 |
+
+**Totals:** Madrid→Valencia €320.60 · Valencia→Barcelona €489.75 · Barcelona→Madrid €390.35
+
+**Thomas family (Annalise, Brandon, Harlan):** Separate Barcelona→Valencia and Barcelona→Madrid tickets still to confirm — see city sections below.
+
+**Before each leg:** Save tickets offline in the **Renfe** app / Apple Wallet.
+
+### Lodging (all cities)
+
+| City | Dates | Property | Confirmation | Host | Who |
+| --- | --- | --- | --- | --- | --- |
+| **Valencia** | May 27–29 | Grandmother's house next to the beach | **HA-7TLM9D** | Maria Pilar | All 9 together |
+| **Barcelona** | May 29–Jun 1 | Luxury Apartment on Valencia Street | **726EF3C0B8** | VRBO host | Williams family (5) |
+| **Barcelona** | May 29–Jun 1 | Ghost — Quiet 2 Bed. 2 Bath. Apartment | **VRBO 4156885ha** | VRBO host | Thomas + Valerie (4) |
+| **Madrid** | Jun 1–4 | Gorgeous LOFT in SOL (4 bd / 4 bath) | **HMR8NYWPZF** | Elena | All 9 together |
+
+**Check-in / check-out quick ref:**
+
+| City | Check-in | Check-out | Notes |
+| --- | --- | --- | --- |
+| Valencia | May 27, 4:00 PM | May 29, 11:00 AM (leave ~07:45 for train) | Crib ✅ Harlan. Police guest form required before arrival. |
+| Barcelona (Williams) | May 29, 2:00 PM | Jun 1, 11:00 AM | Carrer de València, Eixample |
+| Barcelona (Ghost) | May 29 | Jun 1 | Near Ronda de la Universitat & C. de Gravina — request crib/high chair |
+| Madrid | Jun 1, 3:00 PM | Jun 4, 11:00 AM | Calle de la Encomienda 11 — smart lock; arrive ~7 PM after AVE. Crib ✅ Harlan. |
+
+Full detail (seat assignments, addresses, links): see each city section below.
+
+---
+
 ## Top Eats & Drinks
 
 One signature **drink** and three **must-try foods** per city. Full restaurant lists on each city tab.
@@ -468,6 +508,7 @@ Catalonia's capital — Gaudí, Gothic alleys, and a wedding weekend. Your apart
 
 | Detail | Information |
 |--------|-------------|
+| **Booking Reference** | **9D2RJU** |
 | **Route** | Valencia-Estació del Nord → Barcelona-Sants |
 | **Train** | Euromed 01092 |
 | **Departure** | 09:06 |
@@ -549,11 +590,13 @@ Catalonia's capital — Gaudí, Gothic alleys, and a wedding weekend. Your apart
 | ----------------------- | ----------------------------------------------------------------------------------------------------- |
 | **Property Name** | Ghost - Quiet 2 Bed. 2 Bath. Apartment                                                                |
 | **VRBO Link**     | [vrbo.com/4156885ha](https://www.vrbo.com/4156885ha)                                                     |
+| **Listing / Confirmation** | **4156885ha** (full confirmation code in VRBO app)                                                   |
 | **Address**       | Near Ronda de la Universitat & C. de Gravina                                                          |
 | **Google Maps**   | [View Location](https://www.google.com/maps/search/Ronda+de+la+Universitat+C+de+Gravina+Barcelona+Spain) |
-| **Check-in**      | May 29                                                                                                |
-| **Check-out**     | June 1                                                                                                |
+| **Check-in**      | May 29 at 2:00 PM                                                                                     |
+| **Check-out**     | June 1 at 11:00 AM                                                                                    |
 | **Guests**        | Annalise, Brandon, Harlan, Valerie (4)                                                                |
+| **Bedrooms / Baths** | 2 bedrooms, 2 bathrooms                                                                          |
 
 **Property Features:**
 

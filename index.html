@@ -1340,11 +1340,29 @@ async function injectTripQuickRef() {
             <tbody>${data.expenses.map(e => `<tr><td>${e.item}</td><td>${e.amount}</td><td>${e.split}</td></tr>`).join('')}</tbody>
         </table></div>`;
 
+        const trainsHtml = data.trains ? `<div class="table-wrap"><table class="expense-table">
+            <thead><tr><th>Leg</th><th>Locator</th><th>Train</th><th>Date</th><th>Time</th><th>Coach</th></tr></thead>
+            <tbody>${data.trains.map(t => `<tr><td>${t.leg}</td><td><strong>${t.locator}</strong></td><td>${t.train}</td><td>${t.date}</td><td>${t.time}</td><td>${t.coach}</td></tr>`).join('')}</tbody>
+        </table></div>` : '';
+
+        const lodgingHtml = data.lodging ? `<div class="table-wrap"><table class="expense-table">
+            <thead><tr><th>City</th><th>Property</th><th>Confirmation</th><th>Check-in</th><th>Check-out</th></tr></thead>
+            <tbody>${data.lodging.map(l => `<tr><td>${l.city}</td><td>${l.link ? `<a href="${l.link}" target="_blank" rel="noopener">${l.property}</a>` : l.property}<br><span class="qr-sub">${l.dates} · ${l.host}</span></td><td><strong>${l.confirmation}</strong></td><td>${l.checkIn}</td><td>${l.checkOut}</td></tr>`).join('')}</tbody>
+        </table></div>` : '';
+
         const widget = document.createElement('div');
         widget.className = 'quick-ref-widget';
         widget.id = 'quick-ref-print';
         widget.innerHTML = `
             <h2>🆘 Quick Reference</h2>
+            ${trainsHtml ? `<div class="quick-ref-section">
+                <h3>Trains (Renfe locators)</h3>
+                ${trainsHtml}
+            </div>` : ''}
+            ${lodgingHtml ? `<div class="quick-ref-section">
+                <h3>Lodging confirmations</h3>
+                ${lodgingHtml}
+            </div>` : ''}
             <div class="quick-ref-section">
                 <h3>Emergency &amp; key contacts</h3>
                 <ul class="quick-ref-list">${emergencyHtml}</ul>
