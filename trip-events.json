@@ -175,8 +175,8 @@
       "description": "Vrbo 726EF3C0B8. Luxury Apartment on Valencia Street (Williams family)."
     },
     {
-      "id": "wedding-event-1",
-      "title": "Wedding Event #1",
+      "id": "welcome-party",
+      "title": "Welcome party (Joe & Nikki)",
       "start": "2026-05-29T19:00:00+02:00",
       "end": "2026-05-29T22:00:00+02:00",
       "timezone": "Europe/Madrid",
@@ -186,7 +186,7 @@
       "group": "Barcelona",
       "lat": 41.3825,
       "lng": 2.1769,
-      "description": "Gothic Quarter. Confirm exact time/location from wedding details."
+      "description": "Fri May 29 at 7:00 PM per Joe (May 24). Smart casual. Gothic Quarter area — exact venue TBD."
     },
     {
       "id": "morning-tour-group-a",
@@ -231,10 +231,10 @@
       "description": "Meet outside Catedral de Barcelona (changed May 23 — NOT Grand Hotel Central). maps.app.goo.gl/aDW3zC5ce4SuLt2e9. Questions: joeking7@gmail.com"
     },
     {
-      "id": "wedding-day",
-      "title": "Wedding Day",
-      "start": "2026-05-31T10:00:00+02:00",
-      "end": "2026-05-31T23:00:00+02:00",
+      "id": "wedding-shuttles",
+      "title": "Wedding shuttles (pickup)",
+      "start": "2026-05-31T16:30:00+02:00",
+      "end": "2026-05-31T17:00:00+02:00",
       "timezone": "Europe/Madrid",
       "type": "locked",
       "category": "wedding",
@@ -242,7 +242,21 @@
       "group": "Barcelona",
       "lat": 41.3825,
       "lng": 2.1769,
-      "description": "Main wedding day. Gothic Quarter."
+      "description": "Shuttles depart 4:30 PM per Joe (May 24). Pickup location TBD — wedding party may meet earlier (~2:30 PM) for photos."
+    },
+    {
+      "id": "wedding-ceremony",
+      "title": "Wedding ceremony & reception",
+      "start": "2026-05-31T17:30:00+02:00",
+      "end": "2026-05-31T23:59:00+02:00",
+      "timezone": "Europe/Madrid",
+      "type": "locked",
+      "category": "wedding",
+      "city": "Barcelona",
+      "group": "Barcelona",
+      "lat": 41.3825,
+      "lng": 2.1769,
+      "description": "Main wedding day. Forecast ~77°F (25°C) at ceremony, cooling to ~70°F (21°C) by midnight. Black formal attire. Ceremony start time approximate after 4:30 PM shuttles."
     },
     {
       "id": "barcelona-checkout",
@@ -422,7 +436,7 @@
       "lat": 41.3825,
       "lng": 2.1769,
       "category": "activity",
-      "description": "Wedding venue area. Explore between check-in and Event #1."
+      "description": "Wedding venue area. Explore between check-in and 7 PM welcome party."
     },
     {
       "id": "sug-casa-gay",

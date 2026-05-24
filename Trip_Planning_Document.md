@@ -43,9 +43,9 @@ One signature **drink** and three **must-try foods** per city. Full restaurant l
 May 26 (Tue)  ✈️  TRAVEL: Nashville → Boston → Overnight flight to Spain
 May 27 (Wed)  🇪🇸  VALENCIA - Arrive, beach house check-in 4:00 PM
 May 28 (Thu)  🍽️  VALENCIA - Paella lunch at Casa Carmela (1:00 PM), beach/pool
-May 29 (Fri)  🚄  BARCELONA - Train from Valencia, check in, Wedding Event #1
-May 30 (Sat)  💒  BARCELONA - Tour Day (La Pedrera, Sagrada Família, Tapas Tour) + Wedding Event #2
-May 31 (Sun)  🎉  BARCELONA - WEDDING DAY (main event)
+May 29 (Fri)  🚄  BARCELONA - Train from Valencia, check in, Welcome party 7 PM
+May 30 (Sat)  💒  BARCELONA - Tour Day (La Pedrera, Sagrada Família, Tapas Tour)
+May 31 (Sun)  🎉  BARCELONA - WEDDING DAY — shuttles 4:30 PM, ceremony & reception
 Jun 1  (Mon)  🚄  MADRID - Train from Barcelona, check in, explore
 Jun 2  (Tue)  🏛️  MADRID - Full day exploring (museums, tapas, parks)
 Jun 3  (Wed)  ✈️  MADRID - Thomas family departs / Williams explores
@@ -502,9 +502,9 @@ Catalonia's capital — Gaudí, Gothic alleys, and a wedding weekend. Your apart
 | 8:15 AM | Arrive Valencia-Estació del Nord |
 | 9:06 AM | Board Euromed 01092 to Barcelona (Coach 13) |
 | 12:20 PM | Arrive Barcelona-Sants |
-| 12:30-1:00 PM | Taxi to accommodations (~€15-20) |
+| 12:30-1:00 PM | Taxi / Uber / FreeNow to accommodations (~€15-20; all take cards) |
 | 2:00 PM | Williams apartment check-in target |
-| Evening | Wedding Event #1 |
+| 7:00 PM | Welcome party (Joe & Nikki) |
 
 ### Action Items
 - Confirm Thomas family train details for Annalise, Brandon, and Harlan if separate tickets are not already saved.
@@ -578,23 +578,33 @@ Catalonia's capital — Gaudí, Gothic alleys, and a wedding weekend. Your apart
 
 ### Wedding Events
 
-| Date         | Event                | Location       |
-| ------------ | -------------------- | -------------- |
-| May 29 (Fri) | Wedding Event #1     | Gothic Quarter |
-| May 30 (Sat) | Tour Day + Wedding Event #2 | See schedule below |
-| May 31 (Sun) | WEDDING (main event) | Gothic Quarter |
+| Date         | Event                | Time | Location       |
+| ------------ | -------------------- | ---- | -------------- |
+| May 29 (Fri) | Welcome party        | 7:00 PM | Gothic Quarter |
+| May 30 (Sat) | Tour Day (if registered) | See schedule below | La Pedrera, Sagrada, Catedral |
+| May 31 (Sun) | Wedding shuttles     | 4:30 PM | Pickup TBD |
+| May 31 (Sun) | Ceremony & reception | After shuttles | Gothic Quarter |
 
 **Wedding Area:** Gothic Quarter, Barcelona
 **Reference Hotels:** Kimpton Vividora (Carrer del Duc 15), Hotel 1898 (La Rambla 109)
 
+### One Week Out — Joe & Nikki (May 24, 2026)
+
+- **Weather:** 65–85°F (18–29°C) — warm and sunny all weekend. Wedding night: ~77°F (25°C) at ceremony, cooling to ~70°F (21°C) by midnight.
+- **Pack:** EU **Type C** power adapter; any meds you might need.
+- **BCN arrival:** Taxi or **Uber / FreeNow** apps are easiest — all take credit cards.
+- **Fri May 29:** Welcome party **7:00 PM**
+- **Sat May 30:** Tours (if you signed up) — see Tour Day schedule below
+- **Sun May 31:** Shuttles **4:30 PM**
+
 ### Wedding Attire & Logistics (from Joe, Apr 2026)
 
-Joe's guidance: responsibilities are **light except Sunday**. Wedding party meets at the venue a bit ahead of the main group for photos — exact timing TBD.
+Joe's guidance: responsibilities are **light except Sunday**. Wedding party may meet at the venue ahead of the main group for photos — exact timing TBD.
 
 **Sunday ceremony day (current plan):**
-- Wedding party heads to venue **~2:30 PM** (meet at hotel earlier — exact time TBD)
+- Wedding party may head to venue **~2:30 PM** (meet at hotel earlier — exact time TBD)
 - Hair/makeup **before** leaving hotel (bridesmaids use hotel library room; optional pro hair/makeup available if you want Joe to arrange)
-- Shuttle transportation to venue — TBD headcount (family may also ride early)
+- **Guest shuttles depart 4:30 PM** (confirmed May 24) — pickup location TBD; family may also ride early
 - Small area at venue for personal items (water bottle, light jacket, book) — limited space; pack light for the day
 - You'll walk down the aisle but sit in the **first few rows** — not standing at the altar
 
@@ -612,7 +622,7 @@ Joe's guidance: responsibilities are **light except Sunday**. Wedding party meet
 
 **Optional hair/makeup:** Joe can arrange the same team as bridesmaids (hotel library room or in-room). Totally optional — do your own if you prefer (especially curly hair — Tamara's note: pro stylists often struggle with curls).
 
-**Questions still TBD from Joe:** Final Sunday timeline, shuttle schedule, whether Jason can take early transport to explore.
+**Questions still TBD from Joe:** Exact shuttle pickup location, ceremony start time, whether Jason can take early transport to explore.
 
 ### May 30 Tour Day Schedule (Saturday)
 
@@ -1151,13 +1161,13 @@ Madrid does Sunday "vermut" (vermouth hour) like nowhere else. Find any old bar 
 
 ## Packing
 
-Spain in late May / early June: **20–28°C (68–82°F)**, sunny, dry. You'll walk **a lot** on cobblestones — prioritize comfort over fashion except wedding Sunday.
+Spain in late May / early June: **18–29°C (65–85°F)** per Joe's wedding-weekend forecast — warm, sunny, dry. Wedding night: ~25°C (77°F) at ceremony, ~21°C (70°F) by midnight. You'll walk **a lot** on cobblestones — prioritize comfort over fashion except wedding Sunday.
 
 ### Everyone
 
 | Item | Notes |
 | ---- | ----- |
-| **Power adapters** | Type C/F (230V). Bring 2–3 if sharing rooms. |
+| **Power adapters** | **EU Type C** (230V). Bring 2–3 if sharing rooms. |
 | **Portable batteries** | Full days of maps, photos, tickets. |
 | **Comfortable walking shoes** | Broken-in sneakers or walking sandals. Cobblestones + 15k steps/day. |
 | **Light layers** | Morning/evening can be cool (~16°C). Cardigan or light jacket. |
@@ -1175,7 +1185,7 @@ Spain in late May / early June: **20–28°C (68–82°F)**, sunny, dry. You'll 
 | **Annalise (sister)** | **Black dress or gown** — tux not required. Same shoe advice. Optional: own hair/makeup tools if skipping pro styling. |
 | **Brandon** | Match men's guidance if attending wedding events — black tux or dark formal suit if not in wedding party. |
 | **Carson, Harrison (teens)** | Smart casual for events; dark formal for Sunday if requested. Comfortable shoes for tour day (May 30 is long). |
-| **All adults** | May 30: smart casual for La Pedrera / Sagrada / tapas tour. May 29 Event #1: check with Joe — likely smart casual. |
+| **All adults** | May 30: smart casual for La Pedrera / Sagrada / tapas tour. May 29 welcome party: smart casual. May 31: black formal. |
 
 ### Traveling with Harlan (baby, ~1 year)
 

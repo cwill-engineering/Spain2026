@@ -177,14 +177,14 @@ DESCRIPTION:Vrbo 726EF3C0B8. Luxury Apartment on Valencia Street (Williams
  family).
 END:VEVENT
 BEGIN:VEVENT
-UID:spain-2026-wedding-event-1@spain-trip
+UID:spain-2026-welcome-party@spain-trip
 DTSTAMP:20260523T120000Z
-SUMMARY:Wedding Event #1
+SUMMARY:Welcome party (Joe & Nikki)
 DTSTART;TZID=Europe/Madrid:20260529T190000
 DTEND;TZID=Europe/Madrid:20260529T220000
 LOCATION:Barcelona\, Spain
-DESCRIPTION:Gothic Quarter. Confirm exact time/location from wedding detail
- s.
+DESCRIPTION:Fri May 29 at 7:00 PM per Joe (May 24). Smart casual. Gothic Qu
+ arter area — exact venue TBD.
 END:VEVENT
 BEGIN:VEVENT
 UID:spain-2026-morning-tour-group-a@spain-trip
@@ -219,13 +219,25 @@ DESCRIPTION:Meet outside Catedral de Barcelona (changed May 23 — NOT Gran
  mail.com
 END:VEVENT
 BEGIN:VEVENT
-UID:spain-2026-wedding-day@spain-trip
+UID:spain-2026-wedding-shuttles@spain-trip
 DTSTAMP:20260523T120000Z
-SUMMARY:Wedding Day
-DTSTART;TZID=Europe/Madrid:20260531T100000
-DTEND;TZID=Europe/Madrid:20260531T230000
+SUMMARY:Wedding shuttles (pickup)
+DTSTART;TZID=Europe/Madrid:20260531T163000
+DTEND;TZID=Europe/Madrid:20260531T170000
 LOCATION:Barcelona\, Spain
-DESCRIPTION:Main wedding day. Gothic Quarter.
+DESCRIPTION:Shuttles depart 4:30 PM per Joe (May 24). Pickup location TBD 
+ — wedding party may meet earlier (~2:30 PM) for photos.
+END:VEVENT
+BEGIN:VEVENT
+UID:spain-2026-wedding-ceremony@spain-trip
+DTSTAMP:20260523T120000Z
+SUMMARY:Wedding ceremony & reception
+DTSTART;TZID=Europe/Madrid:20260531T173000
+DTEND;TZID=Europe/Madrid:20260531T235900
+LOCATION:Barcelona\, Spain
+DESCRIPTION:Main wedding day. Forecast ~77°F (25°C) at ceremony\, cooling
+  to ~70°F (21°C) by midnight. Black formal attire. Ceremony start time a
+ pproximate after 4:30 PM shuttles.
 END:VEVENT
 BEGIN:VEVENT
 UID:spain-2026-barcelona-checkout@spain-trip

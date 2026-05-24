@@ -96,16 +96,16 @@ Barcelona makes money from **port, industry, tourism, and tech** — in that rou
 
 | Date | What matters |
 |------|----------------|
-| **Fri May 29** | Train in ~12:20, check-in 14:00. **Wedding Event #1** evening. Suit fitting at Casa Gay if scheduled. |
+| **Fri May 29** | Train in ~12:20, check-in 14:00. **Welcome party 7:00 PM** (Joe & Nikki). Suit fitting at Casa Gay if scheduled. |
 | **Sat May 30** | **Tour day (Nikki & Joe):** La Pedrera 09:15, Sagrada 12:15 entry, tapas 17:00 at **Catedral de Barcelona** (not Grand Hotel Central). |
-| **Sun May 31** | **Wedding day.** |
+| **Sun May 31** | **Wedding shuttles 4:30 PM**, ceremony & reception. ~77°F at ceremony, ~70°F by midnight. |
 | **Mon Jun 1** | Checkout 11:00, train to Madrid 15:00. Suit return AM. |
 
 **Primavera Sound** (major indie/rock festival) runs **June 3–7** at Parc del Fòrum — you leave **before** it starts, but **setup and crew** may already stress transit near Montjuïc/Sants by June 1. Allow buffer getting to Barcelona-Sants.
 
 **Corpus Christi** is **June 4** — you will be in Madrid by then, but Barcelona's Catholic calendar may affect late-May church events and flower displays in some parishes.
 
-**Weather:** 22–27°C, humid by Nashville standards. Evening wedding layers optional.
+**Weather:** 18–29°C (65–85°F) per Joe (May 24) — warm and sunny wedding weekend. ~25°C (77°F) at ceremony Sunday, ~21°C (70°F) by midnight.
 
 **Crowds:** Late May = high tourism + wedding season. Gothic Quarter will be packed. Book nothing assuming walk-in.
 

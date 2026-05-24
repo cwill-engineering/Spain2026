@@ -1,108 +1,58 @@
 # Madrid Accommodation - ✅ BOOKED
 ## June 1-4, 2026 (3 nights)
 
-**Status:** ✅ **BOOKED** - Reservation #30602041
+**Status:** ✅ **BOOKED** - Airbnb confirmation **HMR8NYWPZF**
 
 **Group:** 9 people total (Williams family: 6 + Thomas family: 3 including baby Harlan) — ALL TOGETHER
 *Note: Thomas family departs June 3 (Wed, 2:45 PM flight). Only 2 nights in Madrid.*
 
 ---
 
-## 🏆 Top Recommendation: Cibeles Luxe III
+## ✅ Current Booking: Airbnb Home in Madrid
 
 ### Quick Facts
+
 | Factor | Details |
 |--------|---------|
-| **Rating** | 9.8/10 (14 reviews) - Top 10% in area |
-| **Sleeps** | 9 people |
-| **Bedrooms** | 4 bedrooms (listed as 3BR + living room sofa bed) |
-| **Bathrooms** | 3 full bathrooms |
-| **Size** | 2,153 sq ft (200 m²) |
-| **Price** | **$1,317 total** ($439/night) |
-| **Property #** | 10981691ha |
+| **Airbnb Title** | Gorgeous LOFT in SOL 4 Bdroms 4 bathroms shortstay |
+| **Host** | Elena |
+| **Confirmation Code** | HMR8NYWPZF |
+| **Address** | Calle de la Encomienda, 11 1º, IZQ, Madrid, Comunidad de Madrid 28012, Spain |
+| **Guests** | 7 guests, 1 child, 1 infant |
+| **Maximum Occupancy** | 10 guests |
+| **Check-in** | June 1 at 3:00 PM |
+| **Check-out** | June 4 at 11:00 AM |
+| **Check-in Method** | Smart lock self check-in |
 
-### Location (Triangulated)
-Based on walking distances, this property is in the **Cortes neighborhood** (also called Literary Quarter/Barrio de las Letras):
-- 2 min walk to Gran Vía
-- 5 min walk to Puerta del Sol
-- 5 min walk to Plaza de Santa Ana
-- Near Banco de España and Sevilla metro stations
-- Very close to Thyssen-Bornemisza Museum and Círculo de Bellas Artes
+### Location
+This Airbnb is near **La Latina / Tirso de Molina**, close to Sol and Plaza Mayor.
 
-**Estimated Location:** Near Calle Madrazo, between Gran Vía and Puerta del Sol
+- Puerta del Sol: ~10 min walk
+- Plaza Mayor: ~7 min walk
+- Mercado de San Miguel: ~10 min walk
+- La Latina tapas streets / Cava Baja: ~10 min walk
+- Prado Museum: ~20 min walk or short taxi
+- Retiro Park: ~25 min walk or short taxi
 
-### Bed Configuration
-| Room | Beds |
-|------|------|
-| Bedroom 1 (Master) | 1 King Bed (en-suite bathroom) |
-| Bedroom 2 | 1 Double Bed |
-| Bedroom 3 | 2 Twin Beds |
-| Bedroom 4 | 2 Twin Beds |
-| Living Room | 1 Double Sofa Bed |
+### Who's Staying
+- Angela, Chandler, Carson, Harrison, Elise, Valerie
+- Annalise, Brandon, Harlan
 
-**Suggested Assignment:**
-- Angela & Chandler → Master bedroom (King)
-- Grandma Valerie → Bedroom 2 (Double, quiet, own space)
-- Carson & Harrison → Bedroom 3 (2 twins - perfect for teens!)
-- Annalise & Brandon + Harlan → Bedroom 4 (2 twins pushed together) or Living room
-- Elise → Living room sofa bed or with Grandma
-
-### Amenities
-- ✅ Air conditioning (underfloor heating too)
-- ✅ Elevator in building
-- ✅ Full kitchen (high-end appliances)
-- ✅ Washer & dishwasher
-- ✅ Free WiFi
-- ✅ Hair dryer
-- ✅ Off-street parking available nearby
-
-### ⚠️ CRITICAL: Special Conditions
-
-**1. NOT FOR TOURIST STAYS - Seasonal Rental Only**
-> "This apartment is only offered for seasonal rentals, in accordance with article 3 of the Urban Leases Law (LAU). Tourist stays are not allowed. The guest must prove the reason for their stay (for example, temporary transfer for work, studies, medical treatments, caring for a relative, etc.) and, in addition, will sign a seasonal lease agreement upon arrival."
-
-**What this means:** You'll need to provide a reason for your stay that isn't purely tourism. Options:
-- "Attending a family wedding" 
-- "Family reunion"
-- Contact host to clarify if this is strictly enforced
-
-**2. Noise Monitoring**
-> "This apartment is equipped with a 24-hour noise monitoring system. Guests are obliged to comply with the established rest hours at all times."
-
-**3. Online Check-in Required**
-- Must register each guest online BEFORE arrival
-- Need mobile phone with internet to access apartment
-- Contact host 48 hours before arrival
-- Keyless entry system
-
-**4. Madrid Central Zone - Restricted Traffic**
-- Located in restricted traffic area
-- Cannot access by private car without special permit
-- Must use taxi, public transport, or walk
-- **NOT a problem** since you're arriving by train to Atocha
-
-**5. Street Construction**
-> "Due to City Council works on Madrazo street, it remains closed to traffic. Works do not cause annoying noise."
-
-**6. Crib Availability**
-> "The cot is subject to availability. Please notify at the latest 5 days in advance."
-- **Action:** Contact host about crib for Harlan ASAP
-
-**7. Children Policy**
-- Children allowed ages 3-17
-- **Note:** Harlan is 1 year old - verify with host this is okay
+### Before Arrival
+- Message Elena for smart lock instructions.
+- Confirm sleeping setup for all 9 travelers.
+- Confirm whether a crib is available for Harlan.
+- Save the Airbnb reservation, address, and confirmation code offline.
 
 ### Cancellation Policy
-- **Full refund:** Before May 25
-- **50% refund:** Before May 31
-- **No refund:** After May 31
+- Partial refund before 3:00 PM on May 25, 2026.
+- Non-refundable after that.
 
-### Reviews Highlight
-> "We had a wonderful time with our teenagers at this location, there was plenty to do and the apartment was comfortable, spacious and stylish." - Lisa C. (Aug 2024)
+---
 
-> "This was a great property for our family of 6. Easy to get in and out using online app." - Penny M. (Apr 2025)
+## Historical Note: Cibeles Luxe III
 
-> "Hot water supply/boiler seemed limited - tripped the breaker multiple times but easy to reset." - Penny M.
+The trip previously had VRBO **Cibeles Luxe III** booked under reservation #30602041. That is no longer the current Madrid stay. Keep the details below only as historical comparison/reference if needed.
 
 ---
 
@@ -253,7 +203,8 @@ You'd need to book a separate place for Annalise, Brandon, and Harlan nearby:
 
 | Property | Rating | Sleeps | BR/BA | Total Price | Location | Best For |
 |----------|--------|--------|-------|-------------|----------|----------|
-| **Cibeles Luxe III** | 9.8 | 9 | 4/3 | **$1,317** | Cortes/Gran Vía | ⭐ All 9, Best Value |
+| **Airbnb Home in Madrid** | Airbnb | 10 max | 4/4 | In Airbnb reservation | La Latina/Sol | ✅ Current booking |
+| Cibeles Luxe III | 9.8 | 9 | 4/3 | $1,317 | Cortes/Gran Vía | Historical booking |
 | Super Prime w/Elevator | 10 | 10 | 4/2.5 | $2,861 | Austrias/Opera | Elevator for Grandma |
 | New Luxury Gran Vía | 10 | 10 | 4/4 | $4,085 | Sol/Gran Vía | En-suite luxury |
 | Waou Art Loft La Latina | 10 | 6 | 3/? | $1,608 | La Latina | Main family only |
@@ -295,54 +246,33 @@ You'd need to book a separate place for Annalise, Brandon, and Harlan nearby:
 
 ---
 
-## ✅ Final Recommendation
+## ✅ Final Booking
 
-### Book: **Cibeles Luxe III** ($1,317 total)
+### Current Stay: **Airbnb Home in Madrid**
 
-**Why:**
-1. **Fits all 9 people** - No need for 2 places
-2. **Best price** - Cheaper than La Latina option which only fits 6!
-3. **3 bathrooms** - Critical with 9 people including baby
-4. **Great location** - Near Retiro Park for your chill wind-down day
-5. **Elevator** - Helps tired travelers with luggage
-6. **Highly rated** - 9.8/10, top 10% in area
-
-**Before Booking:**
-1. ⚠️ **Contact host about seasonal rental requirement** - Ask if "attending family wedding" qualifies
-2. ⚠️ **Confirm baby Harlan (age 1) is allowed** - Policy says ages 3-17
-3. 📞 **Request crib** - Must notify 5 days in advance
-4. 📱 **Prepare for online check-in** - Need mobile phone with internet
-
-### Alternative: **Super Prime with Elevator** ($2,861 total)
-
-**Choose this if:**
-- Grandma really needs elevator (Cibeles has one too, but this is 1st floor)
-- You want in-person welcome and host assistance
-- Budget allows extra $1,544
-- You want to be closest to La Latina tapas scene
+**Why this is now the right current plan:**
+1. **Fits the full group** - 7 guests, 1 child, 1 infant; max 10.
+2. **Better location for the final Madrid leg** - La Latina / Sol is ideal for tapas, Plaza Mayor, Mercado de San Miguel, and easy walking.
+3. **Simpler check-in model** - Airbnb reservation with smart lock self check-in rather than the prior seasonal-rental VRBO requirements.
+4. **Keeps everyone together** - Williams family, Thomas family, Grandma Valerie, and Harrison are all covered in one Madrid stay.
 
 ---
 
 ## 📝 Action Items
 
 ### ✅ COMPLETED
-- [x] Book Cibeles Luxe III accommodation
-- [x] Reservation confirmed: #30602041
-- [x] First payment: €612.50 (January 25, 2026)
+- [x] Switch Madrid stay to Airbnb
+- [x] Reservation confirmed: HMR8NYWPZF
+- [x] Confirm full group coverage: 7 guests, 1 child, 1 infant
 
 ### Before Trip
-- [ ] Pay second installment: €612.50 (due May 25, 2026)
-- [ ] Contact host 48 hours before arrival (by May 30)
-- [ ] Download mithouse app (for keyless entry)
-- [ ] Complete online guest registration for all guests
+- [ ] Message Elena 48 hours before arrival (by May 30) for smart lock instructions
+- [ ] Save Airbnb reservation and address offline
+- [ ] Confirm sleeping setup for all 9 travelers
+- [ ] Request/confirm crib availability for Harlan by May 27
 - [x] ~~Decide: Will Thomas family join at apartment or book separately?~~ → Confirmed: ALL staying together
-- [ ] Request crib for Harlan (5 days in advance = by May 27)
-- [ ] Prepare guest info for online registration
-
-### Note on Seasonal Rental
-The property requires a non-tourism reason for stay. "Attending a family wedding" should qualify - this can be clarified with host if needed.
 
 ---
 
-*Last updated: April 5, 2026*
+*Last updated: May 17, 2026*
 *Status: ✅ BOOKED*
