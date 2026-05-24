@@ -1,38 +1,56 @@
 # BUILD NOTES - Spain 2026 Travel Site
 
-> Last updated: 2026-05-23
+> Last updated: 2026-05-24
 
 ## Purpose
-Static, password-gated family travel site for the Spain 2026 trip. It gives the group one mobile-friendly place to check itinerary, lodging, trains, activities, city deep-dives, and pre-trip tasks.
+Static, password-gated family travel site for the Spain 2026 trip. It gives the group one mobile-friendly place to check itinerary, lodging, trains, activities, city deep-dives, pre-trip tasks, and an AI trip assistant.
 
 ## How It Works
-- `index.html` is the full static app shell, styling, password screen, tab renderer, and client-side markdown loader.
+- `index.html` is the full static app shell, styling, password screen, tab renderer, client-side markdown loader, and trip assistant UI.
 - `Trip_Planning_Document.md` is the visible trip content rendered into tabs by top-level `#` headings.
 - `briefings/Valencia.md`, `briefings/Barcelona.md`, `briefings/Madrid.md` lazy-load into **Valencia Decoded**, **Barcelona Unpacked**, and **Madrid in Context** tabs.
 - `trip-events.json` is the structured itinerary source for the **Plan** tab (vis-timeline + Leaflet map).
 - `spain-2026.ics` is the static subscribable calendar file served from the Netlify site root.
 - `spain-2026.kml` is a Google Earth / My Maps export of locked pins and ideas.
 - `Madrid_Accommodation_Recommendations.md` is a supporting planning/reference note, not rendered by the site.
+- `generate-agent-context.py` bundles trip markdown/JSON into `agent-context.json` for the chat function.
+- `netlify/functions/chat.mjs` proxies OpenAI chat completions (API key server-side only).
 - `README.md` is minimal repository context.
 
 ## Environment & Dependencies
-- Runtime: static HTML in a browser.
+- Runtime: static HTML in a browser; **trip assistant** requires Netlify Functions (`netlify/functions/chat.mjs`).
 - External browser dependencies: Google Fonts, `marked` (jsDelivr), `vis-timeline` 8.5.1 (unpkg), Leaflet 1.9.4 + markercluster 1.5.3 + polylinedecorator 1.6.0 (unpkg).
 - Favicon: `favicon.ico`, `favicon-32.png`, `favicon.svg`, `apple-touch-icon.png` — terracotta square with **WTF** (Williamson Thomas Family). Prefer `.ico`/PNG for browser compatibility.
 - Overview widgets: calendar subscribe (Apple + **Google Calendar** + download + copy), `eat-drink.json` top eats/drinks grid, `trip-quick-ref.json` countdown + emergency/metro/phrases/weather/expenses + print-to-PDF.
 - Calendar: `generate-ics.py` builds `spain-2026.ics` from `trip-events.json` plus three all-day lodging spans. **Re-run after booking changes:** `python generate-ics.py`. Timed Spain events use `TZID=Europe/Madrid`; US outbound flights use `America/New_York` / `America/Chicago`; cross-timezone legs use UTC `Z`.
+- Agent context: `generate-agent-context.py` builds `agent-context.json` (~140KB). **Re-run after trip content changes:** `python generate-agent-context.py`.
 - Plan tab: loads `trip-events.json`; timeline groups by city; map markers sync on click.
-- Environment variable: `SPAIN_2026_SITE_PASSWORD` stores the site password in the workspace `.env` for operator reference. The current static site still hardcodes the same password in `index.html`.
+- **Netlify env vars** (Dashboard → Site → Environment variables; also workspace `Scripts/.env` for local `netlify dev`):
+  - `OPENAI_API_KEY` — OpenAI API key; consumed by `netlify/functions/chat.mjs`.
+  - `SPAIN_2026_SITE_PASSWORD` — must match the password in `index.html`; chat endpoint rejects requests without it.
+  - `OPENAI_MODEL` (optional) — defaults to `gpt-4o-mini`.
 - Deploy target: Netlify static site at `https://neon-daffodil-236a0f.netlify.app/`.
 
 ## Usage
-Open the deployed Netlify URL or serve the directory locally:
+Open the deployed Netlify URL or serve locally:
 
+**Trip site only (no assistant):**
 ```powershell
 python -m http.server 8000
 ```
 
-Then open `http://localhost:8000/` and enter the site password.
+**Trip site + assistant (requires env vars in `Scripts/.env`):**
+```powershell
+cd "Personal/Travel Planning/Spain May 2026"
+netlify dev
+```
+Open `http://localhost:8888/` and enter the site password. Tap **Ask** (FAB, bottom-right).
+
+After trip booking or content changes:
+```powershell
+python generate-agent-context.py
+python generate-ics.py
+```
 
 Calendar subscription URL after deploy:
 
@@ -48,6 +66,7 @@ webcal://neon-daffodil-236a0f.netlify.app/spain-2026.ics
 5. `trip-events.json` drives the Plan tab timeline/map; run `python generate-ics.py` to sync `spain-2026.ics` when bookings change.
 6. The password gate is privacy-by-obscurity only; do not put truly sensitive secrets in rendered trip content.
 7. Spain itinerary times use `Europe/Madrid`; US outbound flights May 26 use `America/New_York` in the calendar.
+8. Trip assistant: FAB opens full-screen overlay on mobile (<900px) or 380px right panel on desktop. OpenAI key never in browser — `POST /api/chat` → `netlify/functions/chat.mjs`. Hybrid grounding: trip data first, general Spain tips OK when labeled as such.
 
 ## Research & Discovery Log
 - **Question / Goal**: Update the live trip site with May 2026 train and Madrid lodging changes.
@@ -100,6 +119,8 @@ webcal://neon-daffodil-236a0f.netlify.app/spain-2026.ics
 - The provided Renfe tickets cover Chandler, Angela, Carson, Valerie, Harrison, and Elise only. Thomas family train tickets should stay clearly marked as separate / to confirm unless new ticket data is provided.
 - `spain-2026.ics` includes a few placeholder durations/times where the plan has no exact end time (for example wedding events). Mark those descriptions as placeholders.
 - If editing the calendar, prefer editing `trip-events.json` and running `generate-ics.py`. Do not hand-edit with blank lines between properties — RFC 5545 forbids empty lines inside `VCALENDAR`/`VEVENT`; Google/Apple may drop events.
+- Trip assistant chat does not work with `python -m http.server` alone — use `netlify dev` locally. Production requires `OPENAI_API_KEY` and `SPAIN_2026_SITE_PASSWORD` in Netlify env.
+- After editing trip markdown/JSON, run `generate-agent-context.py` before deploy or assistant answers will be stale.
 
 ## Replication Guide
 To duplicate this for another trip:
@@ -111,6 +132,7 @@ To duplicate this for another trip:
 ## Change Log
 | Date | Change | Why |
 |---|-----|-----|
+| 2026-05-24 | Trip assistant: FAB, mobile overlay, desktop panel, `netlify/functions/chat.mjs`, `generate-agent-context.py` | AI Q&A grounded in trip data via OpenAI proxy |
 | 2026-05-24 | Joe weekend venue maps (tmg.link): Alaire Rooftop, La Pedrera, Catedral, shuttle pickup | Wedding map links in plan doc, quick-ref, calendar, KML |
 | 2026-05-24 | Bookings at a glance + quick-ref trains/lodging; gitignore planning screenshots | Consolidate 3 train locators + 4 stays; ignore unused PNGs |
 | 2026-05-24 | Joe one-week-out wedding update: welcome party 7 PM, shuttles 4:30 PM Sun, weather/packing/BCN transport | Sync trip-events.json, ICS, plan doc, briefings, quick-ref |
