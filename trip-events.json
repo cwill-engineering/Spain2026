@@ -1099,6 +1099,139 @@
       "lng": -3.7038,
       "category": "essentials",
       "description": "Reliable bank ATM at Puerta del Sol — use a Spanish bank (BBVA, Santander, Caixa) to avoid fees from generic Euronet ATMs. 7 min walk from Airbnb."
+    },
+
+    {
+      "id": "taxi-mad-sorolla",
+      "title": "🚕 Taxi rank — Joaquín Sorolla station",
+      "city": "Valencia",
+      "day": "2026-05-27",
+      "lat": 39.4596,
+      "lng": -0.3770,
+      "category": "transit",
+      "description": "Official parada de taxis right outside Joaquín Sorolla. Need 2 taxis for 9 people + 8 bags (each Valencia taxi fits 4 pax + 4 bags). White cars. Cash or card. Fixed-ish fare to beach house ~€12-15 per taxi."
+    },
+    {
+      "id": "taxi-val-nord",
+      "title": "🚕 Taxi rank — Estació del Nord",
+      "city": "Valencia",
+      "day": "2026-05-29",
+      "lat": 39.4660,
+      "lng": -0.3774,
+      "category": "transit",
+      "description": "Parada outside the main Modernista entrance. Useful if Maria Pilar drops bags here on May 29 and we need taxis to the station from the beach house. Plenty of taxis all day."
+    },
+    {
+      "id": "taxi-val-malvarrosa",
+      "title": "🚕 Taxi rank — Malvarrosa beach (Las Arenas)",
+      "city": "Valencia",
+      "day": "2026-05-28",
+      "lat": 39.4709,
+      "lng": -0.3264,
+      "category": "transit",
+      "description": "Closest dependable parada to the beach house — about 3 min walk on the Paseo Neptuno near Hotel Las Arenas. Reliable for returning from city center late."
+    },
+    {
+      "id": "taxi-val-ayto",
+      "title": "🚕 Taxi rank — Plaza del Ayuntamiento",
+      "city": "Valencia",
+      "day": "2026-05-28",
+      "lat": 39.4699,
+      "lng": -0.3763,
+      "category": "transit",
+      "description": "Main parada in central Valencia. Use this after lunch in the centro to ride back to the beach house (~€10)."
+    },
+
+    {
+      "id": "taxi-bcn-sants",
+      "title": "🚕 Taxi rank — Barcelona-Sants",
+      "city": "Barcelona",
+      "day": "2026-05-29",
+      "lat": 41.3793,
+      "lng": 2.1402,
+      "category": "transit",
+      "description": "Long taxi rank along the station's main exit. Black-and-yellow Barcelona taxis. Need 2 to fit 9 + bags — sometimes 3 if everyone has carry-ons too. €15-20 to Eixample. Cash and card accepted."
+    },
+    {
+      "id": "taxi-bcn-catalunya",
+      "title": "🚕 Taxi rank — Plaça de Catalunya",
+      "city": "Barcelona",
+      "day": "2026-05-30",
+      "lat": 41.3870,
+      "lng": 2.1701,
+      "category": "transit",
+      "description": "Huge city-center parada at Plaça de Catalunya. Always has cars. ~7 min walk from Williams apartment, ~10 from Thomas. The fallback when you can't grab one on Passeig de Gràcia."
+    },
+    {
+      "id": "taxi-bcn-pg-gracia",
+      "title": "🚕 Taxi rank — Passeig de Gràcia",
+      "city": "Barcelona",
+      "day": "2026-05-29",
+      "lat": 41.3925,
+      "lng": 2.1659,
+      "category": "transit",
+      "description": "Parada at Passeig de Gràcia / Diagonal — closest reliable rank to the Williams apartment (~2 min walk). Easy to hail from the Carrer de València corner too."
+    },
+    {
+      "id": "taxi-bcn-universitat",
+      "title": "🚕 Taxi rank — Plaça Universitat",
+      "city": "Barcelona",
+      "day": "2026-05-29",
+      "lat": 41.3866,
+      "lng": 2.1648,
+      "category": "transit",
+      "description": "Closest reliable parada to the Thomas apartment (~1 min walk). Used by the university traffic — taxis cycle through often."
+    },
+    {
+      "id": "taxi-bcn-espana",
+      "title": "🚕 Taxi rank — Plaça d'Espanya",
+      "city": "Barcelona",
+      "day": "2026-05-30",
+      "lat": 41.3753,
+      "lng": 2.1494,
+      "category": "transit",
+      "description": "Large rank near Plaça d'Espanya and Fira. Useful when leaving Montjuïc / Magic Fountain area. Direct to either apartment ~€12."
+    },
+
+    {
+      "id": "taxi-mad-sol",
+      "title": "🚕 Taxi rank — Puerta del Sol",
+      "city": "Madrid",
+      "day": "2026-06-02",
+      "lat": 40.4169,
+      "lng": -3.7028,
+      "category": "transit",
+      "description": "Central parada at Sol — 7 min walk from Airbnb. Madrid taxis: white with red diagonal stripe. Cash or card. Fixed €33 fare to Barajas airport from anywhere inside M-30."
+    },
+    {
+      "id": "taxi-mad-tirso",
+      "title": "🚕 Taxi rank — Plaza Tirso de Molina",
+      "city": "Madrid",
+      "day": "2026-06-01",
+      "lat": 40.4128,
+      "lng": -3.7035,
+      "category": "transit",
+      "description": "Closest parada to the Airbnb — 2 min walk on Plaza de Tirso de Molina. Quieter rank, sometimes a 2-3 min wait but reliable."
+    },
+    {
+      "id": "taxi-mad-mayor",
+      "title": "🚕 Taxi rank — Plaza Mayor",
+      "city": "Madrid",
+      "day": "2026-06-02",
+      "lat": 40.4154,
+      "lng": -3.7077,
+      "category": "transit",
+      "description": "Small parada at the corner of Plaza Mayor near Cava San Miguel. Good fallback when leaving Mercado de San Miguel with tired kids."
+    },
+    {
+      "id": "taxi-mad-atocha",
+      "title": "🚕 Taxi rank — Madrid Atocha",
+      "city": "Madrid",
+      "day": "2026-06-01",
+      "lat": 40.4070,
+      "lng": -3.6895,
+      "category": "transit",
+      "description": "Long taxi rank at Atocha. Where the family lands from Barcelona on Jun 1 — 2 taxis to the Airbnb is ~€8-10 each (10 min ride)."
     }
   ],
   "luggageGaps": [
