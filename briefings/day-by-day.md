@@ -58,7 +58,7 @@
 | 07:45 | Leave beach house | Pre-arranged bag drop with Maria Pilar |
 | 08:15 | Arrive Valencia **Estació del Nord** | ⚠️ NOT Joaquín Sorolla — different station |
 | **09:06** | **🚄 Euromed 01092 → Barcelona (BOOKED · 9D2RJU)** | Coach 13, right side for sea views |
-| 12:20 | Arrive **Barcelona-Sants** | 2 Ubers XL to Eixample (~€20 each) |
+| 12:20 | Arrive **Barcelona-Sants** | 2 taxis from Sants parada to Eixample (~€20 each). FreeNow app or walk-up — skip Uber, no XL fleet in BCN. |
 | 13:00 | Drop bags at apartments | Host entryway if allowed; backup: Sants consigna |
 | 13:30 | Lunch in Eixample, hands-free | Tapas 24, Cervecería Catalana |
 | 14:00 | Williams apartment check-in (Carrer de València) | VRBO 726EF3C0B8 |
@@ -109,7 +109,7 @@
 |------|-------|-------|
 | 09:00–10:00 | Sleep in, light breakfast | |
 | 11:00 | **Both apartments checkout** | |
-| 12:00 | 2 Ubers XL → Barcelona-Sants | ~€20 each |
+| 12:00 | 2 taxis → Barcelona-Sants | ~€20 each. FreeNow app or hail at Passeig de Gràcia / Plaça Universitat parada. |
 | 12:30 | Sants consigna (€48/8 bags ~2 hrs) OR free café area | |
 | 12:30–14:30 | Lunch — Sants food court / La Rotonda upstairs | Stay in the station |
 | 14:30 | Boarding gates open | Check Coach 1 on main board |

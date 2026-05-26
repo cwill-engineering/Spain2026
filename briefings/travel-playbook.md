@@ -198,7 +198,8 @@ The short answer: **Uber only really works in Madrid**. Barcelona and Valencia, 
 - 10–12 min walk OR €8–10 taxi. Walking the bags is fine if energy holds.
 
 **Barcelona-Sants → Eixample apartments (May 29):**
-- 2 Ubers XL / Cabify — €15–20 each, 12–15 min.
+- **2 black-and-yellow taxis from the Sants parada** — €15–20 each, 12–15 min. Long rank right at the main station exit. Don't try Uber XL here — Catalonia's VTC rules make it effectively nonexistent.
+- App alternative: **FreeNow** books the same taxis from your phone with fare shown upfront.
 
 **Valencia Joaquín Sorolla → Beach house (May 27):**
 - Taxi €15, 15 min. No tram alternative that's fast.

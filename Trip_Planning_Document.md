@@ -204,10 +204,10 @@ We have **~8 large checked bags** (formal-event wardrobe x6) plus carry-ons. Wre
 | **May 27 Madrid — primary** (14:30 train) | Land 11:30 → train 14:30, all from Chamartín | **No storage needed.** Cercanías C1 direct Barajas → Chamartín; bags go straight to AVE Coach 1 racks. Use the **Chamartín Premium lounge** for the 1-hour buffer. | Van taxi €40 if the C1 queue is bad. |
 | **May 27 Madrid — fallback** (19:40 train) | Land 11:30 → train 19:40, both stations involved | **Atocha consigna ~€6/bag × 8 = €48** for the day (located in main hall, side wing). Keep one carry-on with passports, chargers, kids' essentials. Lunch + Retiro + tropical garden + Reina Sofía. | **Stasher** partners near Atocha (€5.50/bag/day, must reserve in app); pre-book if we know by ~12:30 PM we're missing the 14:30. |
 | **May 29 Valencia checkout** | Leave 07:45, but Vrbo checkout is 11:00 | **Pre-arrange with Maria Pilar** by Wed 5/27 evening: either confirmed early checkout, OR she holds bags somewhere on the property until we hand them off at 7:45. **Test the message on the WhatsApp the day before.** | Stasher near Estació del Nord (1 partner ~5 min walk; €5/bag/day). |
-| **May 29 Barcelona arrival** | Train 12:20 → check-in 14:00 (90-min gap) | **Take everything in 2 Ubers/cabs (XL)** straight to Williams apartment on Carrer de València. **Ring the host** — most VRBO Eixample hosts allow bag drop in the entryway 1–2 hr early. We then walk to lunch within 5–10 min with hands free. | **Barcelona-Sants consigna** (€10/bag, 24h max) if host can't drop early. Adds a 15 min taxi back to apartment. |
+| **May 29 Barcelona arrival** | Train 12:20 → check-in 14:00 (90-min gap) | **Take everything in 2 taxis from the Sants parada** straight to Williams apartment on Carrer de València. Long rank at the main exit; FreeNow app books the same taxis. **Skip Uber XL** — Catalonia's VTC rules make it nonexistent in BCN. **Ring the host** — most VRBO Eixample hosts allow bag drop in the entryway 1–2 hr early. We then walk to lunch within 5–10 min with hands free. | **Barcelona-Sants consigna** (€10/bag, 24h max) if host can't drop early. Adds a 15 min taxi back to apartment. |
 | **May 30 wedding tour day** | 9:15 AM start, late return | Bags stay at apartments — no transit needed. Day bag essentials only. | — |
 | **May 31 wedding day** | Shuttle 4:30 PM, late night | Bags stay. Take what fits in pockets / clutch — limited space at venue per Joe's note. | — |
-| **Jun 1 Barcelona checkout** | Checkout 11:00 → train 15:00 (4 hr gap) | **Take all bags to Barcelona-Sants in 2 Ubers XL ~12:30 PM.** Use the **Sants consigna in the main hall** for ~2 hours (~€48 for 8 bags) OR wait in Sants's café area (free, has a play zone). Lunch at Sants food court or La Rotonda upstairs. Avoid downtown round trips. | **Stasher near Plaça Reial / Gothic Quarter** (€4.50–6/bag) for a Gothic-Quarter lunch first, then Uber to Sants by 14:00. |
+| **Jun 1 Barcelona checkout** | Checkout 11:00 → train 15:00 (4 hr gap) | **Take all bags to Barcelona-Sants in 2 taxis ~12:30 PM** (FreeNow app or walk to Passeig de Gràcia / Plaça Universitat parada — Uber XL doesn't exist in BCN). Use the **Sants consigna in the main hall** for ~2 hours (~€48 for 8 bags) OR wait in Sants's café area (free, has a play zone). Lunch at Sants food court or La Rotonda upstairs. Avoid downtown round trips. | **Stasher near Plaça Reial / Gothic Quarter** (€4.50–6/bag) for a Gothic-Quarter lunch first, then taxi to Sants by 14:00. |
 | **Jun 4 Madrid departure** | Checkout 11:00 → flight 14:05 (3 hr) | **🚨 Corpus Christi public holiday — many shops + Stasher partners closed.** **Best plan:** 2 Uber XL **direct to Barajas at 10:45 AM**. Eat breakfast at the airport (T4S has lounges and decent food). Atocha consigna is open but adds 30 min and €48 to return for it. | If we need to linger in town: Atocha consigna stays open 365 days; Airbnb-affiliate luggage partners often open on holidays (host Elena can confirm). |
 
 ### Lockers / storage providers quick-ref
@@ -825,7 +825,7 @@ Every preset / booked event for the weekend in one place. Free-time ideas live f
 | 07:45 | Leave Valencia beach house | Pre-arranged bag drop with Maria Pilar |
 | 08:15 | Arrive Valencia-Estació del Nord | All 8 bags + carry-ons |
 | **09:06** | **Board Euromed 01092 → Barcelona** | Coach 13, right side for sea views |
-| 12:20 | Arrive Barcelona-Sants | 2 Ubers XL to Eixample (~€20 each) |
+| 12:20 | Arrive Barcelona-Sants | 2 taxis from Sants parada to Eixample (~€20 each). FreeNow app or walk-up — no Uber XL in BCN. |
 | 13:00 | Drop bags at apartments (host entryway if allowed) | Backup: Sants consigna |
 | 13:30 | Lunch in Eixample, hands-free | Tapas 24, Cervecería Catalana |
 | 14:00 | Williams apartment check-in | Carrer de València |
@@ -881,7 +881,7 @@ Wedding-organized group tours bookend the day. **Sagrada Família entry is our s
 |------|-------|-------|
 | 09:00–10:00 | Sleep in, light breakfast | |
 | 11:00 | Williams + Thomas checkout | Bags down to entryway |
-| 12:00 | 2 Ubers XL → Barcelona-Sants | ~€20 each |
+| 12:00 | 2 taxis → Barcelona-Sants | ~€20 each. FreeNow app or hail at Passeig de Gràcia / Plaça Universitat parada. |
 | 12:30 | Sants consigna (€48 for 8 bags ~2 hrs) OR Sants café area free | |
 | 12:30–14:30 | Lunch — Sants food court / La Rotonda upstairs | Stay in the station — no downtown round trips |
 | 14:30 | Boarding gates open | Check coach 1 on main board |
