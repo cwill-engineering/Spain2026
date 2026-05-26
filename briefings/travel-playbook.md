@@ -153,17 +153,36 @@ Coach 1 on Premium AVE is the **executive coach**, often quieter and closer to t
 
 ---
 
-## 🚖 Taxi & Uber
+## 🚖 Taxi, Uber, and rideshare reality
 
-| City | Uber works? | Cabify | FreeNow | Notes |
-|------|-------------|--------|---------|-------|
-| **Madrid** | ✅ Yes | ✅ Yes | ✅ Yes (most popular) | All take cards. Flat-rate €33 to/from airport. |
-| **Barcelona** | ✅ Limited | ✅ Yes | ✅ Yes (most popular) | Uber rolled back after legal fight; FreeNow is the move. |
-| **Valencia** | ⚠️ Few drivers | ✅ Yes | ✅ Yes | Street hails work; meter only, no flat rates. |
+The short answer: **Uber only really works in Madrid**. Barcelona and Valencia, default to taxis (street, parada, or FreeNow app).
 
-**XL / Van service:** Use "**Uber XL**" or "**Cabify Group**" — fits 6 with bags. Order both apps and grab whichever shows up first. For the 8-bag train transfers, **2 XL cars** is the standard play.
+| City | Uber | Cabify | FreeNow | Bolt | Default move |
+|---|---|---|---|---|---|
+| **Madrid** | ✅ UberX, **XL**, Comfort, Black | ✅ Strong | ✅ Strong (legal taxis) | ✅ Available | **Uber XL or Cabify Grupo** |
+| **Barcelona** | ⚠️ Pre-book only, very few XL | ✅ Limited fleet | ✅ **Best option** — books legal taxis | ❌ Effectively gone | **FreeNow** or walk to a parada |
+| **Valencia** | ⚠️ Small fleet, 10–15 min waits | ✅ Solid | ✅ Solid | ⚠️ Limited | **Cabify** or walk to a parada |
 
-**Tip:** Tipping is optional in Spain — rounding up to the nearest €1–2 is plenty. No 18–20% guilt.
+**Why Barcelona is different:** Catalonia regulates VTC (Uber/Cabify) much harder than the rest of Spain. Uber pulled out, came back in 2021, and now operates mostly through licensed taxi partners (Uber Taxi). Uber XL is essentially nonexistent. Local black-and-yellow taxis are abundant, well-regulated, and accept cards — and **FreeNow is the same experience as Uber** (book from phone, see fare, pay in app) using those same taxis. Install FreeNow before you go.
+
+**For 9 passengers + 8 bags, you're getting 2 cars in every city** — no single-car magic exists unless you pre-book a 9-seat private van service (Welcome Pickups, Kiwitaxi). For Madrid `Atocha → Airbnb`, just grab the front 2 taxis at the parada.
+
+**Fixed airport fares (no surge, no haggling):**
+- **Madrid Barajas ↔ anywhere inside M-30** = **€33** flat (covers La Latina, Sol, Atocha, Chamartín).
+- **Barcelona El Prat ↔ within city** = **€39** + €4.20 supplement.
+- Both apply 24/7. Drivers cannot legally charge more.
+
+**XL / van bookings:**
+- **Madrid:** Uber XL fits 6 + 4 bags. Cabify Grupo same. Order both apps and grab whichever shows up first.
+- **Barcelona:** Skip the XL search — book 2 separate FreeNow taxis or take the 2 at the front of the parada.
+- **Valencia:** Cabify Grupo is the only app that explicitly handles 6+ pax. Otherwise 2 white taxis from the rank.
+
+**Always:**
+- All taxis take cards (post-2022 mandate). Keep ~€50 cash in small bills as backup.
+- Tipping is optional — round up to the nearest €1–2.
+- You **cannot hail Uber/Cabify on the street**; all rideshare is pre-booked through the app.
+- Taxis at official paradas can be hailed; on the street look for the green light on top of the car ("Libre" = available).
+- **Apps to install before flying:** Uber, Cabify, FreeNow (Barcelona MUST), Bolt (Madrid only, optional).
 
 ---
 
