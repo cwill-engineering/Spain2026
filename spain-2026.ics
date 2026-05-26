@@ -104,27 +104,43 @@ SUMMARY:Arrive Madrid Barajas
 DTSTART;TZID=Europe/Madrid:20260527T113000
 DTEND;TZID=Europe/Madrid:20260527T123000
 LOCATION:Madrid\, Spain
-DESCRIPTION:Customs and luggage. Cercanías C1 to Atocha (~25 min).
+DESCRIPTION:Customs and luggage. Cercanías C1 to Chamartín (~25 min) for 
+ the 14:30 ZUBYYB train. C1 also goes to Atocha if we end up on the fallbac
+ k 19:40.
 END:VEVENT
 BEGIN:VEVENT
 UID:spain-2026-train-madrid-valencia@spain-trip
 DTSTAMP:20260523T120000Z
-SUMMARY:Train: Madrid → Valencia (AVE 05990)
+SUMMARY:Train: Madrid → Valencia (PRIMARY · AVE 05140 · ZUBYYB)
+DTSTART;TZID=Europe/Madrid:20260527T143000
+DTEND;TZID=Europe/Madrid:20260527T163400
+LOCATION:Madrid\, Spain
+DESCRIPTION:Locator ZUBYYB. Madrid Chamartín-Clara Campoamor → Valencia 
+ Joaquín Sorolla. May 27 14:30 → 16:34. AVE 05140\, Premium Confort\, Co
+ ach 1. Lunch (Almuerzo) onboard. Total €437.65. Cancel 4XYBG8 fallback o
+ nce we're seated.
+END:VEVENT
+BEGIN:VEVENT
+UID:spain-2026-train-madrid-valencia-fallback@spain-trip
+DTSTAMP:20260523T120000Z
+SUMMARY:Train: Madrid → Valencia (FALLBACK · AVE 05990 · 4XYBG8)
 DTSTART;TZID=Europe/Madrid:20260527T194000
 DTEND;TZID=Europe/Madrid:20260527T214000
 LOCATION:Madrid\, Spain
-DESCRIPTION:Locator 4XYBG8. Madrid Atocha → Valencia Joaquín Sorolla. Ma
- y 27 19:40. AVE 05990\, Premium Confort\, Coach 1. Club Lounge from 17:40.
+DESCRIPTION:FALLBACK only. Locator 4XYBG8. Madrid Atocha → Valencia Joaqu
+ ín Sorolla. May 27 19:40 → 21:40. AVE 05990\, Premium Confort\, Coach 1
+ . Dinner onboard. Club Lounge from 17:40. Cancel this once we are seated o
+ n the 14:30 ZUBYYB primary train.
 END:VEVENT
 BEGIN:VEVENT
 UID:spain-2026-valencia-checkin@spain-trip
 DTSTAMP:20260523T120000Z
-SUMMARY:Check in: Valencia beach house
+SUMMARY:🏖️ Check in: Valencia beach house
 DTSTART;TZID=Europe/Madrid:20260527T160000
 DTEND;TZID=Europe/Madrid:20260527T163000
 LOCATION:Valencia\, Spain
-DESCRIPTION:Vrbo HA-7TLM9D. Grandmother's house next to the beach. Host Mar
- ia Pilar. Crib confirmed for Harlan.
+DESCRIPTION:Vrbo HA-7TLM9D. Maria Pilar's beach house. Carrer d'Isabel de V
+ illena 155. Crib confirmed for Harlan. 3-5 min walk to Malvarrosa beach.
 END:VEVENT
 BEGIN:VEVENT
 UID:spain-2026-valencia-police-form@spain-trip
@@ -169,13 +185,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:spain-2026-barcelona-checkin@spain-trip
 DTSTAMP:20260523T120000Z
-SUMMARY:Check in: Barcelona apartments
+SUMMARY:🏨 Check in: Williams Barcelona apartment
 DTSTART;TZID=Europe/Madrid:20260529T140000
 DTEND;TZID=Europe/Madrid:20260529T143000
 LOCATION:Barcelona\, Spain
-DESCRIPTION:Williams: Vrbo 726EF3C0B8\, Luxury Apartment on Valencia Street
-  (5 guests). Thomas + Valerie: Ghost apt\, VRBO 4156885ha\, near Ronda de 
- la Universitat.
+DESCRIPTION:Vrbo 726EF3C0B8 — Luxury Apartment on Carrer de València (be
+ tween Passeig de Gràcia and Rambla de Catalunya). 5 guests (Williams fami
+ ly).
 END:VEVENT
 BEGIN:VEVENT
 UID:spain-2026-welcome-party@spain-trip
@@ -246,8 +262,8 @@ SUMMARY:Check out: Barcelona apartments
 DTSTART;TZID=Europe/Madrid:20260601T110000
 DTEND;TZID=Europe/Madrid:20260601T113000
 LOCATION:Barcelona\, Spain
-DESCRIPTION:Return Casa Gay suit if rented. Store bags via Stasher or Barce
- lona-Sants lockers until train.
+DESCRIPTION:Drop bags at Barcelona-Sants consigna ~12:30 PM\, then lunch ne
+ arby or in Sants food court until train.
 END:VEVENT
 BEGIN:VEVENT
 UID:spain-2026-train-barcelona-madrid@spain-trip
@@ -262,7 +278,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:spain-2026-madrid-checkin@spain-trip
 DTSTAMP:20260523T120000Z
-SUMMARY:Arrive Madrid Airbnb
+SUMMARY:🏨 Arrive Madrid Airbnb
 DTSTART;TZID=Europe/Madrid:20260601T190000
 DTEND;TZID=Europe/Madrid:20260601T193000
 LOCATION:Madrid\, Spain

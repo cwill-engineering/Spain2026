@@ -1,6 +1,6 @@
 # BUILD NOTES - Spain 2026 Travel Site
 
-> Last updated: 2026-05-24
+> Last updated: 2026-05-26 (Day-by-Day + Travel Playbook tabs + map densification to 48 pins)
 
 ## Purpose
 Static, password-gated family travel site for the Spain 2026 trip. It gives the group one mobile-friendly place to check itinerary, lodging, trains, activities, city deep-dives, pre-trip tasks, and an AI trip assistant.
@@ -9,6 +9,9 @@ Static, password-gated family travel site for the Spain 2026 trip. It gives the 
 - `index.html` is the full static app shell, styling, password screen, tab renderer, client-side markdown loader, and trip assistant UI.
 - `Trip_Planning_Document.md` is the visible trip content rendered into tabs by top-level `#` headings.
 - `briefings/Valencia.md`, `briefings/Barcelona.md`, `briefings/Madrid.md` lazy-load into **Valencia Decoded**, **Barcelona Unpacked**, and **Madrid in Context** tabs.
+- `briefings/family-fun.md` lazy-loads into the **Family Fun** tab (sports tie-ins per kid, scavenger hunts per city, hikes, beaches with ratings, train-ride games, seasonal activities).
+- `briefings/day-by-day.md` lazy-loads into the **Day by Day** tab — every preset event from May 26 → Jun 4 in one scroll (the primary in-trip reference).
+- `briefings/travel-playbook.md` lazy-loads into the **Travel Playbook** tab — airport navigation (Barajas T4S, BCN T1, Boston, JFK, BNA), Renfe AVE/Euromed boarding rules + station differences, Cercanías C1, metro guidance per city, taxi/Uber/Cabify/FreeNow by city.
 - `trip-events.json` is the structured itinerary source for the **Plan** tab (vis-timeline + Leaflet map).
 - `spain-2026.ics` is the static subscribable calendar file served from the Netlify site root.
 - `spain-2026.kml` is a Google Earth / My Maps export of locked pins and ideas.
@@ -96,6 +99,12 @@ webcal://neon-daffodil-236a0f.netlify.app/spain-2026.ics
 | Assuming the site already had a calendar | No `.ics` file or generator existed in the project | Add a static `spain-2026.ics` at the site root and link it from the trip document |
 
 ## Known Issues & Fixes
+- **Date**: 2026-05-26
+- **Symptom**: User booked an earlier Madrid→Valencia train (ZUBYYB, 14:30 from Chamartín) on top of the original (4XYBG8, 19:40 from Atocha) as a try-for-earlier + fallback combo. Site needs to show both clearly with an explicit cancellation rule.
+- **Root Cause**: Travel strategy change — flight lands 11:30, original plan had 8 hours of dead time in Madrid; user now wants to push straight to Valencia.
+- **Fix**: Added `train-madrid-valencia-fallback` event + route in `trip-events.json`; rewrote train sections in trip doc with primary/fallback subsections; updated luggage strategy to assume primary plan + separate fallback storage plan for Atocha consigna.
+- **⚠️ DO NOT REVERT**: Both tickets must remain in the calendar/timeline until the user confirms cancellation. The new ticket departs **Chamartín**, not Atocha — Cercanías C1 still serves both. Don't conflate the two stations in any future text.
+
 - **Date**: 2026-05-23
 - **Symptom**: Subscribed calendar showed many missing events; Google/Apple import incomplete.
 - **Root Cause**: `spain-2026.ics` had a blank line between every property (~261 empty lines). Invalid RFC 5545 — most parsers stop or skip events. Thomas family outbound flights (DL4662, DL0128) were also absent from `trip-events.json`.
@@ -132,6 +141,21 @@ To duplicate this for another trip:
 ## Change Log
 | Date | Change | Why |
 |---|-----|-----|
+| 2026-05-26 | **NEW tab: Day by Day** (`briefings/day-by-day.md`) — full May 26 → Jun 4 master schedule in tabular form. Pulled every locked event from trip-events.json into one scrollable view with explicit timezone labels (CT/ET/CEST). | User: "Is there a day-by-day schedule? That will likely be the most useful." Made it the primary in-trip reference. |
+| 2026-05-26 | **NEW tab: Travel Playbook** (`briefings/travel-playbook.md`) — Madrid Barajas T4S + Barcelona El Prat T1 + Boston Logan + JFK + Nashville BNA airport navigation; Renfe AVE/Euromed boarding rules (security, 2-min cutoff, Premium Club Lounge, Coach 1 positioning); Cercanías C1; per-city metro stops near each lodging + cards (T-Casual, Hola BCN, T-usual); taxi/Uber/Cabify/FreeNow by city; "I just landed" cheat sheet. | User: "Include airport navigation and guidance/any specific rules. Same with train." |
+| 2026-05-26 | **Map densified to 48 suggestion pins** (was 8) in `trip-events.json`: train stations (Chamartín, Atocha, Sants, BCN El Prat, Barajas T4S, Valencia Joaquín Sorolla, Valencia Estació del Nord), 6 metro stops at lodgings (Tirso de Molina, La Latina, Sol, Passeig de Gràcia, Diagonal, Universitat, Catalunya, Marina Reial tram), Thomas apartment lodging pin, top restaurants near each base (San Ginés, Sobrino de Botín, La Venencia, Casa Alberto, Juana la Loca, Casa Lucas, Tapas 24, Cervecería Catalana, Can Paixano, El Xampanyet, La Pepica), attractions (Plaza Mayor, San Miguel, Royal Palace, Casa Batlló, Boqueria, Plaça Reial, Barceloneta, Bunkers del Carmel, Palau Blaugrana, Camp Nou, Turia, Albufera, Mestalla). Also tightened Valencia beach house lat/lng (was off by ~500m) and Madrid Airbnb lat/lng (~150m off). | User: "Is the map up to date with detail down to airbnb location and train stations… nearby metro options and taxi options posted too. Plus any awesome spots we should visit." |
+| 2026-05-26 | Wired both new briefings into `TAB_DEFS` in `index.html` (📅 Day by Day after Overview, 🧳 Travel Playbook after Plan) and added both to `generate-agent-context.py` so the AI assistant can answer day/airport/train questions from grounded data. | New tabs need both UI wiring and chat-context inclusion. |
+| 2026-05-26 | Barcelona phase restructured: replaced "Wedding Events / One Week Out / Weekend Venue Maps / Tour Day Schedule" patchwork with **Daily Timelines (Fri/Sat/Sun/Mon)** + **Wedding Cheat Sheet** + **Free-Time Picks**. Removed duplicate Sagrada recommendation (was both #1 in Recommendations and in Tour Day table) | User feedback: "frankensteined from so many updates," repeat info, "see schedule below" with unclear "below." Consolidated 9:15 → 12:15 → 17:00 into one Saturday timeline. |
+| 2026-05-26 | Removed Casa Gay suit rental everywhere: Trip_Planning_Document.md (Suit Rental section, Wedding Attire bullet, Luggage Strategy combo plan, Packing table, What NOT to over-pack, Bookings to Make NOW callout), trip-events.json (`sug-casa-gay` event + luggageGap Combo Plan + checkout description), trip-quick-ref.json (contacts + expenses), briefings/Barcelona.md | Chandler is bringing his own tux — local rental no longer needed. |
+| 2026-05-26 | Added per-day **Daily Timelines** sections to Valencia (Wed/Thu/Fri) and Madrid (Mon/Tue/Wed/Thu); removed duplicate Casa Carmela "Recommendation #1" (kept in Restaurants section + timeline 13:00 entry); renumbered Valencia free-time picks | User: "Each day should have a clear timeline for events that are preset." |
+| 2026-05-26 | Trimmed duplicate "Recommended Schedule" tables from Valencia→Barcelona and Barcelona→Madrid "Getting There" sections; replaced with cross-references to Daily Timelines | Cut fat — same info was living in two places. |
+| 2026-05-26 | Madrid→Valencia primary/fallback split (ZUBYYB 14:30 from Chamartín / 4XYBG8 19:40 from Atocha); new `train-madrid-valencia-fallback` event + route in trip-events.json; rewrote Step 1/Step 2/Recommended Schedule sections | Renfe ticket bought May 26 morning for an earlier train. Cancel fallback once seated on primary. |
+| 2026-05-26 | New **Family Fun** tab (`briefings/family-fun.md` + TAB_DEFS wiring) — sports tie-ins for Elise (soccer/Bernabéu), Carson (wrestling/Tarragona Roman amphitheater), Harrison (FC Barcelona roller hockey), scavenger hunts per city, hikes, beaches with ratings, train-ride bingo, seasonal activities | User requested kid-focused activities, scavenger hunts, beach ratings, sports hooks. |
+| 2026-05-26 | Added "Local Climate & Events (live)" + "Things to Watch For Along Routes" sections to Trip_Planning_Document.md; updated all 3 briefings with a "Refreshed during your trip" subsection | User asked for current political/strike scan + route sightseeing callouts. |
+| 2026-05-26 | Rewrote luggage section as 8-bag detailed per-transition strategy (primary + backup for each gap) | User flagged formal-event wardrobe = ~8 bags; needed optimal storage points throughout. |
+| 2026-05-26 | Expanded `trip-events.json` with `currentEvents` array (strikes, festivals, sports notes with `impact` field) and full luggage backup plans | Source-of-truth for both Plan tab and chat assistant grounding. |
+| 2026-05-26 | Added `briefing-family-fun` section to `generate-agent-context.py` | Chat assistant should answer kid-activity questions. |
+| 2026-05-25 | Full passport APIS fields for Williams party (6) in trip doc + Quick Reference cards | JetBlue check-in needs DOB, gender, expiry, etc. — extracted from passport photo zip |
 | 2026-05-24 | Trip assistant: FAB, mobile overlay, desktop panel, `netlify/functions/chat.mjs`, `generate-agent-context.py` | AI Q&A grounded in trip data via OpenAI proxy |
 | 2026-05-24 | Joe weekend venue maps (tmg.link): Alaire Rooftop, La Pedrera, Catedral, shuttle pickup | Wedding map links in plan doc, quick-ref, calendar, KML |
 | 2026-05-24 | Bookings at a glance + quick-ref trains/lodging; gitignore planning screenshots | Consolidate 3 train locators + 4 stays; ignore unused PNGs |

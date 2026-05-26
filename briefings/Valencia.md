@@ -126,6 +126,24 @@ Your beach house sits in **Poblats Marítims** — formerly independent fishing 
 
 ---
 
+## Refreshed: live during your trip (May 26, 2026)
+
+**Strikes / protests:**
+- **Valencia teachers' indefinite strike is in its 3rd week.** Daily protests at Conselleria de Educación; over 30,000 marched Saturday May 23. **Likely Thursday May 28 demo in city center.** Your beach house in Poblats Marítims is unaffected. Avoid the Plaza de la Virgen / government building corridor if heading downtown that day — Mercado Central is north of the protest zone and usually fine until early afternoon.
+- **Catalan student/teacher solidarity:** Universities and high schools in Catalunya and the Comunitat Valenciana joined a Tuesday May 26 strike in support of teachers. Universitat de València will have closures and demos.
+
+**Albufera in late May / early June:**
+- **Best birding window of the year.** Storks, herons, egrets, flamingos overhead. Rice paddies fully flooded — mirror-still water, electric green.
+- **Boat rides from El Palmar** run daily 9 AM–sunset. €10–20 for a 45-min albuferenc ride. Combine with paella in El Palmar (the *actual* birthplace of paella).
+- **EMT bus 24 or 25** from city center to El Saler / Albufera (~30 min, €1.50). Last bus back ~22:00 in late May.
+- **Discounted host tickets** for L'Oceanogràfic — ask Maria Pilar.
+
+**Wedding-day sports note (Mestalla walk-by):**
+- Valencia CF's home stadium is **Mestalla** (1923, 49,000 capacity). Worn, beloved, beautifully unmodernized. Walking past the entrance is free and counts as the Elise scavenger hunt #4 (Valencia CF crest).
+- **No live La Liga** during the trip — season ended May 24.
+
+---
+
 ## Key Vocabulary
 
 | Word / phrase | Language | Meaning | When you'll hear it |
@@ -187,4 +205,4 @@ Your beach house sits in **Poblats Marítims** — formerly independent fishing 
 
 ---
 
-*Last updated: May 23, 2026. Politics and event dates verified against public sources; check day-of for strikes or weather alerts.*
+*Last updated: May 26, 2026. Politics and event dates verified against public sources; check day-of for strikes or weather alerts.*

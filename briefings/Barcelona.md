@@ -96,7 +96,7 @@ Barcelona makes money from **port, industry, tourism, and tech** — in that rou
 
 | Date | What matters |
 |------|----------------|
-| **Fri May 29** | Train in ~12:20, check-in 14:00. **Welcome party 7 PM** — [Alaire Rooftop](https://tmg.link/app/r/condes). Suit fitting at Casa Gay if scheduled. |
+| **Fri May 29** | Train in ~12:20, check-in 14:00. **Welcome party 7 PM** — [Alaire Rooftop](https://tmg.link/app/r/condes). |
 | **Sat May 30** | **Tour day:** [La Pedrera 09:15](https://tmg.link/app/r/lapedrera), Sagrada 12:15 entry, [tapas 17:00 at Catedral](https://tmg.link/app/r/catedralbcn). |
 | **Sun May 31** | **[Shuttle pickup 4:30 PM](https://tmg.link/app/r/shuttlepickup)**, ceremony & reception. ~77°F at ceremony, ~70°F by midnight. |
 | **Mon Jun 1** | Checkout 11:00, train to Madrid 15:00. Suit return AM. |
@@ -126,6 +126,27 @@ Barcelona makes money from **port, industry, tourism, and tech** — in that rou
 **Housing = national spring storyline.** Madrid march May 24; Barcelona's left (Comuns) wants **€50M diverted from tourism promotion to housing**. Slogan in streets: *"pisos per viure-hi, no per especular"* — homes to live in, not to speculate.
 
 **Sagrada completion timeline.** Still no end date — church generates more tourism revenue unfinished than many finished cathedrals. Your May 30 entry is peak bucket-list season; expect security lines even with tickets.
+
+---
+
+## Refreshed: live during your trip (May 26, 2026)
+
+**Strikes / protests:**
+- **Rodalies commuter rail strikes May 27 + Jun 5 — CALLED OFF.** CCOO/UGT cancelled the partial strikes after reaching an agreement with Renfe. Thomas family R2 Nord is in the clear May 27.
+- **Catalan teachers strike calendar through Jun 5.** Most relevant: May 29 (Baix Llobregat/Penedès — outer areas, low impact on Eixample), June 2 (Barcelona + Barcelonès — but you've left by then). General Catalonia-wide day Jun 5 (after departure).
+- **Sagrada Família blockade risk.** Teachers blocked the basilica for 2 hours on May 18 during a previous strike day. Your May 30 12:15 entry has buffer built in (tour arrives ~11:45). If blockaded, Casa Batlló is the obvious Plan B 5 min from the apartment.
+- **Doctors of Catalonia ongoing strike (11th day as of May 20).** Hospital impact only — affects emergency care if needed, not tourism.
+
+**Festivals overlapping your weekend:**
+- **Tast a la Rambla** (May 28–31, Plaça de Catalunya) — top restaurants doing tasting plates outdoors. Great post-arrival lunch Fri May 29.
+- **Fira Modernista** (May 29–31, Eixample — your block). Open houses, workshops, modernist culture. Free walking activity.
+- **MECAL** international short film festival closes May 31. Drop-in screenings on a rainy night.
+- **NAUKAS Barcelona 2026 "Ciencia para salvar el mundo"** — Sat May 30 10:45 AM at CosmoCaixa (Tibidabo). Science festival; conflicts with the morning wedding tour but works for Valerie/Thomas family.
+- **Primavera Sound** (Jun 6–8) — you miss it by a week but the city is in festival-buildup mode by your last days.
+
+**Sports note:**
+- **La Liga 2025-26 season ended May 23** (FC Barcelona vs Real Madrid was at Estadi Olímpic on Montjuïc on May 10). **Camp Nou stadium tour remains closed for renovation** through at least late 2026. Only the **Barça Immersive Tour + Construction Viewpoint** is open at the Camp Nou site (Mon–Sat 10:00–19:00, Sun 10:00–15:30).
+- **FC Barcelona Roller Hockey (Hoquei Patins)** is in **OK Liga playoffs.** They're the most successful roller hockey club in Europe — 23+ European Cups. Check fcbarcelona.com/en/roller-hockey for any home games at Palau Blaugrana May 29–Jun 1.
 
 ---
 
@@ -200,4 +221,4 @@ Barcelona makes money from **port, industry, tourism, and tech** — in that rou
 
 ---
 
-*Last updated: May 23, 2026.*
+*Last updated: May 26, 2026.*

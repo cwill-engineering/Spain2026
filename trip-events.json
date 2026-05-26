@@ -75,11 +75,25 @@
       "group": "Madrid",
       "lat": 40.4983,
       "lng": -3.5676,
-      "description": "Customs and luggage. Cercanías C1 to Atocha (~25 min)."
+      "description": "Customs and luggage. Cercanías C1 to Chamartín (~25 min) for the 14:30 ZUBYYB train. C1 also goes to Atocha if we end up on the fallback 19:40."
     },
     {
       "id": "train-madrid-valencia",
-      "title": "Train: Madrid → Valencia (AVE 05990)",
+      "title": "Train: Madrid → Valencia (PRIMARY · AVE 05140 · ZUBYYB)",
+      "start": "2026-05-27T14:30:00+02:00",
+      "end": "2026-05-27T16:34:00+02:00",
+      "timezone": "Europe/Madrid",
+      "type": "locked",
+      "category": "travel",
+      "city": "Madrid",
+      "group": "Madrid",
+      "lat": 40.4719,
+      "lng": -3.6822,
+      "description": "Locator ZUBYYB. Madrid Chamartín-Clara Campoamor → Valencia Joaquín Sorolla. May 27 14:30 → 16:34. AVE 05140, Premium Confort, Coach 1. Lunch (Almuerzo) onboard. Total €437.65. Cancel 4XYBG8 fallback once we're seated."
+    },
+    {
+      "id": "train-madrid-valencia-fallback",
+      "title": "Train: Madrid → Valencia (FALLBACK · AVE 05990 · 4XYBG8)",
       "start": "2026-05-27T19:40:00+02:00",
       "end": "2026-05-27T21:40:00+02:00",
       "timezone": "Europe/Madrid",
@@ -89,11 +103,11 @@
       "group": "Madrid",
       "lat": 40.4065,
       "lng": -3.6896,
-      "description": "Locator 4XYBG8. Madrid Atocha → Valencia Joaquín Sorolla. May 27 19:40. AVE 05990, Premium Confort, Coach 1. Club Lounge from 17:40."
+      "description": "FALLBACK only. Locator 4XYBG8. Madrid Atocha → Valencia Joaquín Sorolla. May 27 19:40 → 21:40. AVE 05990, Premium Confort, Coach 1. Dinner onboard. Club Lounge from 17:40. Cancel this once we are seated on the 14:30 ZUBYYB primary train."
     },
     {
       "id": "valencia-checkin",
-      "title": "Check in: Valencia beach house",
+      "title": "🏖️ Check in: Valencia beach house",
       "start": "2026-05-27T16:00:00+02:00",
       "end": "2026-05-27T16:30:00+02:00",
       "timezone": "Europe/Madrid",
@@ -101,9 +115,9 @@
       "category": "lodging",
       "city": "Valencia",
       "group": "Valencia",
-      "lat": 39.468,
-      "lng": -0.325,
-      "description": "Vrbo HA-7TLM9D. Grandmother's house next to the beach. Host Maria Pilar. Crib confirmed for Harlan."
+      "lat": 39.4716,
+      "lng": -0.3263,
+      "description": "Vrbo HA-7TLM9D. Maria Pilar's beach house. Carrer d'Isabel de Villena 155. Crib confirmed for Harlan. 3-5 min walk to Malvarrosa beach."
     },
     {
       "id": "valencia-police-form",
@@ -114,8 +128,8 @@
       "category": "task",
       "city": "Valencia",
       "group": "Valencia",
-      "lat": 39.468,
-      "lng": -0.325,
+      "lat": 39.4716,
+      "lng": -0.3263,
       "description": "Required by Spanish law before arrival. Form: heavenonearth.es/docpolicial/indexen.php?id=MTEwOTI="
     },
     {
@@ -142,8 +156,8 @@
       "category": "lodging",
       "city": "Valencia",
       "group": "Valencia",
-      "lat": 39.468,
-      "lng": -0.325,
+      "lat": 39.4716,
+      "lng": -0.3263,
       "description": "Vrbo checkout is 11:00 but train is 09:06. Leave ~07:45; ask host Maria Pilar to hold bags or confirm early checkout."
     },
     {
@@ -162,7 +176,7 @@
     },
     {
       "id": "barcelona-checkin",
-      "title": "Check in: Barcelona apartments",
+      "title": "🏨 Check in: Williams Barcelona apartment",
       "start": "2026-05-29T14:00:00+02:00",
       "end": "2026-05-29T14:30:00+02:00",
       "timezone": "Europe/Madrid",
@@ -170,9 +184,9 @@
       "category": "lodging",
       "city": "Barcelona",
       "group": "Barcelona",
-      "lat": 41.3912,
-      "lng": 2.1654,
-      "description": "Williams: Vrbo 726EF3C0B8, Luxury Apartment on Valencia Street (5 guests). Thomas + Valerie: Ghost apt, VRBO 4156885ha, near Ronda de la Universitat."
+      "lat": 41.3924,
+      "lng": 2.1648,
+      "description": "Vrbo 726EF3C0B8 — Luxury Apartment on Carrer de València (between Passeig de Gràcia and Rambla de Catalunya). 5 guests (Williams family)."
     },
     {
       "id": "welcome-party",
@@ -268,9 +282,9 @@
       "category": "lodging",
       "city": "Barcelona",
       "group": "Barcelona",
-      "lat": 41.3912,
-      "lng": 2.1654,
-      "description": "Return Casa Gay suit if rented. Store bags via Stasher or Barcelona-Sants lockers until train."
+      "lat": 41.3924,
+      "lng": 2.1648,
+      "description": "Drop bags at Barcelona-Sants consigna ~12:30 PM, then lunch nearby or in Sants food court until train."
     },
     {
       "id": "train-barcelona-madrid",
@@ -288,7 +302,7 @@
     },
     {
       "id": "madrid-checkin",
-      "title": "Arrive Madrid Airbnb",
+      "title": "🏨 Arrive Madrid Airbnb",
       "start": "2026-06-01T19:00:00+02:00",
       "end": "2026-06-01T19:30:00+02:00",
       "timezone": "Europe/Madrid",
@@ -296,8 +310,8 @@
       "category": "lodging",
       "city": "Madrid",
       "group": "Madrid",
-      "lat": 40.4112,
-      "lng": -3.7078,
+      "lat": 40.4117,
+      "lng": -3.7064,
       "description": "Airbnb HMR8NYWPZF. Host Elena. Calle de la Encomienda 11, La Latina. Smart lock check-in. Crib confirmed for Harlan. All 9 guests."
     },
     {
@@ -324,8 +338,8 @@
       "category": "lodging",
       "city": "Madrid",
       "group": "Madrid",
-      "lat": 40.4112,
-      "lng": -3.7078,
+      "lat": 40.4117,
+      "lng": -3.7064,
       "description": "Store bags via Stasher La Latina/Sol or Airbnb partner storage before flight."
     },
     {
@@ -370,7 +384,13 @@
     },
     {
       "id": "train-madrid-valencia",
-      "label": "AVE 05990: Madrid Atocha → Valencia Joaquín Sorolla",
+      "label": "AVE 05140 (ZUBYYB): Madrid Chamartín → Valencia Joaquín Sorolla — PRIMARY",
+      "mode": "train",
+      "coords": [[40.4719, -3.6822], [39.45, -1.2], [39.4661, -0.3774]]
+    },
+    {
+      "id": "train-madrid-valencia-fallback",
+      "label": "AVE 05990 (4XYBG8): Madrid Atocha → Valencia Joaquín Sorolla — FALLBACK",
       "mode": "train",
       "coords": [[40.4065, -3.6896], [39.45, -1.2], [39.4661, -0.3774]]
     },
@@ -439,16 +459,6 @@
       "description": "Wedding venue area. Explore between check-in and 7 PM welcome party."
     },
     {
-      "id": "sug-casa-gay",
-      "title": "Casa Gay suit fitting",
-      "city": "Barcelona",
-      "day": "2026-05-29",
-      "lat": 41.3915,
-      "lng": 2.1685,
-      "category": "task",
-      "description": "Roger de Llúria 12-14. Fitting May 29 afternoon; return June 1 AM."
-    },
-    {
       "id": "sug-retiro",
       "title": "Retiro Park",
       "city": "Madrid",
@@ -477,38 +487,525 @@
       "lng": -3.7085,
       "category": "food",
       "description": "Walking distance from Airbnb. Cava Baja street."
+    },
+
+    {
+      "id": "lodging-bcn-thomas",
+      "title": "🏨 Thomas + Valerie Barcelona apartment (Ghost)",
+      "city": "Barcelona",
+      "day": "2026-05-29",
+      "lat": 41.3866,
+      "lng": 2.1684,
+      "category": "lodging",
+      "description": "VRBO 4156885ha. Quiet 2-bed 2-bath near Ronda de la Universitat & C. de Gravina. 10–15 min walk to Williams apartment. Annalise, Brandon, Harlan, Valerie."
+    },
+    {
+      "id": "stn-madrid-chamartin",
+      "title": "🚄 Madrid Chamartín-Clara Campoamor station",
+      "city": "Madrid",
+      "day": "2026-05-27",
+      "lat": 40.4724,
+      "lng": -3.6826,
+      "category": "transit",
+      "description": "PRIMARY 14:30 AVE ZUBYYB departs here. Cercanías C1 from Barajas T4 (~25 min). Premium Club Lounge access 1 hr before."
+    },
+    {
+      "id": "stn-madrid-atocha",
+      "title": "🚄 Madrid Atocha-Almudena Grandes station",
+      "city": "Madrid",
+      "day": "2026-06-01",
+      "lat": 40.4067,
+      "lng": -3.6906,
+      "category": "transit",
+      "description": "Arrival from Barcelona (Jun 1, 18:17) AND fallback 19:40 AVE 4XYBG8 to Valencia. Famous tropical garden in main hall. Cercanías hub."
+    },
+    {
+      "id": "stn-madrid-barajas-t4s",
+      "title": "✈️ Madrid Barajas T4S",
+      "city": "Madrid",
+      "day": "2026-05-27",
+      "lat": 40.4983,
+      "lng": -3.5676,
+      "category": "transit",
+      "description": "Satellite terminal for JetBlue and Delta. People-mover to T4 main for passport e-gates. Cercanías C1 downstairs in T4 main."
+    },
+    {
+      "id": "metro-tirso-de-molina",
+      "title": "🚇 Metro Tirso de Molina (L1)",
+      "city": "Madrid",
+      "day": "2026-06-02",
+      "lat": 40.4116,
+      "lng": -3.7039,
+      "category": "transit",
+      "description": "Closest metro to Airbnb — 2 min walk. L1 (blue) direct to Atocha and Sol."
+    },
+    {
+      "id": "metro-la-latina",
+      "title": "🚇 Metro La Latina (L5)",
+      "city": "Madrid",
+      "day": "2026-06-02",
+      "lat": 40.4116,
+      "lng": -3.7099,
+      "category": "transit",
+      "description": "3 min walk from Airbnb. L5 (green) direct to Madrid Río riverfront."
+    },
+    {
+      "id": "metro-sol",
+      "title": "🚇 Metro Sol (L1/L2/L3)",
+      "city": "Madrid",
+      "day": "2026-06-02",
+      "lat": 40.4170,
+      "lng": -3.7036,
+      "category": "transit",
+      "description": "Madrid's central transit hub. 8 min walk from Airbnb. Three lines meet here."
+    },
+
+    {
+      "id": "sug-plaza-mayor",
+      "title": "Plaza Mayor",
+      "city": "Madrid",
+      "day": "2026-06-02",
+      "lat": 40.4155,
+      "lng": -3.7074,
+      "category": "activity",
+      "description": "Madrid's historic main square. 7 min walk from Airbnb. Street performers, churros, bocadillos de calamares."
+    },
+    {
+      "id": "sug-mercado-san-miguel",
+      "title": "Mercado de San Miguel",
+      "city": "Madrid",
+      "day": "2026-06-02",
+      "lat": 40.4156,
+      "lng": -3.7090,
+      "category": "food",
+      "description": "Gourmet food market — graze through stalls. 10 min walk from Airbnb. Best for lunch, touristy but delicious."
+    },
+    {
+      "id": "sug-royal-palace",
+      "title": "Royal Palace of Madrid",
+      "city": "Madrid",
+      "day": "2026-06-02",
+      "lat": 40.4180,
+      "lng": -3.7142,
+      "category": "activity",
+      "description": "Spain's official royal residence (ceremonial). Tour ~€13. Bigger than Versailles. 15 min walk from Airbnb."
+    },
+    {
+      "id": "food-san-gines",
+      "title": "Chocolatería San Ginés (24 hrs!)",
+      "city": "Madrid",
+      "day": "2026-06-01",
+      "lat": 40.4160,
+      "lng": -3.7068,
+      "category": "food",
+      "description": "Open 24 hours. Churros con chocolate at any hour — 1894 institution. 8 min walk from Airbnb."
+    },
+    {
+      "id": "food-sobrino-botin",
+      "title": "Sobrino de Botín (world's oldest restaurant, 1725)",
+      "city": "Madrid",
+      "day": "2026-06-03",
+      "lat": 40.4141,
+      "lng": -3.7088,
+      "category": "food",
+      "description": "Guinness-record oldest continuously operating restaurant. Roast suckling pig is the move. Book days ahead. 10 min walk from Airbnb."
+    },
+    {
+      "id": "food-la-venencia",
+      "title": "La Venencia (sherry bar, no photos)",
+      "city": "Madrid",
+      "day": "2026-06-02",
+      "lat": 40.4140,
+      "lng": -3.6994,
+      "category": "food",
+      "description": "Time-capsule sherry bar from the Civil War era. No photos, tab written in chalk. 12 min walk from Airbnb."
+    },
+    {
+      "id": "food-casa-alberto",
+      "title": "Casa Alberto (since 1827)",
+      "city": "Madrid",
+      "day": "2026-06-02",
+      "lat": 40.4138,
+      "lng": -3.6987,
+      "category": "food",
+      "description": "Vermouth + croquettes. Cervantes allegedly wrote here. Old Madrid soul. 12 min walk from Airbnb."
+    },
+    {
+      "id": "food-juana-la-loca",
+      "title": "Juana la Loca (legendary tortilla)",
+      "city": "Madrid",
+      "day": "2026-06-01",
+      "lat": 40.4093,
+      "lng": -3.7102,
+      "category": "food",
+      "description": "Runny-center Spanish tortilla — Madrid's best. Standing at the bar. 6 min walk from Airbnb."
+    },
+    {
+      "id": "food-casa-lucas",
+      "title": "Casa Lucas (huevos rotos)",
+      "city": "Madrid",
+      "day": "2026-06-01",
+      "lat": 40.4109,
+      "lng": -3.7090,
+      "category": "food",
+      "description": "Broken eggs over jamón and potatoes. Simple, perfect. 4 min walk from Airbnb on Cava Baja."
+    },
+    {
+      "id": "stn-bcn-sants",
+      "title": "🚄 Barcelona-Sants station",
+      "city": "Barcelona",
+      "day": "2026-05-29",
+      "lat": 41.3792,
+      "lng": 2.1402,
+      "category": "transit",
+      "description": "All AVE/Euromed in/out here. Consigna (lockers) in main hall ~€10/large bag. Premium Club Lounge access 1 hr before AVE. Food court + La Rotonda upstairs."
+    },
+    {
+      "id": "stn-bcn-elprat",
+      "title": "✈️ Barcelona El Prat (BCN)",
+      "city": "Barcelona",
+      "day": "2026-05-27",
+      "lat": 41.2974,
+      "lng": 2.0833,
+      "category": "transit",
+      "description": "Thomas family lands here May 27 morning (T1). Aerobús A1 to Plaça de Catalunya €7.25. Renfe R2 Nord to Sants €4.60 (T2 platform — free shuttle)."
+    },
+    {
+      "id": "metro-passeig-de-gracia",
+      "title": "🚇 Metro Passeig de Gràcia (L2/L3/L4)",
+      "city": "Barcelona",
+      "day": "2026-05-29",
+      "lat": 41.3919,
+      "lng": 2.1657,
+      "category": "transit",
+      "description": "5 min walk from Williams apartment. Three lines = goes everywhere. Direct to Sagrada Família (L2) and Sants (L3)."
+    },
+    {
+      "id": "metro-diagonal",
+      "title": "🚇 Metro Diagonal (L3/L5)",
+      "city": "Barcelona",
+      "day": "2026-05-29",
+      "lat": 41.3950,
+      "lng": 2.1614,
+      "category": "transit",
+      "description": "5 min walk from Williams apartment. L3 to Sants, L5 north for Park Güell area."
+    },
+    {
+      "id": "metro-universitat",
+      "title": "🚇 Metro Universitat (L1/L2)",
+      "city": "Barcelona",
+      "day": "2026-05-29",
+      "lat": 41.3866,
+      "lng": 2.1648,
+      "category": "transit",
+      "description": "3 min walk from Thomas apartment. L1 to airport (R2 Nord transfer), L2 to Sagrada Família."
+    },
+    {
+      "id": "metro-catalunya",
+      "title": "🚇 Metro Catalunya / Plaça de Catalunya (L1/L3)",
+      "city": "Barcelona",
+      "day": "2026-05-29",
+      "lat": 41.3868,
+      "lng": 2.1700,
+      "category": "transit",
+      "description": "3 min walk from Thomas apt. Family meeting point. Aerobús A1 from airport arrives here."
+    },
+
+    {
+      "id": "sug-casa-batllo",
+      "title": "Casa Batlló (Gaudí, more impressive than La Pedrera)",
+      "city": "Barcelona",
+      "day": "2026-05-31",
+      "lat": 41.3917,
+      "lng": 2.1650,
+      "category": "activity",
+      "description": "€35/person, 1–1.5 hr. 5 min walk from Williams apartment. Skip La Pedrera (you'll see it Sat with the tour) — Casa Batlló's interior is the wow."
+    },
+    {
+      "id": "sug-la-boqueria",
+      "title": "La Boqueria food market",
+      "city": "Barcelona",
+      "day": "2026-05-29",
+      "lat": 41.3819,
+      "lng": 2.1716,
+      "category": "food",
+      "description": "Famous market on La Rambla. 15 min walk from Williams. Best early — touristy by midday."
+    },
+    {
+      "id": "sug-placa-reial",
+      "title": "Plaça Reial",
+      "city": "Barcelona",
+      "day": "2026-05-29",
+      "lat": 41.3805,
+      "lng": 2.1750,
+      "category": "activity",
+      "description": "Gaudí lamp posts, palm trees, central Gothic Quarter plaza. Great evening hangout."
+    },
+    {
+      "id": "sug-barceloneta-beach",
+      "title": "Barceloneta Beach",
+      "city": "Barcelona",
+      "day": "2026-05-29",
+      "lat": 41.3784,
+      "lng": 2.1925,
+      "category": "activity",
+      "description": "City beach. 25 min walk or 15 min metro from apartments. Water ~18–20°C late May. Seafood restaurants on the promenade."
+    },
+    {
+      "id": "food-cerveceria-catalana",
+      "title": "Cervecería Catalana (best tapas in Eixample)",
+      "city": "Barcelona",
+      "day": "2026-05-29",
+      "lat": 41.3938,
+      "lng": 2.1611,
+      "category": "food",
+      "description": "Walk to it — 4 min from Williams apartment. Expect a line. Order at the bar."
+    },
+    {
+      "id": "food-tapas-24",
+      "title": "Tapas 24 (Carles Abellan)",
+      "city": "Barcelona",
+      "day": "2026-05-29",
+      "lat": 41.3935,
+      "lng": 2.1659,
+      "category": "food",
+      "description": "Celebrity chef tapas. Bikini truffle sandwich + McFoie burger. 3 min walk from Williams apartment."
+    },
+    {
+      "id": "food-can-paixano",
+      "title": "Can Paixano (cava bar)",
+      "city": "Barcelona",
+      "day": "2026-05-30",
+      "lat": 41.3835,
+      "lng": 2.1830,
+      "category": "food",
+      "description": "Standing-room cava + cured meats. €15–20. Locals crushing glasses at noon."
+    },
+    {
+      "id": "food-el-xampanyet",
+      "title": "El Xampanyet (since 1929)",
+      "city": "Barcelona",
+      "day": "2026-05-30",
+      "lat": 41.3848,
+      "lng": 2.1820,
+      "category": "food",
+      "description": "Unchanged since 1929. Blue tiles, no menu, point at what looks good. Near El Born."
+    },
+    {
+      "id": "sug-bunkers-del-carmel",
+      "title": "Bunkers del Carmel (sunset view)",
+      "city": "Barcelona",
+      "day": "2026-05-29",
+      "lat": 41.4188,
+      "lng": 2.1592,
+      "category": "activity",
+      "description": "Civil War anti-aircraft bunkers turned panoramic viewpoint. 360° city view at sunset. Hike ~15 min uphill from Metro El Coll."
+    },
+    {
+      "id": "sug-palau-blaugrana",
+      "title": "Palau Blaugrana (FC Barcelona roller hockey)",
+      "city": "Barcelona",
+      "day": "2026-05-29",
+      "lat": 41.3814,
+      "lng": 2.1207,
+      "category": "activity",
+      "description": "For Harrison — FC Barcelona's roller hockey arena, sister to Camp Nou. Off-season tours possible. See Family Fun tab."
+    },
+    {
+      "id": "sug-camp-nou",
+      "title": "Camp Nou immersive tour (Spotify Camp Nou under renovation)",
+      "city": "Barcelona",
+      "day": "2026-05-29",
+      "lat": 41.3809,
+      "lng": 2.1228,
+      "category": "activity",
+      "description": "Stadium closed for renovation; immersive AR tour available nearby. For Elise's soccer fandom."
+    },
+
+    {
+      "id": "stn-valencia-sorolla",
+      "title": "🚄 Valencia Joaquín Sorolla station (AVE)",
+      "city": "Valencia",
+      "day": "2026-05-27",
+      "lat": 39.4554,
+      "lng": -0.3781,
+      "category": "transit",
+      "description": "AVE arrival from Madrid May 27. ⚠️ DIFFERENT from Estació del Nord — 10 min apart by taxi. Tram L1 to centro from here."
+    },
+    {
+      "id": "stn-valencia-nord",
+      "title": "🚄 Valencia Estació del Nord (Euromed)",
+      "city": "Valencia",
+      "day": "2026-05-29",
+      "lat": 39.4661,
+      "lng": -0.3776,
+      "category": "transit",
+      "description": "Euromed departure May 29 09:06. Beautiful Modernista building (1917). ⚠️ NOT Joaquín Sorolla — show up here on the 29th."
+    },
+    {
+      "id": "tram-marina-reial",
+      "title": "🚋 Tram Marina Reial Joan Carles I (L4/L6)",
+      "city": "Valencia",
+      "day": "2026-05-28",
+      "lat": 39.4661,
+      "lng": -0.3265,
+      "category": "transit",
+      "description": "Closest tram to beach house — 3–5 min walk. L4/L6 to centro (~25 min). Taxi (€10–15) usually easier with kids."
+    },
+    {
+      "id": "sug-turia-gardens",
+      "title": "Turia Gardens (former riverbed park)",
+      "city": "Valencia",
+      "day": "2026-05-28",
+      "lat": 39.4744,
+      "lng": -0.3812,
+      "category": "activity",
+      "description": "9 km park in the old Turia riverbed. Playgrounds, jogging path, Gulliver Park giant playground for Elise. Free. Connects to City of Arts."
+    },
+    {
+      "id": "food-la-pepica",
+      "title": "La Pepica (Hemingway's paella spot)",
+      "city": "Valencia",
+      "day": "2026-05-28",
+      "lat": 39.4720,
+      "lng": -0.3270,
+      "category": "food",
+      "description": "Historic beachfront paella since 1898. Hemingway, Orson Welles, Sofia Loren ate here. 10 min walk from beach house. Touristy but legit."
+    },
+    {
+      "id": "sug-albufera",
+      "title": "Albufera Natural Park (rice paddies + sunset)",
+      "city": "Valencia",
+      "day": "2026-05-28",
+      "lat": 39.3399,
+      "lng": -0.3492,
+      "category": "activity",
+      "description": "Where Valencian paella was born. Boat trip through the rice paddy lagoon at sunset. 20 min taxi south of Valencia. Half-day."
+    },
+    {
+      "id": "sug-mestalla",
+      "title": "Mestalla Stadium (Valencia CF) — for Elise",
+      "city": "Valencia",
+      "day": "2026-05-28",
+      "lat": 39.4747,
+      "lng": -0.3582,
+      "category": "activity",
+      "description": "Valencia CF home stadium. Tours during off-season. Final La Liga match was May 24 — see Family Fun tab."
     }
   ],
   "luggageGaps": [
     {
-      "id": "gap-madrid-atocha",
-      "transition": "May 27 Madrid",
-      "gap": "Land ~11:30 → train 19:40",
-      "recommendation": "Atocha consigna (~€5–6/bag) or Stasher near Retiro. Club Lounge from 17:40 with Premium ticket."
+      "id": "gap-madrid-arrival-primary",
+      "transition": "May 27 Madrid (PRIMARY plan, ZUBYYB 14:30)",
+      "gap": "Land 11:30 → train 14:30 from Chamartín",
+      "recommendation": "No storage needed. Cercanías C1 direct Barajas → Chamartín; all 8 bags onboard AVE Coach 1 racks. Use Chamartín Premium lounge for the 1-hour buffer."
+    },
+    {
+      "id": "gap-madrid-arrival-fallback",
+      "transition": "May 27 Madrid (FALLBACK only, 4XYBG8 19:40)",
+      "gap": "Land 11:30 → train 19:40 from Atocha",
+      "recommendation": "Atocha consigna ~€6/bag × 8 = ~€48 for the day (main hall side wing). Keep one carry-on with passports/chargers/kids essentials. Lunch + Retiro + Reina Sofía + tropical garden turtles."
     },
     {
       "id": "gap-valencia-checkout",
       "transition": "May 29 Valencia",
-      "gap": "Leave ~07:45, Vrbo checkout 11:00",
-      "recommendation": "Ask host Maria Pilar to hold bags / early checkout. Stasher near Estació del Nord if needed."
+      "gap": "Leave 07:45, Vrbo checkout 11:00",
+      "recommendation": "Pre-arrange with Maria Pilar by Wed evening: confirmed early checkout, OR she holds bags on property until 7:45 handoff. Test the WhatsApp the day before. Stasher near Estació del Nord (~5 min walk, €5/bag/day) as backup."
     },
     {
       "id": "gap-barcelona-checkin",
       "transition": "May 29 Barcelona",
       "gap": "Train arrives 12:20, check-in 14:00",
-      "recommendation": "Lunch near apartment with light bags. Stasher at Sants if heavy."
+      "recommendation": "Take all bags in 2 Ubers XL straight to Williams apartment on Carrer de València. Ring host — most VRBO Eixample hosts allow bag drop 1-2 hr early in entryway. Walk to lunch hands-free. Backup: Barcelona-Sants consigna (€10/bag, adds 15 min taxi back)."
     },
     {
       "id": "gap-barcelona-madrid",
       "transition": "Jun 1 Barcelona",
       "gap": "Checkout 11:00 → train 15:00",
-      "recommendation": "Stasher near Gothic Quarter or Barcelona-Sants lockers (~€6–10/day). Return Casa Gay suit AM."
+      "recommendation": "All 8 bags to Barcelona-Sants in 2 Ubers XL ~12:30 PM and use Sants consigna for ~2 hours (~€48 for 8 bags) OR sit in Sants café area free. Lunch at Sants food court or La Rotonda upstairs. Avoid downtown round trips."
     },
     {
       "id": "gap-madrid-flight",
       "transition": "Jun 4 Madrid",
-      "gap": "Checkout 11:00 → flight 14:05",
-      "recommendation": "Stasher La Latina/Sol (~€3.49/bag) or Airbnb partner luggage storage (15% off)."
+      "gap": "Checkout 11:00 → flight 14:05 (Corpus Christi)",
+      "recommendation": "Corpus Christi public holiday — many shops + Stasher partners closed. Best plan: 2 Uber XL direct to Barajas at 10:45 AM. Eat breakfast at airport (T4S has lounges + decent food). Atocha consigna is open year-round if we need to linger; Airbnb partner storage (15% off) may also be open — host Elena can confirm."
     }
-  ]
+  ],
+  "currentEvents": {
+    "lastRefreshed": "2026-05-26",
+    "items": [
+      {
+        "date": "2026-05-27",
+        "city": "Barcelona / Catalonia",
+        "category": "transit",
+        "impact": "good",
+        "title": "Rodalies (Catalan commuter rail) strike May 27 + Jun 5: CALLED OFF",
+        "details": "CCOO/UGT cancelled the May 27 and June 5 partial strikes after reaching an agreement with Renfe. Thomas family R2 Nord airport→Sants ride May 27 is now clear."
+      },
+      {
+        "date": "2026-05-28",
+        "city": "Valencia",
+        "category": "protest",
+        "impact": "neutral",
+        "title": "Valencia teachers' indefinite strike continues (3rd week)",
+        "details": "Daily protests at Conselleria de Educación; 30,000+ at Saturday May 23 march. Beach house unaffected. Avoid central Plaza de la Virgen/government building corridor Thu May 28 if heading downtown."
+      },
+      {
+        "date": "2026-05-30",
+        "city": "Barcelona",
+        "category": "risk",
+        "impact": "watch",
+        "title": "Sagrada Família blockade risk during teacher strikes",
+        "details": "Teachers blocked Sagrada Família for 2 hours on May 18 in a previous strike action. Our entry is May 30 at 12:15 PM. Build buffer; Plan B is Casa Batlló (5 min from apartment)."
+      },
+      {
+        "date": "2026-05-29",
+        "city": "Barcelona",
+        "category": "festival",
+        "impact": "good",
+        "title": "Tast a la Rambla food festival",
+        "details": "May 28–31 at Plaça de Catalunya. Top Barcelona restaurants serving tasting plates outdoor. Great post-arrival lunch idea Fri May 29."
+      },
+      {
+        "date": "2026-05-30",
+        "city": "Barcelona",
+        "category": "festival",
+        "impact": "good",
+        "title": "Fira Modernista — Modernist Fair",
+        "details": "May 29–31 in Eixample (literally our block). Open houses, workshops, performances tied to Gaudí/Domènech era. Free walking activity."
+      },
+      {
+        "date": "2026-05-30",
+        "city": "Barcelona",
+        "category": "festival",
+        "impact": "good",
+        "title": "NAUKAS Barcelona 2026 — science festival",
+        "details": "Sat May 30 10:45 AM at CosmoCaixa. Theme: 'Ciencia para salvar el mundo'. Conflicts with morning wedding tour for tour-goers but Valerie/Thomas family could attend."
+      },
+      {
+        "date": "2026-06-01",
+        "city": "Madrid",
+        "category": "protest",
+        "impact": "watch",
+        "title": "Anti-Sánchez 'Marcha por la Dignidad' climate",
+        "details": "May 23 march drew 40,000–80,000 protesters Plaza de Colón → Moncloa, with police clashes. PP/Vox-aligned. More demos likely while we're in Madrid Jun 1–4. Typical route: Castellana corridor or Sol/Cibeles. Monitor news each evening."
+      },
+      {
+        "date": "2026-06-04",
+        "city": "Madrid",
+        "category": "holiday",
+        "impact": "watch",
+        "title": "Corpus Christi public holiday",
+        "details": "National Catholic feast. Public holiday in Madrid + Castile. Banks + many shops closed. Religious processions near Almudena Cathedral. Williams departure day — eat lunch early; confirm taxi Wed night; Atocha consigna stays open."
+      },
+      {
+        "date": "2026-05-23",
+        "city": "All",
+        "category": "sports",
+        "impact": "neutral",
+        "title": "La Liga 2025–26 season ended May 23",
+        "details": "No live league matches during the trip. Bernabéu Tour open all 4 Madrid days. Camp Nou still under renovation through late 2026 — only Immersive Tour + Construction Viewpoint open."
+      }
+    ]
+  }
 }

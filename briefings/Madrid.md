@@ -132,6 +132,25 @@ Madrid runs **one hour behind Valencia/Barcelona** in political temperament: mor
 
 ---
 
+## Refreshed: live during your trip (May 26, 2026)
+
+**Strikes / protests:**
+- **Anti-Sánchez "Marcha por la Dignidad" climate is hot.** Saturday May 23 drew 40,000–80,000 protesters from Plaza de Colón along the Castellana corridor to Moncloa, with police clashes at the end. Sociedad Civil Española coalition (PP/Vox-aligned). More demos very likely while you are here Jun 1–4 — typical routes are Castellana (Colón → Moncloa), Sol/Cibeles, or Plaza de España. **Monitor the news each evening and the morning of any major outing.** Police visibility around government buildings (Cortes, Moncloa, La Moncloa) is elevated.
+- **Housing march echo.** May 24 Sindicato de Inquilinas march drew the housing crowd from Atocha → Sevilla metro. La Latina is the gentrification flashpoint — banners and graffiti will be in evidence near our Airbnb. Cultural, not safety, context.
+- **Corpus Christi (Jun 4) — locked impact.** Banks, most non-tourist shops, and many restaurants close. Religious processions near Almudena Cathedral and Iglesia de San Ginés. Mercado de San Miguel may run reduced hours. Plan dinner Jun 3 + breakfast Jun 4 in advance; confirm taxi to Barajas Wed night.
+
+**Sports — what's open during your Madrid window:**
+- **La Liga 2025–26 ended May 23.** No live matches.
+- **Bernabéu Tour** is open all 4 of your Madrid days (Mon–Sat 9:00–19:00, Sun 9:30–18:30; €35 adult / €25 child). Real Madrid finished 2nd, won their 15th Champions League. Legendary captain Dani Carvajal had farewell match May 23 — look for his memorabilia in the museum.
+- **Wanda Metropolitano** (Atlético Madrid) — tour available, less spectacular than Bernabéu.
+- **Bullfighting:** Las Ventas — **San Isidro festival ended May 15.** No corridas during your stay. Museum still open (~€16).
+
+**Cultural backdrop:**
+- **Madrid Pride** late June — not during your stay but rainbow signage going up. Chueca neighborhood will have visible prep.
+- **Veranos de la Villa** summer concert series begins July; no overlap.
+
+---
+
 ## Key Vocabulary
 
 | Word / phrase | Language | Meaning | When you'll hear it |
@@ -199,4 +218,4 @@ Madrid runs **one hour behind Valencia/Barcelona** in political temperament: mor
 
 ---
 
-*Last updated: May 23, 2026. **June 4 Corpus Christi** — treat as fixed constraint for departure day.*
+*Last updated: May 26, 2026. **June 4 Corpus Christi** — treat as fixed constraint for departure day.*

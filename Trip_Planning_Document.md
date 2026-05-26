@@ -31,17 +31,20 @@ All three Renfe legs and all three city stays — confirmation codes for offline
 
 ### Trains (Williams party ×6 — BOOKED)
 
-| Leg | Renfe locator | Train | Date | Depart → Arrive | Class | Coach |
-| --- | --- | --- | --- | --- | --- | --- |
-| **Madrid → Valencia** | **4XYBG8** | AVE 05990 | May 27 | 19:40 → 21:40 | Premium Confort | 1 |
-| **Valencia → Barcelona** | **9D2RJU** | Euromed 01092 | May 29 | 09:06 → 12:20 | Premium | 13 |
-| **Barcelona → Madrid** | **JKSS7B** | AVE 03152 | Jun 1 | 15:00 → 18:17 | Premium | 1 |
+| Leg | Renfe locator | Train | Date | From → To | Depart → Arrive | Class | Coach |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| **Madrid → Valencia (primary)** | **ZUBYYB** | AVE 05140 | May 27 | **Chamartín** → Valencia J. Sorolla | **14:30 → 16:34** | Premium Confort | 1 |
+| **Madrid → Valencia (fallback)** | **4XYBG8** | AVE 05990 | May 27 | **Atocha** → Valencia J. Sorolla | 19:40 → 21:40 | Premium Confort | 1 |
+| **Valencia → Barcelona** | **9D2RJU** | Euromed 01092 | May 29 | Valencia E. Nord → Barcelona-Sants | 09:06 → 12:20 | Premium | 13 |
+| **Barcelona → Madrid** | **JKSS7B** | AVE 03152 | Jun 1 | Barcelona-Sants → Madrid Atocha | 15:00 → 18:17 | Premium | 1 |
 
-**Totals:** Madrid→Valencia €320.60 · Valencia→Barcelona €489.75 · Barcelona→Madrid €390.35
+**Strategy May 27:** target **ZUBYYB 14:30 from Chamartín**. If we miss it, fall back to **4XYBG8 19:40 from Atocha**. Cancel 4XYBG8 the moment we're seated on the 14:30.
+
+**Totals:** Madrid→Valencia €437.65 (ZUBYYB) + €320.60 (4XYBG8, refunded if cancelled) · Valencia→Barcelona €489.75 · Barcelona→Madrid €390.35
 
 **Thomas family (Annalise, Brandon, Harlan):** Separate Barcelona→Valencia and Barcelona→Madrid tickets still to confirm — see city sections below.
 
-**Before each leg:** Save tickets offline in the **Renfe** app / Apple Wallet.
+**Before each leg:** Save tickets offline in the **Renfe** app / Apple Wallet. PDF copies are in `renfe/` (locator + suffix).
 
 ### Lodging (all cities)
 
@@ -65,6 +68,91 @@ Full detail (seat assignments, addresses, links): see each city section below.
 
 ---
 
+## Local Climate & Events (live — last refreshed May 26, 2026)
+
+What's actually happening on the ground while we're there. Good, neutral, and bad — all together.
+
+### Strikes & protests
+
+| When / where | What | Our impact |
+|---|---|---|
+| **Rodalies (Catalan commuter rail) — May 27 & Jun 5** | CCOO/UGT partial strike was scheduled, **CALLED OFF** after agreement reached late last week. | ✅ **GOOD news.** Thomas R2 Nord airport→Sants ride May 27 is now clear. |
+| **Valencia teachers' indefinite strike (3rd week)** | Massive demonstrations in Valencia city center (Plaza de la Virgen, Conselleria de Educación). Last Saturday's march drew 30,000+. | ⚠️ **Neutral.** Beach house is unaffected — protests cluster downtown. Avoid Conselleria area Thu May 28 if heading to Mercado Central or Old Town. |
+| **Catalonia teachers strike — May 29 (Baix Llobregat/Penedès)** | Regional strike day. | ⚠️ **Very minor.** Outer Barcelona, not central Eixample/Gothic. |
+| **Sagrada Família — known blockade risk** | Teachers blocked Sagrada Família for 2 hours on May 18 during a previous strike day. Could repeat. | ⚠️ **Watch.** Our entry is **May 30 at 12:15 PM**. Build buffer; have Plan B (Casa Batlló is 5 min from apartment). |
+| **Madrid — anti-Sánchez "Marcha por la Dignidad" climate** | Saturday May 23 march drew 40,000–80,000 from Plaza de Colón to Moncloa with minor police clashes. PP/Vox-aligned. More demos likely while we're there Jun 1–4. | ⚠️ **Neutral.** Typical route is Castellana corridor (Colón → Moncloa) or Sol/Cibeles. Check the news Jun 1 evening and the morning of any major outing. |
+| **Madrid housing crisis posters/banners** | Big national tenant-union march May 24 just before we arrive. La Latina is the gentrification flashpoint — banners, leaflets, sticker walls. | 🧠 **Cultural context.** Not safety; just expect "vivienda" / "alquiler" / "desahucio" graffiti everywhere. |
+| **Corpus Christi — Thu Jun 4** | National Catholic feast. Public holiday in Madrid + Castile. Williams departure day. | ⚠️ **Plan around.** Banks, many shops closed. Religious processions near Almudena Cathedral. Eat lunch early; confirm taxi Wed night. |
+
+### Festivals & events overlapping the trip
+
+| Date | Event | Where | Why care |
+|---|---|---|---|
+| **May 28–31** | **Tast a la Rambla** — gourmet street food festival | Plaça de Catalunya, Barcelona | Top BCN restaurants doing tasting plates outdoor. Lunch idea Fri May 29 after check-in. |
+| **May 29–31** | **Fira Modernista** — Modernist Fair | **Eixample** (our block!) | Open houses, workshops, performances tied to Gaudí/Domènech era. Free walking activity literally outside our apartment. |
+| **May 30 (10:45 AM)** | **NAUKAS Barcelona 2026 — "Ciencia para salvar el mundo"** | CosmoCaixa (Tibidabo foothills) | Science festival. Pretty nerdy. Conflicts with morning tour for the 5 tour-goers, but Valerie/Thomas family could go. |
+| **Through May 31** | **Festival MECAL** — short film + animation festival | Multiple BCN venues | Drop-in screenings if we get a rainy evening. |
+| **Jun 4 (all day)** | **Corpus Christi** | Madrid + Castilla–La Mancha | Holiday — most non-tourist places closed. Some processions near cathedrals. |
+
+### Sports note (La Liga is over)
+
+- **La Liga 2025–26 season ended Sat May 23.** No live league games during our trip (next season opens August).
+- **Bernabéu Tour** is open all 4 of our Madrid days (Mon–Sat 9:00–19:00; Sun 9:30–18:30).
+- **Camp Nou — still under renovation.** Traditional stadium tour is closed. Only the **Barça Immersive Tour + Construction Viewpoint** is open at the Camp Nou site (Mon–Sat 10:00–19:00, Sun 10:00–15:30). FC Barcelona is playing 2025-26 matches at Estadi Olímpic Lluís Companys on Montjuïc.
+
+---
+
+## Things to Watch For Along the Routes
+
+Every transfer is a sightseeing window — phones up, look the right direction.
+
+### Madrid Barajas → Chamartín (May 27, Cercanías C1, ~25–30 min)
+
+- **Cercanías C1 runs directly to both Chamartín *and* Atocha** with no transfer — same line, same train. Get off at **Chamartín** for ZUBYYB 14:30.
+- Right side leaving the airport: distant **Sierra de Guadarrama** mountains.
+- Approaching Chamartín: the **Cuatro Torres** financial district — Spain's four tallest buildings (~250 m). The leaning twin towers at Plaza de Castilla (**"Puerta de Europa"**) lean 15° — actually leaning, not an illusion.
+
+### Madrid → Valencia AVE (Chamartín 14:30 *or* Atocha 19:40, ~2 hr)
+
+- **First 30 min:** Castilian plateau (avg 600 m elevation). Look for sheep, raptors over scrub.
+- **Cuenca area:** high karst country — Cuenca's famous **hanging houses** are nearby (not visible from train but you're cutting under the same mountains).
+- **La Mancha country:** wheat fields and the occasional **windmill** — Don Quixote territory. Carson/Harrison: this is where Cervantes set the windmill duel.
+- **Descent to Valencia coast:** orange groves you can smell in late May (azahar blossom). Last 20 min: rice paddies of **Albufera** (left side) — the actual birthplace of paella.
+
+### Valencia → Barcelona Euromed (May 29, 09:06, Coach 13 — RIGHT side wins)
+
+- **Right-side window for the whole 3 hr ride** — Mediterranean coast.
+- First 30 min: Valencia citrus belt.
+- **~10:00 — Peñíscola** appears briefly on the right: medieval walled castle on a rocky peninsula. Game of Thrones used this castle for several **Dorne / Sand Snakes** scenes.
+- Castellón province: orange groves, mountains rising inland to the left.
+- **~11:30 — Tarragona** on the right: from the train you can briefly see the **2,000-year-old Roman amphitheater** built into the cliffs above the sea, plus parts of the Roman aqueduct system. Carson — gladiators trained and fought here.
+- Coastal resort towns: Salou, Sitges (artsy LGBTQ-friendly town worth a future trip).
+- Final 10 min: Llobregat industrial belt → tunnels into Sants.
+
+### Barcelona → Madrid AVE (Jun 1, 15:00, Coach 1)
+
+- Catalonia farmland → Aragón countryside (russet, drier) → Saragossa region (we don't stop).
+- Spain's geographic center is near Calatayud.
+- La Mancha plains again on the descent.
+- Approaching Madrid: **Cuatro Torres** skyline on the right; AVE slips into Atocha.
+
+### Barcelona Airport → Sants (Thomas family May 27, R2 Nord)
+
+- ~25 min ride. Crosses the **Llobregat river** (left side mid-trip).
+- Industrial Barcelona before tunneling into Sants.
+
+### Once at each station (look for these)
+
+| Station | What to find |
+|---|---|
+| **Madrid Chamartín** | Recently renamed **Chamartín–Clara Campoamor** (suffragist who wrote women's vote into the 1931 Republic). Modernized hall with northern AVE departures. |
+| **Madrid Atocha** | The **indoor tropical garden** in the main hall has live **turtles** (~150 of them) Elise will lose her mind. The **March 11, 2004 bombing memorial** is on the commuter platforms — quiet, blue, somber. |
+| **Valencia J. Sorolla** | Modern terminal next to Joaquín Sorolla art gallery (famous Valencian painter — beachy light-filled scenes). |
+| **Valencia Estació del Nord** | 1917 Modernista station with ceramic tile mosaics — look up at the orange and tile decorations. |
+| **Barcelona-Sants** | Brutalist 1970s, less glamorous. Look for the giant LED departure board and the 27-meter ceiling. |
+
+---
+
 ## Top Eats & Drinks
 
 One signature **drink** and three **must-try foods** per city. Full restaurant lists on each city tab.
@@ -81,46 +169,98 @@ One signature **drink** and three **must-try foods** per city. Full restaurant l
 
 ```
 May 26 (Tue)  ✈️  TRAVEL: Nashville → Boston → Overnight flight to Spain
-May 27 (Wed)  🇪🇸  VALENCIA - Arrive, beach house check-in 4:00 PM
-May 28 (Thu)  🍽️  VALENCIA - Paella lunch at Casa Carmela (1:00 PM), beach/pool
-May 29 (Fri)  🚄  BARCELONA - Train from Valencia, check in, Welcome party 7 PM
-May 30 (Sat)  💒  BARCELONA - Tour Day (La Pedrera, Sagrada Família, Tapas Tour)
+May 27 (Wed)  🇪🇸  MADRID land 11:30 → AVE Chamartín 14:30 → VALENCIA arrive 16:34 → beach house 4 PM
+              ↩  (Fallback: AVE Atocha 19:40 → Valencia 21:40 if we miss the 14:30)
+May 28 (Thu)  🍽️  VALENCIA - Paella lunch at Casa Carmela (1:00 PM), beach/pool, Albufera optional
+May 29 (Fri)  🚄  BARCELONA - Train Valencia 09:06 → BCN 12:20, check in 2 PM, Welcome party 7 PM
+May 30 (Sat)  💒  BARCELONA - Tour Day (La Pedrera 9:15, Sagrada 12:15, Tapas Tour 5 PM)
 May 31 (Sun)  🎉  BARCELONA - WEDDING DAY — shuttles 4:30 PM, ceremony & reception
-Jun 1  (Mon)  🚄  MADRID - Train from Barcelona, check in, explore
+Jun 1  (Mon)  🚄  MADRID - Train BCN 15:00 → MAD 18:17, check in ~7 PM
 Jun 2  (Tue)  🏛️  MADRID - Full day exploring (museums, tapas, parks)
 Jun 3  (Wed)  ✈️  MADRID - Thomas family departs / Williams explores
-Jun 4  (Thu)  ✈️  MADRID - Williams family departs
+Jun 4  (Thu)  ✈️  MADRID - Williams family departs (Corpus Christi holiday — shops closed)
 ```
 
 ---
 
-## Luggage Between Check-out and Travel
+## Luggage Strategy — 8 Bags, Full Trip
 
-When checkout time and your next train or flight don't line up, use these options:
+We have **~8 large checked bags** (formal-event wardrobe x6) plus carry-ons. Wrestling 8 bags through public transit is real work — every leg below has a specific plan that minimizes how often we move them and how many people are stuck guarding them.
 
-| Transition | Gap | Recommended option |
-|------------|-----|-------------------|
-| May 27 Madrid | Land ~11:30 → train 19:40 | Atocha consigna (~€5–6/bag) or Stasher near Retiro; Club Lounge from 17:40 with Premium ticket |
-| May 29 Valencia | Leave ~07:45, Vrbo checkout 11:00 | Ask host Maria Pilar to hold bags / early checkout; Stasher near Estació del Nord if needed |
-| May 29 Barcelona | Train 12:20, check-in 14:00 | Lunch near apartment; light bags OK; Stasher at Sants if heavy |
-| Jun 1 Barcelona | Checkout 11:00 → train 15:00 | Stasher near Gothic Quarter or Barcelona-Sants lockers (~€6–10/day); Casa Gay suit return AM |
-| Jun 4 Madrid | Checkout 11:00 → flight 14:05 | **Corpus Christi public holiday** — many shops/banks closed. Stasher La Latina/Sol or Airbnb partner storage (15% off). Eat lunch early; confirm taxi night before. |
+### Bag count by city
+
+| Period | Bag count (Williams party) | Notes |
+|---|---|---|
+| Outbound May 26 | 6 checked + carry-ons | Check at JetBlue counter Nashville. |
+| Madrid Barajas → Chamartín May 27 | 6 checked + 6 carry-ons = **~12 pieces** | All onboard AVE Coach 1 — racks at each end of car. |
+| Valencia → Barcelona May 29 | Same ~12 | Coach 13 racks. |
+| Barcelona → Madrid Jun 1 | Same ~12 | Coach 1 racks. |
+| Departure Jun 4 | Back to 6 checked + 6 carry-ons | JetBlue check-in. |
+
+### Per-transition plan
+
+| Transition | Gap | **Optimal plan (primary)** | Backup |
+|------------|-----|-----|-----|
+| **May 27 Madrid — primary** (14:30 train) | Land 11:30 → train 14:30, all from Chamartín | **No storage needed.** Cercanías C1 direct Barajas → Chamartín; bags go straight to AVE Coach 1 racks. Use the **Chamartín Premium lounge** for the 1-hour buffer. | Van taxi €40 if the C1 queue is bad. |
+| **May 27 Madrid — fallback** (19:40 train) | Land 11:30 → train 19:40, both stations involved | **Atocha consigna ~€6/bag × 8 = €48** for the day (located in main hall, side wing). Keep one carry-on with passports, chargers, kids' essentials. Lunch + Retiro + tropical garden + Reina Sofía. | **Stasher** partners near Atocha (€5.50/bag/day, must reserve in app); pre-book if we know by ~12:30 PM we're missing the 14:30. |
+| **May 29 Valencia checkout** | Leave 07:45, but Vrbo checkout is 11:00 | **Pre-arrange with Maria Pilar** by Wed 5/27 evening: either confirmed early checkout, OR she holds bags somewhere on the property until we hand them off at 7:45. **Test the message on the WhatsApp the day before.** | Stasher near Estació del Nord (1 partner ~5 min walk; €5/bag/day). |
+| **May 29 Barcelona arrival** | Train 12:20 → check-in 14:00 (90-min gap) | **Take everything in 2 Ubers/cabs (XL)** straight to Williams apartment on Carrer de València. **Ring the host** — most VRBO Eixample hosts allow bag drop in the entryway 1–2 hr early. We then walk to lunch within 5–10 min with hands free. | **Barcelona-Sants consigna** (€10/bag, 24h max) if host can't drop early. Adds a 15 min taxi back to apartment. |
+| **May 30 wedding tour day** | 9:15 AM start, late return | Bags stay at apartments — no transit needed. Day bag essentials only. | — |
+| **May 31 wedding day** | Shuttle 4:30 PM, late night | Bags stay. Take what fits in pockets / clutch — limited space at venue per Joe's note. | — |
+| **Jun 1 Barcelona checkout** | Checkout 11:00 → train 15:00 (4 hr gap) | **Take all bags to Barcelona-Sants in 2 Ubers XL ~12:30 PM.** Use the **Sants consigna in the main hall** for ~2 hours (~€48 for 8 bags) OR wait in Sants's café area (free, has a play zone). Lunch at Sants food court or La Rotonda upstairs. Avoid downtown round trips. | **Stasher near Plaça Reial / Gothic Quarter** (€4.50–6/bag) for a Gothic-Quarter lunch first, then Uber to Sants by 14:00. |
+| **Jun 4 Madrid departure** | Checkout 11:00 → flight 14:05 (3 hr) | **🚨 Corpus Christi public holiday — many shops + Stasher partners closed.** **Best plan:** 2 Uber XL **direct to Barajas at 10:45 AM**. Eat breakfast at the airport (T4S has lounges and decent food). Atocha consigna is open but adds 30 min and €48 to return for it. | If we need to linger in town: Atocha consigna stays open 365 days; Airbnb-affiliate luggage partners often open on holidays (host Elena can confirm). |
+
+### Lockers / storage providers quick-ref
+
+| Provider | Price/bag | Reserve | Where |
+|---|---|---|---|
+| **Renfe Consigna (Atocha, Sants, Chamartín)** | €4.20–€6 small, €6–€10 large | Walk-up, cards work | Main hall airport-style scanners. Open with station hours (~6:00–22:00). |
+| **Stasher** | €4.50–€6/day | App or stasher.com | Network of cafés, dry cleaners, hotels. Photo of bags at drop-off. Insured up to €1,000. |
+| **Bounce** | €5–7/day | App | Similar to Stasher, slightly less coverage in Valencia. |
+| **Vrbo / Airbnb host hold** | Free | Message host | Most agree to before-checkin and after-checkout bag drop for 1–2 hr. |
+
+### Bag-hand etiquette
+
+- **Always one adult with bags.** Even at Sants café, leave one person with the pile.
+- **AirTag every checked bag** before we leave Nashville. Family tab on Find My.
+- **Coach 1 / Coach 13 racks fill fast.** Board within first 10 min of boarding window to claim the big-bag rack at the end of the car.
+- **Sagrada Família and most museums won't let us in with large bags** — plan storage for any bag-handling day.
 
 ---
 
 ## Travelers
 
-| Name             | Age | Relationship   | Family   | Passport       |
-| ---------------- | --- | -------------- | -------- | -------------- |
-| Angela           | 38  | Wife           | Williams | A65228680      |
-| Chandler         | 37  | Husband        | Williams | A13217522      |
-| Carson           | 16  | Son            | Williams | A21526389      |
-| Harrison         | 16  | Son's Friend   | Williams | A70772239      |
-| Elise            | 7   | Daughter       | Williams | A21526388      |
-| Valerie Williams | 68  | Grandma        | Williams | A75415133      |
-| Annalise Thomas  | 34  | Sister         | Thomas   | *(need number)* |
-| Brandon Thomas   | 39  | Brother-in-law | Thomas   | *(need number)* |
-| Harlan Thomas    | 1   | Nephew (baby)  | Thomas   | *(need number)* |
+**JetBlue / airline check-in** asks for passport details exactly as printed — full name, date of birth, gender, nationality, passport number, issuing country, and expiration. Use the **Passport details (JetBlue check-in)** section in Quick Reference on the Overview tab, or the table below.
+
+| Name             | Age | Relationship   | Family   | Passport # | Expires    |
+| ---------------- | --- | -------------- | -------- | ---------- | ---------- |
+| Angela           | 38  | Wife           | Williams | A65228680  | Sep 18, 2035 |
+| Chandler         | 37  | Husband        | Williams | A13217522  | Mar 24, 2033 |
+| Carson           | 16  | Son            | Williams | A21526389  | Jun 2, 2028 |
+| Harrison         | 16  | Son's Friend   | Williams | A70772239  | Jan 15, 2036 |
+| Elise            | 7   | Daughter       | Williams | A21526388  | Jun 2, 2028 |
+| Valerie Williams | 68  | Grandma        | Williams | A75415133  | Dec 29, 2035 |
+| Annalise Thomas  | 34  | Sister         | Thomas   | *(need number)* | — |
+| Brandon Thomas   | 39  | Brother-in-law | Thomas   | *(need number)* | — |
+| Harlan Thomas    | 1   | Nephew (baby)  | Thomas   | *(need number)* | — |
+
+### Passport details — Williams party (for JetBlue / APIS)
+
+Enter names **exactly** as on the passport. Issuing country / nationality: **United States**. Country of residence: **United States**.
+
+| Traveler | Surname (last) | Given names (first / middle) | DOB | Sex | Passport # | Issued | Expires | Place of birth |
+| -------- | -------------- | ---------------------------- | --- | --- | ---------- | ------ | ------- | -------------- |
+| **Angela Serna Williams** | WILLIAMS | ANGELA / SERNA | **08/16/1987** | F | A65228680 | Sep 19, 2025 | Sep 18, 2035 | California, USA |
+| **Chandler Carroll Williams** | WILLIAMS | CHANDLER / CARROLL | **06/26/1988** | M | A13217522 | Mar 25, 2023 | Mar 24, 2033 | Colorado, USA |
+| **Carson Rambo Williams** | WILLIAMS | CARSON / RAMBO | **05/22/2010** | M | A21526389 | Jun 3, 2023 | Jun 2, 2028 | Colorado, USA |
+| **Elise Carroll Williams** | WILLIAMS | ELISE / CARROLL | **02/05/2019** | F | A21526388 | Jun 3, 2023 | Jun 2, 2028 | New York, USA |
+| **Valerie Lorna Williams** | WILLIAMS | VALERIE / LORNA | **01/09/1957** | F | A75415133 | Dec 30, 2025 | Dec 29, 2035 | Connecticut, USA |
+| **Harrison Bayliss Walton** | **WALTON** | HARRISON / BAYLISS | **10/24/2009** | M | A70772239 | Jan 16, 2026 | Jan 15, 2036 | Alabama, USA |
+
+**Notes:**
+- **Harrison** travels with the Williams group but his passport surname is **WALTON** — use that for airline forms, not Williams.
+- **Carson & Elise** passports expire **Jun 2, 2028** — fine for this trip; renew before any 2028+ travel.
+- **Thomas family** (Annalise, Brandon, Harlan): passport numbers still needed.
 
 ---
 
@@ -173,24 +313,57 @@ Spain's third-largest city — beach, paella, and a 9km park where a river used 
 | 1506 (JetBlue) | Nashville → Boston | May 26 | 3:15 PM   | 6:51 PM         |
 | 2261 (JetBlue) | Boston → Madrid    | May 26 | 10:29 PM  | May 27 11:30 AM |
 
-### Madrid Airport to Valencia
+### Madrid Airport to Valencia — Two-Train Plan
 
-**Step 1: Airport to Atocha Train Station**
+**Primary:** Make the **14:30 from Chamartín** (ZUBYYB). **Fallback:** the **19:40 from Atocha** (4XYBG8) if Customs runs long or anything else delays us. **Cancel 4XYBG8 the moment we're seated on the 14:30.**
 
-| Option                        | Time      | Cost          | Notes                      |
-| ----------------------------- | --------- | ------------- | -------------------------- |
-| **Cercanías C1 Train** | 25-30 min | €2.60/person | Best option - fast & cheap |
-| Metro Line 8                  | 45-50 min | €5/person    | More walking with luggage  |
-| Taxi/Uber                     | 30-40 min | €30-40 total | Most convenient with kids  |
+**Step 1: Airport to Train Station (Cercanías C1)**
+
+The same C1 commuter line goes to **both** Chamartín and Atocha — no transfer. Just get off at the right stop.
+
+| Option | Time to Chamartín | Time to Atocha | Cost | Notes |
+| ----------------------------- | --------- | --------- | ------------- | -------------------------- |
+| **Cercanías C1 Train** ✅ | **~25 min** | ~25 min | €2.60/person | Best option. T4 station inside the airport (free shuttle from T1/T2/T3 to T4 if needed). |
+| Metro Line 8 | 45-50 min | 45-50 min (transfer) | €5/person | More walking with luggage — skip with 8 bags. |
+| Taxi/Uber | 30-40 min | 30-40 min | €30-40 total | Most convenient with kids; €40+ for a van with 8 bags. |
 
 **Cercanías C1 Details:**
 
-- **No reservation needed** - Just show up and buy ticket at machine or counter
-- **No app required** - Cash or card at station
-- **How it works:** Take free shuttle bus from your terminal to T4, then follow signs to "Cercanías" (commuter rail), take C1 toward "Atocha"
-- **Frequency:** Every 30 minutes
+- **No reservation needed** — buy at machine or counter (cards work).
+- **How it works:** Free shuttle bus from your terminal to **T4**, then follow signs to "Cercanías" (commuter rail), take **C1** and ride to either **Chamartín** (5–6 stops) or **Atocha** (8 stops).
+- **Frequency:** Every 30 minutes. About 30 minutes total airport-to-station.
+- **With 8 bags + kids:** if it's tight, a van taxi to Chamartín runs ~€40 and you skip the platform stairs.
 
-**Step 2: Atocha to Valencia (High-Speed AVE) - BOOKED**
+**Step 2A — PRIMARY: Madrid Chamartín → Valencia (14:30 AVE) — BOOKED**
+
+| Detail | Information |
+|--------|-------------|
+| **Booking Reference** | **ZUBYYB** |
+| **Train** | AVE 05140 |
+| **Date** | May 27, 2026 |
+| **Route** | Madrid Chamartín–Clara Campoamor → Valencia J. Sorolla |
+| **Departure** | **14:30** (2:30 PM) |
+| **Arrival** | **16:34** (4:34 PM) |
+| **Class** | Premium Confort |
+| **Total Paid** | €437.65 |
+| **Covered Passengers** | Chandler, Angela, Carson, Valerie, Harrison, Elise |
+
+**Seat Assignments (Coach 1):**
+
+| Passenger | Seat | Ticket No. | Price |
+|-----------|------|------------|-------|
+| Chandler | 7C | 7253702034054 | €78.15 |
+| Carson | 7B | 7253702034062 | €78.15 |
+| Angela | 8C | 7253702034070 | €78.15 |
+| Harrison | 8B | 7253702034088 | €78.15 |
+| Valerie | 7A | 7253702034096 | €78.15 |
+| Elise | 8A | 7253702034104 | €46.90 |
+
+**Included:** **Lunch (Almuerzo) onboard** — meat menu. Premium lounge access at Chamartín (open 2 hours before).
+
+**Step 2B — FALLBACK: Madrid Atocha → Valencia (19:40 AVE) — BOOKED**
+
+If we miss the 14:30 (long customs, lost bag, kids meltdown, whatever), this is our backup. **Cancel as soon as we're confirmed on the 14:30.**
 
 | Detail | Information |
 |--------|-------------|
@@ -202,8 +375,6 @@ Spain's third-largest city — beach, paella, and a 9km park where a river used 
 | **Arrival** | 21:40 (9:40 PM) |
 | **Class** | Premium Confort |
 | **Total Paid** | €320.60 |
-| **Covered Passengers** | Chandler, Angela, Carson, Valerie, Harrison, Elise |
-| **Thomas Family** | Annalise, Brandon, and Harlan arrive separately via Barcelona and meet the group in Valencia. |
 
 **Seat Assignments (Coach 1):**
 
@@ -216,22 +387,36 @@ Spain's third-largest city — beach, paella, and a 9km park where a river used 
 | Harrison | 4B | 7281401961483 | €57.25 |
 | Elise | 4A | 7281401961491 | €34.35 |
 
-**Included:** Dinner on board, Club Lounge access at Atocha (enter 2 hours before, starting 5:40 PM)
+**Included:** Dinner onboard. Club Lounge access at Atocha (enter 2 hours before, 17:40).
 
-**Recommended Schedule (May 27):**
+**If we end up on the fallback at Atocha:** if we're stuck somewhere else in Madrid first (e.g., at Chamartín after missing the 14:30), Cercanías **C3 or C4** runs Chamartín ↔ Atocha in **~7 min** — same Cercanías ticket. Don't try to drag bags through the metro.
+
+**Recommended Schedule (May 27 — primary plan):**
 
 | Time | Activity |
 |------|----------|
 | 11:30 AM | Land at Madrid Barajas |
-| 12:00-12:30 PM | Customs, luggage |
-| 12:45 PM | Cercanías C1 to Atocha (no booking needed, €2.60/person) |
-| 1:15 PM | Arrive Atocha |
-| 1:15-5:40 PM | **Option A:** Store luggage, explore Retiro Park, grab lunch |
-|  | **Option B:** Relax in Atocha station (tropical garden, food court) |
-| 5:40 PM | Enter Club Lounge (Premium tickets) |
+| 11:30 AM – 12:30 PM | Customs, luggage (8 bags), bathroom reset |
+| 12:30–12:45 PM | Free shuttle to T4, queue at Cercanías machines |
+| 12:50 PM | Board Cercanías C1 toward Chamartín |
+| ~1:20 PM | Arrive **Chamartín** — find Coach 1 boarding zone, buy water, switch to vacation mode |
+| 1:30–2:20 PM | Lounge time / Mateo's Café (Chamartín food court). **No need to check bags** — bring all 8 onboard (Coach 1 has racks). |
+| 2:30 PM | Board AVE 05140 to Valencia (Coach 1) |
+| 4:34 PM | Arrive Valencia-Joaquín Sorolla |
+| ~5:00 PM | Taxi van to beach house (€20–25 for 8 bags + 6 people, ~15 min) — perfect timing for 4:00 PM check-in |
+
+**If we slip to the fallback (19:40 from Atocha):**
+
+| Time | Activity |
+|------|----------|
+| 11:30 AM | Land Barajas |
+| 12:30 PM | Cercanías C1 → Atocha (~25 min) |
+| 1:00 PM | At Atocha — **stash bags at consigna** (~€6/bag × 8 = ~€48, 3-day max) |
+| 1:30–5:30 PM | Lunch + Retiro Park / Reina Sofía / Prado / chase turtles in the Atocha tropical garden |
+| 5:40 PM | Enter Atocha Club Lounge (Premium tickets) |
 | 7:40 PM | Board AVE 05990 to Valencia (Coach 1) |
-| 9:40 PM | Arrive Valencia-Joaquín Sorolla |
-| ~10:00 PM | Taxi to accommodation (€15-20, ~15 min) |
+| 9:40 PM | Arrive Valencia |
+| ~10:00 PM | Taxi van to beach house (kids will be wrecked — get straight to bed) |
 
 ---
 
@@ -365,22 +550,45 @@ Spain's third-largest city — beach, paella, and a 9km park where a river used 
 
 ---
 
-## Valencia: What to Do (May 27-28)
+## Daily Timelines: Valencia (May 27–29)
+
+### Wednesday May 27 — Arrive & settle
+
+| Time | Event | Notes |
+|------|-------|-------|
+| ~11:30 | Land Madrid Barajas | JetBlue 2261 |
+| **14:30** | **AVE ZUBYYB → Valencia from Chamartín** *(primary)* | Coach 1 — see Phase 1 train tables |
+| ↩ 19:40 | **AVE 4XYBG8 → Valencia from Atocha** *(fallback only)* | Cancel if primary made |
+| 16:34 / 21:40 | Arrive Valencia Joaquín Sorolla | Taxi to beach house ~€15 |
+| 17:00 / 22:30 | Check in with Maria Pilar (beach house) | Police form done before arrival |
+| Evening | Light tapas walk along Malvarrosa promenade | Recover from travel day |
+
+*See **Madrid Airport to Valencia — Two-Train Plan** above for the full primary vs fallback play-by-play.*
+
+### Thursday May 28 — Beach + Paella
+
+| Time | Event | Notes |
+|------|-------|-------|
+| Morning | Beach / pool at the house | Malvarrosa is 3–5 min walk |
+| **13:00** | **Casa Carmela paella lunch** (BOOKED) | Carrer d'Isabel de Villena 155 — wood-fire, cooked to order 20–30 min |
+| Afternoon | Free — beach, Turia Gardens stroll, or City of Arts & Sciences | |
+| ~17:00 | Mercado Central if not seen earlier | Open until 15:00 Mon–Sat (so go before lunch if you want it) |
+| Evening | Sunset on Malvarrosa | Light dinner — chiringuitos |
+
+### Friday May 29 — Train to Barcelona
+
+| Time | Event |
+|------|-------|
+| 07:45 | Leave beach house |
+| **09:06** | **Euromed 01092 → Barcelona** (see Phase 2 Friday timeline) |
+
+---
+
+## Valencia: What to Do (free time)
 
 ### Recommendations
 
-**1. Casa Carmela Paella Lunch** ⭐ BOOKED
-
-- **What:** Traditional wood-fired paella at a legendary local restaurant (since 1922)
-- **Why:** This is how paella is SUPPOSED to be made - wood fire, no gas, no shortcuts. Locals eat here.
-- **When:** **Thursday May 28, 2026 at 1:00 PM Spain time** (day after arrival)
-- **Cost:** €20-30/person
-- **Distance:** 10-15 min walk from your beach house (it's on your street!)
-- **Address:** Carrer d'Isabel de Villena, 155
-- **Order:** Paella Valenciana (chicken, rabbit, beans) for traditional, or Paella de Mariscos (seafood)
-- **Tip:** They cook to order, so expect 20-30 min wait - worth it!
-
-**2. Mercado Central (Central Market)**
+**1. Mercado Central (Central Market)**
 
 - **What:** One of Europe's largest and most beautiful food markets (1,000+ stalls)
 - **Why:** Stunning 1914 Art Nouveau building, authentic local food experience
@@ -390,7 +598,7 @@ Spain's third-largest city — beach, paella, and a 9km park where a river used 
 - **Booking:** None needed
 - **Note:** May 28 is a flexible day - could visit then or May 27 afternoon if you have energy after travel
 
-**3. City of Arts and Sciences**
+**2. City of Arts and Sciences**
 
 - **What:** Stunning futuristic architecture complex with aquarium, science museum, IMAX
 - **Why:** Incredible architecture by Santiago Calatrava, great for kids
@@ -403,7 +611,7 @@ Spain's third-largest city — beach, paella, and a 9km park where a river used 
 - **Booking:** Can book online at [cac.es](https://www.cac.es/en/) or same-day at ticket office
 - **Tip:** The aquarium (L'Oceanogràfic) is Europe's largest - great for Elise!
 
-**4. Turia Gardens Walk/Run**
+**3. Turia Gardens Walk/Run**
 
 - **What:** 9km park in a former riverbed running through the city
 - **Why:** Perfect for morning jog or family walk, playgrounds for kids
@@ -411,7 +619,7 @@ Spain's third-largest city — beach, paella, and a 9km park where a river used 
 - **Distance:** Accessible from City of Arts and Sciences
 - **Booking:** None needed
 
-**5. Old Town Walking**
+**4. Old Town Walking**
 
 - **What:** Historic Valencia - cathedral, Plaza de la Virgen, La Lonja (UNESCO Silk Exchange)
 - **Why:** Beautiful architecture, authentic atmosphere
@@ -420,7 +628,7 @@ Spain's third-largest city — beach, paella, and a 9km park where a river used 
 - **Booking:** None needed
 - **Tip:** La Lonja de la Seda (Silk Exchange) is a stunning 15th-century Gothic building - quick visit, very impressive
 
-**6. Beach Time**
+**5. Beach Time**
 
 - **What:** Malvarrosa Beach - wide sandy beach with promenade
 - **Why:** You're 3-5 min walk from it! Relax, swim, walk
@@ -530,22 +738,10 @@ Catalonia's capital — Gaudí, Gothic alleys, and a wedding weekend. Your apart
 | Elise | 6B | 7150702026892 | €52.50 |
 
 **Scenic Views:**
-- Euromed is the right call for this route - it runs closer to the coast than the faster AVE options.
-- Best views are generally on the right side heading north toward Barcelona.
-- Route passes through coastal towns, Castellón/Tarragona area, beaches, and orange groves.
+- Euromed runs closer to the coast than the faster AVE options — Coach 13 right side wins.
+- Route passes coastal towns (Castellón, Peñíscola castle, Tarragona Roman ruins), beaches, and orange groves.
 
-**Recommended Schedule:**
-
-| Time | Activity |
-|------|----------|
-| 6:45-7:30 AM | Breakfast, pack up |
-| 7:45 AM | Leave Valencia beach house |
-| 8:15 AM | Arrive Valencia-Estació del Nord |
-| 9:06 AM | Board Euromed 01092 to Barcelona (Coach 13) |
-| 12:20 PM | Arrive Barcelona-Sants |
-| 12:30-1:00 PM | Taxi / Uber / FreeNow to accommodations (~€15-20; all take cards) |
-| 2:00 PM | Williams apartment check-in target |
-| 7:00 PM | Welcome party (Joe & Nikki) |
+*Friday-morning travel timeline → see **Daily Timelines** below.*
 
 ### Action Items
 - Confirm Thomas family train details for Annalise, Brandon, and Harlan if separate tickets are not already saved.
@@ -617,214 +813,150 @@ Catalonia's capital — Gaudí, Gothic alleys, and a wedding weekend. Your apart
 
 ---
 
-## Barcelona: What to Do (May 29-31)
+## Daily Timelines: Barcelona (May 29 – Jun 1)
 
-### Wedding Events
+Every preset / booked event for the weekend in one place. Free-time ideas live further below.
 
-| Date         | Event                | Time | Location       |
-| ------------ | -------------------- | ---- | -------------- |
-| May 29 (Fri) | Welcome party        | 7:00 PM | [Alaire Rooftop](https://tmg.link/app/r/condes) |
-| May 30 (Sat) | Tour Day (if registered) | See schedule below | La Pedrera, Sagrada, Catedral |
-| May 31 (Sun) | Wedding shuttles     | 4:30 PM | [Shuttle pickup](https://tmg.link/app/r/shuttlepickup) |
-| May 31 (Sun) | Ceremony & reception | After shuttles | Gothic Quarter |
+### Friday May 29 — Train in + Welcome Party
 
-**Wedding Area:** Gothic Quarter, Barcelona
-**Reference Hotels:** Kimpton Vividora (Carrer del Duc 15), Hotel 1898 (La Rambla 109)
+| Time | Event | Notes |
+|------|-------|-------|
+| 06:45–07:30 | Breakfast, pack up | Valencia beach house |
+| 07:45 | Leave Valencia beach house | Pre-arranged bag drop with Maria Pilar |
+| 08:15 | Arrive Valencia-Estació del Nord | All 8 bags + carry-ons |
+| **09:06** | **Board Euromed 01092 → Barcelona** | Coach 13, right side for sea views |
+| 12:20 | Arrive Barcelona-Sants | 2 Ubers XL to Eixample (~€20 each) |
+| 13:00 | Drop bags at apartments (host entryway if allowed) | Backup: Sants consigna |
+| 13:30 | Lunch in Eixample, hands-free | Tapas 24, Cervecería Catalana |
+| 14:00 | Williams apartment check-in | Carrer de València |
+| 14:00–18:30 | Free afternoon | Park Güell or Casa Batlló (book ahead) |
+| **19:00** | **Welcome party — Alaire Rooftop** | [tmg.link/app/r/condes](https://tmg.link/app/r/condes) |
 
-### One Week Out — Joe & Nikki (May 24, 2026)
+### Saturday May 30 — Wedding Tour Day
 
-- **Weather:** 65–85°F (18–29°C) — warm and sunny all weekend. Wedding night: ~77°F (25°C) at ceremony, cooling to ~70°F (21°C) by midnight.
-- **Pack:** EU **Type C** power adapter; any meds you might need.
-- **BCN arrival:** Taxi or **Uber / FreeNow** apps are easiest — all take credit cards.
-- **Fri May 29:** Welcome party **7:00 PM**
-- **Sat May 30:** Tours (if you signed up) — see Tour Day schedule below
-- **Sun May 31:** Shuttles **4:30 PM**
+Wedding-organized group tours bookend the day. **Sagrada Família entry is our separate ticket** — locator **97232969**, photo ID required, **Sagrada Família Oficial** app must be installed before arrival.
 
-### Weekend Venue Maps — save these! (Joe, May 24)
+| Time | Event | Where / Details |
+|------|-------|-----------------|
+| 08:30 | Breakfast at apartment / pastries | |
+| 09:00 | Walk to La Pedrera | ~10 min from apartment |
+| **09:15** | **Morning Tour · Group A — La Pedrera & Sagrada Família** | [La Pedrera](https://tmg.link/app/r/lapedrera) — Passeig de Gràcia 92 — [maps](https://maps.app.goo.gl/ueMaPBQnHizNshxs5) |
+| ~11:45 | Arrive Sagrada Família with tour group | Approximate — after morning tour |
+| **12:15** | **Sagrada Família official entry** (Locator 97232969) | C/ Marina entrance — app + photo ID required |
+| ~14:00 | Lunch — Eixample tapas | Tapas 24 / Can Paixano |
+| 15:30–16:30 | Free time / rest at apartment | |
+| 16:45 | Walk to Catedral de Barcelona | ~15 min from apartment |
+| **17:00** | **Evening Tour — Tapas Tour** | [Catedral de Barcelona](https://tmg.link/app/r/catedralbcn) — [maps](https://maps.app.goo.gl/aDW3zC5ce4SuLt2e9) ⚠️ **Meeting point changed May 23** (was Grand Hotel Central). Arrive a few min early. |
+| 21:00 onward | Optional dinner if tapas tour wasn't enough | |
 
-Offline-friendly map links from Joe & Nikki. Open on your phone before you leave Wi‑Fi.
-
-| When | Event | Venue | Map |
-| --- | --- | --- | --- |
-| **Fri May 29, 7 PM** | Welcome party | **Alaire Rooftop** | [tmg.link/app/r/condes](https://tmg.link/app/r/condes) |
-| **Sat May 30, 9:15 AM** | Morning tour meetup | **La Pedrera** | [tmg.link/app/r/lapedrera](https://tmg.link/app/r/lapedrera) |
-| **Sat May 30, 5 PM** | Tapas tour meetup | **Catedral de Barcelona** | [tmg.link/app/r/catedralbcn](https://tmg.link/app/r/catedralbcn) |
-| **Sun May 31, 4:30 PM** | Shuttle pickup | **Shuttle pickup point** | [tmg.link/app/r/shuttlepickup](https://tmg.link/app/r/shuttlepickup) |
-
-Also saved in the **Quick Reference** widget on Overview and in each calendar event description.
-
-### Wedding Attire & Logistics (from Joe, Apr 2026)
-
-Joe's guidance: responsibilities are **light except Sunday**. Wedding party may meet at the venue ahead of the main group for photos — exact timing TBD.
-
-**Sunday ceremony day (current plan):**
-- Wedding party may head to venue **~2:30 PM** (meet at hotel earlier — exact time TBD)
-- Hair/makeup **before** leaving hotel (bridesmaids use hotel library room; optional pro hair/makeup available if you want Joe to arrange)
-- **Guest shuttles depart 4:30 PM** (confirmed May 24) — pickup: [tmg.link/app/r/shuttlepickup](https://tmg.link/app/r/shuttlepickup); family may also ride early
-- Small area at venue for personal items (water bottle, light jacket, book) — limited space; pack light for the day
-- You'll walk down the aisle but sit in the **first few rows** — not standing at the altar
-
-**Men — black tuxedo:**
-- White shirt, **black bow tie**
-- **No vest or cummerbund**
-- Lapel style flexible (peak / shawl / notch — nothing too unusual)
-- Any **black dress shoes** fine — patent leather **not** required
-- **Rent locally** if you don't own one (Chandler: Casa Gay fitting May 29). Any standard black tux rental works — fit matters more than brand
-
-**Women:**
-- **Black tuxedo OR black dress/gown** — both are great
-- Annalise / sisters / guests: **no tux required** — a formal black dress is perfect
-- Comfortable shoes still matter — Gothic Quarter is cobblestones; plan for walking and standing
-
-**Optional hair/makeup:** Joe can arrange the same team as bridesmaids (hotel library room or in-room). Totally optional — do your own if you prefer (especially curly hair — Tamara's note: pro stylists often struggle with curls).
-
-**Questions still TBD from Joe:** Ceremony start time, whether Jason can take early transport to explore.
-
-### May 30 Tour Day Schedule (Saturday)
-
-**Nikki & Joe tour details** (email May 23, 2026 — save for Tour Day)
-
-| | |
-|---|---|
-| **Registered guests** | 5 — Chandler, Angela, Carson, Elise, Harrison |
-| **Questions** | Joe: [joeking7@gmail.com](mailto:joeking7@gmail.com) |
-
-Wedding-organized group tour day. Morning + evening tours are paid wedding activities. Sagrada Família tickets below are your separate official entry (Locator 97232969).
-
-| Time | Activity | Meeting point / details |
-|------|----------|-------------------------|
-| **9:15 AM** | **Morning Tour · Group A:** La Pedrera & Sagrada Família | [La Pedrera](https://tmg.link/app/r/lapedrera) — also [Google Maps](https://maps.app.goo.gl/ueMaPBQnHizNshxs5), Passeig de Gràcia 92 |
-| **~11:45 AM** | Arrive at Sagrada Família with tour group | Approximate — after morning tour |
-| **12:15 PM** | Sagrada Família official entry | Locator: 97232969, Entry at C/ Marina. **Sagrada Família Oficial** app + photo ID |
-| **5:00 PM** | **Evening Tour:** Tapas Tour | Meet at [Catedral de Barcelona](https://tmg.link/app/r/catedralbcn) — also [Google Maps](https://maps.app.goo.gl/aDW3zC5ce4SuLt2e9) |
-
-⚠️ **Tapas meeting point changed (May 23):** was Grand Hotel Central → now **Catedral de Barcelona**. Arrive a few minutes early.
-
-**Sagrada Família Tickets - BOOKED:**
+**Sagrada Família entry tickets — BOOKED:**
 
 | Detail | Information |
 |--------|-------------|
 | **Locator** | 97232969 |
 | **Date/Time** | May 30, 2026 at 12:15 PM Spain time |
-| **Entry** | C/ Marina - 08013 Barcelona |
-| **Tickets** | 2x General (€26 ea), 2x Student (€24 ea), 1x Child under 11 (free) |
-| **Total** | €100.00 |
-| **App Required** | Download **Sagrada Família Oficial** app before arrival for tickets + audioguide |
-| **ID Required** | Must show official photo ID to enter (ticket is non-transferable) |
-| **Note** | Annalise has a separate duplicate confirmation for the other half of the party |
+| **Entry** | C/ Marina — 08013 Barcelona |
+| **Tickets** | 2× General (€26 ea), 2× Student (€24 ea), 1× Child under 11 (free) — **€100.00** |
+| **App Required** | **Sagrada Família Oficial** — download before arrival (tickets + audioguide live here) |
+| **ID Required** | Official photo ID — non-transferable |
+| **Other half of party** | Annalise has the duplicate confirmation |
 
-### Chandler's Suit Rental
+### Sunday May 31 — Wedding Day
 
-**Plan:** Rent a suit in Barcelona instead of packing formal wear.
+| Time | Event | Notes |
+|------|-------|-------|
+| 09:00–11:00 | Sleep in, light breakfast | Late night ahead |
+| 11:00–13:30 | Free time / hair/makeup prep | Casual brunch nearby |
+| 13:30 | Lunch at apartment or nearby | Light, no late seating |
+| ~14:30 | Wedding party may head to venue for photos | Exact time TBD by Joe — meet at hotel earlier |
+| 15:30 | Final dress / get ready | See Wedding Cheat Sheet below for attire |
+| **16:30** | **Guest shuttles depart** | Pickup: [tmg.link/app/r/shuttlepickup](https://tmg.link/app/r/shuttlepickup) — family may also ride early |
+| ~17:00 | Arrive ceremony venue | Gothic Quarter |
+| Evening | Ceremony, cocktails, dinner, dancing | Walk down aisle, sit in front rows |
+| Late | Return — taxi or walk | Apartments are 10–20 min walk |
 
-| Detail | Information |
-|--------|-------------|
-| **Shop** | Casa Gay |
-| **Address** | Roger de Llúria, 12-14, Barcelona (walkable from apartment!) |
-| **Phone/WhatsApp** | +34 696 54 76 35 |
-| **Website** | casagay.com |
-| **Fitting** | May 29 afternoon (after check-in) |
-| **Return** | June 1 morning (before train to Madrid) |
-| **Shoes** | Bring or buy separately (shoe rental unlikely) |
+### Monday June 1 — Checkout & Train to Madrid
 
-**Why renting:** Saves packing suit, jacket, dress shirt, slacks, tie through 4 trains and 2 flights.
+| Time | Event | Notes |
+|------|-------|-------|
+| 09:00–10:00 | Sleep in, light breakfast | |
+| 11:00 | Williams + Thomas checkout | Bags down to entryway |
+| 12:00 | 2 Ubers XL → Barcelona-Sants | ~€20 each |
+| 12:30 | Sants consigna (€48 for 8 bags ~2 hrs) OR Sants café area free | |
+| 12:30–14:30 | Lunch — Sants food court / La Rotonda upstairs | Stay in the station — no downtown round trips |
+| 14:30 | Boarding gates open | Check coach 1 on main board |
+| **15:00** | **Board AVE 03152 → Madrid** (JKSS7B, Coach 1) | Atocha arrival 18:17 |
 
 ---
 
-### Recommendations
+## Wedding Cheat Sheet
 
-**1. Sagrada Família** ✅ BOOKED
+### Attire (from Joe, Apr 2026)
 
-- **What:** Gaudí's iconic basilica - recently became world's tallest church
-- **Why:** Once-in-a-lifetime architectural experience, under construction since 1882
-- **Cost:** €100 total (see ticket breakdown in Tour Day Schedule above)
-- **Distance:** 15 min walk or 2 metro stops from Williams apartment
-- **Duration:** 1.5-2 hours
-- **Booking:** ✅ Booked — Locator 97232969, May 30 at 12:15 PM
-- **App:** Download **Sagrada Família Oficial** app before arrival (required for tickets + audioguide)
-- **ID:** Must bring official photo ID (tickets are non-transferable)
-- **Note:** This is the official entry after the wedding morning tour (Group A), which now starts at 9:15 AM and arrives at Sagrada around 11:45 AM
+**Men — black tuxedo:** white shirt, **black bow tie**, **no vest or cummerbund**. Any **black dress shoes** (patent leather not required). Lapel style flexible (peak / shawl / notch — nothing unusual). *Chandler is bringing his own tux — no local rental needed.*
 
-**2. Park Güell** ⭐ BOOK 2-4 weeks ahead
+**Women:** **Black tuxedo OR black dress/gown** — both great. No tux required for sisters / guests (a formal black dress is perfect). Comfortable shoes matter — Gothic Quarter is cobblestones.
 
-- **What:** Gaudí's whimsical park with colorful mosaics and panoramic city views
-- **Why:** UNESCO World Heritage Site, iconic Barcelona photos
-- **Cost:** €10/person (timed entry)
-- **Distance:** 25 min by taxi or 30 min by metro + walk from apartments
-- **Duration:** 1.5-2 hours
-- **Booking:** [parkguell.barcelona](https://parkguell.barcelona) - **Timed entry required**
-- **Best Time:** Morning (8:30-9:30 AM) for fewer crowds
-- **Suggested Day:** May 30 afternoon or May 29 morning (before wedding events)
+**Optional hair/makeup:** Joe can arrange the bridesmaids' team (hotel library room or in-room). Curly hair note from Tamara — pro stylists often struggle, so doing your own is totally fine.
+
+**Ceremony logistics:**
+- Small area at venue for personal items (water bottle, light jacket) — pack light.
+- You'll walk down the aisle but sit in the **first few rows** — not standing at the altar.
+- Wedding party may head over **~2:30 PM** for photos (TBD).
+
+**Still TBD from Joe:** Ceremony start time; whether Jason can take early transport to explore.
+
+### Venue Maps — save offline before you leave Wi-Fi
+
+| When | Event | Venue | Map |
+|------|-------|-------|-----|
+| Fri 7 PM | Welcome party | **Alaire Rooftop** | [tmg.link/app/r/condes](https://tmg.link/app/r/condes) |
+| Sat 9:15 AM | Morning tour | **La Pedrera** | [tmg.link/app/r/lapedrera](https://tmg.link/app/r/lapedrera) |
+| Sat 5 PM | Tapas tour | **Catedral de Barcelona** | [tmg.link/app/r/catedralbcn](https://tmg.link/app/r/catedralbcn) |
+| Sun 4:30 PM | Shuttle pickup | **Shuttle pickup point** | [tmg.link/app/r/shuttlepickup](https://tmg.link/app/r/shuttlepickup) |
+
+**Wedding area:** Gothic Quarter. **Reference hotels:** Kimpton Vividora (Carrer del Duc 15), Hotel 1898 (La Rambla 109).
+**Tour day questions:** Joe — [joeking7@gmail.com](mailto:joeking7@gmail.com).
+**Registered tour guests:** Chandler, Angela, Carson, Elise, Harrison.
+
+---
+
+## Free-Time Picks (Friday afternoon + Sunday morning)
+
+Sat May 30 is locked by the tour day. These are options for Fri afternoon, Sun morning, or any spare hour.
+
+**1. Park Güell** ⭐ Book 2–4 weeks ahead
+- Gaudí's whimsical park — colorful mosaics, panoramic views. UNESCO site.
+- €10/person timed entry — [parkguell.barcelona](https://parkguell.barcelona)
+- 25 min taxi / 30 min metro + walk. 1.5–2 hrs.
+- **Best slot:** Fri afternoon (before welcome party) or Sun morning.
+
+**2. Casa Batlló** (skip La Pedrera — you see it Saturday with the tour)
+- 5 min walk from Williams apartment, €35/person, 1–1.5 hr.
+- Book 1–2 weeks ahead at [casabatllo.es](https://casabatllo.es).
+- More impressive interior than La Pedrera.
 
 **3. Gothic Quarter Walking**
+- Medieval old town — narrow streets, hidden plazas, Cathedral, Roman ruins.
+- 10–20 min walk; Cathedral rooftop €9 (otherwise free).
+- Get "lost" — that's the point. Highlights: Plaça Reial, Plaça del Pi.
 
-- **What:** Medieval old town with narrow streets, hidden plazas, Barcelona Cathedral
-- **Why:** Wedding venue area - explore before/after events
-- **Cost:** Free to walk; Cathedral rooftop €9
-- **Distance:** 10-20 min walk from apartments
-- **Duration:** 2-3 hours
-- **Booking:** None needed
-- **Highlights:** Plaça Reial, Cathedral, Plaça del Pi, Roman ruins
-- **Tip:** Get "lost" in the narrow streets - that's the best way to explore
+**4. La Boqueria Market**
+- Famous food market on La Rambla — 15 min walk.
+- Free entry; €10–20 for snacks. Go early to dodge tourists.
 
-**4. Casa Batlló or La Pedrera (Pick One)**
+**5. Barceloneta Beach**
+- 25 min walk or 15 min metro. Water ~18–20°C (refreshing but swimmable).
 
-- **What:** Gaudí's famous residential buildings on Passeig de Gràcia
-- **Why:** Incredible interior design, right near Williams apartment
-- **Cost:** Casa Batlló €35/person / La Pedrera €25/person
-- **Distance:** 5 min walk from Williams apartment
-- **Duration:** 1-1.5 hours each
-- **Booking:** Book 1-2 weeks ahead at [casabatllo.es](https://casabatllo.es) or [lapedrera.com](https://lapedrera.com)
-- **Recommendation:** Casa Batlló is more impressive inside; La Pedrera has better rooftop
+**6. Montserrat Day Trip** *(probably skip)*
+- Mountain monastery, 1.5 hr each way, train + cable car ~€25–30. Save for a future trip.
 
-**5. Montserrat Day Trip** (If time allows - likely skip given wedding schedule)
+**Quick kid picks:**
+- **Teens (Carson / Harrison):** Park Güell, Gothic Quarter, beach.
+- **Elise:** Park Güell mosaics, beach.
+- **Valerie:** Gothic Quarter cafés, La Rambla benches, La Boqueria.
 
-- **What:** Mountain monastery with stunning views, hiking, boys' choir
-- **Why:** Spectacular natural setting, spiritual atmosphere
-- **Cost:** Train + cable car ~€25-30/person round trip
-- **Distance:** 1.5 hours from Barcelona
-- **Duration:** Half to full day
-- **Booking:** Book at [fgc.cat](https://www.fgc.cat/en/) (different operator than Renfe!)
-- **Note:** May not have time with wedding events - save for future trip if needed
-
-**6. La Boqueria Market**
-
-- **What:** Famous food market on La Rambla
-- **Why:** Colorful, vibrant, great for breakfast or snacks
-- **Cost:** Free entry; €10-20 for food/drinks
-- **Distance:** 15 min walk from apartments
-- **Duration:** 30-60 min
-- **Booking:** None needed
-- **Best Time:** Early morning (less crowded) - avoid midday tourist rush
-- **Tip:** It's very touristy but still worth a quick visit
-
-**7. Barceloneta Beach**
-
-- **What:** City beach with sandy shores and seafood restaurants
-- **Why:** Relax after wedding events, cool off
-- **Cost:** Free
-- **Distance:** 25 min walk or 15 min metro from apartments
-- **Water temp:** 18-20°C (64-68°F) - refreshing but swimmable
-- **Booking:** None needed
-
-**For Teenagers:**
-
-- Sagrada Família (impressive architecture)
-- Park Güell (Instagram-worthy)
-- Gothic Quarter exploring
-- Beach time
-
-**For Elise:**
-
-- Park Güell (colorful, playground-like)
-- Beach
-- Exploring with family
-
-**For Valerie:**
-
-- Gothic Quarter (walking, cafes)
-- La Rambla (flat, shaded, benches)
-- La Boqueria Market
+For deeper sports / nerd / hike angles, see the **Family Fun** tab.
 
 ---
 
@@ -910,22 +1042,9 @@ The capital — where Spain's government, monarchy, and late-night culture conve
 
 **Scenic Views:**
 - Passes through Catalonia countryside, Aragón, and Castilla-La Mancha.
-- Less coastal than the Valencia route, but still a comfortable high-speed ride.
-- Either side works for views on this route.
+- Less coastal than the Valencia route — either side works.
 
-**Recommended Schedule:**
-
-| Time | Activity |
-|------|----------|
-| 9:00-10:00 AM | Sleep in after wedding, light breakfast |
-| 11:00 AM | Check out / store luggage if needed |
-| 12:00-1:30 PM | Lunch near apartments or Sants |
-| 2:00 PM | Taxi to Barcelona-Sants (~€15-20) |
-| 3:00 PM | Board AVE 03152 to Madrid (Coach 1) |
-| 6:17 PM | Arrive Madrid Atocha |
-| 6:30-7:00 PM | Taxi to Airbnb (~€15-20) |
-| ~7:00 PM | Arrive Airbnb (check-in starts 3:00 PM) |
-| Afternoon/Evening | Explore neighborhood, tapas dinner |
+*Monday checkout + travel timeline → see **Daily Timelines: Madrid** below.*
 
 ### Action Items
 - Confirm Thomas family train details for Annalise, Brandon, and Harlan if separate tickets are not already saved.
@@ -988,7 +1107,51 @@ The capital — where Spain's government, monarchy, and late-night culture conve
 
 ---
 
-## Madrid: What to Do (June 1-3)
+## Daily Timelines: Madrid (Jun 1–4)
+
+### Monday June 1 — Train arrival + first night
+
+| Time | Event | Notes |
+|------|-------|-------|
+| **15:00** | **AVE 03152 → Madrid** (JKSS7B, Coach 1) | From Barcelona-Sants |
+| 18:17 | Arrive Madrid-Atocha-Almudena Grandes | |
+| 18:30 | 2 Ubers XL to Airbnb (~€15–20) | Calle de la Encomienda 11, La Latina |
+| ~19:00 | Smart-lock self check-in (message Elena first) | |
+| 20:00 onward | Light tapas in La Latina — Juana la Loca, Casa Lucas | Walking distance |
+
+### Tuesday June 2 — Full Madrid day *(no preset events — suggested rhythm)*
+
+| Time | Suggestion | Notes |
+|------|------------|-------|
+| Morning | Retiro Park — rowboats, Crystal Palace | 15 min walk |
+| ~13:00 | Lunch at Mercado de San Miguel | Graze multiple stalls |
+| Afternoon | Prado Museum (book ahead) OR Plaza Mayor wander | Free 6–8 PM Mon–Sat |
+| 19:30 | Vermut at La Venencia, churros at San Ginés | |
+| Evening | La Latina tapas crawl — Cava Baja | |
+
+### Wednesday June 3 — Thomas departure / Williams flex day
+
+| Time | Event | Notes |
+|------|-------|-------|
+| Morning | Last breakfast together, pack | |
+| 11:00 | Thomas family checkout (bags at Williams Airbnb if needed) | |
+| 12:00–12:30 | Thomas taxi to Barajas | |
+| **14:45** | **DL0063 Madrid → Boston** *(Thomas family departs)* | T4S |
+| Williams afternoon | Toledo half-day trip (~30 min train) OR Royal Palace + Reina Sofía | |
+| Evening | Sobrino de Botín dinner (1725 — book days ahead) OR neighborhood tapas | |
+
+### Thursday June 4 — Williams departure (Corpus Christi holiday)
+
+| Time | Event | Notes |
+|------|-------|-------|
+| Morning | Pack, breakfast in or near apartment | Many shops closed for Corpus Christi |
+| 10:45 | 2 Ubers XL → Barajas | Don't linger downtown — direct route |
+| 11:30 | Arrive Barajas T4S | Eat at the airport (lounges + decent food) |
+| **14:05** | **JetBlue 2260 Madrid → Boston** | |
+
+---
+
+## Madrid: What to Do (free time)
 
 **Note:** You'll likely be tired after the wedding, so Madrid should be relaxed. Focus on enjoying the city, good food, and maybe one museum.
 
@@ -1203,8 +1366,8 @@ Madrid does Sunday "vermut" (vermouth hour) like nowhere else. Find any old bar 
 
 ## Documents
 
-- Collect passport numbers for all 9 travelers
-- Verify passports valid through December 2026
+- Collect passport numbers for all 9 travelers — **Williams party (6) complete** on Overview → Quick Reference; Thomas family still needed
+- Verify passports valid through December 2026 — Carson & Elise expire Jun 2028 (OK for this trip)
 - **Visa:** NOT REQUIRED for US citizens (under 90 days)
 - Photo/copy all passports (store separately)
 - Save flight confirmations to phones
@@ -1236,7 +1399,7 @@ Spain in late May / early June: **18–29°C (65–85°F)** per Joe's wedding-we
 
 | Who | What to pack / plan |
 | --- | ------------------- |
-| **Chandler (groomsmen party)** | Rent tux in Barcelona (Casa Gay). Bring **black dress shoes** (any black leather — not patent required). White shirt if rental doesn't include one. |
+| **Chandler (groomsmen party)** | Pack **own black tuxedo** + **white shirt** + **black bow tie**. **Black dress shoes** (any black leather — patent not required). |
 | **Angela, Valerie, Elise** | **Black dress or black formal outfit** for Sunday wedding. Comfortable dress shoes for cobblestones — consider block heel or elegant flats. |
 | **Annalise (sister)** | **Black dress or gown** — tux not required. Same shoe advice. Optional: own hair/makeup tools if skipping pro styling. |
 | **Brandon** | Match men's guidance if attending wedding events — black tux or dark formal suit if not in wedding party. |
@@ -1265,8 +1428,7 @@ Spain in late May / early June: **18–29°C (65–85°F)** per Joe's wedding-we
 
 ### What NOT to over-pack
 
-- Full suit/tux in checked luggage (Chandler rents locally)
-- Heavy jeans for every day (one pair enough)
+- Heavy jeans for every day (one pair is enough)
 - More than one "nice" outfit per person outside wedding gear
 - Bulky hair tools if using pro styling at hotel
 
@@ -1298,24 +1460,14 @@ Spain in late May / early June: **18–29°C (65–85°F)** per Joe's wedding-we
 
 | What                        | When to Book           | For What Day | Status |
 | --------------------------- | ---------------------- | ------------ | ------ |
-| Madrid → Valencia train    | Now (60-90 days ahead) | May 27       | BOOKED |
-| Barcelona → Valencia train | Now (60-90 days ahead) | May 27       | |
+| Madrid → Valencia train (primary) | Now (60-90 days ahead) | May 27       | BOOKED — ZUBYYB, 14:30 from Chamartín |
+| Madrid → Valencia train (fallback) | Now (60-90 days ahead) | May 27       | BOOKED — 4XYBG8, 19:40 from Atocha (cancel if we make ZUBYYB) |
+| Barcelona → Valencia train | Now (60-90 days ahead) | May 27       | Thomas family — TBC |
 | Valencia → Barcelona train | Now (60-90 days ahead) | May 29       | BOOKED for Chandler, Angela, Carson, Valerie, Harrison, Elise |
 | Barcelona → Madrid train   | Now (60-90 days ahead) | June 1       | BOOKED for Chandler, Angela, Carson, Valerie, Harrison, Elise |
 | Sagrada Família tickets    | Now (sells out!)       | May 30       | ✅ BOOKED (Locator 97232969, 12:15 PM) |
-| Park Güell tickets         | 2-4 weeks ahead        | May 29 or 30 | |
-| Casa Batlló or La Pedrera  | 1-2 weeks ahead        | May 29 or 30 | |
-
-**>>> CHANDLER: SUIT RENTAL - CONTACT NOW! <<<**
-
-| Task | Contact | Phone/WhatsApp |
-|------|---------|----------------|
-| Contact Casa Gay to arrange suit fitting | Casa Gay, Barcelona | +34 696 54 76 35 |
-
-Ask about:
-- Suit availability for May 29-31
-- Sizes and prices
-- Whether shoes are available to rent (probably need to bring/buy)
+| Park Güell tickets         | 2-4 weeks ahead        | May 29 or Jun 1 AM | |
+| Casa Batlló                | 1-2 weeks ahead        | May 29 or 31 | (skip La Pedrera — covered by Sat tour) |
 
 ## Madrid Airbnb Tasks
 
@@ -1328,4 +1480,4 @@ Ask about:
 
 ---
 
-*Last updated: May 23, 2026*
+*Last updated: May 26, 2026 — Barcelona phase restructured (Daily Timelines + Wedding Cheat Sheet + Free-Time Picks), Casa Gay suit rental removed (bringing own tux), per-day timelines added to Valencia + Madrid, duplicates trimmed throughout. See **Family Fun** tab for scavenger hunts, sports tie-ins, hikes, and beach ratings.*

@@ -528,6 +528,51 @@
         }
         .quick-ref-list a:hover { border-bottom-style: solid; }
         .quick-ref-list .qr-sub { display: block; font-size: 0.8rem; color: #666; font-weight: 400; margin-top: 0.15rem; }
+        .passport-grid {
+            display: grid;
+            gap: 0.75rem;
+        }
+        @media (min-width: 640px) {
+            .passport-grid { grid-template-columns: repeat(2, 1fr); }
+        }
+        .passport-card {
+            border: 1px solid var(--sand);
+            border-radius: 10px;
+            padding: 0.85rem 0.95rem;
+            background: #faf8f5;
+            font-size: 0.82rem;
+            line-height: 1.45;
+        }
+        .passport-card h4 {
+            margin: 0 0 0.45rem;
+            font-size: 0.92rem;
+            color: var(--deep-blue);
+            font-family: 'Playfair Display', serif;
+        }
+        .passport-card dl {
+            margin: 0;
+            display: grid;
+            grid-template-columns: auto 1fr;
+            gap: 0.15rem 0.65rem;
+        }
+        .passport-card dt {
+            color: #777;
+            font-weight: 600;
+            font-size: 0.72rem;
+            text-transform: uppercase;
+            letter-spacing: 0.02em;
+        }
+        .passport-card dd {
+            margin: 0;
+            color: #333;
+            font-variant-numeric: tabular-nums;
+        }
+        .passport-card .passport-note {
+            margin: 0.5rem 0 0;
+            font-size: 0.78rem;
+            color: var(--terracotta);
+            font-style: italic;
+        }
         .metro-city {
             margin-bottom: 0.75rem;
         }
@@ -1223,7 +1268,10 @@ if (sessionStorage.getItem('authenticated') === 'true') {
 
 const TAB_DEFS = [
     { id: 'overview',  icon: '📋', label: 'Overview',  mdIndex: 0 },
+    { id: 'day-by-day', icon: '📅', label: 'Day by Day', mdIndex: null, briefFile: 'briefings/day-by-day.md' },
     { id: 'plan',      icon: '🗺️', label: 'Plan',      mdIndex: null },
+    { id: 'travel-playbook', icon: '🧳', label: 'Travel Playbook', mdIndex: null, briefFile: 'briefings/travel-playbook.md' },
+    { id: 'family-fun', icon: '🎯', label: 'Family Fun', mdIndex: null, briefFile: 'briefings/family-fun.md' },
     { id: 'valencia',  icon: '🏖️', label: 'Valencia',  mdIndex: 1 },
     { id: 'valencia-decoded', icon: '📜', label: 'Valencia Decoded', mdIndex: null, briefFile: 'briefings/Valencia.md' },
     { id: 'barcelona', icon: '⛪', label: 'Barcelona', mdIndex: 2 },
@@ -1575,11 +1623,37 @@ async function injectTripQuickRef() {
 
         const venueMapsHtml = data.venueMaps ? `<ul class="quick-ref-list">${data.venueMaps.map(v => `<li><strong>${v.when}</strong> — ${v.event}<br><a href="${v.map}" target="_blank" rel="noopener">${v.venue}</a><span class="qr-sub">${v.map.replace('https://', '')}</span></li>`).join('')}</ul>` : '';
 
+        const passportsHtml = data.passports ? `<div class="passport-grid">${data.passports.map(p => `
+            <div class="passport-card">
+                <h4>${p.displayName}</h4>
+                <dl>
+                    <dt>Last name</dt><dd>${p.surname}</dd>
+                    <dt>First name</dt><dd>${p.firstName}</dd>
+                    ${p.middleName ? `<dt>Middle</dt><dd>${p.middleName}</dd>` : ''}
+                    <dt>DOB</dt><dd>${p.dob}</dd>
+                    <dt>Gender</dt><dd>${p.sex}</dd>
+                    <dt>Nationality</dt><dd>${p.nationality}</dd>
+                    <dt>Passport #</dt><dd><strong>${p.passportNumber}</strong></dd>
+                    <dt>Issuing country</dt><dd>${p.passportCountry}</dd>
+                    <dt>Issued</dt><dd>${p.passportIssued}</dd>
+                    <dt>Expires</dt><dd>${p.passportExpires}</dd>
+                    <dt>Residence</dt><dd>${p.residenceCountry}</dd>
+                    <dt>Birth place</dt><dd>${p.placeOfBirth}</dd>
+                </dl>
+                ${p.note ? `<p class="passport-note">${p.note}</p>` : ''}
+            </div>
+        `).join('')}</div>` : '';
+
         const widget = document.createElement('div');
         widget.className = 'quick-ref-widget';
         widget.id = 'quick-ref-print';
         widget.innerHTML = `
             <h2>🆘 Quick Reference</h2>
+            ${passportsHtml ? `<div class="quick-ref-section">
+                <h3>Passport details (JetBlue check-in)</h3>
+                <p style="font-size:0.82rem;color:#666;margin:0 0 0.75rem">Enter exactly as printed. Issuing country &amp; nationality: <strong>United States</strong>.</p>
+                ${passportsHtml}
+            </div>` : ''}
             ${trainsHtml ? `<div class="quick-ref-section">
                 <h3>Trains (Renfe locators)</h3>
                 ${trainsHtml}
