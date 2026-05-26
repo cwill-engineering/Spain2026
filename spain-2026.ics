@@ -135,12 +135,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:spain-2026-valencia-checkin@spain-trip
 DTSTAMP:20260523T120000Z
-SUMMARY:🏖️ Check in: Valencia beach house
+SUMMARY:🏠 Valencia beach house (Maria Pilar's)
 DTSTART;TZID=Europe/Madrid:20260527T160000
 DTEND;TZID=Europe/Madrid:20260527T163000
 LOCATION:Valencia\, Spain
 DESCRIPTION:Vrbo HA-7TLM9D. Maria Pilar's beach house. Carrer d'Isabel de V
- illena 155. Crib confirmed for Harlan. 3-5 min walk to Malvarrosa beach.
+ illena 155. Crib confirmed for Harlan. 3-5 min walk to Malvarrosa beach. W
+ hole group stays here May 27-29.
 END:VEVENT
 BEGIN:VEVENT
 UID:spain-2026-valencia-police-form@spain-trip
@@ -185,13 +186,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:spain-2026-barcelona-checkin@spain-trip
 DTSTAMP:20260523T120000Z
-SUMMARY:🏨 Check in: Williams Barcelona apartment
+SUMMARY:🏠 Williams Barcelona apartment
 DTSTART;TZID=Europe/Madrid:20260529T140000
 DTEND;TZID=Europe/Madrid:20260529T143000
 LOCATION:Barcelona\, Spain
 DESCRIPTION:Vrbo 726EF3C0B8 — Luxury Apartment on Carrer de València (be
  tween Passeig de Gràcia and Rambla de Catalunya). 5 guests (Williams fami
- ly).
+ ly). Stay May 29-Jun 1.
 END:VEVENT
 BEGIN:VEVENT
 UID:spain-2026-welcome-party@spain-trip
@@ -278,12 +279,13 @@ END:VEVENT
 BEGIN:VEVENT
 UID:spain-2026-madrid-checkin@spain-trip
 DTSTAMP:20260523T120000Z
-SUMMARY:🏨 Arrive Madrid Airbnb
+SUMMARY:🏠 Madrid Airbnb (Elena's loft)
 DTSTART;TZID=Europe/Madrid:20260601T190000
 DTEND;TZID=Europe/Madrid:20260601T193000
 LOCATION:Madrid\, Spain
 DESCRIPTION:Airbnb HMR8NYWPZF. Host Elena. Calle de la Encomienda 11\, La L
- atina. Smart lock check-in. Crib confirmed for Harlan. All 9 guests.
+ atina/Tirso de Molina. Smart lock check-in. Crib confirmed for Harlan. All
+  9 guests. Stay Jun 1-4.
 END:VEVENT
 BEGIN:VEVENT
 UID:spain-2026-thomas-depart@spain-trip

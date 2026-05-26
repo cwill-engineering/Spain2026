@@ -107,7 +107,7 @@
     },
     {
       "id": "valencia-checkin",
-      "title": "🏖️ Check in: Valencia beach house",
+      "title": "🏠 Valencia beach house (Maria Pilar's)",
       "start": "2026-05-27T16:00:00+02:00",
       "end": "2026-05-27T16:30:00+02:00",
       "timezone": "Europe/Madrid",
@@ -115,9 +115,10 @@
       "category": "lodging",
       "city": "Valencia",
       "group": "Valencia",
+      "stay": true,
       "lat": 39.4716,
       "lng": -0.3263,
-      "description": "Vrbo HA-7TLM9D. Maria Pilar's beach house. Carrer d'Isabel de Villena 155. Crib confirmed for Harlan. 3-5 min walk to Malvarrosa beach."
+      "description": "Vrbo HA-7TLM9D. Maria Pilar's beach house. Carrer d'Isabel de Villena 155. Crib confirmed for Harlan. 3-5 min walk to Malvarrosa beach. Whole group stays here May 27-29."
     },
     {
       "id": "valencia-police-form",
@@ -176,7 +177,7 @@
     },
     {
       "id": "barcelona-checkin",
-      "title": "🏨 Check in: Williams Barcelona apartment",
+      "title": "🏠 Williams Barcelona apartment",
       "start": "2026-05-29T14:00:00+02:00",
       "end": "2026-05-29T14:30:00+02:00",
       "timezone": "Europe/Madrid",
@@ -184,9 +185,10 @@
       "category": "lodging",
       "city": "Barcelona",
       "group": "Barcelona",
+      "stay": true,
       "lat": 41.3924,
       "lng": 2.1648,
-      "description": "Vrbo 726EF3C0B8 — Luxury Apartment on Carrer de València (between Passeig de Gràcia and Rambla de Catalunya). 5 guests (Williams family)."
+      "description": "Vrbo 726EF3C0B8 — Luxury Apartment on Carrer de València (between Passeig de Gràcia and Rambla de Catalunya). 5 guests (Williams family). Stay May 29-Jun 1."
     },
     {
       "id": "welcome-party",
@@ -302,7 +304,7 @@
     },
     {
       "id": "madrid-checkin",
-      "title": "🏨 Arrive Madrid Airbnb",
+      "title": "🏠 Madrid Airbnb (Elena's loft)",
       "start": "2026-06-01T19:00:00+02:00",
       "end": "2026-06-01T19:30:00+02:00",
       "timezone": "Europe/Madrid",
@@ -310,9 +312,10 @@
       "category": "lodging",
       "city": "Madrid",
       "group": "Madrid",
+      "stay": true,
       "lat": 40.4117,
       "lng": -3.7064,
-      "description": "Airbnb HMR8NYWPZF. Host Elena. Calle de la Encomienda 11, La Latina. Smart lock check-in. Crib confirmed for Harlan. All 9 guests."
+      "description": "Airbnb HMR8NYWPZF. Host Elena. Calle de la Encomienda 11, La Latina/Tirso de Molina. Smart lock check-in. Crib confirmed for Harlan. All 9 guests. Stay Jun 1-4."
     },
     {
       "id": "thomas-depart",
@@ -491,13 +494,14 @@
 
     {
       "id": "lodging-bcn-thomas",
-      "title": "🏨 Thomas + Valerie Barcelona apartment (Ghost)",
+      "title": "🏠 Thomas + Valerie Barcelona apartment (Ghost)",
       "city": "Barcelona",
       "day": "2026-05-29",
+      "stay": true,
       "lat": 41.3866,
       "lng": 2.1684,
       "category": "lodging",
-      "description": "VRBO 4156885ha. Quiet 2-bed 2-bath near Ronda de la Universitat & C. de Gravina. 10–15 min walk to Williams apartment. Annalise, Brandon, Harlan, Valerie."
+      "description": "VRBO 4156885ha. Quiet 2-bed 2-bath near Ronda de la Universitat & C. de Gravina. 10–15 min walk to Williams apartment. Annalise, Brandon, Harlan, Valerie. Stay May 29-Jun 1."
     },
     {
       "id": "stn-madrid-chamartin",
@@ -891,6 +895,210 @@
       "lng": -0.3582,
       "category": "activity",
       "description": "Valencia CF home stadium. Tours during off-season. Final La Liga match was May 24 — see Family Fun tab."
+    },
+
+    {
+      "id": "neigh-val-mercadona",
+      "title": "🛒 Mercadona supermarket (Valencia)",
+      "city": "Valencia",
+      "day": "2026-05-27",
+      "lat": 39.4731,
+      "lng": -0.3296,
+      "category": "essentials",
+      "description": "Closest supermarket to the beach house — ~8 min walk. Diapers, formula, snacks, water, fruit. Open Mon-Sat ~9-21:30; closed Sundays."
+    },
+    {
+      "id": "neigh-val-pharmacy",
+      "title": "💊 Farmàcia (Valencia, near beach)",
+      "city": "Valencia",
+      "day": "2026-05-27",
+      "lat": 39.4721,
+      "lng": -0.3274,
+      "category": "essentials",
+      "description": "Closest pharmacy to the beach house, ~3 min walk on Av. de Neptú. Look for the green cross. Sells baby supplies + OTC meds."
+    },
+    {
+      "id": "neigh-val-bakery",
+      "title": "🥐 Forn de pa (morning bakery)",
+      "city": "Valencia",
+      "day": "2026-05-28",
+      "lat": 39.4718,
+      "lng": -0.3279,
+      "category": "food",
+      "description": "Neighborhood bakery — fresh bread, ensaimadas, café con leche. Open from 7 AM. 2 min walk from beach house."
+    },
+    {
+      "id": "neigh-val-heladeria",
+      "title": "🍦 Heladería on the promenade",
+      "city": "Valencia",
+      "day": "2026-05-28",
+      "lat": 39.4714,
+      "lng": -0.3257,
+      "category": "food",
+      "description": "Beach promenade ice cream. Easy after-dinner walk with Elise. Open late."
+    },
+    {
+      "id": "neigh-val-playground",
+      "title": "🛝 Parc de Capçalera playground",
+      "city": "Valencia",
+      "day": "2026-05-28",
+      "lat": 39.4725,
+      "lng": -0.3270,
+      "category": "activity",
+      "description": "Playground near Malvarrosa promenade — flat, shaded, benches for Valerie."
+    },
+
+    {
+      "id": "neigh-bcn-w-caprabo",
+      "title": "🛒 Caprabo supermarket (Eixample)",
+      "city": "Barcelona",
+      "day": "2026-05-29",
+      "lat": 41.3939,
+      "lng": 2.1639,
+      "category": "essentials",
+      "description": "Closest supermarket to Williams apartment — ~3 min walk on Passeig de Gràcia. Water, snacks, breakfast supplies. Open daily ~9-21."
+    },
+    {
+      "id": "neigh-bcn-w-pharmacy24",
+      "title": "💊 Farmàcia 24h (Passeig de Gràcia 26)",
+      "city": "Barcelona",
+      "day": "2026-05-29",
+      "lat": 41.3892,
+      "lng": 2.1659,
+      "category": "essentials",
+      "description": "24-hour pharmacy on Passeig de Gràcia — 6 min walk from Williams apartment. The one to remember if anyone gets sick at 2 AM."
+    },
+    {
+      "id": "neigh-bcn-w-baluard",
+      "title": "🥐 Baluard Eixample (best bakery)",
+      "city": "Barcelona",
+      "day": "2026-05-30",
+      "lat": 41.3946,
+      "lng": 2.1660,
+      "category": "food",
+      "description": "Top-tier bakery — croissants, ensaimadas, sourdough. 4 min walk from Williams apartment. Open from 8 AM."
+    },
+    {
+      "id": "neigh-bcn-w-granja",
+      "title": "☕ Granja Viader (1870 hot-chocolate spot)",
+      "city": "Barcelona",
+      "day": "2026-05-30",
+      "lat": 41.3826,
+      "lng": 2.1707,
+      "category": "food",
+      "description": "Historic granja — Spanish hot chocolate + churros. Walk or quick metro from either apartment. Iconic Barcelona breakfast."
+    },
+    {
+      "id": "neigh-bcn-w-playground",
+      "title": "🛝 Plaça de Tetuán playground",
+      "city": "Barcelona",
+      "day": "2026-05-29",
+      "lat": 41.3950,
+      "lng": 2.1717,
+      "category": "activity",
+      "description": "Closest playground to Williams apartment for Elise + Harlan. ~5 min walk."
+    },
+
+    {
+      "id": "neigh-bcn-t-mercat-st-antoni",
+      "title": "🛒 Mercat de Sant Antoni (Thomas side)",
+      "city": "Barcelona",
+      "day": "2026-05-29",
+      "lat": 41.3795,
+      "lng": 2.1623,
+      "category": "essentials",
+      "description": "Beautiful covered market — fresh fruit, jamón, cheese, baby supplies in stalls. ~8 min walk from Thomas apartment. Closed Sundays."
+    },
+    {
+      "id": "neigh-bcn-t-pharmacy",
+      "title": "💊 Farmàcia (Universitat)",
+      "city": "Barcelona",
+      "day": "2026-05-29",
+      "lat": 41.3866,
+      "lng": 2.1675,
+      "category": "essentials",
+      "description": "Pharmacy near Universitat metro, 2 min walk from Thomas apartment."
+    },
+    {
+      "id": "neigh-bcn-t-hofmann",
+      "title": "🥐 Hofmann pastisseria (legendary croissants)",
+      "city": "Barcelona",
+      "day": "2026-05-30",
+      "lat": 41.3849,
+      "lng": 2.1810,
+      "category": "food",
+      "description": "Some of the best croissants in Spain. Worth the 12 min walk from Thomas apartment toward El Born."
+    },
+    {
+      "id": "neigh-bcn-t-playground",
+      "title": "🛝 Plaça de la Universitat playground",
+      "city": "Barcelona",
+      "day": "2026-05-29",
+      "lat": 41.3868,
+      "lng": 2.1647,
+      "category": "activity",
+      "description": "Small playground in Plaça de la Universitat — closest to Thomas apartment for Harlan."
+    },
+
+    {
+      "id": "neigh-mad-mercadona",
+      "title": "🛒 Mercadona (Tirso de Molina)",
+      "city": "Madrid",
+      "day": "2026-06-01",
+      "lat": 40.4131,
+      "lng": -3.7038,
+      "category": "essentials",
+      "description": "Closest big supermarket to Airbnb — 5 min walk. Diapers, breakfast, snacks, water. Open Mon-Sat ~9-21:30."
+    },
+    {
+      "id": "neigh-mad-pharmacy24",
+      "title": "💊 Farmacia Real 24h (Puerta del Sol)",
+      "city": "Madrid",
+      "day": "2026-06-01",
+      "lat": 40.4172,
+      "lng": -3.7027,
+      "category": "essentials",
+      "description": "24-hour pharmacy right at Puerta del Sol — 7 min walk from Airbnb. The reliable middle-of-the-night option."
+    },
+    {
+      "id": "neigh-mad-mallorquina",
+      "title": "🥐 Pastelería La Mallorquina (Sol)",
+      "city": "Madrid",
+      "day": "2026-06-02",
+      "lat": 40.4168,
+      "lng": -3.7033,
+      "category": "food",
+      "description": "1894 institution. Napolitanas + café con leche standing at the bar. Madrid breakfast ritual. 7 min walk from Airbnb."
+    },
+    {
+      "id": "neigh-mad-bicicleta",
+      "title": "☕ Café La Bicicleta (specialty coffee)",
+      "city": "Madrid",
+      "day": "2026-06-02",
+      "lat": 40.4243,
+      "lng": -3.7034,
+      "category": "food",
+      "description": "Modern third-wave coffee in Malasaña — Plaza San Ildefonso. 15 min walk from Airbnb. Good wi-fi if you need to work."
+    },
+    {
+      "id": "neigh-mad-playground",
+      "title": "🛝 Plaza de Tirso de Molina playground",
+      "city": "Madrid",
+      "day": "2026-06-02",
+      "lat": 40.4129,
+      "lng": -3.7036,
+      "category": "activity",
+      "description": "Small playground in Plaza de Tirso de Molina — 2 min walk from Airbnb. Quick Elise + Harlan break."
+    },
+    {
+      "id": "neigh-mad-atm",
+      "title": "💶 ATM (BBVA, Sol)",
+      "city": "Madrid",
+      "day": "2026-06-01",
+      "lat": 40.4170,
+      "lng": -3.7038,
+      "category": "essentials",
+      "description": "Reliable bank ATM at Puerta del Sol — use a Spanish bank (BBVA, Santander, Caixa) to avoid fees from generic Euronet ATMs. 7 min walk from Airbnb."
     }
   ],
   "luggageGaps": [

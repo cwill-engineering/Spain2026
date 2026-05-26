@@ -234,6 +234,7 @@
         }
         .plan-legend-dot.locked { background: var(--terracotta); }
         .plan-legend-dot.idea { background: var(--olive); opacity: 0.7; }
+        .plan-legend-dot.lodging { background: #6CB4D4; border-radius: 50%; }
         #plan-timeline {
             height: 380px;
             background: white;
@@ -1288,6 +1289,7 @@ let planMap = null;
 let planMarkers = {};
 let planLockedCluster = null;
 let planIdeaCluster = null;
+let planLodgingLayer = null;
 let planTripData = null;
 const briefingLoaded = {};
 
@@ -1843,6 +1845,7 @@ function buildPlanPanelShell() {
     return `
         <div class="plan-legend">
             <span><strong>Pinch/scroll</strong> timeline to zoom times</span>
+            <span class="plan-legend-item"><span class="plan-legend-dot lodging"></span> 🏠 Where we sleep</span>
             <span class="plan-legend-item"><span class="plan-legend-dot locked"></span> Locked booking</span>
             <span class="plan-legend-item"><span class="plan-legend-dot idea"></span> Idea (map)</span>
             <span>Times: Spain (CEST) unless flight says ET</span>
@@ -1971,6 +1974,11 @@ async function initPlanTab() {
         html: '<div style="background:#5c6b4a;width:14px;height:14px;border-radius:50%;border:2px solid white;box-shadow:0 1px 4px rgba(0,0,0,0.3);opacity:0.9"></div>',
         iconSize: [14, 14], iconAnchor: [7, 7]
     });
+    const lodgingIcon = L.divIcon({
+        className: 'plan-marker lodging',
+        html: '<div style="background:#6CB4D4;width:34px;height:34px;border-radius:50%;border:3px solid white;box-shadow:0 3px 8px rgba(0,0,0,0.45);display:flex;align-items:center;justify-content:center;font-size:18px;line-height:1;">🏠</div>',
+        iconSize: [34, 34], iconAnchor: [17, 17]
+    });
 
     planLockedCluster = L.markerClusterGroup({
         maxClusterRadius: 40,
@@ -1982,14 +1990,30 @@ async function initPlanTab() {
         spiderfyOnMaxZoom: true,
         showCoverageOnHover: false
     });
+    // Lodgings: never cluster, always on top
+    planLodgingLayer = L.layerGroup();
     planMap.addLayer(planLockedCluster);
     planMap.addLayer(planIdeaCluster);
+    planMap.addLayer(planLodgingLayer);
 
     function addMarker(entry, isSuggestion) {
         if (!entry.lat || !entry.lng) return;
+        const isStay = entry.stay === true;
+        let icon, layer;
+        if (isStay) {
+            icon = lodgingIcon;
+            layer = planLodgingLayer;
+        } else if (isSuggestion) {
+            icon = ideaIcon;
+            layer = planIdeaCluster;
+        } else {
+            icon = lockedIcon;
+            layer = planLockedCluster;
+        }
         const marker = L.marker([entry.lat, entry.lng], {
-            icon: isSuggestion ? ideaIcon : lockedIcon,
-            title: entry.title
+            icon,
+            title: entry.title,
+            zIndexOffset: isStay ? 1000 : 0
         });
         marker.bindPopup(`<strong>${entry.title}</strong>${entry.description ? '<br>' + entry.description : ''}`);
         marker.on('click', () => {
@@ -2000,7 +2024,7 @@ async function initPlanTab() {
             }
             if (!isSuggestion) planTimeline.setSelection([entry.id]);
         });
-        (isSuggestion ? planIdeaCluster : planLockedCluster).addLayer(marker);
+        layer.addLayer(marker);
         planMarkers[entry.id] = marker;
     }
 
@@ -2046,6 +2070,13 @@ async function initPlanTab() {
 function focusPlanMap(id) {
     const marker = planMarkers[id];
     if (!marker) return;
+    const allEntries = [...(planTripData?.events || []), ...(planTripData?.suggestions || [])];
+    const entry = allEntries.find(e => e.id === id);
+    if (entry && entry.stay) {
+        planMap.setView(marker.getLatLng(), 16, { animate: true });
+        marker.openPopup();
+        return;
+    }
     const cluster = planTripData?.suggestions?.some(s => s.id === id)
         ? planIdeaCluster : planLockedCluster;
     if (cluster) {
