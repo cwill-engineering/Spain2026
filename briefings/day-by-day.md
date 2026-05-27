@@ -27,13 +27,14 @@
 |------|-------|-------|
 | 08:45 CEST | **DL0128 lands Barcelona El Prat T1** | Thomas — onward to Valencia (separate Renfe leg) |
 | 11:30 CEST | **JetBlue 2261 lands Madrid Barajas T4S** | Williams |
-| 12:00–12:45 | Customs + baggage + Cercanías ticket | T4S exit → Cercanías platform downstairs |
-| 12:45 | **Cercanías C1** Barajas T4 → Chamartín (~25 min) | Or to Atocha for fallback train |
-| 13:15 | Arrive Chamartín → Premium lounge (with AVE Coach 1 tix) | 1 hr buffer to spare |
+| 12:00–12:30 | Customs + baggage + walk to Cercanías hall | T4S exit → T4 main → escalator down |
+| 12:35 | **"Combinado Cercanías" machine** — scan AVE QR (ZUBYYB) → 5 free Cercanías tickets | T4 Cercanías hall |
+| 12:55 | Board **Cercanías C1 toward Príncipe Pío** (Barajas T4 → Chamartín, ~25 min) | Or to Atocha for fallback train |
+| 13:20 | Arrive Chamartín → Premium Club Lounge from 13:30 | 1 hr buffer to spare |
 | **14:30** | **🚄 AVE 05140 ZUBYYB Chamartín → Valencia (PRIMARY)** | Coach 1, Almuerzo (lunch) onboard |
 | ↩ 19:40 | **AVE 05990 4XYBG8 Atocha → Valencia (FALLBACK only)** | Cancel if primary made |
-| 16:34 / 21:40 | Arrive Valencia Joaquín Sorolla | Taxi to beach house ~€15, ~15 min |
-| 17:00 / 22:30 | Check in — Maria Pilar's beach house | Crib confirmed for Harlan |
+| 16:34 / 21:40 | Arrive Valencia **Joaquín Sorolla** | 2 white taxis from parada → "Carrer d'Isabel de Villena 155, junto Malvarrosa" — ~€14 each, ~15 min |
+| 17:00 / 22:30 | Check in — Maria Pilar's beach house | WhatsApp Maria Pilar ~10 min before arrival. Crib confirmed for Harlan |
 | Evening | Tapas walk along Malvarrosa promenade | Chiringuitos, sunset |
 
 ---
@@ -54,10 +55,13 @@
 
 | Time | Event | Notes |
 |------|-------|-------|
-| 06:45–07:30 | Breakfast, pack | Beach house |
-| 07:45 | Leave beach house | Pre-arranged bag drop with Maria Pilar |
-| 08:15 | Arrive Valencia **Estació del Nord** | ⚠️ NOT Joaquín Sorolla — different station |
-| **09:06** | **🚄 Euromed 01092 → Barcelona (BOOKED · 9D2RJU)** | Coach 13, right side for sea views |
+| **Thu evening (the night before)** | ⚠️ **Pre-book 2 taxis for 07:30 pickup** at the beach house — RadioTaxi Valencia +34 963 703 333. Confirm bag handoff with Maria Pilar via WhatsApp. | Don't try to hail at dawn from a residential block. |
+| 06:30–07:25 | Wake, breakfast, pack last items, bags down to entryway | Beach house |
+| 07:30 | 2 pre-booked taxis pick up — load and roll | Carrer d'Isabel de Villena 155 |
+| 07:45 | Arrive Valencia **Estació del Nord** | ⚠️ NOT Joaquín Sorolla — different station, 700m apart |
+| 07:50 | Premium / Sala Club lounge (coffee, kids snacks, WiFi) | Nord main hall, toward the platforms |
+| 08:55 | Security X-ray + QR scan at platform entry | Look for "Coche 13" on digital board |
+| **09:06** | **🚄 Euromed 01092 → Barcelona (BOOKED · 9D2RJU)** | Coach 13, right side for sea views. Full step-by-step in Travel Playbook tab. |
 | 12:20 | Arrive **Barcelona-Sants** | 2 taxis from Sants parada to Eixample (~€20 each). FreeNow app or walk-up — skip Uber, no XL fleet in BCN. |
 | 13:00 | Drop bags at apartments | Host entryway if allowed; backup: Sants consigna |
 | 13:30 | Lunch in Eixample, hands-free | Tapas 24, Cervecería Catalana |

@@ -145,6 +145,84 @@ Coach 1 on Premium AVE is the **executive coach**, often quieter and closer to t
 
 ---
 
+## 🚄 Valencia stations & beach-house transfers
+
+### Two Valencia stations — which is which (locked by tickets)
+
+| Date | Train | Station | Ticket locator |
+|---|---|---|---|
+| **May 27** (arrive) | AVE 05140 from Madrid Chamartín | **Joaquín Sorolla** (AVE hub, southwest) | **ZUBYYB** |
+| **May 27** (fallback) | AVE 05990 from Madrid Atocha | **Joaquín Sorolla** | 4XYBG8 |
+| **May 29** (depart) | Euromed 01092 to Barcelona-Sants | **Estació del Nord** (centro Modernista) | **9D2RJU** |
+
+⚠️ **The stations are different places.** ~700 m / 10 min walk apart, but **they are not connected**. Showing up to the wrong one on May 29 means missing the 09:06 Euromed. **Estació del Nord is confirmed for departure.**
+
+- **Joaquín Sorolla** = built 2010 for AVE high-speed. Modern glass terminus on the south edge of centro, near the old bullring. Tram L10 connects it to centro since 2022, but with bags use a taxi.
+- **Estació del Nord** = 1917 Modernista classic-line station (tile mosaics, oranges and roses on the façade). Used by Euromed, regional, and Cercanías trains. Right next to Plaza de Toros and Plaza del Ayuntamiento.
+
+### 🛬→🏖️ May 27 ARRIVAL: Joaquín Sorolla → beach house
+
+**Beach house address:** Carrer d'Isabel de Villena 155 (Vrbo HA-7TLM9D, Maria Pilar's). ~5.5 km / 12–18 min from Sorolla.
+
+| Time | Step |
+|---|---|
+| 16:34 | AVE 05140 ZUBYYB arrives Sorolla Platform — Coach 1 at the front |
+| 16:38 | Off train, walk to platform exit, follow signs **"Salida / Taxis"** |
+| 16:42 | Exit main terminal door — taxi parada immediately outside (always staffed during AVE arrivals) |
+| 16:45 | Grab the front **2 white Valencia taxis** at the parada. Tell driver **"Carrer d'Isabel de Villena 155, junto Malvarrosa"** (you can show address on phone too — Valencian street names trip up GPS sometimes) |
+| 16:45–17:00 | Ride along Avinguda del Port toward the beach. Light traffic on a Wednesday afternoon |
+| ~17:00 | Arrive beach house. Maria Pilar meets you at the door (check-in window 16:00–16:30, ping her on WhatsApp ~16:30 to say "10 min out") |
+
+**Cost:** €13–18 per taxi, weekday daytime tariff. **Cash or card.** Total ~€30 for 2 taxis. No flat-rate fare in Valencia (that's airport-only), but Sorolla → Malvarrosa is a known route and the meter runs cleanly.
+
+**Fallback (only if 14:30 missed → 19:40 train arrives Sorolla 21:40):**
+- Same taxi process, but 21:40 is past dinner. Maria Pilar's deal at that hour: text her by 19:00 confirming late check-in.
+- 2 taxis still ~€15–18 each at evening tariff.
+
+**Don't bother with:**
+- ❌ EMT Bus Line 95 — runs Sorolla ↔ Malvarrosa but ~40 min with bags + kids = brutal.
+- ❌ Tram L10 — requires walking to a stop outside the station, no clean Malvarrosa connection. Skip.
+- ❌ Metrovalencia — no useful line for this route.
+
+### 🏖️→🚄 May 29 DEPARTURE: Beach house → Estació del Nord
+
+**This is the high-stakes one.** 09:06 Euromed is the only train booked. Miss it and the wedding rehearsal in Barcelona is in jeopardy. Build buffer.
+
+| Time | Step |
+|---|---|
+| **The night before (Thu May 28, ~21:00)** | **Pre-book 2 taxis for 07:30 pickup at the beach house** via **RadioTaxi Valencia (+34 963 703 333)** or **Tele Taxi (+34 963 571 313)**. Confirm address: Carrer d'Isabel de Villena 155. Pay attention to early-morning surcharge mention (none for 07:30 on a Friday). Friday at dawn is uncertain for hailing at the local parada. |
+| Also Thu 21:00 | Confirm bag-drop / early-checkout plan with Maria Pilar via WhatsApp. Goal: bags down by 07:25, keys returned at 07:30, taxis loaded by 07:35. |
+| 06:30–07:15 | Wake, breakfast, pack last items, kids to bathroom |
+| 07:15 | Bags down to street level / entryway |
+| 07:25 | Confirm taxis are nearby (driver usually texts when 5 min out) |
+| **07:30** | **Taxis arrive** — load 2 cars, split family (Annalise + Brandon + Harlan + Valerie in one; Chandler + Angela + Carson + Elise + Harrison in the other — adjust based on bag count) |
+| 07:30–07:45 | Drive to **Estació del Nord** — Carrer de Xàtiva 24. Light Friday-morning traffic, ~13–15 min |
+| 07:45 | Arrive Nord. Pay drivers (~€14 each, cash or card). Walk into the Modernista main hall through the central entrance |
+| 07:50 | Find **Premium / Sala Club lounge** (Nord has a small one, ~10 min walk from main entrance toward the platforms) — coffee, snacks, WiFi |
+| 08:50 | Walk to platform — digital board shows **Coche 13** position (mid-train) |
+| 08:55 | Security X-ray + ticket QR scan at platform entry |
+| 08:58 | Board Euromed 01092, claim luggage racks (right side seats = sea views) |
+| **09:06** | **🚄 Depart Valencia Estació del Nord → Barcelona-Sants** (arrive 12:20) |
+
+**Cost:** ~€14 per taxi × 2 = **~€28** total. Pre-booked taxis sometimes have a small dispatch fee (€1–2).
+
+**If pre-booked taxis fail to show by 07:35:**
+1. WhatsApp Maria Pilar — she may know the local driver who lives nearby.
+2. Open **Cabify** app, request **Cabify Grupo** if available (handles 6+ pax in one car) OR 2 regular Cabify rides.
+3. Walk 3 min to the **Malvarrosa taxi parada** (near Hotel Las Arenas, Paseo Neptuno) — there's almost always at least one car at the rank in the morning.
+4. Worst case: 07:45 leave still gives ~80 min buffer for a 13-min ride. You have margin.
+
+**Don't bother with:**
+- ❌ EMT Bus Line 32 — Malvarrosa ↔ Nord exists, ~35 min, but Friday 7 AM with bags + kids = no.
+
+### Between the two Valencia stations (if you need it)
+
+Not on the booked itinerary, but for orientation:
+- Sorolla ↔ Nord is **~700 m / 10 min walk** through Plaça de Bous or **5 min / €5–7 taxi**.
+- Same Cercanías ticket (€2.10 within zone A) gets you between them too if you have one.
+
+---
+
 ## 🚇 Cercanías (Madrid commuter rail)
 
 **Used by us on May 27 (Barajas → Chamartín or Atocha).** For the full landing-to-AVE walkthrough see **🛬→🚄 May 27 PRIMARY** under Airports → Madrid Barajas above.
@@ -258,10 +336,13 @@ The short answer: **Uber only really works in Madrid**. Barcelona and Valencia, 
 - App alternative: **FreeNow** books the same taxis from your phone with fare shown upfront.
 
 **Valencia Joaquín Sorolla → Beach house (May 27):**
-- Taxi €15, 15 min. No tram alternative that's fast.
+- 2 white taxis from Sorolla parada → "Carrer d'Isabel de Villena 155." ~€14 each, ~15 min, weekday tariff. No tram option that's fast with bags.
+👉 **Full step-by-step in the Valencia stations section above.**
 
 **Valencia beach house → Estació del Nord (May 29 morning):**
-- Taxi €15, 15 min. Leave 07:45 for 09:06 train.
+- ⚠️ **Pre-book 2 taxis the night before** via RadioTaxi Valencia +34 963 703 333. Pickup **07:30**, arrive Nord ~07:45 — 80 min buffer for 09:06 Euromed.
+- Don't try to hail at 7 AM from a residential block; book ahead.
+👉 **Full timeline + fallback plan in the Valencia stations section above.**
 
 **Barcelona-Sants → Madrid Atocha (Jun 1) → Airbnb:**
 - AVE 03152 (15:00 → 18:17). Atocha → Airbnb: 10 min walk or €10 taxi.
