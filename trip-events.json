@@ -1239,7 +1239,7 @@
       "id": "gap-madrid-arrival-primary",
       "transition": "May 27 Madrid (PRIMARY plan, ZUBYYB 14:30)",
       "gap": "Land 11:30 → train 14:30 from Chamartín",
-      "recommendation": "No storage needed. Cercanías C1 direct Barajas → Chamartín; all 8 bags onboard AVE Coach 1 racks. Use Chamartín Premium lounge for the 1-hour buffer."
+      "recommendation": "Take the train, not a taxi. Cercanías C1 Barajas T4 → Chamartín is direct, ~25 min, AND FREE with the AVE ticket — use the 'Combinado Cercanías' machine in T4 to scan the ZUBYYB QR and print free tickets for all 5 pax. Williams bags (5 pax + ~4-5 bags) fit Cercanías vestibule racks easily. Premium Club Lounge open from 13:30, board Coach 1 by 14:22. Fallback: 2 taxis €33 flat each from T4 parada to Chamartín if C1 is delayed >15 min. Full step-by-step in Travel Playbook tab."
     },
     {
       "id": "gap-madrid-arrival-fallback",

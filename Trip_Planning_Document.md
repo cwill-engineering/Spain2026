@@ -323,16 +323,17 @@ The same C1 commuter line goes to **both** Chamartín and Atocha — no transfer
 
 | Option | Time to Chamartín | Time to Atocha | Cost | Notes |
 | ----------------------------- | --------- | --------- | ------------- | -------------------------- |
-| **Cercanías C1 Train** ✅ | **~25 min** | ~25 min | €2.60/person | Best option. T4 station inside the airport (free shuttle from T1/T2/T3 to T4 if needed). |
+| **Cercanías C1 Train** ✅ | **~25 min** | ~25 min | **FREE (Combinado)** or €2.60/pp | **Best option.** Free with the AVE ticket — Renfe's "Combinado Cercanías" prints a complimentary commuter rail ticket up to 4 hr before AVE departure. Machine in T4 Cercanías hall, scan ZUBYYB QR. |
 | Metro Line 8 | 45-50 min | 45-50 min (transfer) | €5/person | More walking with luggage — skip with 8 bags. |
-| Taxi/Uber | 30-40 min | 30-40 min | €30-40 total | Most convenient with kids; €40+ for a van with 8 bags. |
+| Taxi (fallback) | 25-35 min | 25-35 min | **€66** (2 × €33 flat) | Use only if C1 is delayed >15 min or platform looks chaotic. Madrid taxis: white with red diagonal stripe. €33 flat fare covers Chamartín (inside M-30). |
 
-**Cercanías C1 Details:**
+**Cercanías C1 Details — full step-by-step lives in the Travel Playbook tab.** Highlights:
 
-- **No reservation needed** — buy at machine or counter (cards work).
-- **How it works:** Free shuttle bus from your terminal to **T4**, then follow signs to "Cercanías" (commuter rail), take **C1** and ride to either **Chamartín** (5–6 stops) or **Atocha** (8 stops).
-- **Frequency:** Every 30 minutes. About 30 minutes total airport-to-station.
-- **With 8 bags + kids:** if it's tight, a van taxi to Chamartín runs ~€40 and you skip the platform stairs.
+- **Combinado Cercanías = FREE for AVE ticket holders.** Saves €13 for Williams family May 27. Use the dedicated machine in T4 Cercanías hall, scan the AVE QR (locator **ZUBYYB**) — free Cercanías tickets print for all 5 passengers.
+- **No reservation needed** even without Combinado — buy at machine (English option, cards work).
+- **How it works:** From T4 baggage claim, follow blue **🚆 Cercanías Renfe** signs in T4 main hall, ~10 min walk down escalators. Board **C1 toward Príncipe Pío** — direct to Chamartín (~25 min) or Atocha (~35 min). No transfers.
+- **Frequency:** Every 30 minutes (sometimes every 15 in peak).
+- **With 5 pax + 4–5 bags:** Williams family fits easily in one Cercanías car. Bags go in the vestibule racks at each end. Premium Club Lounge at Chamartín opens 1 hr before departure (13:30).
 
 **Step 2A — PRIMARY: Madrid Chamartín → Valencia (14:30 AVE) — BOOKED**
 

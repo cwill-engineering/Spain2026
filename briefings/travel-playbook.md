@@ -25,6 +25,52 @@
 - **Liquids:** Standard 100 ml limit. New CT scanners at some lanes allow laptops + liquids to stay in bag — follow agent direction.
 - **Corpus Christi Jun 4:** Airport operates normally; downtown is impacted, not the airport.
 
+#### 🛬→🚄 May 27 PRIMARY: Barajas T4S → Chamartín for the 14:30 AVE
+
+**Verdict: take the train, not a taxi.**
+
+**Why train wins:**
+- **Free** — Renfe gives every long-distance ticket-holder a complimentary Cercanías ride to/from any Madrid station ("Combinado Cercanías"). Show your AVE QR (locator **ZUBYYB**) at the "Combinado" machine in T4 and out pops a free Cercanías ticket valid up to 4 hrs before the AVE.
+- **Direct** — Cercanías Line **C1** runs Barajas T4 → Chamartín with no transfers, every ~30 min, ~25 min ride.
+- **Drops you inside Chamartín** — no curb-to-station schlep with bags.
+- **5 pax + ~4–5 bags fits a Cercanías car easily.** Bags go in the vestibule racks at each end of the coach.
+- **Taxi is the fallback**, not the default. €33 flat × 2 cars = €66, ~25 min in normal traffic. Use only if C1 is delayed >15 min or the platform looks chaotic.
+
+**Step-by-step — land 11:30, depart 14:30:**
+
+| Time | Step | Where |
+|---|---|---|
+| 11:30 | Land Barajas, deplane at T4S gate | T4S |
+| 11:35 | Underground people-mover T4S → T4 main (5–8 min, continuous) | T4S basement |
+| 11:45 | Arrive T4 main, follow "Passport Control" signs | T4 main |
+| 11:50 | **Passport e-gates** — biometric chip passports, look for blue **AUTOMATED BORDER CONTROL** signs. Kids under 14 must use manual desks with a parent (Spain Schengen rule). | T4 main |
+| 12:05 | **Baggage claim** — JetBlue typically carousels 18–22 | T4 main, ground level |
+| 12:20 | Customs **green lane** (nothing to declare) | T4 main |
+| 12:25 | Follow blue **🚆 Cercanías Renfe** signs through T4 main hall | ~10 min walk, escalators down |
+| 12:35 | **At the Cercanías ticket area: use the "Combinado Cercanías" machine** — touch/scan the AVE ticket QR for **ZUBYYB**. Free Cercanías ticket prints. One per person. *(If the Combinado machine is broken or unavailable, buy €2.60/pax tickets at the regular Cercanías machine — keep receipts for possible Renfe reimbursement.)* | T4 Cercanías hall |
+| 12:45 | Tap ticket at turnstiles, escalator to platform | Cercanías platform |
+| ~12:55–13:05 | Board next **C1 train** — confirm direction sign reads **"Príncipe Pío"** (toward Chamartín). The opposite direction is the airport-loop terminus. | Platform |
+| 13:20 | Arrive **Madrid Chamartín-Clara Campoamor** | Chamartín |
+| 13:25 | Exit Cercanías, follow signs to the **AVE / Larga Distancia** concourse — different end of the station from Cercanías | Chamartín AVE |
+| 13:30 | **Renfe Premium Club Lounge check-in** opens 1 hr before departure. Show AVE ticket QR. Coffee, pastries, snacks, soft drinks, kids area, WiFi. | Lounge near AVE platforms |
+| 14:15 | Walk to platform — digital board shows which platform + the **"Coche 1"** position (front or rear of the train) | AVE platform |
+| 14:18 | Security X-ray + ticket QR scan at the platform entry | Platform entry |
+| 14:22 | Board **AVE 05140 Coach 1** — claim luggage racks at front of car | Coach 1 |
+| **14:30** | **🚄 Depart for Valencia Joaquín Sorolla** (arrive 16:34) | |
+
+**Taxi fallback (only if needed):**
+1. Exit T4 main → "Taxi" doors (NOT the Uber / VTC waiting zones).
+2. Grab the front 2 taxis at the parada — Madrid taxis are **white with red diagonal stripe**. Avoid any unmarked car offering rides.
+3. Tell driver **"Estación Madrid-Chamartín"** — flat rate **€33 each** (within M-30 includes Chamartín). Driver should set the meter to fixed-rate mode automatically.
+4. ~25 min ride, drops you at the **Calle Agustín de Foxá** north entrance.
+5. Enter station, head straight to the AVE / Larga Distancia hall.
+
+**Critical reminders:**
+- **Renfe ticket QR locks ~2 min before 14:30** — be on platform by 14:20 latest.
+- **Coach 1** = front of train, often quieter, usually closest to Lounge exit at Chamartín.
+- If anyone gets sick mid-Cercanías → just stay on, no transfers needed. C1 is direct.
+- The 14:30 train is the **PRIMARY** — once you're on it, message the family and **cancel the 19:40 fallback (4XYBG8)** to free up that seat block.
+
 ### Barcelona El Prat (BCN)
 
 **Thomas arrival May 27 · T1**
@@ -101,12 +147,13 @@ Coach 1 on Premium AVE is the **executive coach**, often quieter and closer to t
 
 ## 🚇 Cercanías (Madrid commuter rail)
 
-**Used by us on May 27 (Barajas → Chamartín or Atocha).**
+**Used by us on May 27 (Barajas → Chamartín or Atocha).** For the full landing-to-AVE walkthrough see **🛬→🚄 May 27 PRIMARY** under Airports → Madrid Barajas above.
 
 - **Line C1** runs Barajas T4 → Chamartín → Sol → Atocha. Direct, no transfers.
-- **Frequency:** Every 30 min (less often midday).
+- **Frequency:** Every 30 min (less often midday). At Barajas T4 it's one of the few lines that runs from the platform, so the wait is usually <15 min.
 - **Time:** Barajas → Chamartín ≈ **25 min**. Barajas → Atocha ≈ **35 min**.
-- **Cost:** ~€2.60 ticket (Zona A). Buy at the ticket machine in T4 (English option), tap to enter.
+- **🎟️ FREE with an AVE / Larga Distancia ticket — "Combinado Cercanías"** — use the dedicated machine in T4 Cercanías hall and scan your AVE QR. Valid up to 4 hrs before AVE departure and 4 hrs after arrival. Saves €2.60/pax = €13 for the Williams family May 27.
+- **Cost without the combinado:** €2.60/pax (Zona A). Buy at the regular ticket machine in T4 (English option), tap to enter.
 - **Free transfer to Metro** within Madrid for a short window — but we probably don't need this with bags.
 
 ---
@@ -187,6 +234,15 @@ The short answer: **Uber only really works in Madrid**. Barcelona and Valencia, 
 ---
 
 ## 🗺️ Quick "I just landed and don't know where to go" cheat sheet
+
+**Madrid Barajas T4S → Madrid Chamartín for the 14:30 AVE (May 27, PRIMARY):**
+1. T4S → T4 main people-mover, e-gates, baggage carousels 18–22, customs green lane
+2. Follow blue **🚆 Cercanías Renfe** signs in T4 main → escalator down ~10 min
+3. **"Combinado Cercanías" machine** — scan AVE QR (locator ZUBYYB), free Cercanías tickets print
+4. **C1 train toward "Príncipe Pío"** — 25 min direct, arrive Chamartín ~13:20
+5. Walk to AVE concourse, **Premium Club Lounge** from 13:30, board Coach 1 by 14:22
+6. *Fallback:* 2 taxis from T4 main parada → "Estación Madrid-Chamartín" — €33 flat each, ~25 min
+👉 **Full step-by-step in the Madrid Barajas section above.**
 
 **Madrid Barajas T4S → La Latina Airbnb (Jun 1+ return for departure):**
 1. Exit Customs
