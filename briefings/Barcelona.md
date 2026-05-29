@@ -96,10 +96,10 @@ Barcelona makes money from **port, industry, tourism, and tech** — in that rou
 
 | Date | What matters |
 |------|----------------|
-| **Fri May 29** | Train in ~12:20, check-in 14:00. **Welcome party 7 PM** — [Alaire Rooftop](https://tmg.link/app/r/condes). |
+| **Fri May 29** | Train in ~12:20, check-in 14:00. **Welcome dinner 7–10 PM** — [Hotel Condes de Barcelona](https://tmg.link/app/r/condes), Passeig de Gràcia 73-75. |
 | **Sat May 30** | **Tour day:** [La Pedrera 09:15](https://tmg.link/app/r/lapedrera), Sagrada 12:15 entry, [tapas 17:00 at Catedral](https://tmg.link/app/r/catedralbcn). |
-| **Sun May 31** | **[Shuttle pickup 4:30 PM](https://tmg.link/app/r/shuttlepickup)**, ceremony & reception. ~77°F at ceremony, ~70°F by midnight. |
-| **Mon Jun 1** | Checkout 11:00, train to Madrid 15:00. Suit return AM. |
+| **Sun May 31** | **Wedding @ El Convent de Blanes** (~68 km north, by bus). Chandler & Angela (wedding party) leave 3 PM from Grand Hotel Central; kids + Thomas family on the **[4:45 PM guest bus](https://tmg.link/app/r/shuttlepickup)** from Ronda Sant Pere 21-23. Ceremony 7 PM; return buses 12:30/1:15/2:30 AM. ~77°F at ceremony. |
+| **Mon Jun 1** | Checkout 11:00, train to Madrid 15:00. |
 
 **Primavera Sound** (major indie/rock festival) runs **June 3–7** at Parc del Fòrum — you leave **before** it starts, but **setup and crew** may already stress transit near Montjuïc/Sants by June 1. Allow buffer getting to Barcelona-Sants.
 

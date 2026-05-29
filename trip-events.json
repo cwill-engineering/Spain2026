@@ -192,7 +192,7 @@
     },
     {
       "id": "welcome-party",
-      "title": "Welcome party (Joe & Nikki)",
+      "title": "Welcome Dinner — Hotel Condes de Barcelona",
       "start": "2026-05-29T19:00:00+02:00",
       "end": "2026-05-29T22:00:00+02:00",
       "timezone": "Europe/Madrid",
@@ -200,9 +200,9 @@
       "category": "wedding",
       "city": "Barcelona",
       "group": "Barcelona",
-      "lat": 41.3825,
-      "lng": 2.1769,
-      "description": "Fri May 29 at 7:00 PM. Alaire Rooftop. Map: https://tmg.link/app/r/condes — Smart casual."
+      "lat": 41.3936,
+      "lng": 2.162,
+      "description": "Fri May 29, 7:00–10:00 PM. Welcome dinner at Hotel Condes de Barcelona, Passeig de Gràcia 73-75 (rooftop = Alaire). Photography by Rubén Larruy on site. Map: https://tmg.link/app/r/condes — Smart casual."
     },
     {
       "id": "morning-tour-group-a",
@@ -247,32 +247,116 @@
       "description": "Meet outside Catedral de Barcelona. Map: https://tmg.link/app/r/catedralbcn — Questions: joeking7@gmail.com"
     },
     {
-      "id": "wedding-shuttles",
-      "title": "Wedding shuttles (pickup)",
-      "start": "2026-05-31T16:30:00+02:00",
-      "end": "2026-05-31T17:00:00+02:00",
+      "id": "wedding-hmu",
+      "title": "💄 Angela: Hair & Makeup — Grand Hotel Central",
+      "start": "2026-05-31T09:40:00+02:00",
+      "end": "2026-05-31T13:00:00+02:00",
       "timezone": "Europe/Madrid",
       "type": "locked",
       "category": "wedding",
       "city": "Barcelona",
       "group": "Barcelona",
-      "lat": 41.3825,
-      "lng": 2.1769,
-      "description": "Shuttles depart 4:30 PM. Pickup map: https://tmg.link/app/r/shuttlepickup — Wedding party may meet earlier (~2:30 PM) for photos."
+      "lat": 41.3851,
+      "lng": 2.1779,
+      "description": "Bridal-party hair & makeup at Grand Hotel Central Barcelona, Via Laietana 30 (Kira Kos + Ausra Nekrosiene). Angela: makeup 9:40 AM, hair 11:20 AM. Everyone ready by 1:00 PM, final touch-ups 12:50. Leave the apartment ~9:10 (taxi/metro ~12 min from Carrer de València)."
+    },
+    {
+      "id": "wedding-groomsmen-photos",
+      "title": "🤵 Chandler: Groomsmen photos — Grand Hotel Central",
+      "start": "2026-05-31T12:45:00+02:00",
+      "end": "2026-05-31T13:15:00+02:00",
+      "timezone": "Europe/Madrid",
+      "type": "locked",
+      "category": "wedding",
+      "city": "Barcelona",
+      "group": "Barcelona",
+      "lat": 41.3851,
+      "lng": 2.1779,
+      "description": "Photos with groomsmen outdoors of Grand Hotel Central at 12:45 PM (Rubén Larruy photo / Alexander Kulakov video, both arrive 11:45 AM). Groom getting-ready photos from 12:00 PM. Be dressed in your tux and at the hotel by ~12:30."
+    },
+    {
+      "id": "wedding-minibus",
+      "title": "🚐 Wedding-party mini buses depart → El Convent de Blanes",
+      "start": "2026-05-31T15:00:00+02:00",
+      "end": "2026-05-31T16:15:00+02:00",
+      "timezone": "Europe/Madrid",
+      "type": "locked",
+      "category": "wedding",
+      "city": "Barcelona",
+      "group": "Barcelona",
+      "lat": 41.3851,
+      "lng": 2.1779,
+      "description": "3:00 PM departure from Grand Hotel Central Barcelona. Chandler rides the groom & groomsmen mini bus (22 seats, Segalés Transport). Angela rides the bride, bridesmaids & parents mini bus (20 seats, Transfers Soberti). ~1 hr drive to Blanes — wedding party arrives ahead of guests for first look / photos."
+    },
+    {
+      "id": "wedding-guest-bus",
+      "title": "🚌 Guest bus → El Convent de Blanes (kids + Thomas family)",
+      "start": "2026-05-31T16:45:00+02:00",
+      "end": "2026-05-31T18:00:00+02:00",
+      "timezone": "Europe/Madrid",
+      "type": "locked",
+      "category": "wedding",
+      "city": "Barcelona",
+      "group": "Barcelona",
+      "lat": 41.3897,
+      "lng": 2.1735,
+      "description": "Guest coach departs 4:45 PM from Ronda Sant Pere 21-23 (Segalés Transport, 59 seats). Contact: Mary +1 (607) 379-2239. This is the ride for Carson, Elise, Harrison + the Thomas family / Valerie — Chandler & Angela leave earlier (3 PM) with the wedding party, so the kids ride this bus with Valerie. ~1 hr to Blanes; arrive ~5:45 PM."
     },
     {
       "id": "wedding-ceremony",
-      "title": "Wedding ceremony & reception",
-      "start": "2026-05-31T17:30:00+02:00",
-      "end": "2026-05-31T23:59:00+02:00",
+      "title": "💍 Wedding ceremony — El Convent de Blanes",
+      "start": "2026-05-31T19:00:00+02:00",
+      "end": "2026-05-31T19:30:00+02:00",
       "timezone": "Europe/Madrid",
       "type": "locked",
       "category": "wedding",
-      "city": "Barcelona",
+      "city": "Blanes",
       "group": "Barcelona",
-      "lat": 41.3825,
-      "lng": 2.1769,
-      "description": "Main wedding day. Forecast ~77°F (25°C) at ceremony, cooling to ~70°F (21°C) by midnight. Black formal attire. Ceremony start time approximate after 4:30 PM shuttles."
+      "lat": 41.6755,
+      "lng": 2.7997,
+      "description": "Ceremony 7:00–7:30 PM at El Convent de Blanes (Passeig de Carles Faust 4, 17300 Blanes, Girona — Costa Brava, ~68 km / 65 min north of Barcelona). Officiant: Rabbi Grau. Chandler & Angela walk in the processional; seated groom's side, second row. Guests arrive 6:45, everyone ready 6:50. Black formal attire; ~77°F (25°C)."
+    },
+    {
+      "id": "wedding-cocktail",
+      "title": "🥂 Cocktail hour — El Convent de Blanes",
+      "start": "2026-05-31T19:30:00+02:00",
+      "end": "2026-05-31T21:00:00+02:00",
+      "timezone": "Europe/Madrid",
+      "type": "locked",
+      "category": "wedding",
+      "city": "Blanes",
+      "group": "Barcelona",
+      "lat": 41.6755,
+      "lng": 2.7997,
+      "description": "Cocktail 7:30–9:00 PM in the sea-view gardens. First dance (At Last), live string quartet (Cuarteto Moon), then speeches: bride's father, groom's father, best man (Nick King). Bouquet toss ~8:50."
+    },
+    {
+      "id": "wedding-dinner",
+      "title": "🍽️ Dinner — El Convent de Blanes",
+      "start": "2026-05-31T21:15:00+02:00",
+      "end": "2026-05-31T23:15:00+02:00",
+      "timezone": "Europe/Madrid",
+      "type": "locked",
+      "category": "wedding",
+      "city": "Blanes",
+      "group": "Barcelona",
+      "lat": 41.6755,
+      "lng": 2.7997,
+      "description": "Dinner 9:15–11:15 PM (Jubany Catering). Couple entrance, first + main course, speech + bride's-sister video, cake cutting."
+    },
+    {
+      "id": "wedding-party",
+      "title": "🎉 Party — El Convent de Blanes (return buses after)",
+      "start": "2026-05-31T23:15:00+02:00",
+      "end": "2026-06-01T02:15:00+02:00",
+      "timezone": "Europe/Madrid",
+      "type": "locked",
+      "category": "wedding",
+      "city": "Blanes",
+      "group": "Barcelona",
+      "lat": 41.6755,
+      "lng": 2.7997,
+      "description": "Party 11:15 PM–2:15 AM. Hora/Horah dance, DJ Miss Beat, flip-flops out, late-night bites. Return buses to Barcelona: 12:30 AM (mini bus, 20 seats), 1:15 AM (mini bus, 20 seats), 2:30 AM (full coach, Segalés). Get the tired kids on the 12:30 AM with Valerie."
     },
     {
       "id": "barcelona-checkout",
@@ -408,6 +492,12 @@
       "label": "AVE 03152: Barcelona-Sants → Madrid Atocha",
       "mode": "train",
       "coords": [[41.3799, 2.1404], [40.8, -0.5], [40.4065, -3.6896]]
+    },
+    {
+      "id": "bus-barcelona-blanes",
+      "label": "Wedding bus: Barcelona → El Convent de Blanes (~68 km, ~65 min)",
+      "mode": "bus",
+      "coords": [[41.3897, 2.1735], [41.55, 2.55], [41.6755, 2.7997]]
     }
   ],
   "suggestions": [

@@ -66,22 +66,28 @@
       <Point><coordinates>2.1766,41.3840,0</coordinates></Point>
     </Placemark>
     <Placemark>
-      <name>Alaire Rooftop — Welcome party</name>
-      <description>May 29 7 PM. Map: tmg.link/app/r/condes</description>
+      <name>Hotel Condes de Barcelona — Welcome dinner</name>
+      <description>May 29 7-10 PM. Passeig de Gracia 73-75. Map: tmg.link/app/r/condes</description>
       <styleUrl>#locked</styleUrl>
-      <Point><coordinates>2.1680,41.3945,0</coordinates></Point>
+      <Point><coordinates>2.1620,41.3936,0</coordinates></Point>
     </Placemark>
     <Placemark>
-      <name>Shuttle pickup — Wedding Sun</name>
-      <description>May 31 4:30 PM. Map: tmg.link/app/r/shuttlepickup</description>
+      <name>Grand Hotel Central — Wedding hair/makeup + 3PM mini bus</name>
+      <description>May 31. Via Laietana 30. Angela H&amp;MU from 9:40; Chandler groomsmen photos 12:45; wedding-party mini buses depart 3:00 PM.</description>
       <styleUrl>#locked</styleUrl>
-      <Point><coordinates>2.1769,41.3825,0</coordinates></Point>
+      <Point><coordinates>2.1779,41.3851,0</coordinates></Point>
     </Placemark>
     <Placemark>
-      <name>Gothic Quarter — Wedding ceremony</name>
-      <description>May 31 ceremony &amp; reception after shuttles.</description>
+      <name>Ronda Sant Pere 21-23 — Guest bus pickup</name>
+      <description>May 31 4:45 PM guest bus to El Convent de Blanes (Segales, 59 seats; Mary +1 607-379-2239). Map: tmg.link/app/r/shuttlepickup</description>
       <styleUrl>#locked</styleUrl>
-      <Point><coordinates>2.1769,41.3825,0</coordinates></Point>
+      <Point><coordinates>2.1735,41.3897,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>El Convent de Blanes — Wedding ceremony &amp; reception</name>
+      <description>May 31. Passeig de Carles Faust 4, 17300 Blanes (Girona), ~68 km N of Barcelona. Ceremony 7 PM, dinner, party to 2:15 AM. Return buses 12:30/1:15/2:30 AM.</description>
+      <styleUrl>#locked</styleUrl>
+      <Point><coordinates>2.7997,41.6755,0</coordinates></Point>
     </Placemark>
     <Placemark>
       <name>Barcelona-Sants (train Jun 1 3PM)</name>

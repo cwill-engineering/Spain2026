@@ -68,7 +68,7 @@
 | 14:00 | Williams apartment check-in (Carrer de València) | VRBO 726EF3C0B8 |
 | 14:00 | Thomas + Valerie check-in (Ghost apt) | VRBO 4156885ha |
 | 14:00–18:30 | Free afternoon | Park Güell or Casa Batlló (book ahead) |
-| **19:00** | **🍸 Welcome party — Alaire Rooftop** | [tmg.link/app/r/condes](https://tmg.link/app/r/condes) — smart casual |
+| **19:00–22:00** | **🍸 Welcome Dinner — Hotel Condes de Barcelona** | Passeig de Gràcia 73-75 (rooftop = Alaire). Photo: Rubén Larruy. [tmg.link/app/r/condes](https://tmg.link/app/r/condes) — smart casual |
 
 ---
 
@@ -91,19 +91,36 @@
 
 ---
 
-## Sun May 31 — Wedding Day 💍
+## Sun May 31 — Wedding Day 💍 @ El Convent de Blanes
+
+> **Venue: El Convent de Blanes** (Passeig de Carles Faust 4, Blanes, Girona) — Costa Brava, **~68 km / ~65 min north of Barcelona**, reached by bus. **Chandler & Angela are in the wedding party** → 3 PM mini bus. **Kids + Thomas family** → 4:45 PM guest bus.
+
+**Chandler & Angela (wedding party):**
 
 | Time | Event | Notes |
 |------|-------|-------|
-| 09:00–11:00 | Sleep in, light breakfast | |
-| 11:00–13:30 | Free time / hair + makeup prep | Casual brunch nearby |
-| 13:30 | Lunch at apartment or nearby | Light meal |
-| ~14:30 | Wedding party heads to venue for photos | Exact time TBD by Joe |
-| 15:30 | Final dress | Black tux + black bow tie (men); black dress/gown (women) |
-| **16:30** | **🚌 Guest shuttles depart** | [Shuttle pickup map](https://tmg.link/app/r/shuttlepickup) |
-| ~17:00 | Arrive ceremony venue | Gothic Quarter |
-| Evening | Ceremony → cocktails → dinner → dancing | Walk down aisle, sit in front rows |
-| Late | Return — taxi or walk | 10–20 min walk to apartments |
+| ~09:10 | Angela → Grand Hotel Central (Via Laietana 30) | Taxi/metro ~12 min |
+| **09:40** | **💄 Angela: makeup** | Kira Kos + Ausra. Hair 11:20, ready 1:00 PM |
+| 12:00 | Chandler in tux at hotel | Groom getting-ready photos |
+| **12:45** | **🤵 Chandler: groomsmen photos** | Outside Grand Hotel Central |
+| **15:00** | **🚐 Mini buses depart → Blanes** | Chandler (groomsmen, Segalés 22) / Angela (bridesmaids, Soberti 20) |
+
+**Kids + Thomas family (guests):**
+
+| Time | Event | Notes |
+|------|-------|-------|
+| ~16:15 | Walk to Ronda Sant Pere 21-23 | ~5-8 min from apartments |
+| **16:45** | **🚌 Guest bus departs → Blanes** | Segalés 59 seats. Mary +1 (607) 379-2239. With Valerie |
+
+**Everyone — at El Convent de Blanes:**
+
+| Time | Event | Notes |
+|------|-------|-------|
+| **19:00–19:30** | **💍 Ceremony** | Rabbi Grau. Chandler & Angela in processional, groom's side 2nd row |
+| 19:30–21:00 | 🥂 Cocktail (gardens) | First dance, quartet, speeches, bouquet ~8:50 |
+| 21:15–23:15 | 🍽️ Dinner | Jubany Catering, cake cutting |
+| 23:15–02:15 | 🎉 Party | Horah dance, DJ Miss Beat, flip-flops |
+| **00:30 / 01:15 / 02:30** | **🚌 Return buses → Barcelona** | Tired kids on the 12:30 AM with Valerie |
 
 ---
 
