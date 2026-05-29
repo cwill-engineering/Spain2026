@@ -938,14 +938,16 @@ Wedding-organized group tours bookend the day. **Sagrada Família entry is our s
 
 ### Venue Maps — save offline before you leave Wi-Fi
 
-| When | Event | Venue | Map |
+Tap a venue name to open it in your phone's maps app.
+
+| When | Event | Venue (tap for directions) | Wedding map |
 |------|-------|-------|-----|
-| Fri 7–10 PM | Welcome dinner | **Hotel Condes de Barcelona** (Passeig de Gràcia 73-75) | [tmg.link/app/r/condes](https://tmg.link/app/r/condes) |
-| Sat 9:15 AM | Morning tour | **La Pedrera** | [tmg.link/app/r/lapedrera](https://tmg.link/app/r/lapedrera) |
-| Sat 5 PM | Tapas tour | **Catedral de Barcelona** | [tmg.link/app/r/catedralbcn](https://tmg.link/app/r/catedralbcn) |
-| Sun 3 PM | Wedding-party mini bus | **Grand Hotel Central** (Via Laietana 30) | — |
-| Sun 4:45 PM | Guest bus pickup | **Ronda Sant Pere 21-23** | [tmg.link/app/r/shuttlepickup](https://tmg.link/app/r/shuttlepickup) |
-| Sun 7 PM | Ceremony & reception | **El Convent de Blanes** (Passeig de Carles Faust 4, Blanes) | [maps.app](https://maps.google.com/?q=El+Convent+de+Blanes) |
+| Fri 7–10 PM | Welcome dinner | [**Hotel Condes de Barcelona** (Passeig de Gràcia 73-75)](https://www.google.com/maps/search/?api=1&query=Hotel+Condes+de+Barcelona+Passeig+de+Gr%C3%A0cia+73+Barcelona) | [tmg.link/app/r/condes](https://tmg.link/app/r/condes) |
+| Sat 9:15 AM | Morning tour | [**La Pedrera** (Passeig de Gràcia 92)](https://www.google.com/maps/search/?api=1&query=La+Pedrera+Passeig+de+Gr%C3%A0cia+92+Barcelona) | [tmg.link/app/r/lapedrera](https://tmg.link/app/r/lapedrera) |
+| Sat 5 PM | Tapas tour | [**Catedral de Barcelona**](https://www.google.com/maps/search/?api=1&query=Catedral+de+Barcelona) | [tmg.link/app/r/catedralbcn](https://tmg.link/app/r/catedralbcn) |
+| Sun 3 PM | Wedding-party mini bus | [**Grand Hotel Central** (Via Laietana 30)](https://www.google.com/maps/search/?api=1&query=Grand+Hotel+Central+Via+Laietana+30+Barcelona) | — |
+| Sun 4:45 PM | Guest bus pickup | [**Ronda de Sant Pere 21-23**](https://www.google.com/maps/search/?api=1&query=Ronda+de+Sant+Pere+21+Barcelona) | [tmg.link/app/r/shuttlepickup](https://tmg.link/app/r/shuttlepickup) |
+| Sun 7 PM | Ceremony & reception | [**El Convent de Blanes** (Passeig de Carles Faust 4, Blanes)](https://www.google.com/maps/search/?api=1&query=El+Convent+de+Blanes+Passeig+de+Carles+Faust+4+Blanes) | — |
 
 **Wedding venue:** El Convent de Blanes — historic 1583 convent on the Costa Brava, ~68 km / ~65 min north of Barcelona. Sea-view gardens.
 **Wedding questions:** Joe — [joeking7@gmail.com](mailto:joeking7@gmail.com).

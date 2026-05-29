@@ -118,6 +118,7 @@
       "stay": true,
       "lat": 39.4716,
       "lng": -0.3263,
+      "location": "Carrer d'Isabel de Villena 155, 46011 València, Spain",
       "description": "Vrbo HA-7TLM9D. Maria Pilar's beach house. Carrer d'Isabel de Villena 155. Crib confirmed for Harlan. 3-5 min walk to Malvarrosa beach. Whole group stays here May 27-29."
     },
     {
@@ -188,6 +189,7 @@
       "stay": true,
       "lat": 41.3924,
       "lng": 2.1648,
+      "location": "Carrer de València, Eixample, 08009 Barcelona, Spain",
       "description": "Vrbo 726EF3C0B8 — Luxury Apartment on Carrer de València (between Passeig de Gràcia and Rambla de Catalunya). 5 guests (Williams family). Stay May 29-Jun 1."
     },
     {
@@ -202,6 +204,7 @@
       "group": "Barcelona",
       "lat": 41.3936,
       "lng": 2.162,
+      "location": "Hotel Condes de Barcelona, Passeig de Gràcia 73-75, 08008 Barcelona, Spain",
       "description": "Fri May 29, 7:00–10:00 PM. Welcome dinner at Hotel Condes de Barcelona, Passeig de Gràcia 73-75 (rooftop = Alaire). Photography by Rubén Larruy on site. Map: https://tmg.link/app/r/condes — Smart casual."
     },
     {
@@ -258,6 +261,7 @@
       "group": "Barcelona",
       "lat": 41.3851,
       "lng": 2.1779,
+      "location": "Grand Hotel Central, Via Laietana 30, 08003 Barcelona, Spain",
       "description": "Bridal-party hair & makeup at Grand Hotel Central Barcelona, Via Laietana 30 (Kira Kos + Ausra Nekrosiene). Angela: makeup 9:40 AM, hair 11:20 AM. Everyone ready by 1:00 PM, final touch-ups 12:50. Leave the apartment ~9:10 (taxi/metro ~12 min from Carrer de València)."
     },
     {
@@ -272,6 +276,7 @@
       "group": "Barcelona",
       "lat": 41.3851,
       "lng": 2.1779,
+      "location": "Grand Hotel Central, Via Laietana 30, 08003 Barcelona, Spain",
       "description": "Photos with groomsmen outdoors of Grand Hotel Central at 12:45 PM (Rubén Larruy photo / Alexander Kulakov video, both arrive 11:45 AM). Groom getting-ready photos from 12:00 PM. Be dressed in your tux and at the hotel by ~12:30."
     },
     {
@@ -286,6 +291,7 @@
       "group": "Barcelona",
       "lat": 41.3851,
       "lng": 2.1779,
+      "location": "Grand Hotel Central, Via Laietana 30, 08003 Barcelona, Spain",
       "description": "3:00 PM departure from Grand Hotel Central Barcelona. Chandler rides the groom & groomsmen mini bus (22 seats, Segalés Transport). Angela rides the bride, bridesmaids & parents mini bus (20 seats, Transfers Soberti). ~1 hr drive to Blanes — wedding party arrives ahead of guests for first look / photos."
     },
     {
@@ -300,6 +306,7 @@
       "group": "Barcelona",
       "lat": 41.3897,
       "lng": 2.1735,
+      "location": "Ronda de Sant Pere 21-23, 08010 Barcelona, Spain",
       "description": "Guest coach departs 4:45 PM from Ronda Sant Pere 21-23 (Segalés Transport, 59 seats). Contact: Mary +1 (607) 379-2239. This is the ride for Carson, Elise, Harrison + the Thomas family / Valerie — Chandler & Angela leave earlier (3 PM) with the wedding party, so the kids ride this bus with Valerie. ~1 hr to Blanes; arrive ~5:45 PM."
     },
     {
@@ -314,6 +321,7 @@
       "group": "Barcelona",
       "lat": 41.6755,
       "lng": 2.7997,
+      "location": "El Convent de Blanes, Passeig de Carles Faust 4, 17300 Blanes, Girona, Spain",
       "description": "Ceremony 7:00–7:30 PM at El Convent de Blanes (Passeig de Carles Faust 4, 17300 Blanes, Girona — Costa Brava, ~68 km / 65 min north of Barcelona). Officiant: Rabbi Grau. Chandler & Angela walk in the processional; seated groom's side, second row. Guests arrive 6:45, everyone ready 6:50. Black formal attire; ~77°F (25°C)."
     },
     {
@@ -328,6 +336,7 @@
       "group": "Barcelona",
       "lat": 41.6755,
       "lng": 2.7997,
+      "location": "El Convent de Blanes, Passeig de Carles Faust 4, 17300 Blanes, Girona, Spain",
       "description": "Cocktail 7:30–9:00 PM in the sea-view gardens. First dance (At Last), live string quartet (Cuarteto Moon), then speeches: bride's father, groom's father, best man (Nick King). Bouquet toss ~8:50."
     },
     {
@@ -342,6 +351,7 @@
       "group": "Barcelona",
       "lat": 41.6755,
       "lng": 2.7997,
+      "location": "El Convent de Blanes, Passeig de Carles Faust 4, 17300 Blanes, Girona, Spain",
       "description": "Dinner 9:15–11:15 PM (Jubany Catering). Couple entrance, first + main course, speech + bride's-sister video, cake cutting."
     },
     {
@@ -356,6 +366,7 @@
       "group": "Barcelona",
       "lat": 41.6755,
       "lng": 2.7997,
+      "location": "El Convent de Blanes, Passeig de Carles Faust 4, 17300 Blanes, Girona, Spain",
       "description": "Party 11:15 PM–2:15 AM. Hora/Horah dance, DJ Miss Beat, flip-flops out, late-night bites. Return buses to Barcelona: 12:30 AM (mini bus, 20 seats), 1:15 AM (mini bus, 20 seats), 2:30 AM (full coach, Segalés). Get the tired kids on the 12:30 AM with Valerie."
     },
     {
@@ -399,6 +410,7 @@
       "stay": true,
       "lat": 40.4117,
       "lng": -3.7064,
+      "location": "Calle de la Encomienda 11, 28012 Madrid, Spain",
       "description": "Airbnb HMR8NYWPZF. Host Elena. Calle de la Encomienda 11, La Latina/Tirso de Molina. Smart lock check-in. Crib confirmed for Harlan. All 9 guests. Stay Jun 1-4."
     },
     {

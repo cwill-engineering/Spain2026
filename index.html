@@ -295,6 +295,18 @@
         }
         .plan-detail strong { color: var(--deep-blue); }
         .plan-detail .plan-time { color: var(--terracotta); font-weight: 600; }
+        .plan-map-link {
+            display: inline-block;
+            margin-top: 0.5rem;
+            font-weight: 600;
+            color: var(--terracotta);
+            text-decoration: none;
+            border: 1px solid var(--terracotta);
+            border-radius: 8px;
+            padding: 0.25rem 0.6rem;
+        }
+        .plan-map-link:hover { background: var(--terracotta); color: white; }
+        .leaflet-popup-content .plan-map-link { margin-top: 0.4rem; }
         .vis-item.locked-event {
             background-color: var(--terracotta) !important;
             border-color: #a85a3a !important;
@@ -1892,6 +1904,26 @@ function formatPlanTime(iso) {
     });
 }
 
+// Universal cross-platform Maps URL — opens the phone's default maps app
+// (Google Maps on Android, Apple/Google Maps on iOS) and the web on desktop.
+function mapsUrl(entry) {
+    if (!entry) return '';
+    if (entry.location) {
+        return 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(entry.location);
+    }
+    if (entry.lat && entry.lng) {
+        return 'https://www.google.com/maps/search/?api=1&query=' + entry.lat + ',' + entry.lng;
+    }
+    return '';
+}
+
+function mapsLinkHtml(entry) {
+    const url = mapsUrl(entry);
+    if (!url) return '';
+    const label = entry.location ? entry.location : 'Open in Maps';
+    return `<br><a class="plan-map-link" href="${url}" target="_blank" rel="noopener">📍 ${label}</a>`;
+}
+
 function showPlanDetail(item) {
     const el = document.getElementById('plan-detail');
     if (!item) {
@@ -1899,7 +1931,7 @@ function showPlanDetail(item) {
         return;
     }
     const timeStr = item.start ? `<span class="plan-time">${formatPlanTime(item.start)}</span>` : '';
-    el.innerHTML = `<strong>${item.title || item.content}</strong>${timeStr ? '<br>' + timeStr : ''}${item.description ? '<br>' + item.description : ''}`;
+    el.innerHTML = `<strong>${item.title || item.content}</strong>${timeStr ? '<br>' + timeStr : ''}${item.description ? '<br>' + item.description : ''}${mapsLinkHtml(item)}`;
 }
 
 async function initPlanTab() {
@@ -2120,7 +2152,7 @@ async function initPlanTab() {
             title: entry.title,
             zIndexOffset: zIndex
         });
-        marker.bindPopup(`<strong>${entry.title}</strong>${entry.description ? '<br>' + entry.description : ''}`);
+        marker.bindPopup(`<strong>${entry.title}</strong>${entry.description ? '<br>' + entry.description : ''}${mapsLinkHtml(entry)}`);
         marker.on('click', () => {
             showPlanDetail(entry);
             if (entry.start || entry.day) {

@@ -177,6 +177,11 @@ def timed_props(start: str, end: str | None, tz: str, category: str) -> tuple[st
 
 
 def location_for(event: dict) -> str:
+    # Prefer an explicit full address so calendar apps make LOCATION tappable
+    # (tapping opens the phone's default maps app with the exact place).
+    explicit = event.get("location")
+    if explicit:
+        return explicit
     city = event.get("city") or ""
     category = event.get("category") or ""
     title = event.get("title") or ""
