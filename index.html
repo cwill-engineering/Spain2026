@@ -1005,7 +1005,7 @@
         .scroll-top:active { transform: scale(0.92); }
         .scroll-top svg { width: 20px; height: 20px; }
 
-        /* ── Trip assistant ── */
+        /* ── Trip assistant (z-index above Leaflet panes, which go up to ~700) ── */
         .agent-fab {
             position: fixed;
             bottom: 5.5rem;
@@ -1024,7 +1024,7 @@
             font-size: 0.85rem;
             font-weight: 600;
             box-shadow: 0 4px 14px rgba(198, 11, 30, 0.35);
-            z-index: 150;
+            z-index: 2100;
             transition: transform 0.2s, box-shadow 0.2s;
         }
         .agent-fab.visible { display: flex; }
@@ -1035,7 +1035,7 @@
             display: none;
             flex-direction: column;
             background: var(--warm-cream);
-            z-index: 350;
+            z-index: 2000;
         }
         .agent-panel.open { display: flex; }
 
@@ -1169,7 +1169,7 @@
         }
         .agent-send:disabled { opacity: 0.5; cursor: not-allowed; }
 
-        /* Mobile: full-screen overlay */
+        /* Mobile: full-screen overlay — must sit above Leaflet map tiles/markers */
         @media (max-width: 899px) {
             .agent-panel {
                 position: fixed;
@@ -1179,6 +1179,13 @@
             .agent-back-btn { display: inline-block; }
             .agent-close-desktop { display: none; }
             body.agent-open { overflow: hidden; }
+            body.agent-open .leaflet-container,
+            body.agent-open .leaflet-pane,
+            body.agent-open .leaflet-top,
+            body.agent-open .leaflet-bottom,
+            body.agent-open .leaflet-control {
+                z-index: 1 !important;
+            }
         }
 
         /* Desktop: right rail */
