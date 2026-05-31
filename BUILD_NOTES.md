@@ -1,6 +1,6 @@
 # BUILD NOTES - Spain 2026 Travel Site
 
-> Last updated: 2026-05-29 (Joe's final TIMING doc: wedding venue corrected to El Convent de Blanes; full May 31 timeline; welcome dinner = Hotel Condes de Barcelona)
+> Last updated: 2026-05-31 (Joe itinerary cards Photos-3-001.zip; Wedding Day tab; Angela 8:40 H&MU; guest shuttle 4:30 PM adults-only; kids babysit Harlan)
 
 ## Purpose
 Static, password-gated family travel site for the Spain 2026 trip. It gives the group one mobile-friendly place to check itinerary, lodging, trains, activities, city deep-dives, pre-trip tasks, and an AI trip assistant.
@@ -13,6 +13,10 @@ Static, password-gated family travel site for the Spain 2026 trip. It gives the 
 - `briefings/day-by-day.md` lazy-loads into the **Day by Day** tab — every preset event from May 26 → Jun 4 in one scroll (the primary in-trip reference).
 - `briefings/travel-playbook.md` lazy-loads into the **Travel Playbook** tab — airport navigation (Barajas T4S, BCN T1, Boston, JFK, BNA), Renfe AVE/Euromed boarding rules + station differences, Cercanías C1, metro guidance per city, taxi/Uber/Cabify/FreeNow by city.
 - `trip-events.json` is the structured itinerary source for the **Plan** tab (vis-timeline + Leaflet map).
+- `wedding-day.json` drives the **Wedding Day** tab (May 31 multi-track swim-lane timeline + filtered map).
+- `briefings/wedding-day.md` loads into the Wedding Day tab as a collapsible cheat sheet.
+- `source/wedding-itinerary/` holds JPEG exports + `parsed-cards.json` from Joe's printed itinerary cards (`Photos-3-001.zip`).
+- `extract-wedding-cards.py` re-extracts HEIC → JPEG when new card photos arrive.
 - `spain-2026.ics` is the static subscribable calendar file served from the Netlify site root.
 - `spain-2026.kml` is a Google Earth / My Maps export of locked pins and ideas.
 - `Madrid_Accommodation_Recommendations.md` is a supporting planning/reference note, not rendered by the site.
@@ -99,6 +103,12 @@ webcal://neon-daffodil-236a0f.netlify.app/spain-2026.ics
 | Assuming the site already had a calendar | No `.ics` file or generator existed in the project | Add a static `spain-2026.ics` at the site root and link it from the trip document |
 
 ## Known Issues & Fixes
+- **Date**: 2026-05-31
+- **Symptom**: Wedding-day schedule stale — Angela at 9:40 H&MU, guest bus 4:45 PM with kids on board, no family afternoon plan.
+- **Root Cause**: Prior data from Joe's TIMING PDF; new printed itinerary cards (`Photos-3-001.zip`) + family logistics clarified shuttle at 4:30 PM (adults only) and kids babysitting Harlan at Ghost apt.
+- **Fix**: Parsed 3 card fronts → `source/wedding-itinerary/`. Updated `trip-events.json` (Angela 8:40, groomsmen 11:00, guest shuttle 16:30 adults-only, 6 new family-track events). Added `wedding-day.json` + **💍 Wedding Day** tab (multi-track vis-timeline + Leaflet map with track filters). Updated trip doc, day-by-day, quick-ref, wedding cheat sheet. Regenerated ICS + agent-context.
+- **⚠️ DO NOT REVERT**: Kids (Carson, Elise, Harrison) **do not** ride the guest shuttle — they babysit Harlan at Ghost apt. Guest shuttle is **Valerie, Brandon, Annalise only**, arrive by **4:30 PM** outside Llibreria Paulines. Angela H&MU starts **8:40 AM**, not 9:40.
+
 - **Date**: 2026-05-29
 - **Symptom**: Site placed the wedding ceremony in the **Gothic Quarter** of Barcelona (lat/lng 41.3825, 2.1769) with 4:30 PM "shuttles" and an unknown ceremony start. Joe's final TIMING PDF (`TIMING - Nikki and Joseph (2).pdf`) revealed the wedding is actually at **El Convent de Blanes** on the Costa Brava — ~68 km / ~65 min north of Barcelona — with a precise hour-by-hour schedule.
 - **Root Cause**: Earlier data was built from pre-final wedding info ("TBD from Joe"); the venue and times were placeholders.
@@ -147,6 +157,7 @@ To duplicate this for another trip:
 ## Change Log
 | Date | Change | Why |
 |---|-----|-----|
+| 2026-05-31 | **Jun 1 FC Barcelona Museum before Madrid train.** Added locked `fc-barcelona-museum` event 11:30–13:30 (Barça Immersive Tour, Spotify Camp Nou). Rewrote Jun 1 timeline: checkout → museum (bags in entryways) → collect bags → Sants by ~14:15 → AVE 15:00. Updated luggage gap + trip doc + day-by-day. Regenerated ICS + agent-context. | User: museum trip before train departure tomorrow. | Parsed `Photos-3-001.zip` (3 card fronts: bridesmaids, groomsmen, guests) → `source/wedding-itinerary/`. Updated May 31: Angela H&MU **8:40**, groomsmen ready **11:00**, guest shuttle **4:30 PM** (Valerie/Brandon/Annalise only; outside Llibreria Paulines). Kids babysit Harlan at Ghost apt — not on guest bus. New `wedding-day.json` + tab with swim-lane timeline, track-filter map, `briefings/wedding-day.md`. Regenerated ICS + agent-context. | User: latest schedule in photos + complex Sunday afternoon needs dedicated map/timeline. |
 | 2026-05-29 | **Tappable map links everywhere.** Added a `location` field (full street address) to key events in `trip-events.json` (welcome dinner, all wedding-weekend events, 3 lodging check-ins). `generate-ics.py` `location_for()` now prefers `event["location"]`, so calendar `LOCATION` is a precise address → tapping it in Apple/Google Calendar opens the phone's default maps app. In `index.html` added `mapsUrl()` / `mapsLinkHtml()` helpers (universal `https://www.google.com/maps/search/?api=1&query=...` — opens default maps app on Android/iOS, web on desktop) and appended a "📍 Open in Maps" link to every Plan-tab detail panel and map popup (falls back to `lat,lng` when no address). Linked venue addresses in the Wedding Cheat Sheet table. | User: "Make sure the addresses have linked addresses that will go to default phone mapping tool." |
 | 2026-05-29 | **Wedding venue + full May 31 timeline corrected from Joe's final TIMING PDF.** Venue moved Gothic Quarter → **El Convent de Blanes** (Costa Brava, ~68 km N). Welcome party → **Welcome Dinner at Hotel Condes de Barcelona**. Split the wedding day into 8 events (H&MU, groomsmen photos, 3 PM wedding-party mini buses, 4:45 PM guest bus, ceremony 7 PM, cocktail, dinner, party→2:15 AM + return buses). Chandler & Angela flagged as wedding party (3 PM bus); kids + Thomas family on guest bus. Added Barcelona→Blanes route. Updated trip doc, day-by-day, Barcelona briefing, KML. Regenerated ICS + agent-context. | Joe handed over the final hour-by-hour TIMING doc with addresses; prior site had placeholder venue/times. |
 | 2026-05-26 | **Valencia stations section: Sorolla vs Nord + step-by-step beach-house transfers.** Verified ticket locators: ZUBYYB / 4XYBG8 land at **Joaquín Sorolla** (May 27), 9D2RJU departs from **Estació del Nord** (May 29) — these are confirmed by Renfe bookings. Added a dedicated H2 section in `briefings/travel-playbook.md` after the Cercanías block with: (1) station-comparison table tying each leg to a ticket locator, (2) full Sorolla → beach house arrival timeline w/ taxi script ("Carrer d'Isabel de Villena 155, junto Malvarrosa") and fallback for the 19:40 case, (3) **high-stakes May 29 morning timeline** with mandatory pre-booked taxi (RadioTaxi Valencia +34 963 703 333) at 07:30 — don't hail at dawn from a residential block, (4) inter-station 700m walk note. Replaced the thin cheat-sheet entries to point at the new section. Day-by-day briefing May 27 + May 29 updated with the matching step rows (Combinado, taxi pre-book reminder). `trip-events.json` `gap-valencia-checkout` recommendation updated. Regenerated `agent-context.json` (260.5 KB). | User: "I also need detailed instructions on how to get from valencia train stations to vrbo. Do we know for sure that it is the nord station?" — yes, locked by ticket; cleaned up the transfer logistics. |

@@ -15,6 +15,8 @@ SECTIONS: list[tuple[str, str, Path]] = [
     ("trip-plan", "Trip Planning Document", ROOT / "Trip_Planning_Document.md"),
     ("day-by-day", "Day by Day master schedule (every preset event May 26 \u2192 Jun 4)", ROOT / "briefings" / "day-by-day.md"),
     ("travel-playbook", "Travel Playbook (airports, Renfe trains, metro, taxis)", ROOT / "briefings" / "travel-playbook.md"),
+    ("wedding-day", "Wedding Day (May 31 multi-track schedule + map)", ROOT / "wedding-day.json"),
+    ("briefing-wedding-day", "Wedding Day briefing", ROOT / "briefings" / "wedding-day.md"),
     ("trip-events", "Structured Itinerary (trip-events.json)", ROOT / "trip-events.json"),
     ("quick-ref", "Quick Reference (trains, lodging, emergency)", ROOT / "trip-quick-ref.json"),
     ("eat-drink", "Top Eats and Drinks", ROOT / "eat-drink.json"),

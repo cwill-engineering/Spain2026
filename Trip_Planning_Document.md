@@ -174,8 +174,8 @@ May 27 (Wed)  🇪🇸  MADRID land 11:30 → AVE Chamartín 14:30 → VALENCIA 
 May 28 (Thu)  🍽️  VALENCIA - Paella lunch at Casa Carmela (1:00 PM), beach/pool, Albufera optional
 May 29 (Fri)  🚄  BARCELONA - Train Valencia 09:06 → BCN 12:20, check in 2 PM, Welcome party 7 PM
 May 30 (Sat)  💒  BARCELONA - Tour Day (La Pedrera 9:15, Sagrada 12:15, Tapas Tour 5 PM)
-May 31 (Sun)  🎉  WEDDING DAY @ EL CONVENT DE BLANES (Costa Brava, ~68km N) — party 3 PM, guest bus 4:45 PM, ceremony 7 PM
-Jun 1  (Mon)  🚄  MADRID - Train BCN 15:00 → MAD 18:17, check in ~7 PM
+May 31 (Sun)  🎉  WEDDING DAY @ EL CONVENT DE BLANES (Costa Brava, ~68km N) — party 3 PM, guest shuttle 4:30 PM, ceremony 7 PM
+Jun 1  (Mon)  ⚽  FC BARCELONA MUSEUM AM → Train BCN 15:00 → MAD 18:17, check in ~7 PM
 Jun 2  (Tue)  🏛️  MADRID - Full day exploring (museums, tapas, parks)
 Jun 3  (Wed)  ✈️  MADRID - Thomas family departs / Williams explores
 Jun 4  (Thu)  ✈️  MADRID - Williams family departs (Corpus Christi holiday — shops closed)
@@ -206,8 +206,8 @@ We have **~8 large checked bags** (formal-event wardrobe x6) plus carry-ons. Wre
 | **May 29 Valencia checkout** | Leave 07:45, but Vrbo checkout is 11:00 | **Pre-arrange with Maria Pilar** by Wed 5/27 evening: either confirmed early checkout, OR she holds bags somewhere on the property until we hand them off at 7:45. **Test the message on the WhatsApp the day before.** | Stasher near Estació del Nord (1 partner ~5 min walk; €5/bag/day). |
 | **May 29 Barcelona arrival** | Train 12:20 → check-in 14:00 (90-min gap) | **Take everything in 2 taxis from the Sants parada** straight to Williams apartment on Carrer de València. Long rank at the main exit; FreeNow app books the same taxis. **Skip Uber XL** — Catalonia's VTC rules make it nonexistent in BCN. **Ring the host** — most VRBO Eixample hosts allow bag drop in the entryway 1–2 hr early. We then walk to lunch within 5–10 min with hands free. | **Barcelona-Sants consigna** (€10/bag, 24h max) if host can't drop early. Adds a 15 min taxi back to apartment. |
 | **May 30 wedding tour day** | 9:15 AM start, late return | Bags stay at apartments — no transit needed. Day bag essentials only. | — |
-| **May 31 wedding day** | Wedding party leaves 3 PM, guest bus 4:45 PM, return after 2 AM | Bags stay at apartments. Venue is **El Convent de Blanes, ~68 km north** — no going back for forgotten items. Take what fits in pockets / clutch. | — |
-| **Jun 1 Barcelona checkout** | Checkout 11:00 → train 15:00 (4 hr gap) | **Take all bags to Barcelona-Sants in 2 taxis ~12:30 PM** (FreeNow app or walk to Passeig de Gràcia / Plaça Universitat parada — Uber XL doesn't exist in BCN). Use the **Sants consigna in the main hall** for ~2 hours (~€48 for 8 bags) OR wait in Sants's café area (free, has a play zone). Lunch at Sants food court or La Rotonda upstairs. Avoid downtown round trips. | **Stasher near Plaça Reial / Gothic Quarter** (€4.50–6/bag) for a Gothic-Quarter lunch first, then taxi to Sants by 14:00. |
+| **May 31 wedding day** | Wedding party 3 PM; guest shuttle arrive 4:30 PM (adults only); kids babysit at Ghost apt; return after 2 AM | Bags stay at apartments. Venue is **El Convent de Blanes, ~68 km north** — no going back for forgotten items. Take what fits in pockets / clutch. | — |
+| **Jun 1 Barcelona checkout** | Checkout 11:00 → museum 11:30 → train 15:00 | **Bags in entryways during museum** (travel light). FC Barcelona Museum 11:30–13:30, then collect bags + 2 taxis to Sants ~13:45. Quick Sants bite if time — bags on AVE Coach 1 racks. | Old plan: Sants consigna at 12:30 if museum cancelled. |
 | **Jun 4 Madrid departure** | Checkout 11:00 → flight 14:05 (3 hr) | **🚨 Corpus Christi public holiday — many shops + Stasher partners closed.** **Best plan:** 2 Uber XL **direct to Barajas at 10:45 AM**. Eat breakfast at the airport (T4S has lounges and decent food). Atocha consigna is open but adds 30 min and €48 to return for it. | If we need to linger in town: Atocha consigna stays open 365 days; Airbnb-affiliate luggage partners often open on holidays (host Elena can confirm). |
 
 ### Lockers / storage providers quick-ref
@@ -868,29 +868,40 @@ Wedding-organized group tours bookend the day. **Sagrada Família entry is our s
 
 ### Sunday May 31 — Wedding Day @ El Convent de Blanes
 
-> **Venue:** El Convent de Blanes, Passeig de Carles Faust 4, 17300 Blanes (Girona) — Costa Brava, **~68 km / ~65 min north of Barcelona**. The wedding is **not** in the city — everyone gets there by bus. **Chandler & Angela are in the wedding party** (hair/makeup + processional) and leave at **3:00 PM**; the **kids + Thomas family take the 4:45 PM guest bus**.
+> **Venue:** El Convent de Blanes, Passeig de Carles Faust 4, 17300 Blanes (Girona) — Costa Brava, **~68 km / ~65 min north of Barcelona**. Use the **💍 Wedding Day** tab for the multi-track map + timeline. **Kids babysit Harlan at Ghost apt — they do NOT ride the guest shuttle.**
 
-**Chandler & Angela (wedding party):**
-
-| Time | Event | Notes |
-|------|-------|-------|
-| 08:30 | Light breakfast | Long day/night ahead |
-| ~09:10 | Angela → Grand Hotel Central (Via Laietana 30) | Taxi/metro ~12 min from apartment |
-| **09:40** | **Angela: makeup** (Grand Hotel Central) | Kira Kos + Ausra. Hair at 11:20, ready by 1:00 PM |
-| 12:00 | Chandler in tux at Grand Hotel Central | Groom getting-ready photos start |
-| **12:45** | **Chandler: groomsmen photos** (outside the hotel) | Rubén Larruy / Alexander Kulakov |
-| **15:00** | **Mini buses depart Grand Hotel Central → Blanes** | Chandler on groom/groomsmen bus (Segalés, 22); Angela on bride/bridesmaids/parents bus (Soberti, 20) |
-| ~16:15 | Arrive Blanes — first look / photos | |
-
-**Kids + Thomas family (guests):**
+**Angela (bridesmaids):**
 
 | Time | Event | Notes |
 |------|-------|-------|
-| Morning | Slow morning with the kids | Valerie + Thomas family |
-| 13:00–14:00 | Light lunch, get the kids dressed | |
-| ~16:15 | Walk to Ronda Sant Pere 21-23 | ~5-8 min from apartments |
-| **16:45** | **Guest bus departs → El Convent de Blanes** | Segalés, 59 seats. Contact Mary +1 (607) 379-2239 |
-| ~17:45 | Arrive Blanes | |
+| ~08:10 | Angela → Grand Hotel Central | Taxi/metro ~12 min from Williams apartment |
+| **08:40** | **Angela: makeup** (Grand Hotel Central) | Kira Kos + Ausra. Hair at 11:20, ready by 1:00 PM |
+| **15:00** | **Mini bus → Blanes** | Bridesmaids/parents bus (Soberti, 20 seats) |
+
+**Chandler + Elise (groomsmen):**
+
+| Time | Event | Notes |
+|------|-------|-------|
+| ~09:00 | Elise rides with Chandler → Grand Hotel Central | Valerie picks up Elise ~11:00 AM |
+| **11:00** | **Groomsmen getting ready** (8th floor) | Per groomsmen card. Groom photos from 12:00 |
+| **12:45** | **Groomsmen photos** (outdoor) | Rubén Larruy / Alexander Kulakov |
+| **15:00** | **Mini bus → Blanes** | Groom/groomsmen bus (Segalés, 22 seats) |
+
+**Carson, Elise, Harrison (kids — babysitting):**
+
+| Time | Event | Notes |
+|------|-------|-------|
+| 10:00–12:30 | Montjuïc | Castle views, gardens |
+| 12:30–14:00 | Gothic Quarter shopping | |
+| **14:00–15:30** | **Lunch with Valerie & Annalise** | Gothic Quarter — pick a spot on the day |
+| **16:00 onward** | **Babysit Harlan @ Ghost apt** | VRBO 4156885ha — adults at wedding |
+
+**Valerie, Brandon, Annalise (guest shuttle):**
+
+| Time | Event | Notes |
+|------|-------|-------|
+| ~16:00 | Walk to shuttle pickup | Ronda Sant Pere 21-23, outside Llibreria Paulines |
+| **16:30** | **Guest shuttle → Blanes** | **Arrive by 4:30 PM.** Mary +1 (607) 379-2239. Adults only. |
 
 **Everyone — at the venue:**
 
@@ -901,18 +912,20 @@ Wedding-organized group tours bookend the day. **Sagrada Família entry is our s
 | 19:30–21:00 | Cocktail hour (gardens) | First dance, string quartet, speeches, bouquet ~8:50 |
 | 21:15–23:15 | Dinner | Jubany Catering — couple entrance, speeches, cake cutting |
 | 23:15–02:15 | Party | Horah dance, DJ Miss Beat, flip-flops out |
-| **00:30 / 01:15 / 02:30** | **Return buses → Barcelona** | Mini bus 12:30 AM (20), mini bus 1:15 AM (20), full coach 2:30 AM. Tired kids → 12:30 AM with Valerie |
+| **00:30 / 01:15 / 02:30** | **Return buses → Barcelona** | Adults on guest shuttle; kids stay babysitting at Ghost apt |
 
-### Monday June 1 — Checkout & Train to Madrid
+### Monday June 1 — FC Barcelona Museum + Train to Madrid
 
 | Time | Event | Notes |
 |------|-------|-------|
-| 09:00–10:00 | Sleep in, light breakfast | |
-| 11:00 | Williams + Thomas checkout | Bags down to entryway |
-| 12:00 | 2 taxis → Barcelona-Sants | ~€20 each. FreeNow app or hail at Passeig de Gràcia / Plaça Universitat parada. |
-| 12:30 | Sants consigna (€48 for 8 bags ~2 hrs) OR Sants café area free | |
-| 12:30–14:30 | Lunch — Sants food court / La Rotonda upstairs | Stay in the station — no downtown round trips |
-| 14:30 | Boarding gates open | Check coach 1 on main board |
+| 09:00–10:00 | Sleep in, light breakfast | Late night after wedding |
+| 11:00 | Williams + Thomas checkout | Bags in apartment entryways |
+| 11:15 | Metro L3 → Camp Nou area | ~20 min from Eixample; or taxi |
+| **11:30–13:30** | **⚽ FC Barcelona Museum** (Barça Immersive Tour) | [Spotify Camp Nou](https://www.google.com/maps/search/?api=1&query=Spotify+Camp+Nou+Barcelona) — C. d'Arístides Maillol 12. Mon 10:00–19:00. Book at fcbarcelona.com |
+| 13:30 | Collect bags from both apartments | |
+| 13:45 | 2 taxis → Barcelona-Sants | ~€20 each. FreeNow or Passeig de Gràcia parada |
+| 14:15 | Quick bite at Sants food court | If time before boarding |
+| 14:30 | Boarding gates open | Check Coach 1 on main board |
 | **15:00** | **Board AVE 03152 → Madrid** (JKSS7B, Coach 1) | Atocha arrival 18:17 |
 
 ---
@@ -925,12 +938,13 @@ Wedding-organized group tours bookend the day. **Sagrada Família entry is our s
 
 **Women:** **Black tuxedo OR black dress/gown** — both great. No tux required for sisters / guests (a formal black dress is perfect). Comfortable shoes matter — there's outdoor garden terrain at the venue.
 
-**Hair/makeup:** Done at **Grand Hotel Central Barcelona** (Via Laietana 30) by Kira Kos + Ausra Nekrosiene. **Angela's slots: makeup 9:40 AM, hair 11:20 AM**, everyone ready by 1:00 PM (final touch-ups 12:50).
+**Hair/makeup:** Done at **Grand Hotel Central Barcelona** (Via Laietana 30) by Kira Kos + Ausra Nekrosiene. **Angela's slots: makeup 8:40 AM, hair 11:20 AM**, everyone ready by 1:00 PM (final touch-ups 12:50).
 
 **Wedding-day transport (important — venue is 68 km north):**
-- **Chandler & Angela are in the wedding party** → leave on the **3:00 PM mini buses from Grand Hotel Central** (Chandler: groomsmen bus, Segalés 22 seats; Angela: bridesmaids/parents bus, Soberti 20 seats).
-- **Kids (Carson, Elise, Harrison) + Thomas family** → **4:45 PM guest bus from Ronda Sant Pere 21-23** (Segalés, 59 seats; Mary +1 (607) 379-2239) with Valerie.
-- **Return:** buses to Barcelona at **12:30 AM, 1:15 AM, 2:30 AM**. Put tired kids on the 12:30 AM.
+- **Chandler & Angela** → **3:00 PM** mini buses from Grand Hotel Central (wedding party).
+- **Valerie, Brandon, Annalise** → guest shuttle **arrive by 4:30 PM** at Ronda Sant Pere 21-23, outside Llibreria Paulines (Mary +1 (607) 379-2239).
+- **Carson, Elise, Harrison** → **babysit Harlan at Ghost apt** — they do **not** ride the guest shuttle.
+- **Return:** buses to Barcelona at **12:30 AM, 1:15 AM, 2:30 AM** (adults on guest shuttle).
 
 **Ceremony logistics:**
 - **Ceremony 7:00–7:30 PM.** Chandler & Angela walk in the processional, then sit groom's side, **second row** — not standing at the altar.
@@ -946,7 +960,7 @@ Tap a venue name to open it in your phone's maps app.
 | Sat 9:15 AM | Morning tour | [**La Pedrera** (Passeig de Gràcia 92)](https://www.google.com/maps/search/?api=1&query=La+Pedrera+Passeig+de+Gr%C3%A0cia+92+Barcelona) | [tmg.link/app/r/lapedrera](https://tmg.link/app/r/lapedrera) |
 | Sat 5 PM | Tapas tour | [**Catedral de Barcelona**](https://www.google.com/maps/search/?api=1&query=Catedral+de+Barcelona) | [tmg.link/app/r/catedralbcn](https://tmg.link/app/r/catedralbcn) |
 | Sun 3 PM | Wedding-party mini bus | [**Grand Hotel Central** (Via Laietana 30)](https://www.google.com/maps/search/?api=1&query=Grand+Hotel+Central+Via+Laietana+30+Barcelona) | — |
-| Sun 4:45 PM | Guest bus pickup | [**Ronda de Sant Pere 21-23**](https://www.google.com/maps/search/?api=1&query=Ronda+de+Sant+Pere+21+Barcelona) | [tmg.link/app/r/shuttlepickup](https://tmg.link/app/r/shuttlepickup) |
+| Sun 4:30 PM | Guest shuttle (arrive by) | [**Ronda de Sant Pere 21-23** (outside Llibreria Paulines)](https://www.google.com/maps/search/?api=1&query=Ronda+de+Sant+Pere+21+Barcelona) | [tmg.link/app/r/shuttlepickup](https://tmg.link/app/r/shuttlepickup) |
 | Sun 7 PM | Ceremony & reception | [**El Convent de Blanes** (Passeig de Carles Faust 4, Blanes)](https://www.google.com/maps/search/?api=1&query=El+Convent+de+Blanes+Passeig+de+Carles+Faust+4+Blanes) | — |
 
 **Wedding venue:** El Convent de Blanes — historic 1583 convent on the Costa Brava, ~68 km / ~65 min north of Barcelona. Sea-view gardens.

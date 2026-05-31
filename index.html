@@ -323,6 +323,59 @@
             #plan-map { height: 360px; }
         }
 
+        /* ── Wedding Day tab ── */
+        .panel-content.wedding-panel { max-width: 1100px; }
+        .wedding-callout {
+            background: #fff8f0;
+            border: 1px solid #e8c9a8;
+            border-radius: 10px;
+            padding: 0.75rem 1rem;
+            margin-bottom: 0.75rem;
+            font-size: 0.9rem;
+            color: #5c4a3a;
+        }
+        .wedding-track-filters {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-bottom: 0.75rem;
+        }
+        .wedding-track-btn {
+            border: 2px solid #ccc;
+            background: white;
+            border-radius: 999px;
+            padding: 0.35rem 0.75rem;
+            font-size: 0.8rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.15s;
+        }
+        .wedding-track-btn.active {
+            color: white;
+            border-color: transparent;
+        }
+        #wedding-timeline {
+            height: 420px;
+            background: white;
+            border-radius: 12px;
+            box-shadow: var(--card-shadow);
+            border: 1px solid rgba(0,0,0,0.04);
+            margin-bottom: 0.75rem;
+        }
+        #wedding-timeline .vis-item { font-size: 0.76rem; font-weight: 600; border-radius: 6px; }
+        #wedding-timeline .vis-label { font-weight: 700; color: var(--deep-blue); font-size: 0.78rem; }
+        #wedding-map {
+            height: 400px;
+            border-radius: 12px;
+            box-shadow: var(--card-shadow);
+            border: 1px solid rgba(0,0,0,0.04);
+        }
+        .wedding-brief { margin-bottom: 1rem; }
+        @media (max-width: 600px) {
+            #wedding-timeline { height: 360px; }
+            #wedding-map { height: 320px; }
+        }
+
         /* ── Calendar subscribe widget (Overview) ── */
         .calendar-widget {
             background: linear-gradient(135deg, var(--deep-blue) 0%, #2d4a6f 100%);
@@ -1297,6 +1350,7 @@ if (sessionStorage.getItem('authenticated') === 'true') {
 const TAB_DEFS = [
     { id: 'overview',  icon: '📋', label: 'Overview',  mdIndex: 0 },
     { id: 'day-by-day', icon: '📅', label: 'Day by Day', mdIndex: null, briefFile: 'briefings/day-by-day.md' },
+    { id: 'wedding-day', icon: '💍', label: 'Wedding Day', mdIndex: null },
     { id: 'plan',      icon: '🗺️', label: 'Plan',      mdIndex: null },
     { id: 'travel-playbook', icon: '🧳', label: 'Travel Playbook', mdIndex: null, briefFile: 'briefings/travel-playbook.md' },
     { id: 'family-fun', icon: '🎯', label: 'Family Fun', mdIndex: null, briefFile: 'briefings/family-fun.md' },
@@ -1319,6 +1373,13 @@ let planIdeaCluster = null;
 let planLodgingLayer = null;
 let planTransitLayer = null;
 let planTripData = null;
+let weddingInitialized = false;
+let weddingTimeline = null;
+let weddingMap = null;
+let weddingData = null;
+let weddingMarkers = {};
+let weddingRouteLayers = [];
+let weddingActiveTracks = new Set();
 const briefingLoaded = {};
 
 async function loadAndRender() {
@@ -1368,10 +1429,12 @@ function buildUI(html) {
         panel.id = `panel-${def.id}`;
 
         const inner = document.createElement('div');
-        inner.className = 'panel-content' + (def.id === 'plan' ? ' plan-panel' : '');
+        inner.className = 'panel-content' + (def.id === 'plan' ? ' plan-panel' : def.id === 'wedding-day' ? ' wedding-panel' : '');
 
         if (def.id === 'plan') {
             inner.innerHTML = buildPlanPanelShell();
+        } else if (def.id === 'wedding-day') {
+            inner.innerHTML = buildWeddingDayShell();
         } else if (def.briefFile) {
             inner.innerHTML = buildBriefingShell(def.label);
             inner.dataset.briefFile = def.briefFile;
@@ -1809,6 +1872,7 @@ function switchTab(tabId) {
     window.scrollTo({ top: 0, behavior: 'instant' });
     sessionStorage.setItem('activeTab', tabId);
     if (tabId === 'plan') initPlanTab();
+    if (tabId === 'wedding-day') initWeddingDayTab();
     const def = TAB_DEFS.find(t => t.id === tabId);
     if (def && def.briefFile) loadBriefingTab(tabId, def.briefFile);
 }
@@ -2204,6 +2268,212 @@ async function initPlanTab() {
     planInitialized = true;
 }
 
+function buildWeddingDayShell() {
+    return `
+        <div id="wedding-brief" class="wedding-brief"><p>Loading wedding day briefing…</p></div>
+        <div class="wedding-callout">
+            <strong>Sun May 31:</strong> Chandler &amp; Angela leave on wedding-party buses at <strong>3:00 PM</strong>.
+            Guest shuttle: arrive by <strong>4:30 PM</strong> (Valerie, Brandon, Annalise only).
+            <strong>Carson, Elise, Harrison babysit Harlan</strong> at Ghost apt — they do not ride the shuttle.
+        </div>
+        <div class="wedding-track-filters" id="wedding-track-filters"></div>
+        <div id="wedding-timeline"></div>
+        <div class="plan-map-wrap">
+            <div id="wedding-map"></div>
+        </div>
+        <div class="plan-detail" id="wedding-detail">Tap a timeline bar or map pin for details.</div>
+    `;
+}
+
+function showWeddingDetail(ev, loc) {
+    const el = document.getElementById('wedding-detail');
+    if (!ev) {
+        el.innerHTML = 'Tap a timeline bar or map pin for details.';
+        return;
+    }
+    const entry = { location: loc?.location, lat: loc?.lat, lng: loc?.lng, description: ev.description };
+    const timeStr = ev.start ? `<span class="plan-time">${formatPlanTime(ev.start)}</span>` : '';
+    el.innerHTML = `<strong>${ev.title}</strong>${timeStr ? '<br>' + timeStr : ''}${ev.description ? '<br>' + ev.description : ''}${mapsLinkHtml(entry)}`;
+}
+
+function weddingLocById(id) {
+    return (weddingData?.locations || []).find(l => l.id === id);
+}
+
+function weddingTrackColor(trackId) {
+    const t = (weddingData?.tracks || []).find(x => x.id === trackId);
+    return t ? t.color : '#c4704f';
+}
+
+function renderWeddingMap() {
+    if (!weddingMap || !weddingData) return;
+    Object.values(weddingMarkers).forEach(m => weddingMap.removeLayer(m));
+    weddingMarkers = {};
+    weddingRouteLayers.forEach(l => weddingMap.removeLayer(l));
+    weddingRouteLayers = [];
+
+    const locMap = {};
+    (weddingData.locations || []).forEach(loc => {
+        locMap[loc.id] = loc;
+        const visible = loc.tracks.some(t => weddingActiveTracks.has(t));
+        if (!visible) return;
+        const color = loc.tracks.map(t => weddingTrackColor(t)).find(c => weddingActiveTracks.has(loc.tracks.find(t => weddingTrackColor(t) === c))) || loc.tracks[0];
+        const trackColor = weddingTrackColor(loc.tracks.find(t => weddingActiveTracks.has(t)) || loc.tracks[0]);
+        const icon = L.divIcon({
+            className: 'plan-marker wedding-loc',
+            html: `<div style="background:${trackColor};width:22px;height:22px;border-radius:50%;border:2px solid white;box-shadow:0 2px 6px rgba(0,0,0,0.35)"></div>`,
+            iconSize: [22, 22], iconAnchor: [11, 11]
+        });
+        const marker = L.marker([loc.lat, loc.lng], { icon }).addTo(weddingMap);
+        marker.bindPopup(`<strong>${loc.title}</strong>${loc.location ? '<br>' + loc.location : ''}${mapsLinkHtml(loc)}`);
+        marker.on('click', () => {
+            const related = (weddingData.events || []).find(e => e.locationId === loc.id && weddingActiveTracks.has(e.trackId));
+            showWeddingDetail(related || { title: loc.title, description: loc.location || '' }, loc);
+        });
+        weddingMarkers[loc.id] = marker;
+    });
+
+    (weddingData.routes || []).forEach(route => {
+        if (!route.tracks.some(t => weddingActiveTracks.has(t))) return;
+        const from = locMap[route.from];
+        const to = locMap[route.to];
+        if (!from || !to) return;
+        const color = weddingTrackColor(route.tracks[0]);
+        const polyline = L.polyline([[from.lat, from.lng], [to.lat, to.lng]], {
+            color, weight: 4, opacity: 0.75, dashArray: '8 6'
+        }).addTo(weddingMap);
+        polyline.bindPopup(`<strong>${route.label}</strong>`);
+        weddingRouteLayers.push(polyline);
+    });
+
+    const visibleLocs = (weddingData.locations || []).filter(l => l.tracks.some(t => weddingActiveTracks.has(t)));
+    if (visibleLocs.length) {
+        weddingMap.fitBounds(visibleLocs.map(l => [l.lat, l.lng]), { padding: [40, 40], maxZoom: 13 });
+    }
+}
+
+function applyWeddingTrackFilter() {
+    if (!weddingData || !weddingTimeline) return;
+    const items = (weddingData.events || [])
+        .filter(ev => weddingActiveTracks.has(ev.trackId))
+        .map(ev => {
+            const isPoint = !ev.end || ev.end === ev.start;
+            return {
+                id: ev.id,
+                group: ev.trackId,
+                content: ev.title,
+                start: ev.start,
+                end: isPoint ? undefined : ev.end,
+                type: isPoint ? 'point' : 'range',
+                style: `background-color:${weddingTrackColor(ev.trackId)};border-color:${weddingTrackColor(ev.trackId)};color:white;`,
+                _data: ev
+            };
+        });
+    weddingTimeline.setItems(new vis.DataSet(items));
+    renderWeddingMap();
+}
+
+async function initWeddingDayTab() {
+    if (weddingInitialized) {
+        if (weddingTimeline) weddingTimeline.redraw();
+        if (weddingMap) weddingMap.invalidateSize();
+        return;
+    }
+    try {
+        const [wdRes, briefRes] = await Promise.all([
+            fetch('wedding-day.json'),
+            fetch('briefings/wedding-day.md')
+        ]);
+        if (!wdRes.ok) throw new Error('Failed to load wedding-day.json');
+        weddingData = await wdRes.json();
+        if (briefRes.ok) {
+            const md = await briefRes.text();
+            marked.setOptions({ gfm: true, breaks: true });
+            document.getElementById('wedding-brief').innerHTML = buildCollapsibleSections(marked.parse(md));
+            wrapTables();
+        } else {
+            document.getElementById('wedding-brief').innerHTML = `<p><strong>${weddingData.meta.title}</strong> — ${weddingData.meta.venue}</p>`;
+        }
+    } catch (err) {
+        document.getElementById('wedding-detail').textContent = 'Unable to load wedding day data: ' + err.message;
+        return;
+    }
+
+    weddingActiveTracks = new Set((weddingData.tracks || []).map(t => t.id));
+    const filterEl = document.getElementById('wedding-track-filters');
+    filterEl.innerHTML = '';
+    (weddingData.tracks || []).forEach(track => {
+        const btn = document.createElement('button');
+        btn.type = 'button';
+        btn.className = 'wedding-track-btn active';
+        btn.dataset.track = track.id;
+        btn.textContent = (track.emoji ? track.emoji + ' ' : '') + track.label;
+        btn.style.backgroundColor = track.color;
+        btn.style.borderColor = track.color;
+        btn.style.color = 'white';
+        btn.addEventListener('click', () => {
+            if (weddingActiveTracks.has(track.id)) {
+                if (weddingActiveTracks.size <= 1) return;
+                weddingActiveTracks.delete(track.id);
+                btn.classList.remove('active');
+                btn.style.backgroundColor = 'white';
+                btn.style.color = track.color;
+            } else {
+                weddingActiveTracks.add(track.id);
+                btn.classList.add('active');
+                btn.style.backgroundColor = track.color;
+                btn.style.color = 'white';
+            }
+            applyWeddingTrackFilter();
+        });
+        filterEl.appendChild(btn);
+    });
+
+    const groups = new vis.DataSet((weddingData.tracks || []).map(t => ({
+        id: t.id,
+        content: (t.emoji ? t.emoji + ' ' : '') + t.label.split(' · ')[0]
+    })));
+
+    weddingTimeline = new vis.Timeline(document.getElementById('wedding-timeline'), new vis.DataSet([]), groups, {
+        stack: true,
+        stackSubgroups: true,
+        verticalScroll: true,
+        zoomKey: 'ctrlKey',
+        zoomMin: 1000 * 60 * 30,
+        zoomMax: 1000 * 60 * 60 * 20,
+        orientation: 'top',
+        margin: { item: { horizontal: 6, vertical: 10 } },
+        start: '2026-05-31T08:00:00+02:00',
+        end: '2026-06-01T03:00:00+02:00',
+        showCurrentTime: false,
+        format: {
+            minorLabels: { hour: 'ha', day: 'ddd D MMM' },
+            majorLabels: { day: 'ddd D MMMM YYYY' }
+        }
+    });
+
+    weddingTimeline.on('select', props => {
+        if (!props.items.length) return;
+        const item = weddingTimeline.itemsData.get(props.items[0]);
+        if (item && item._data) {
+            const loc = weddingLocById(item._data.locationId);
+            showWeddingDetail(item._data, loc);
+            if (loc && weddingMarkers[loc.id]) {
+                weddingMap.setView([loc.lat, loc.lng], 14, { animate: true });
+                weddingMarkers[loc.id].openPopup();
+            }
+        }
+    });
+
+    weddingMap = L.map('wedding-map').setView([41.39, 2.17], 12);
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; OpenStreetMap'
+    }).addTo(weddingMap);
+
+    applyWeddingTrackFilter();
+    weddingInitialized = true;
+}
+
 function focusPlanMap(id) {
     const marker = planMarkers[id];
     if (!marker) return;
@@ -2273,6 +2543,8 @@ function refreshPlanLayout() {
     setTimeout(() => {
         if (planTimeline) planTimeline.redraw();
         if (planMap) planMap.invalidateSize();
+        if (weddingTimeline) weddingTimeline.redraw();
+        if (weddingMap) weddingMap.invalidateSize();
     }, 320);
 }
 

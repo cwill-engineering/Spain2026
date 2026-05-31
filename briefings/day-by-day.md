@@ -93,24 +93,40 @@
 
 ## Sun May 31 — Wedding Day 💍 @ El Convent de Blanes
 
-> **Venue: El Convent de Blanes** (Passeig de Carles Faust 4, Blanes, Girona) — Costa Brava, **~68 km / ~65 min north of Barcelona**, reached by bus. **Chandler & Angela are in the wedding party** → 3 PM mini bus. **Kids + Thomas family** → 4:45 PM guest bus.
+> **Venue: El Convent de Blanes** (Passeig de Carles Faust 4, Blanes, Girona) — Costa Brava, **~68 km / ~65 min north of Barcelona**. See **💍 Wedding Day** tab for multi-track map + timeline. **Kids babysit Harlan at Ghost apt — do NOT ride guest shuttle.**
 
-**Chandler & Angela (wedding party):**
-
-| Time | Event | Notes |
-|------|-------|-------|
-| ~09:10 | Angela → Grand Hotel Central (Via Laietana 30) | Taxi/metro ~12 min |
-| **09:40** | **💄 Angela: makeup** | Kira Kos + Ausra. Hair 11:20, ready 1:00 PM |
-| 12:00 | Chandler in tux at hotel | Groom getting-ready photos |
-| **12:45** | **🤵 Chandler: groomsmen photos** | Outside Grand Hotel Central |
-| **15:00** | **🚐 Mini buses depart → Blanes** | Chandler (groomsmen, Segalés 22) / Angela (bridesmaids, Soberti 20) |
-
-**Kids + Thomas family (guests):**
+**Angela (bridesmaids):**
 
 | Time | Event | Notes |
 |------|-------|-------|
-| ~16:15 | Walk to Ronda Sant Pere 21-23 | ~5-8 min from apartments |
-| **16:45** | **🚌 Guest bus departs → Blanes** | Segalés 59 seats. Mary +1 (607) 379-2239. With Valerie |
+| ~08:10 | Angela → Grand Hotel Central | |
+| **08:40** | **💄 Angela: makeup** | Hair 11:20, ready 1:00 PM |
+| **15:00** | **🚐 Mini bus → Blanes** | Bridesmaids/parents bus (Soberti, 20) |
+
+**Chandler + Elise (groomsmen):**
+
+| Time | Event | Notes |
+|------|-------|-------|
+| ~09:00 | Elise with Chandler → Grand Hotel Central | Valerie picks up Elise ~11:00 |
+| **11:00** | **🤵 Groomsmen getting ready** (8th floor) | Per groomsmen card |
+| **12:45** | **📸 Groomsmen photos** | Outdoor at Grand Hotel Central |
+| **15:00** | **🚐 Mini bus → Blanes** | Groom/groomsmen bus (Segalés, 22) |
+
+**Carson, Elise, Harrison (babysitting):**
+
+| Time | Event | Notes |
+|------|-------|-------|
+| 10:00–12:30 | Montjuïc | |
+| 12:30–14:00 | Gothic Quarter shopping | |
+| **14:00–15:30** | Lunch with Valerie & Annalise | Gothic Quarter |
+| **16:00+** | **👶 Babysit Harlan @ Ghost apt** | Adults at wedding |
+
+**Valerie, Brandon, Annalise (guest shuttle):**
+
+| Time | Event | Notes |
+|------|-------|-------|
+| ~16:00 | Walk to shuttle pickup | Ronda Sant Pere 21-23, outside Llibreria Paulines |
+| **16:30** | **🚌 Guest shuttle → Blanes** | **Arrive by 4:30 PM.** Mary +1 (607) 379-2239. Adults only. |
 
 **Everyone — at El Convent de Blanes:**
 
@@ -120,19 +136,21 @@
 | 19:30–21:00 | 🥂 Cocktail (gardens) | First dance, quartet, speeches, bouquet ~8:50 |
 | 21:15–23:15 | 🍽️ Dinner | Jubany Catering, cake cutting |
 | 23:15–02:15 | 🎉 Party | Horah dance, DJ Miss Beat, flip-flops |
-| **00:30 / 01:15 / 02:30** | **🚌 Return buses → Barcelona** | Tired kids on the 12:30 AM with Valerie |
+| **00:30 / 01:15 / 02:30** | **🚌 Return buses → Barcelona** | Adults on guest shuttle; kids babysitting at Ghost apt |
 
 ---
 
-## Mon Jun 1 — Checkout + Train to Madrid
+## Mon Jun 1 — FC Barcelona Museum + Train to Madrid
 
 | Time | Event | Notes |
 |------|-------|-------|
 | 09:00–10:00 | Sleep in, light breakfast | |
-| 11:00 | **Both apartments checkout** | |
-| 12:00 | 2 taxis → Barcelona-Sants | ~€20 each. FreeNow app or hail at Passeig de Gràcia / Plaça Universitat parada. |
-| 12:30 | Sants consigna (€48/8 bags ~2 hrs) OR free café area | |
-| 12:30–14:30 | Lunch — Sants food court / La Rotonda upstairs | Stay in the station |
+| 11:00 | **Both apartments checkout** | Bags in entryways |
+| 11:15 | Metro L3 → Camp Nou | ~20 min from Eixample |
+| **11:30–13:30** | **⚽ FC Barcelona Museum** (Barça Immersive Tour) | Spotify Camp Nou — book fcbarcelona.com |
+| 13:30 | Collect bags from apartments | |
+| 13:45 | 2 taxis → Barcelona-Sants | FreeNow or Passeig de Gràcia parada |
+| 14:15 | Quick bite at Sants (if time) | |
 | 14:30 | Boarding gates open | Check Coach 1 on main board |
 | **15:00** | **🚄 AVE 03152 JKSS7B Barcelona-Sants → Madrid Atocha** | Premium, Coach 1 |
 | 18:17 | Arrive Madrid-Atocha-Almudena Grandes | |

@@ -13,3 +13,7 @@ renfe/
 
 # Local Netlify folder
 .netlify
+
+# Temp HEIC extraction scratch
+_schedule_photos_temp/
+source/wedding-itinerary/*.HEIC

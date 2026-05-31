@@ -1,0 +1,45 @@
+{
+  "source": "Photos-3-001.zip (May 2026 Joe & Nikki weekend itinerary cards — front sides only)",
+  "parsedAt": "2026-05-31",
+  "cards": [
+    {
+      "file": "IMG_6224.jpg",
+      "role": "bridesmaids",
+      "holder": "Angela",
+      "weekend": "May 29–31, 2026",
+      "events": [
+        { "date": "2026-05-29", "time": "19:00", "title": "Welcome Soirée", "location": "Alaire Rooftop, Hotel Condes, Passeig de Gràcia 73", "attire": "Cocktail Casual" },
+        { "date": "2026-05-30", "time": "morning", "title": "Architecture Tour", "location": "La Pedrera, Passeig de Gràcia 92" },
+        { "date": "2026-05-30", "time": "17:00", "title": "Tapas Tour", "location": "Catedral de Barcelona, Pla de la Seu", "attire": "Smart Casual" },
+        { "date": "2026-05-31", "time": "19:00", "title": "Wedding Celebration", "location": "El Convent de Blanes, Costa Brava", "note": "Getting ready: see reverse (not photographed). User: Angela H&MU 8:40 AM at Grand Hotel Central." }
+      ]
+    },
+    {
+      "file": "IMG_6226.jpg",
+      "role": "groomsmen",
+      "holder": "Chandler",
+      "weekend": "May 29–31, 2026",
+      "events": [
+        { "date": "2026-05-29", "time": "19:00", "title": "Welcome Soirée", "location": "Alaire Rooftop, Hotel Condes, Passeig de Gràcia 73", "attire": "Cocktail Casual" },
+        { "date": "2026-05-30", "time": "morning", "title": "Architecture Tour", "location": "La Pedrera, Passeig de Gràcia 92" },
+        { "date": "2026-05-30", "time": "17:00", "title": "Tapas Tour", "location": "Catedral de Barcelona, Pla de la Seu", "attire": "Smart Casual" },
+        { "date": "2026-05-31", "time": "11:00", "title": "Getting ready", "location": "Grand Hotel Central, 8th Floor, Via Laietana 30" },
+        { "date": "2026-05-31", "time": "19:00", "title": "Wedding Celebration", "location": "El Convent de Blanes", "returnShuttles": "12:00–2:00 AM", "attire": "Black Tie Optional" }
+      ]
+    },
+    {
+      "file": "IMG_6225.jpg",
+      "role": "guests",
+      "holder": "Valerie, Brandon, Annalise",
+      "weekend": "May 29–31, 2026",
+      "events": [
+        { "date": "2026-05-29", "time": "19:00", "title": "Welcome Soirée", "location": "Alaire Rooftop, Hotel Condes, Passeig de Gràcia 73", "attire": "Cocktail Casual" },
+        { "date": "2026-05-30", "time": "morning", "title": "Architecture Tour", "location": "La Pedrera, Passeig de Gràcia 92" },
+        { "date": "2026-05-30", "time": "17:00", "title": "Tapas Tour", "location": "Catedral de Barcelona, Pla de la Seu", "attire": "Smart Casual" },
+        { "date": "2026-05-31", "time": "16:30", "title": "Guest shuttle (arrive by 4:30 PM)", "location": "Rda. de St. Pere 21-23, outside Llibreria Paulines" },
+        { "date": "2026-05-31", "time": "19:00", "title": "Wedding Celebration", "location": "El Convent de Blanes", "returnShuttles": "12:00–2:00 AM", "attire": "Black Tie Optional" }
+      ],
+      "familyNote": "Kids (Carson, Elise, Harrison) babysit Harlan at Ghost apt — do not ride guest shuttle."
+    }
+  ]
+}

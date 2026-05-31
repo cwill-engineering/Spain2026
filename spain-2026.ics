@@ -241,25 +241,87 @@ BEGIN:VEVENT
 UID:spain-2026-wedding-hmu@spain-trip
 DTSTAMP:20260523T120000Z
 SUMMARY:💄 Angela: Hair & Makeup — Grand Hotel Central
-DTSTART;TZID=Europe/Madrid:20260531T094000
+DTSTART;TZID=Europe/Madrid:20260531T084000
 DTEND;TZID=Europe/Madrid:20260531T130000
 LOCATION:Grand Hotel Central\, Via Laietana 30\, 08003 Barcelona\, Spain
 DESCRIPTION:Bridal-party hair & makeup at Grand Hotel Central Barcelona\, V
- ia Laietana 30 (Kira Kos + Ausra Nekrosiene). Angela: makeup 9:40 AM\, hai
- r 11:20 AM. Everyone ready by 1:00 PM\, final touch-ups 12:50. Leave the a
- partment ~9:10 (taxi/metro ~12 min from Carrer de València).
+ ia Laietana 30 (Kira Kos + Ausra Nekrosiene). Angela: makeup 8:40 AM\, hai
+ r 11:20 AM. Everyone ready by 1:00 PM\, final touch-ups 12:50. Leave Willi
+ ams apartment ~8:10 (taxi/metro ~12 min from Carrer de València).
+END:VEVENT
+BEGIN:VEVENT
+UID:spain-2026-wedding-elise-chandler@spain-trip
+DTSTAMP:20260523T120000Z
+SUMMARY:👧 Elise with Chandler → Grand Hotel Central
+DTSTART;TZID=Europe/Madrid:20260531T090000
+DTEND;TZID=Europe/Madrid:20260531T110000
+LOCATION:Grand Hotel Central\, Via Laietana 30\, 08003 Barcelona\, Spain
+DESCRIPTION:Elise rides with Chandler to groomsmen getting-ready at Grand H
+ otel Central (8th floor). Valerie (Grandma) picks her up around 11:00 AM.
+END:VEVENT
+BEGIN:VEVENT
+UID:spain-2026-wedding-groomsmen-ready@spain-trip
+DTSTAMP:20260523T120000Z
+SUMMARY:🤵 Chandler: Groomsmen getting ready — Grand Hotel Central
+DTSTART;TZID=Europe/Madrid:20260531T110000
+DTEND;TZID=Europe/Madrid:20260531T124500
+LOCATION:Grand Hotel Central\, Via Laietana 30\, 08003 Barcelona\, Spain
+DESCRIPTION:Groomsmen getting ready together at Grand Hotel Central\, 8th f
+ loor (Via Laietana 30). Per Joe's groomsmen card: arrive 11:00 AM. Groom g
+ etting-ready photos from 12:00 PM (Rubén Larruy / Alexander Kulakov arriv
+ e 11:45 AM). Be in tux by ~12:30.
+END:VEVENT
+BEGIN:VEVENT
+UID:spain-2026-wedding-elise-pickup@spain-trip
+DTSTAMP:20260523T120000Z
+SUMMARY:👵 Valerie picks up Elise @ Grand Hotel Central
+DTSTART;TZID=Europe/Madrid:20260531T110000
+DTEND;TZID=Europe/Madrid:20260531T111500
+LOCATION:Grand Hotel Central\, Via Laietana 30\, 08003 Barcelona\, Spain
+DESCRIPTION:Valerie (Grandma) picks up Elise from Grand Hotel Central aroun
+ d 11:00 AM after groomsmen getting-ready starts.
+END:VEVENT
+BEGIN:VEVENT
+UID:spain-2026-wedding-teens-montjuic@spain-trip
+DTSTAMP:20260523T120000Z
+SUMMARY:🌳 Carson & Harrison: Montjuïc
+DTSTART;TZID=Europe/Madrid:20260531T100000
+DTEND;TZID=Europe/Madrid:20260531T123000
+LOCATION:Montjuïc\, Barcelona\, Spain
+DESCRIPTION:Carson and Harrison explore Montjuïc (castle views\, gardens).
+  Metro L2/L3 or taxi from Eixample.
+END:VEVENT
+BEGIN:VEVENT
+UID:spain-2026-wedding-teens-gothic@spain-trip
+DTSTAMP:20260523T120000Z
+SUMMARY:🛍️ Carson & Harrison: Gothic Quarter shopping
+DTSTART;TZID=Europe/Madrid:20260531T123000
+DTEND;TZID=Europe/Madrid:20260531T140000
+LOCATION:Barri Gòtic\, Barcelona\, Spain
+DESCRIPTION:Carson and Harrison shopping in the Gothic Quarter before meeti
+ ng Valerie and Annalise for lunch.
+END:VEVENT
+BEGIN:VEVENT
+UID:spain-2026-wedding-family-lunch@spain-trip
+DTSTAMP:20260523T120000Z
+SUMMARY:🍽️ Lunch — Carson\, Harrison\, Valerie\, Annalise (Gothic Qu
+ arter)
+DTSTART;TZID=Europe/Madrid:20260531T140000
+DTEND;TZID=Europe/Madrid:20260531T153000
+LOCATION:Barri Gòtic\, Barcelona\, Spain
+DESCRIPTION:Carson and Harrison meet Valerie and Annalise for lunch in the 
+ Gothic Quarter. Pick a spot on the day — El Xampanyet\, Can Paixano\, or
+  Plaça Reial cafés are nearby.
 END:VEVENT
 BEGIN:VEVENT
 UID:spain-2026-wedding-groomsmen-photos@spain-trip
 DTSTAMP:20260523T120000Z
-SUMMARY:🤵 Chandler: Groomsmen photos — Grand Hotel Central
+SUMMARY:📸 Chandler: Groomsmen photos — Grand Hotel Central
 DTSTART;TZID=Europe/Madrid:20260531T124500
 DTEND;TZID=Europe/Madrid:20260531T131500
 LOCATION:Grand Hotel Central\, Via Laietana 30\, 08003 Barcelona\, Spain
-DESCRIPTION:Photos with groomsmen outdoors of Grand Hotel Central at 12:45 
- PM (Rubén Larruy photo / Alexander Kulakov video\, both arrive 11:45 AM).
-  Groom getting-ready photos from 12:00 PM. Be dressed in your tux and at t
- he hotel by ~12:30.
+DESCRIPTION:Outdoor groomsmen photos at Grand Hotel Central\, 12:45 PM (Rub
+ én Larruy photo / Alexander Kulakov video).
 END:VEVENT
 BEGIN:VEVENT
 UID:spain-2026-wedding-minibus@spain-trip
@@ -277,15 +339,28 @@ END:VEVENT
 BEGIN:VEVENT
 UID:spain-2026-wedding-guest-bus@spain-trip
 DTSTAMP:20260523T120000Z
-SUMMARY:🚌 Guest bus → El Convent de Blanes (kids + Thomas family)
-DTSTART;TZID=Europe/Madrid:20260531T164500
+SUMMARY:🚌 Guest shuttle → El Convent de Blanes (Valerie\, Brandon\, An
+ nalise)
+DTSTART;TZID=Europe/Madrid:20260531T163000
 DTEND;TZID=Europe/Madrid:20260531T180000
-LOCATION:Ronda de Sant Pere 21-23\, 08010 Barcelona\, Spain
-DESCRIPTION:Guest coach departs 4:45 PM from Ronda Sant Pere 21-23 (Segalé
- s Transport\, 59 seats). Contact: Mary +1 (607) 379-2239. This is the ride
-  for Carson\, Elise\, Harrison + the Thomas family / Valerie — Chandler 
- & Angela leave earlier (3 PM) with the wedding party\, so the kids ride th
- is bus with Valerie. ~1 hr to Blanes\; arrive ~5:45 PM.
+LOCATION:Ronda de Sant Pere 21-23\, outside Llibreria Paulines\, 08010 Barc
+ elona\, Spain
+DESCRIPTION:Arrive for the guest shuttle by 4:30 PM at Ronda de Sant Pere 2
+ 1-23\, outside Llibreria Paulines (Segalés Transport\, 59 seats). Contact
+ : Mary +1 (607) 379-2239. Adults only: Valerie\, Brandon\, Annalise. Carso
+ n\, Elise\, Harrison stay at Ghost apt babysitting Harlan — they do NOT 
+ ride this bus. ~1 hr to Blanes.
+END:VEVENT
+BEGIN:VEVENT
+UID:spain-2026-wedding-kids-babysit@spain-trip
+DTSTAMP:20260523T120000Z
+SUMMARY:👶 Kids babysit Harlan @ Ghost apt
+DTSTART;TZID=Europe/Madrid:20260531T160000
+DTEND;TZID=Europe/Madrid:20260601T023000
+LOCATION:Near Ronda de la Universitat & C. de Gravina\, Barcelona\, Spain
+DESCRIPTION:Carson\, Elise\, and Harrison babysit Harlan at Annalise's Ghos
+ t apartment (VRBO 4156885ha) while adults are at the wedding. Adults retur
+ n on guest shuttle buses 12:00–2:00 AM.
 END:VEVENT
 BEGIN:VEVENT
 UID:spain-2026-wedding-ceremony@spain-trip
@@ -335,7 +410,8 @@ LOCATION:El Convent de Blanes\, Passeig de Carles Faust 4\, 17300 Blanes\,
 DESCRIPTION:Party 11:15 PM–2:15 AM. Hora/Horah dance\, DJ Miss Beat\, fli
  p-flops out\, late-night bites. Return buses to Barcelona: 12:30 AM (mini 
  bus\, 20 seats)\, 1:15 AM (mini bus\, 20 seats)\, 2:30 AM (full coach\, Se
- galés). Get the tired kids on the 12:30 AM with Valerie.
+ galés). Valerie\, Brandon\, Annalise on return shuttle\; kids stay babysi
+ tting at Ghost apt.
 END:VEVENT
 BEGIN:VEVENT
 UID:spain-2026-barcelona-checkout@spain-trip
@@ -344,8 +420,23 @@ SUMMARY:Check out: Barcelona apartments
 DTSTART;TZID=Europe/Madrid:20260601T110000
 DTEND;TZID=Europe/Madrid:20260601T113000
 LOCATION:Barcelona\, Spain
-DESCRIPTION:Drop bags at Barcelona-Sants consigna ~12:30 PM\, then lunch ne
- arby or in Sants food court until train.
+DESCRIPTION:Williams + Thomas checkout 11:00 AM. Leave bags in apartment en
+ tryways — travel light to FC Barcelona Museum\, collect bags on the way 
+ to Sants.
+END:VEVENT
+BEGIN:VEVENT
+UID:spain-2026-fc-barcelona-museum@spain-trip
+DTSTAMP:20260523T120000Z
+SUMMARY:⚽ FC Barcelona Museum — Barça Immersive Tour
+DTSTART;TZID=Europe/Madrid:20260601T113000
+DTEND;TZID=Europe/Madrid:20260601T133000
+LOCATION:Spotify Camp Nou\, C. d'Arístides Maillol\, 12\, 08028 Barcelona\
+ , Spain
+DESCRIPTION:Mon Jun 1 morning before the Madrid train. Barça Immersive Tou
+ r + museum at the Camp Nou site (stadium renovation — traditional pitch 
+ tour closed). Mon 10:00–19:00. Metro L3 to Les Corts or Palau Reial (~20
+  min from Eixample). Book tickets at fcbarcelona.com if not already. Elise
+  + Harrison hooks — allow ~2 hrs.
 END:VEVENT
 BEGIN:VEVENT
 UID:spain-2026-train-barcelona-madrid@spain-trip
