@@ -1880,6 +1880,7 @@ function switchTab(tabId) {
     sessionStorage.setItem('activeTab', tabId);
     if (tabId === 'plan') initPlanTab();
     if (tabId === 'wedding-day') initWeddingDayTab();
+    if (tabId === 'prado') initPradoTab();
     const def = TAB_DEFS.find(t => t.id === tabId);
     if (def && def.briefFile) loadBriefingTab(tabId, def.briefFile);
 }
