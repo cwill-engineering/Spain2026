@@ -14,10 +14,10 @@ renfe/
 # Local Netlify folder
 .netlify
 
-# Dependencies (root + subprojects)
+# Dependencies
 node_modules/
-package-lock.json
-package.json
+/package.json
+/package-lock.json
 
 # Temp HEIC extraction scratch
 _schedule_photos_temp/
