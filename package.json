@@ -1,0 +1,7 @@
+{
+  "name": "spain-2026-site",
+  "private": true,
+  "dependencies": {
+    "@netlify/blobs": "^10.7.9"
+  }
+}
