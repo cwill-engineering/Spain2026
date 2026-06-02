@@ -18,6 +18,7 @@
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
     <script src="https://unpkg.com/leaflet-polylinedecorator@1.6.0/dist/leaflet.polylineDecorator.js"></script>
+    <script src="prado-challenge.js?v=2" defer></script>
     <style>
         :root {
             --spanish-red: #c60b1e;
@@ -123,7 +124,18 @@
         #error-msg { color: var(--spanish-red); margin-top: 0.75rem; font-weight: 600; display: none; font-size: 0.9rem; }
 
         /* ── App Shell ── */
-        #content-screen { display: none; }
+        #content-screen {
+            display: none;
+            width: 100%;
+            max-width: 100%;
+            overflow-x: hidden;
+        }
+        #panels-container,
+        .tab-panel,
+        .tab-panel.active {
+            width: 100%;
+            max-width: 100%;
+        }
 
         .app-header {
             background: var(--deep-blue);
@@ -322,6 +334,68 @@
             #plan-timeline { height: 320px; }
             #plan-map { height: 360px; }
         }
+
+
+        /* ── Prado Challenge tab ── */
+        .panel-content.prado-panel { max-width: 640px; padding-bottom: 2rem; }
+        .prado-root { font-size: 0.95rem; width: 100%; }
+        .prado-header {
+            background: linear-gradient(135deg, #6b1c2a, #4a121c);
+            color: #f5efe6;
+            border-radius: 14px;
+            padding: 1.25rem 1rem;
+            margin-bottom: 1rem;
+            box-shadow: var(--card-shadow);
+        }
+        .prado-title { font-family: 'Playfair Display', serif; font-size: 1.5rem; margin: 0 0 0.35rem; }
+        .prado-sub { font-size: 0.88rem; opacity: 0.9; margin: 0 0 1rem; }
+        .prado-player-bar { display: flex; gap: 0.5rem; margin-bottom: 0.5rem; }
+        .prado-select { flex: 1; min-width: 0; padding: 0.5rem 0.65rem; border: none; border-radius: 8px; font-family: inherit; }
+        .prado-btn { border: none; border-radius: 8px; padding: 0.5rem 0.85rem; font-weight: 600; font-family: inherit; cursor: pointer; white-space: nowrap; }
+        .prado-btn-gold { background: var(--spanish-yellow); color: #1c1210; }
+        .prado-btn-primary { background: #6b1c2a; color: #fff; width: 100%; }
+        .prado-btn-outline { background: white; border: 1px solid var(--sand); color: var(--deep-blue); flex: 1; }
+        .prado-btn-text { background: transparent; color: #c0392b; font-size: 0.85rem; }
+        .prado-add-form { display: flex; gap: 0.5rem; margin-bottom: 0.75rem; }
+        .prado-input { flex: 1; min-width: 0; padding: 0.5rem 0.65rem; border: 1px solid var(--sand); border-radius: 8px; font-family: inherit; }
+        .prado-header .prado-input { background: rgba(255,255,255,0.95); border-color: transparent; }
+        .prado-progress { background: rgba(0,0,0,0.2); border-radius: 10px; padding: 0.65rem 0.75rem; }
+        .prado-progress-row { display: flex; justify-content: space-between; font-size: 0.85rem; margin-bottom: 0.4rem; gap: 0.5rem; }
+        .prado-bar { height: 8px; background: rgba(0,0,0,0.25); border-radius: 99px; overflow: hidden; }
+        .prado-bar-sm { height: 6px; margin-top: 0.35rem; background: var(--sand); }
+        .prado-bar-fill { height: 100%; background: var(--spanish-yellow); border-radius: 99px; transition: width 0.3s; }
+        .prado-card { background: white; border-radius: 12px; box-shadow: var(--card-shadow); padding: 1rem; margin-bottom: 0.75rem; border: 1px solid rgba(0,0,0,0.04); width: 100%; }
+        .prado-section-title { font-family: 'Playfair Display', serif; font-size: 1rem; color: var(--deep-blue); margin: 0 0 0.65rem; }
+        .prado-muted { font-weight: 400; font-size: 0.85rem; color: #888; }
+        .prado-leaderboard { list-style: none; margin: 0; padding: 0; }
+        .prado-lb-row { display: flex; gap: 0.5rem; align-items: flex-start; padding: 0.35rem 0.25rem; border-radius: 8px; }
+        .prado-lb-row.active { background: rgba(107, 28, 42, 0.08); }
+        .prado-lb-rank { width: 1.5rem; text-align: center; color: #888; font-size: 0.85rem; flex-shrink: 0; }
+        .prado-lb-body { flex: 1; min-width: 0; }
+        .prado-lb-top { display: flex; justify-content: space-between; font-size: 0.88rem; gap: 0.5rem; }
+        .prado-lb-top em { font-style: normal; color: #888; font-size: 0.8rem; }
+        .prado-pts { color: var(--terracotta); font-weight: 600; }
+        .prado-paintings { list-style: none; margin: 0; padding: 0; }
+        .prado-paintings li { display: flex; flex-direction: column; padding: 0.5rem 0; border-bottom: 1px solid var(--sand); gap: 0.15rem; }
+        .prado-paintings li:last-child { border-bottom: none; }
+        .prado-artist { font-size: 0.85rem; color: #888; }
+        @media (min-width: 480px) { .prado-paintings li { flex-direction: row; justify-content: space-between; align-items: baseline; } }
+        .prado-rules ul { margin: 0; padding-left: 1.1rem; }
+        .prado-prize { margin: 0.75rem 0 0; text-align: center; font-weight: 600; color: #6b1c2a; background: rgba(107, 28, 42, 0.08); padding: 0.5rem; border-radius: 8px; }
+        .prado-challenges { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 0.5rem; }
+        .prado-challenge { display: flex; gap: 0.65rem; align-items: flex-start; padding: 0.65rem 0.75rem; border: 1px solid var(--sand); border-radius: 10px; background: var(--warm-cream); }
+        .prado-challenge.done { opacity: 0.85; background: #f0f7f2; border-color: #b8dcc4; }
+        .prado-challenge input { margin-top: 0.2rem; width: 1.2rem; height: 1.2rem; accent-color: #6b1c2a; flex-shrink: 0; }
+        .prado-challenge label { flex: 1; min-width: 0; cursor: pointer; }
+        .prado-challenge-text { display: block; line-height: 1.35; }
+        .prado-challenge.done .prado-challenge-text { text-decoration: line-through; color: #888; }
+        .prado-hint { display: block; font-size: 0.82rem; color: #888; margin-top: 0.2rem; }
+        .prado-tag { font-size: 0.65rem; text-transform: uppercase; letter-spacing: 0.05em; background: rgba(107, 28, 42, 0.12); color: #6b1c2a; padding: 0.1rem 0.35rem; border-radius: 4px; font-weight: 700; }
+        .prado-del { border: none; background: transparent; font-size: 1.25rem; color: #aaa; cursor: pointer; padding: 0 0.25rem; flex-shrink: 0; }
+        .prado-add-challenge { margin-top: 0.75rem; padding: 0.75rem; border: 1px dashed var(--sand); border-radius: 10px; background: #faf8f5; display: flex; flex-direction: column; gap: 0.5rem; }
+        .prado-add-label { font-size: 0.8rem; color: #666; margin: 0; }
+        .prado-footer-actions { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 0.5rem; }
+        .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); border: 0; }
 
         /* ── Wedding Day tab ── */
         .panel-content.wedding-panel { max-width: 1100px; }
@@ -1171,6 +1245,12 @@
 
         /* Mobile: full-screen overlay — must sit above Leaflet map tiles/markers */
         @media (max-width: 899px) {
+            #content-screen,
+            #content-screen.agent-panel-open {
+                margin-right: 0 !important;
+                width: 100% !important;
+                max-width: 100vw;
+            }
             .agent-panel {
                 position: fixed;
                 inset: 0;
@@ -1236,7 +1316,17 @@
             .tab-btn { padding: 0 0.85rem; font-size: 0.8rem; }
             .tab-btn .tab-icon { font-size: 0.9rem; }
             .section-header h2 { font-size: 1.05rem; }
-            .panel-content { padding: 0.75rem; }
+            .panel-content { padding: 0.75rem; max-width: 100%; }
+            .overview-content,
+            .calendar-widget,
+            .eats-widget,
+            .weather-live-widget,
+            .quick-ref-widget,
+            .countdown-strip {
+                width: 100%;
+                max-width: 100%;
+                box-sizing: border-box;
+            }
         }
 
         @media (min-width: 900px) {
@@ -1366,6 +1456,7 @@ const TAB_DEFS = [
     { id: 'barcelona', icon: '⛪', label: 'Barcelona', mdIndex: 2 },
     { id: 'barcelona-unpacked', icon: '📜', label: 'Barcelona Unpacked', mdIndex: null, briefFile: 'briefings/Barcelona.md' },
     { id: 'madrid',    icon: '🏛️', label: 'Madrid',    mdIndex: 3 },
+    { id: 'prado', icon: '🎨', label: 'Prado', mdIndex: null },
     { id: 'madrid-context', icon: '📜', label: 'Madrid in Context', mdIndex: null, briefFile: 'briefings/Madrid.md' },
     { id: 'return',    icon: '✈️', label: 'Return',    mdIndex: 4 },
     { id: 'checklist', icon: '✅', label: 'Checklist', mdIndex: 5 },
@@ -1436,12 +1527,14 @@ function buildUI(html) {
         panel.id = `panel-${def.id}`;
 
         const inner = document.createElement('div');
-        inner.className = 'panel-content' + (def.id === 'plan' ? ' plan-panel' : def.id === 'wedding-day' ? ' wedding-panel' : '');
+        inner.className = 'panel-content' + (def.id === 'plan' ? ' plan-panel' : def.id === 'wedding-day' ? ' wedding-panel' : def.id === 'prado' ? ' prado-panel' : '');
 
         if (def.id === 'plan') {
             inner.innerHTML = buildPlanPanelShell();
         } else if (def.id === 'wedding-day') {
             inner.innerHTML = buildWeddingDayShell();
+        } else if (def.id === 'prado') {
+            inner.innerHTML = buildPradoPanelShell();
         } else if (def.briefFile) {
             inner.innerHTML = buildBriefingShell(def.label);
             inner.dataset.briefFile = def.briefFile;
