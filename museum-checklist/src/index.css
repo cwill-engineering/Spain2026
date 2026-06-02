@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Palatino Linotype", "Book Antiqua", Palatino, Georgia, serif;
+  --font-body: system-ui, -apple-system, "Segoe UI", sans-serif;
+  --color-prado-ink: #1c1210;
+  --color-prado-cream: #f5efe6;
+  --color-prado-gold: #c9a227;
+  --color-prado-burgundy: #6b1c2a;
+  --color-prado-stone: #8a7f72;
+}
+
+html {
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  margin: 0;
+  min-height: 100dvh;
+  font-family: var(--font-body);
+  background: var(--color-prado-cream);
+  color: var(--color-prado-ink);
+}
