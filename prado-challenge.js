@@ -2,7 +2,7 @@
  * Prado Museum scavenger hunt — multi-player checklist (WTF tab).
  */
 (function () {
-  const STORAGE_KEY = "prado-challenge-v2";
+  const STORAGE_KEY = "prado-challenge-v3";
   const BONUS_POINTS = 5;
 
   const SUGGESTED_PAINTINGS = [
@@ -20,7 +20,8 @@
 
   const RULES = [
     "No Googling.",
-    "You must show the rest of the group when you find it.",
+    "When you find one, show the group and take a photo (your pick counts for you).",
+    "At the end we compare answers — same painting is fine, different picks are more fun.",
   ];
 
   const CHALLENGES = [
@@ -67,8 +68,7 @@
   }
 
   function defaultState() {
-    const first = createPlayer("You");
-    return { version: 2, activePlayerId: first.id, sharedCustom: [], players: [first] };
+    return { version: 3, activePlayerId: null, sharedCustom: [], players: [] };
   }
 
   function loadState() {
@@ -78,7 +78,7 @@
       const parsed = JSON.parse(raw);
       if (!parsed?.players?.length) return defaultState();
       return {
-        version: 2,
+        version: 3,
         activePlayerId: parsed.activePlayerId || parsed.players[0].id,
         sharedCustom: Array.isArray(parsed.sharedCustom) ? parsed.sharedCustom : [],
         players: parsed.players.map((p) => ({
@@ -98,7 +98,10 @@
   }
 
   function activePlayer() {
-    return state.players.find((p) => p.id === state.activePlayerId) || state.players[0];
+    if (!state.players.length) return null;
+    return (
+      state.players.find((p) => p.id === state.activePlayerId) || state.players[0]
+    );
   }
 
   function allChallenges() {
@@ -139,6 +142,25 @@
 
   function render() {
     if (!rootEl) return;
+    if (!state.players.length) {
+      rootEl.innerHTML = `
+        <div class="prado-header">
+          <h2 class="prado-title">🏛️ Prado Challenge</h2>
+          <p class="prado-sub">Add everyone in your group. Each person gets their own checklist on this phone.</p>
+        </div>
+        <section class="prado-card">
+          <h3 class="prado-section-title">Who is playing?</h3>
+          <p class="prado-tip">If you see a leftover name like "You", that was a placeholder — add real names and remove it.</p>
+          <form id="prado-first-person" class="prado-add-challenge">
+            <input type="text" id="prado-new-name" placeholder="First name" maxlength="40" class="prado-input" required />
+            <button type="submit" class="prado-btn prado-btn-primary">Add person</button>
+          </form>
+        </section>
+      `;
+      bindEmptyStateEvents();
+      return;
+    }
+
     const active = activePlayer();
     const stats = playerStats(active);
     const challenges = allChallenges();
@@ -147,18 +169,20 @@
 
     const leaderboard = [...state.players]
       .map((p) => ({ p, s: playerStats(p) }))
-      .sort((a, b) => b.s.pct - a.s.pct);
+      .sort((a, b) => a.p.name.localeCompare(b.p.name));
 
     rootEl.innerHTML = `
       <div class="prado-header">
         <h2 class="prado-title">🏛️ Prado Challenge</h2>
-        <p class="prado-sub">Museo del Prado scavenger hunt — each person tracks their own finds.</p>
+        <p class="prado-sub">Each person checks off their own finds on this phone. We compare stories and photos at the end — not a race.</p>
+        <p class="prado-tip">Saved on this device only. Pass the phone around and pick your name, or use one phone per person.</p>
         <div class="prado-player-bar">
           <label class="sr-only" for="prado-player-select">Active player</label>
           <select id="prado-player-select" class="prado-select">
             ${state.players.map((p) => `<option value="${p.id}" ${p.id === state.activePlayerId ? "selected" : ""}>${escapeHtml(p.name)}</option>`).join("")}
           </select>
           <button type="button" class="prado-btn prado-btn-gold" id="prado-add-person">+ Person</button>
+          <button type="button" class="prado-btn prado-btn-outline" id="prado-rename-person" title="Rename selected">Rename</button>
         </div>
         <div id="prado-add-form" class="prado-add-form" hidden>
           <input type="text" id="prado-new-name" placeholder="Name" maxlength="40" class="prado-input" />
@@ -167,23 +191,23 @@
         <div class="prado-progress">
           <div class="prado-progress-row">
             <span>${escapeHtml(active.name)}'s progress</span>
-            <strong>${stats.doneMain}/${stats.mainTotal}${stats.bonusPoints ? ` · +${stats.bonusPoints} bonus pts` : ""}</strong>
+            <strong>${stats.done}/${stats.total} found${stats.bonusPoints ? ` · +${stats.bonusPoints} bonus pts` : ""}</strong>
           </div>
           <div class="prado-bar"><div class="prado-bar-fill" style="width:${stats.pct}%"></div></div>
         </div>
       </div>
 
       <section class="prado-card">
-        <h3 class="prado-section-title">Group progress</h3>
+        <h3 class="prado-section-title">Everyone's checklists</h3>
         <ul class="prado-leaderboard">
           ${leaderboard
             .map(
               ({ p, s }, i) => `
             <li class="prado-lb-row ${p.id === state.activePlayerId ? "active" : ""}">
-              <span class="prado-lb-rank">${i === 0 && s.pct > 0 ? "👑" : i + 1 + "."}</span>
+              <span class="prado-lb-rank">${i + 1}.</span>
               <div class="prado-lb-body">
                 <div class="prado-lb-top">
-                  <span>${escapeHtml(p.name)}${p.id === state.activePlayerId ? ' <em>(you)</em>' : ""}</span>
+                  <span>${escapeHtml(p.name)}${p.id === state.activePlayerId ? ' <em>(selected)</em>' : ""}</span>
                   <span>${s.done}/${s.total}${s.bonusPoints ? ` <span class="prado-pts">+${s.bonusPoints}pt</span>` : ""}</span>
                 </div>
                 <div class="prado-bar prado-bar-sm"><div class="prado-bar-fill" style="width:${s.pct}%"></div></div>
@@ -207,7 +231,7 @@
       <section class="prado-card prado-rules">
         <h3 class="prado-section-title">Rules</h3>
         <ul>${RULES.map((r) => `<li>${escapeHtml(r)}</li>`).join("")}</ul>
-        <p class="prado-prize">🏆 Winner picks dessert tonight.</p>
+        <p class="prado-prize">📸 End of visit: compare picks and scroll through photo evidence together.</p>
       </section>
 
       <section class="prado-card">
@@ -265,9 +289,35 @@
       </form>`;
   }
 
+
+  function bindEmptyStateEvents() {
+    rootEl.querySelector("#prado-first-person")?.addEventListener("submit", (e) => {
+      e.preventDefault();
+      const input = rootEl.querySelector("#prado-new-name");
+      const name = input?.value?.trim();
+      if (!name) return;
+      const player = createPlayer(name);
+      state.players = [player];
+      state.activePlayerId = player.id;
+      saveState();
+      render();
+    });
+  }
+
   function bindEvents() {
     rootEl.querySelector("#prado-player-select")?.addEventListener("change", (e) => {
       state.activePlayerId = e.target.value;
+      saveState();
+      render();
+    });
+
+
+    rootEl.querySelector("#prado-rename-person")?.addEventListener("click", () => {
+      const p = activePlayer();
+      if (!p) return;
+      const name = prompt("Rename player", p.name);
+      if (!name?.trim()) return;
+      p.name = name.trim();
       saveState();
       render();
     });
@@ -340,8 +390,7 @@
 
     rootEl.querySelector("#prado-remove-player")?.addEventListener("click", () => {
       const p = activePlayer();
-      if (state.players.length <= 1) return;
-      if (!confirm(`Remove ${p.name} and their progress?`)) return;
+      if (!confirm(`Remove ${p.name} and their checkmarks?`)) return;
       state.players = state.players.filter((x) => x.id !== p.id);
       state.activePlayerId = state.players[0].id;
       saveState();
