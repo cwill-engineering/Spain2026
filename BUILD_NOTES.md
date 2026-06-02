@@ -27,7 +27,7 @@ Static, password-gated family travel site for the Spain 2026 trip. It gives the 
 ## Environment & Dependencies
 - Runtime: static HTML in a browser; **trip assistant** requires Netlify Functions (`netlify/functions/chat.mjs`).
 - External browser dependencies: Google Fonts, `marked` (jsDelivr), `vis-timeline` 8.5.1 (unpkg), Leaflet 1.9.4 + markercluster 1.5.3 + polylinedecorator 1.6.0 (unpkg).
-- Favicon: `favicon.ico`, `favicon-32.png`, `favicon.svg`, `apple-touch-icon.png` — terracotta square with **WTF** (Williamson Thomas Family). Prefer `.ico`/PNG for browser compatibility.
+- Favicon: `favicon.ico`, `favicon-32.png`, `favicon.svg`, `apple-touch-icon.png` — terracotta square with **WTF** (Williams Thomas Family). Prefer `.ico`/PNG for browser compatibility.
 - Overview widgets: calendar subscribe (Apple + **Google Calendar** + download + copy), `eat-drink.json` top eats/drinks grid, `trip-quick-ref.json` countdown + emergency/metro/phrases/weather/expenses + print-to-PDF.
 - Calendar: `generate-ics.py` builds `spain-2026.ics` from `trip-events.json` plus three all-day lodging spans. **Re-run after booking changes:** `python generate-ics.py`. Timed Spain events use `TZID=Europe/Madrid`; US outbound flights use `America/New_York` / `America/Chicago`; cross-timezone legs use UTC `Z`.
 - Agent context: `generate-agent-context.py` builds `agent-context.json` (~140KB). **Re-run after trip content changes:** `python generate-agent-context.py`.

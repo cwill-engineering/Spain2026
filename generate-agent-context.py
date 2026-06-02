@@ -44,7 +44,7 @@ def main() -> None:
 
     payload = {
         "generatedAt": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
-        "trip": "Spain 2026 — Williamson Thomas Family",
+        "trip": "Spain 2026 — Williams Thomas Family",
         "sections": sections,
     }
     OUT.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
