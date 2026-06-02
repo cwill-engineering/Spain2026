@@ -18,7 +18,7 @@
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
     <script src="https://unpkg.com/leaflet-polylinedecorator@1.6.0/dist/leaflet.polylineDecorator.js"></script>
-    <script src="prado-challenge.js?v=4" defer></script>
+    <script src="prado-challenge.js?v=5" defer></script>
     <style>
         :root {
             --spanish-red: #c60b1e;
@@ -376,6 +376,22 @@
         .prado-lb-top { display: flex; justify-content: space-between; font-size: 0.88rem; gap: 0.5rem; }
         .prado-lb-top em { font-style: normal; color: #888; font-size: 0.8rem; }
         .prado-pts { color: var(--terracotta); font-weight: 600; }
+        .prado-route-card { padding-bottom: 0.5rem; }
+        .prado-route-intro { margin: 0 0 0.75rem; font-size: 0.88rem; color: #555; line-height: 1.4; }
+        .prado-top-five { background: rgba(107, 28, 42, 0.06); border-radius: 10px; padding: 0.75rem; margin-bottom: 1rem; }
+        .prado-top-five-list { margin: 0.35rem 0 0.5rem; padding-left: 1.25rem; font-weight: 600; color: var(--deep-blue); }
+        .prado-top-five-note { margin: 0; font-size: 0.82rem; color: #666; line-height: 1.4; }
+        .prado-route-list { list-style: none; margin: 0; padding: 0; }
+        .prado-route-stop { border-bottom: 1px solid var(--sand); }
+        .prado-route-stop:last-child { border-bottom: none; }
+        .prado-route-summary { cursor: pointer; padding: 0.65rem 0.25rem; list-style: none; }
+        .prado-route-summary::-webkit-details-marker { display: none; }
+        .prado-route-summary::after { content: "+"; float: right; color: #888; font-weight: 700; }
+        details[open] .prado-route-summary::after { content: "−"; }
+        .prado-route-heading { display: block; line-height: 1.35; font-size: 0.9rem; padding-right: 1.5rem; }
+        .prado-route-why { margin: 0 0 0.75rem; padding: 0 0.25rem 0.5rem; font-size: 0.88rem; line-height: 1.45; color: #444; }
+        .prado-route-why-label { font-weight: 700; color: var(--deep-blue); }
+
         .prado-paintings { list-style: none; margin: 0; padding: 0; }
         .prado-paintings li { display: flex; flex-direction: column; padding: 0.5rem 0; border-bottom: 1px solid var(--sand); gap: 0.15rem; }
         .prado-paintings li:last-child { border-bottom: none; }

@@ -11,17 +11,35 @@
   const POLL_MS = 25000;
   const SAVE_DEBOUNCE_MS = 800;
 
-  const SUGGESTED_PAINTINGS = [
-    { title: "Las Meninas", artist: "Velázquez" },
-    { title: "The Garden of Earthly Delights", artist: "Bosch" },
-    { title: "The Third of May 1808", artist: "Goya" },
-    { title: "Saturn Devouring His Son", artist: "Goya" },
-    { title: "The Nobleman with His Hand on His Chest", artist: "El Greco" },
-    { title: "The Descent from the Cross", artist: "Rogier van der Weyden" },
-    { title: "The Triumph of Death", artist: "Bruegel the Elder" },
-    { title: "The Family of Charles IV", artist: "Goya" },
-    { title: "The Annunciation", artist: "Fra Angelico" },
-    { title: "The Three Graces", artist: "Rubens" },
+  const HIGHLIGHTS_TOP_FIVE = [
+    "Las Meninas",
+    "The Surrender of Breda",
+    "The Third of May 1808",
+    "Saturn Devouring His Son",
+    "The Garden of Earthly Delights",
+  ];
+
+  const HIGHLIGHTS_ROUTE = [
+    { n: 1, room: "Room 12", title: "Las Meninas", artist: "Velázquez", why: "Often considered the greatest painting in Western art. Velázquez turns the viewer into part of the scene. The king and queen appear only in a mirror, the artist paints himself into the work, and no one agrees exactly what moment is being depicted. Art historians have debated it for over 350 years." },
+    { n: 2, room: "Room 9A", title: "The Surrender of Breda", artist: "Velázquez", why: "One of history's most famous military paintings. Instead of celebrating victory, Velázquez focuses on dignity and respect between enemies. The winning commander prevents the defeated commander from kneeling, making it unusually humane for a war painting." },
+    { n: 3, room: "Room 16B", title: "The Spinners", artist: "Velázquez", why: "What looks like an ordinary weaving workshop slowly reveals itself to be a mythological story hidden within the scene. The more you look, the more layers emerge." },
+    { n: 4, room: "Room 16B", title: "The Triumph of Bacchus", artist: "Velázquez", why: "A Roman god appears among ordinary workers and drinkers. Velázquez blends mythology and everyday life in a way that was revolutionary for its time." },
+    { n: 5, room: "Room 32", title: "The Family of Charles IV", artist: "Goya", why: "One of the most debated royal portraits ever painted. Some see a magnificent royal family. Others believe Goya subtly exposed their vanity and weakness while painting them exactly as they appeared." },
+    { n: 6, room: "Room 64", title: "The Second of May 1808", artist: "Goya", why: "Captures the chaos of a popular uprising against Napoleon's occupation of Spain. The painting feels more like a modern photograph from a riot than a traditional historical scene." },
+    { n: 7, room: "Room 64", title: "The Third of May 1808", artist: "Goya", why: "Widely considered one of the greatest anti-war paintings ever created. Rather than glorifying battle, it focuses on fear, sacrifice, and the human cost of conflict." },
+    { n: 8, room: "Room 67", title: "Saturn Devouring His Son", artist: "Goya", why: "Painted directly on the walls of Goya's home late in life. It reflects his fears, pessimism, and disillusionment. Few paintings in the museum create such an immediate emotional reaction." },
+    { n: 9, room: "Room 67", title: "The Dog", artist: "Goya", why: "Remarkably modern despite being painted in the early 1800s. With almost nothing in the frame except a small dog's head and a vast empty space, it evokes loneliness and uncertainty in a way that still feels contemporary." },
+    { n: 10, room: "Room 67", title: "Witches' Sabbath", artist: "Goya", why: "Part of Goya's haunting Black Paintings. It explores superstition, fear, and the darker side of human imagination." },
+    { n: 11, room: "Room 56A", title: "The Garden of Earthly Delights", artist: "Bosch", why: "The Prado's most endlessly fascinating painting. Paradise, temptation, pleasure, punishment, monsters, strange creatures, and hundreds of tiny stories unfold across the panels. You can spend twenty minutes here and still notice new details." },
+    { n: 12, room: "Room 56A", title: "The Haywain Triptych", artist: "Bosch", why: "Bosch uses a giant wagon of hay as a symbol of human greed. Nearly everyone in the painting is chasing something temporary and ultimately meaningless." },
+    { n: 13, room: "Room 55A", title: "The Triumph of Death", artist: "Bruegel", why: "A vast vision of the apocalypse where death comes for everyone regardless of wealth, status, or power. The painting is packed with remarkable details and dark humor." },
+    { n: 14, room: "Room 58", title: "The Descent from the Cross", artist: "Rogier van der Weyden", why: "A masterpiece of emotion and technical skill. The expressions, tears, and drapery are so detailed that it is hard to believe it was painted nearly 600 years ago." },
+    { n: 15, room: "Room 56B", title: "The Annunciation", artist: "Fra Angelico", why: "One of the jewels of the early Renaissance. Its elegance, balance, and use of light helped shape European painting for generations." },
+    { n: 16, room: "Room 29", title: "The Three Graces", artist: "Rubens", why: "A celebration of beauty, movement, and human form. It represents the height of the Baroque style and remains one of Rubens' most famous works." },
+    { n: 17, room: "Room 10A", title: "The Nobleman with His Hand on His Chest", artist: "El Greco", why: "One of Spain's most recognizable portraits. The identity of the sitter remains uncertain, which only adds to its mystery." },
+    { n: 18, room: "Room 11", title: "The Adoration of the Shepherds", artist: "El Greco", why: "Created near the end of El Greco's life, it showcases his dramatic lighting, elongated figures, and highly personal artistic style." },
+    { n: 19, room: "Room 27", title: "Charles V at Mühlberg", artist: "Titian", why: "One of the most influential ruler portraits ever painted. It established the visual blueprint for how powerful leaders would be portrayed for centuries." },
+    { n: 20, room: "Room 29", title: "The Judgement of Paris", artist: "Rubens", why: "Based on the mythological decision that eventually sparked the Trojan War. It combines beauty, politics, vanity, and mythology into a single scene." },
   ];
 
   const RULES = [
@@ -326,17 +344,36 @@
       </div>`;
   }
 
+
+  function renderHighlightsRoute() {
+  return `
+      <section class="prado-card prado-route-card">
+        <h3 class="prado-section-title">Prado Highlights Route</h3>
+        <p class="prado-route-intro">Twenty stops in museum order — tap any painting for why it matters.</p>
+        <div class="prado-top-five">
+          <h4 class="prado-subsection">If you only remember five</h4>
+          <ol class="prado-top-five-list">
+            ${HIGHLIGHTS_TOP_FIVE.map((t) => `<li>${escapeHtml(t)}</li>`).join("")}
+          </ol>
+          <p class="prado-top-five-note">Those five alone explain why the Prado is considered one of the greatest art museums in the world.</p>
+        </div>
+        <ol class="prado-route-list">
+          ${HIGHLIGHTS_ROUTE.map((h) => `
+            <li class="prado-route-stop">
+              <details>
+                <summary class="prado-route-summary">
+                  <span class="prado-route-heading"><strong>${h.n}.</strong> ${escapeHtml(h.room)} — ${escapeHtml(h.title)} — ${escapeHtml(h.artist)}</span>
+                </summary>
+                <p class="prado-route-why"><span class="prado-route-why-label">Why it's special:</span> ${escapeHtml(h.why)}</p>
+              </details>
+            </li>`).join("")}
+        </ol>
+      </section>`;
+  }
+
   function renderSharedSections() {
     return `
-      <section class="prado-card">
-        <h3 class="prado-section-title">Suggested paintings</h3>
-        <ul class="prado-paintings">
-          ${SUGGESTED_PAINTINGS.map(
-            (p) =>
-              `<li><span>${escapeHtml(p.title)}</span><span class="prado-artist">${escapeHtml(p.artist)}</span></li>`
-          ).join("")}
-        </ul>
-      </section>
+      ${renderHighlightsRoute()}
       <section class="prado-card prado-rules">
         <h3 class="prado-section-title">Rules</h3>
         <ul>${RULES.map((r) => `<li>${escapeHtml(r)}</li>`).join("")}</ul>
